@@ -6,6 +6,17 @@ AUTHOR = u'Interlock Member'
 SITENAME = u'Interlock Rochester'
 SITEURL = ''
 
+#FRONT_PIC_BACKGROUND = 'cut_wood_crop.jpg'
+#FRONT_PIC_BACKGROUND = 'gear_on_table.jpg'
+FRONT_PIC_BACKGROUND = 'invader_print_crop.jpg'
+#FRONT_PIC_BACKGROUND = 'invader_w_blur_crop.jpg'
+#FRONT_PIC_BACKGROUND = 'gear_on_wall.jpg'
+#FRONT_PIC_BACKGROUND = 'plot_shape.jpg'
+#FRONT_PIC_BACKGROUND = 'plot_words.jpg'
+#FRONT_PIC_BACKGROUND = 'on_air.jpg'
+#FRONT_PIC_BACKGROUND = 'on_air_crop.jpg'
+#FRONT_PIC_BACKGROUND = 'electronics_bench_crop.jpg'
+
 SITE_DESC = 'Interlock is a non-profit organization that provides space for its members and the local community to develop and share their interests in science, technology, art, and culture.'
 
 PATH = 'content'
