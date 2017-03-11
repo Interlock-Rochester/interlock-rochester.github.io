@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'Interlock Member'
-SITENAME = u'Interlock Rochester'
+SITENAME = u'Interlock Rochester - Rochester\'s Hackerspace'
 SITEURL = ''
 
 #FRONT_PIC_BACKGROUND = 'cut_wood_crop.jpg'
