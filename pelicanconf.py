@@ -37,3 +37,7 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'wp-uploads']
+
+#if we choose a them that shows this, we might want to put, eg, about.md in content/pages/
+#DISPLAY_PAGES_ON_MENU = True
+
