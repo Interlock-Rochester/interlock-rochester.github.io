@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Interlock Rochester</title>
+
+
+        <!-- Bootstrap Core CSS -->
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+
+
+			<meta property="og:locale" content="en">
+		<meta property="og:site_name" content="Interlock Rochester">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/raspberry-pi-ip-audio-announcement-ippivox.html">
+	<meta property="og:title" content="Raspberry Pi IP audio  announcement: ippivox">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/">
+	<meta property="article:published_time" content="2014-06-24 22:07:00-04:00">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Interlock Rochester</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Raspberry Pi IP audio  announcement: ippivox</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/dzho.html">dzho</a>
+                             on Tue 24 June 2014
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- Post Content -->
+    <article>
+        <p>So, you can ssh into your Raspberry Pi, even if you don't have any
+HDMI-capable display equipment at hand.&nbsp; The trick, though, is knowing
+what IP address gets assigned to the Pi so that you know what to feed
+into your ssh client.</p>
+<p>Earlier, these pages addressed this problem <a class="reference external" href="http://www.interlockroc.org/2012/12/06/raspberry-pi-macgyver/">using VNC to provide a
+remote Raspberry Pi
+display</a>
+(eg, from your laptop).&nbsp; It's a good approach, well documented.</p>
+<p>Alternately, with a little bit of prep work, perhaps using the above
+technique to get everything set up to start, you can program your Pi to
+announce its IP address via audio using text-to-speech.</p>
+<p>[caption id=&quot;attachment_1665&quot; align=&quot;aligncenter&quot;
+width=&quot;300&quot;]<img alt="earbuds" class="wp-image-1665 size-medium" src="/wp-uploads/2014/06/earbuds-300x225.jpg" style="width: 300px; height: 225px;" /> Much cheaper output than a HDMI-capable
+monitor[/caption]</p>
+<p>The essence of this trick is to install a text-to-speech program, create
+a small script to extract the IP address, to pass that address to the
+text-to-speech program, and then finally to configure the initialization
+scripts to run the readout script shortly after booting.</p>
+<p>I'm working with a rev B Raspberry Pi running Raspbian, but the approach
+should be generalizable to any distro for which a TTS package is
+available.</p>
+<p>First, set up the Raspberry Pi with keyboard, mouse, wired networking,
+and video, either HDMI or analog.&nbsp; If you use analog, you may need to
+increase the font size considerably even to be able to read the screen.
+Open a terminal and install festival:</p>
+<p><tt class="docutils literal">sudo <span class="pre">apt-get</span> install festival</tt></p>
+<p>Next, if you haven't already done so, create a <strong>bin</strong> directory in your
+home directory to hold this and other small local scripts and programs:</p>
+<p><tt class="docutils literal">mkdir ~/bin</tt></p>
+<p>Then, open your favorite editor to create a small script file containing
+the following:</p>
+<p>`` #!/usr/bin/bash /usr/bin/amixer cset numid=3 1 /sbin/ifconfig | /bin/grep -A3 eth0 | /bin/grep inet | /usr/bin/tr ':' ' ' | /usr/bin/cut -d-f 13 | /usr/bin/festival --tts``</p>
+<p>Be careful if you try to copy-and-paste that that a) you get the
+single-quotes carried over into the right place and b) that you don't
+have any space or tab or other otherwise hard-to-see non-newline
+whitespace characters at the end of the lines with backslashes. If
+either error crops up, edit to fix.</p>
+<p>(NB: ifconfig is a bit old school. Interlock HAM and rally enthusiast
+HoopyCat points out that to be fully kids-these-days compliant, one
+should use the <tt class="docutils literal">ip</tt> command.)*</p>
+<p>Save the file as <strong>/home/pi/bin/ippixvox.sh</strong> and give it execute
+permissions with <tt class="docutils literal">chmod a+x /home/pi/bin/ippixvox.sh</tt></p>
+<div class="line-block">
+<div class="line">You can now test it by typing</div>
+<div class="line">`` ~/bin/ippivox.sh``</div>
+</div>
+<p>into your terminal with a speaker or earphones plugged in. If you are
+connected to a network (and if not, how did you get festival
+downloaded?) you should hear the IPv4 address read off. If not, run
+ifconfig to check to make sure you do have IPv4 address (&quot;inet&quot;)
+assigned, and that it is assigned to eth0. If it's assigned to something
+other than eth0, modify the script above to suit.</p>
+<div class="line-block">
+<div class="line">Finally, to make this work at boot time, open the file</div>
+<div class="line">**
+/etc/init.d/rc.local**</div>
+</div>
+<p>in an editor and add at the very bottom this one line</p>
+<p><tt class="docutils literal">/home/pi/bin/ippivox.sh</tt></p>
+<p>Save, reboot, and listen for the IP address to be read to you.</p>
+<p>If it works, then you can dispense with attaching a video output device
+when it comes time to hack on the Pi in favor of just logging in from a
+machine elsewhere on the same network using ssh.</p>
+<p>I find it useful to play a short alert announcement before the IP
+address is read. I also use a second TTS program, flite, both to give me
+a second shot at hearing the IP and also in hopes that I'll be better
+able to understand at least one of them.</p>
+<p>My more lengthy approach to this is documented in the following github
+gist:</p>
+<p><a class="reference external" href="https://gist.github.com/deejoe/ce7984f94b91bdb6b48e">https://gist.github.com/deejoe/ce7984f94b91bdb6b48e</a></p>
+<p>Thanks go Matt via the Raspberry Pi blog for this <a class="reference external" href="http://www.raspberrypi-spy.co.uk/2013/06/raspberry-pi-command-line-audio/">tip on configuring
+the
+audio.</a></p>
+
+    </article>
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/interlockroc">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Interlock-Rochester">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Blog powered by <a href="http://getpelican.com">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/theme/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>

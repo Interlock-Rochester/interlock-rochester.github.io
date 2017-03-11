@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Interlock Rochester</title>
+
+
+        <!-- Bootstrap Core CSS -->
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+
+
+			<meta property="og:locale" content="en">
+		<meta property="og:site_name" content="Interlock Rochester">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/raspberry-pi-macgyver.html">
+	<meta property="og:title" content="Raspberry Pi-ing, MacGyver Style">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/">
+	<meta property="article:published_time" content="2012-12-06 09:56:00-05:00">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Interlock Rochester</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Raspberry Pi-ing, MacGyver Style</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/interlockroc.html">interlockroc</a>
+                             on Thu 06 December 2012
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- Post Content -->
+    <article>
+        <p>Ok, so there's no duct tape, toothpicks, or bubble gum involved, but I
+thought it'd be helpful to document a handy way to tinker with your
+<a class="reference external" href="http://www.raspberrypi.org/">Raspberry Pi</a>, even when you're almost
+completely lacking in the required external paraphernalia.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8227589302/"><img alt="Raspberry Pi Workshop" src="http://farm9.staticflickr.com/8483/8227589302_5f7c98f517_z.jpg" style="width: 600px; height: 400px;" /></a></p>
+<p>We recently had <a class="reference external" href="https://twitter.com/Rob_Bishop">Rob Bishop</a> from the
+Raspberry Pi foundation stop by Interlock and give a workshop for a
+couple of hours, and as we scrambled to prepare -- attempting to pull
+together 20 hdmi monitors, 20 usb keyboards, 20 power supplies, et
+cetera -- I kept thinking that it'd be nice to be able to play around
+with a Pi even if you've arrived unprepared for such an event. So what
+follows is &quot;how to fiddle with the Pi GUI with just your laptop, an
+ethernet cable, and a micro USB cable&quot;. We're going to start with a
+freshly imaged SD card, hook it up to a Mac or Ubuntu laptop through
+their internet sharing capabilities, and use VNC to share the GUI over
+the network.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8248698572/"><img alt="IMG_4611.jpg" src="http://farm9.staticflickr.com/8209/8248698572_2f0cac271c_z.jpg" style="width: 600px; height: 400px;" /></a></p>
+<div class="section" id="getting-started">
+<h2>Getting Started</h2>
+<p>The first step we'll gloss over is copying a fresh Raspbian image onto
+an SD card. This is covered in great detail at <a class="reference external" href="http://elinux.org/RPi_Easy_SD_Card_Setup">the embedded Linux
+wiki</a>, where they have
+plenty of information on setting up the Raspberry Pi. Go there, follow
+along, and insert your newly imaged card into your Pi.</p>
+</div>
+<div class="section" id="internet-sharing">
+<h2>Internet Sharing</h2>
+<p>Next, we're going to prep our laptop to share its internet connection
+with the Pi. I know nothing about Windows, but on Ubuntu and Mac OSX,
+there are easy ways to share your wifi connection with any computers
+that are hooked up to your ethernet port. We'll take these one OS at a
+time:</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8247471395/"><img alt="Screen shot 2012-12-05 at 4.25.15 PM" src="http://farm9.staticflickr.com/8478/8247471395_775221feba_z.jpg" style="width: 600px; height: 490px;" /></a></p>
+<p>Assuming your Mac is connected to a wireless access point, open up the
+&quot;Sharing&quot; control panel in System Preferences. Click on the &quot;Internet
+Sharing&quot; option, which is probably grayed out at this point. Choose
+&quot;Ethernet&quot; as the port you'll share your internet connection out of, and
+then turn on Internet Sharing by clicking its checkbox, which should now
+be clickable. Done.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8248822966/"><img alt="Screenshot - 12052012 - 07:15:23 PM" src="http://farm9.staticflickr.com/8197/8248822966_1eae0b1a48_o.png" style="width: 434px; height: 325px;" /></a></p>
+<p>This step is equally easy on Ubuntu (and its variants... I use Xubuntu).
+Open up the &quot;Network Connections&quot; system preferences. You'll see
+something like the above screenshot. Click the big &quot;+ Add&quot; button.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8248822932/"><img alt="Screenshot - 12052012 - 07:16:31 PM" src="http://farm9.staticflickr.com/8339/8248822932_8d72c9e608_o.png" style="width: 409px; height: 464px;" /></a></p>
+<p>You'll be confronted with something like the above. Name this new
+connection something logical. &quot;Connection Sharing&quot; works for my brain.
+Click over to the &quot;IPv4&quot; tab and select &quot;Shared to other computers&quot; from
+the &quot;method&quot; dropdown. Some people have reported problems with IPv6 at
+this point, so click over to that tab and select &quot;Ignore&quot; in the same
+dropdown. Save the connection. Carry on.</p>
+</div>
+<div class="section" id="plugging-in">
+<h2>Plugging In</h2>
+<p>Now we should be back on the same page for both OSes. Find the shortest
+ethernet cable you can and plug your Pi into your laptop's ethernet
+port. Nothing should happen. Plug the USB cable into your laptop, and
+then into the micro USB port on the Pi. Before doing so, reflect upon
+the fact that <strong>the Pi foundation does not recommend you power your Pi
+off of a computer's USB port</strong>. Your computer might not be able to
+supply enough power, and/or might burst into flames. I've not had any
+such problems, but if your Pi is acting flaky, or if you're planning on
+plugging any USB peripherals into the Pi, you may want to sacrifice
+MacGyver points and portability in favor of a wall outlet.</p>
+</div>
+<div class="section" id="sleuthing-ips">
+<h2>Sleuthing IPs</h2>
+<p>Ok. We're plugged in with internet tubes and power. Your Pi should be
+booting up and making happy blinkies on its status LEDs. After a short
+while, it's safe to assume that it has fully booted and grabbed an IP
+address from your laptop. Hooray! Open up a terminal and perform the
+following incantations to find out what address it was assigned.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8247609327/"><img alt="Screen shot 2012-12-05 at 6.12.15 PM" src="http://farm9.staticflickr.com/8349/8247609327_22f78a3375_o.png" style="width: 585px; height: 366px;" /></a></p>
+<p>On the Mac, <tt class="docutils literal">cat /private/var/db/dhcpd_leases</tt> should pop up a block
+of text with the desired info. Above, we got an address of 192.168.2.2.
+That's probably pretty standard.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8247755603/"><img alt="Screenshot - 12052012 - 07:23:02 PM" src="http://farm9.staticflickr.com/8069/8247755603_c53afc8561_o.png" style="width: 600px; height: 414px;" /></a></p>
+<p>On Ubuntu Linux, <tt class="docutils literal">cat /var/lib/misc/dnsmasq.leases</tt> will get you the
+same info. In this case, our IP is 10.42.0.26.</p>
+</div>
+<div class="section" id="ssh-and-setting-up-a-vnc-server">
+<h2>SSH, and Setting Up a VNC Server</h2>
+<p>Just a few more steps. We need to SSH into the Pi. That is, we need to
+connect to a command shell on the Pi so we can install a few things to
+get our display up and running.</p>
+<p><tt class="docutils literal">ssh pi&#64;x.x.x.x</tt></p>
+<p>Substitute the IP you found previously for all the x.x.x.x mayhem at the
+end there. It should connect and ask you for the default password, which
+is &quot;raspberry&quot;. Now install the vnc server. This is what will transmit
+the desktop environment to your laptop:</p>
+<p><tt class="docutils literal"><span class="pre">apt-get</span> install tightvncserver</tt></p>
+<p>Run the VNC server once, and it will ask you to set a password:</p>
+<p><tt class="docutils literal">vncserver</tt></p>
+<p>Set and remember a password when it prompts you. I just used &quot;raspberry&quot;
+again. I'm creative like that. Now we'll run the VNC server for real:</p>
+<p><tt class="docutils literal">vncserver :1</tt></p>
+<p>The &quot;:1&quot; is the display number. This is necessary because you could
+serve multiple virtual displays off of one computer. But lets not get
+ahead of ourselves.</p>
+</div>
+<div class="section" id="installing-a-vnc-client">
+<h2>Installing a VNC Client</h2>
+<p>We're now ready to install the VNC client on our laptop and connect to
+the Pi's GUI. <a class="reference external" href="http://sourceforge.net/projects/cotvnc/">Chicken of the
+VNC</a> is a popular Mac
+client. Download and install that as per normal. On Ubuntu,
+<a class="reference external" href="http://projects.gnome.org/vinagre/">Vinagre</a> is probably the most
+popular client. <tt class="docutils literal"><span class="pre">apt-get</span> install vinagre</tt> should get it installed
+without a problem.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8248539760/"><img alt="Screen shot 2012-12-05 at 4.52.36 PM" src="http://farm9.staticflickr.com/8065/8248539760_33c9b1642b_o.png" style="width: 509px; height: 314px;" /></a></p>
+<p>Almost there. Above is the Chicken of the VNC connection dialog. Fill in
+the IP address you found previously, and the &quot;1&quot; display number and
+password. Click connect and you should be up and running! On Ubuntu, the
+command <tt class="docutils literal">vinagre x.x.x.x:1</tt> will do the same thing. Yay! You're done.
+Celebrate your hard work and dedication while admiring your glorious
+accomplishment:</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8248701138/"><img alt="IMG_4617.jpg" src="http://farm9.staticflickr.com/8208/8248701138_078e58a0be_z.jpg" style="width: 600px; height: 400px;" /></a></p>
+</div>
+<div class="section" id="extra-credit">
+<h2>Extra Credit</h2>
+<p>Fellow Interlock member
+<a class="reference external" href="http://geodesicsphere.blogspot.com">BleuLlama</a> suggested a way to
+make this process a bit easier the second time around. Rather than
+hunting down the Pi's IP address (which is admittedly not very difficult
+to do), we can use Apple's Bonjour protocol (aka ZeroConf) to have the
+Pi announce itself to the network. I found a good writeup on how to do
+this, plus how to get the VNC server to start automatically on boot.
+Check it out <a class="reference external" href="http://4dc5.com/2012/06/12/setting-up-vnc-on-raspberry-pi-for-mac-access/">at Pat Galea's
+blog</a>.
+You can ignore the part about installing Netatalk unless you care about
+Mac file sharing.</p>
+<p>When you're done with your extra credit, you'll have a Pi that you can
+plug into your ethernet and USB ports, wait a minute or two, and it'll
+pop up automatically in Chicken of the VNC or Vinagre (or any Bonjour
+enabled VNC client, of course).</p>
+</div>
+
+    </article>
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/interlockroc">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Interlock-Rochester">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Blog powered by <a href="http://getpelican.com">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/theme/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>

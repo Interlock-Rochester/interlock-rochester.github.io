@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Interlock Rochester</title>
+
+
+        <!-- Bootstrap Core CSS -->
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+        <meta name="tags" contents="arduino" />
+        <meta name="tags" contents="eprom" />
+        <meta name="tags" contents="failure" />
+        <meta name="tags" contents="hardware" />
+        <meta name="tags" contents="retro" />
+
+
+			<meta property="og:locale" content="en">
+		<meta property="og:site_name" content="Interlock Rochester">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/eproms-and-failure.html">
+	<meta property="og:title" content="EPROMs And a failed project... for now.">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/">
+	<meta property="article:published_time" content="2012-11-07 11:52:00-05:00">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Interlock Rochester</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>EPROMs And a failed project... for now.</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/bleullama.html">BleuLlama</a>
+                             on Wed 07 November 2012
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- Post Content -->
+    <article>
+        <p>One of the things that comes with working on a lot of projects is
+failure. &nbsp;Not everything works. &nbsp;I've had my share of projects that for
+one reason or another, just didn't work out. &nbsp;Tonight, I worked on one
+of these.</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-XJGRCMuyj2o/UJoNvgJQuRI/AAAAAAAAB5s/NPDbRYe7WqE/s1600/2012-11-07+02.07.52.jpg"><img alt="image0" class="aligncenter" src="http://2.bp.blogspot.com/-XJGRCMuyj2o/UJoNvgJQuRI/AAAAAAAAB5s/NPDbRYe7WqE/s640/2012-11-07+02.07.52.jpg" style="width: 640px; height: 475px;" /></a></p>
+<p>For a long time now, I've had some ideas that center around EPROMs.
+&nbsp;I've been using EPROMS since I started getting into arcade machine
+collecting. &nbsp;EPROMs are programmable devices where you can store bytes
+of memory in a fairly stable method. &nbsp;They look like any other
+microchip, except that they have a transparent window on the top
+(usually quartz, even though it looks like glass). &nbsp;If you look in the
+window, you can see the chip die in there, which I usually think looks
+like a tiny tennis court.</p>
+<p>The above image shows a few different size. &nbsp;The one on the right is a
+2716, 16 kilobit (2 kilobyte) device. &nbsp;The one in the middle is a
+27C256, 256 kilobit (32 kilobyte) device.</p>
+<p><a class="reference external" href="http://1.bp.blogspot.com/-I98O53ShKxo/UJoNZzepHdI/AAAAAAAAB5c/aEIHuJ1Qt6A/s1600/2012-11-07+02.02.53.jpg"><img alt="image1" class="aligncenter" src="http://1.bp.blogspot.com/-I98O53ShKxo/UJoNZzepHdI/AAAAAAAAB5c/aEIHuJ1Qt6A/s320/2012-11-07+02.02.53.jpg" style="width: 235px; height: 320px;" /></a>To use an EPROM, you place it in an eraser, which is usually a
+ultraviolet light (often a fluorescent, non-filtered black light tube)
+with a timer, for about 10-12 minutes or so. &nbsp;This sets all of the bits
+in the device to 1's. &nbsp;(0xff hex).</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-1kK5sgB9PnU/UJoNkK2lUHI/AAAAAAAAB5k/5D_oMNYxpl4/s1600/2012-11-07+02.04.28.jpg"><img alt="image2" class="aligncenter" src="http://2.bp.blogspot.com/-1kK5sgB9PnU/UJoNkK2lUHI/AAAAAAAAB5k/5D_oMNYxpl4/s400/2012-11-07+02.04.28.jpg" style="width: 400px; height: 296px;" /></a></p>
+<p>Then you take the chip, and plug it into a programmer. &nbsp;A computer tells
+the programmer what zeroes to write and where, and you end up with a
+chip that has a program or some data stored in it, so that it can be
+read out later. &nbsp;Often, the window is then covered up so that they are
+not accidentally erased over time from ambient UV light. One data sheet
+I read said that 1 week in direct sunlight, or 3 years in normal office
+lighting will erase a device. &nbsp;The programmer above is my Needham's
+EMP-10. &nbsp;It has a 30 pin simm-looking slot on the side with 3 snap-in
+cards that configure the programmer pins so that it can handle a variety
+of different target device EPROMs.</p>
+<p>This process has fascinated me since I started burning ROMs for use in
+arcade machines. &nbsp;This is where this project comes in.&nbsp;I've had a few
+thoughts about things to explore here...</p>
+<p>First of all, it should be possible to determine which bytes are in
+which physical locations on the device by casting a shadow or projecting
+an image onto the die from the eraser. &nbsp;It should be possible to
+determine this by projecting different patterns on the die with the UV
+erasing light. &nbsp;Obviously, it has to be well focused; this has to be
+quite precise. &nbsp;A project for another day...</p>
+<p>Secondly, I thought a fun project might be to read the pattern produced
+by erasing the device. &nbsp;I would program all zeroes to the EPROM. &nbsp;The
+chip would be plugged into an Arduino, to read the data out of it. &nbsp;The
+Arduino would also control a UV LED or two which would illuminate the
+window on the EPROM, erasing it. &nbsp;It would then alternate between
+illuminating the window and reading the content out of it. &nbsp;The data
+pulled out would then be displayed as an image with pixels white if the
+content is a '1', and black if it is a '0'. &nbsp;This should show all white
+at the start, and all black at the end, with some amount of dithering in
+the middle somehow.</p>
+<p><a class="reference external" href="http://3.bp.blogspot.com/-bLHjaeRhyTs/UJoNH7rnlMI/AAAAAAAAB5I/UdksQ0NSy0U/s1600/2012-11-07+01.58.52.jpg"><img alt="image3" class="aligncenter" src="http://3.bp.blogspot.com/-bLHjaeRhyTs/UJoNH7rnlMI/AAAAAAAAB5I/UdksQ0NSy0U/s320/2012-11-07+01.58.52.jpg" style="width: 320px; height: 320px;" /></a></p>
+<p>I have a bunch of chips pulled from various electronic gadgets over the
+years, and the most prevalent of them was this 2732. &nbsp;It has a nice
+small package, small data size (4 kilobytes), so downloading the content
+from it should be fairly quick... and I have a whole lot of them, so if
+a few get destroyed in the process, it's no big deal.</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-EHaidC5ynzI/UJqCpZJViSI/AAAAAAAAB6Q/hsr864Oeovc/s1600/2012-11-07+12.JPG"><img alt="image4" class="aligncenter" src="http://2.bp.blogspot.com/-EHaidC5ynzI/UJqCpZJViSI/AAAAAAAAB6Q/hsr864Oeovc/s400/2012-11-07+12.JPG" style="width: 400px; height: 338px;" /></a></p>
+<p>At first I considered hooking this EPROM up directly to the Arduino, but
+I need 24 lines to control it. &nbsp;16 for address to the chip, 8 for data
+from the chip. &nbsp;Not to mention a line to drive the LED. &nbsp;I could go with
+an Arduino Mega, or Due, but I do not own either. &nbsp;I only really needed
+12 of those 16 address lines, which would bring it to 20 IO needed,
+which is still more than was available.</p>
+<p><a class="reference external" href="http://1.bp.blogspot.com/--ywYLtULcPk/UJqCoRfi1xI/AAAAAAAAB6E/PmrjTU_-fxE/s1600/2012-11-07+11.JPG"><img alt="image5" class="aligncenter" src="http://1.bp.blogspot.com/--ywYLtULcPk/UJqCoRfi1xI/AAAAAAAAB6E/PmrjTU_-fxE/s400/2012-11-07+11.JPG" style="width: 400px; height: 291px;" /></a></p>
+<p>I do have a spare&nbsp;<a class="reference external" href="http://mayhewlabs.com/products/arduino-mux-shield">Mayhew Labs Mux
+Shield</a>, (mine is
+a previous version) so I decided to just run with that. &nbsp;Unfortunately
+this is where the story goes south. &nbsp;I went from idea to making the
+board in one day. I really should have spent more time thinking about
+it, and less time being impulsive and just creating the thing. &nbsp;I was
+too excited, incorrectly thinking that I had what I needed for the
+project.</p>
+<p>I should note that I often enjoy when a project fails. &nbsp;It really helps
+me learn what I did wrong, why it didn't work, and then it's like a
+puzzle to figure out how to make it work. &nbsp;Sometimes, things just get
+frustrating and I will shelve a project indefinitely, but often I figure
+things out.</p>
+<p>I wired up a socket, cobbled together from smaller DIP sockets, onto a
+piece of strip board. &nbsp;I also threw a few indicator LEDs onto the board
+for various runtime display. After an evening of work, I came up with
+the board as seen here:</p>
+<p><a class="reference external" href="http://1.bp.blogspot.com/-vcDaSPXWoTg/UJoM13i_plI/AAAAAAAAB44/74-H3Fn2ZvA/s1600/2012-11-06+22.50.45.jpg"><img alt="image6" class="aligncenter" src="http://1.bp.blogspot.com/-vcDaSPXWoTg/UJoM13i_plI/AAAAAAAAB44/74-H3Fn2ZvA/s400/2012-11-06+22.50.45.jpg" style="width: 400px; height: 296px;" /></a></p>
+<p><a class="reference external" href="http://3.bp.blogspot.com/-loed2kQYnbY/UJoNDHYXfRI/AAAAAAAAB5A/-sgcl3ynaKI/s1600/2012-11-06+22.50.58.jpg"><img alt="image7" class="aligncenter" src="http://3.bp.blogspot.com/-loed2kQYnbY/UJoNDHYXfRI/AAAAAAAAB5A/-sgcl3ynaKI/s400/2012-11-06+22.50.58.jpg" style="width: 400px; height: 296px;" /></a></p>
+<p>It was wired on the circuit side of the board (I do not recommend this)
+because then I could easily plug it in to the Mux Shield using the pin
+connectors I had. &nbsp;The three red LEDs are wired to a few unused port
+pins on the mux, and the frosted LED on the right is an amber LED which
+I scuffed the top of to make it glow more than illuminate. &nbsp;I have yet
+to power this up, because it was at this point, when I was done building
+it that I realized the problem.</p>
+<p>The Mux Shield is an excellent device. I use it for my Jasper Box to
+read inputs. &nbsp;For inputs, it's awesome. &nbsp;It'll do 48 IO, even analog
+input. &nbsp;For output, that's where it gets a bit&nbsp;non-intuitive.</p>
+<p>The chips used on it are unbuffered. &nbsp;That is to say that there's no way
+to specifically sample or store data out or in on it. &nbsp;You pick a line,
+and then immediately read or write from it. &nbsp;Think of it as a valve, not
+a view. &nbsp;This is to say that at any one point in time, you're only
+setting or reading one bit. &nbsp;When reading the EPROM, I want to specify a
+single address (16 bits of digital output) then read in the data from
+the chip (8 bits of digital input). &nbsp;I can only do one bit at a time, so
+it is impossible to set the 16 bits simultaneously.</p>
+<p>In order for this to work, I need to add a latch of some kind to the
+circuit to store the 16 bit address, so that I can then read in the 8
+bits of data for that address in the EPROM.</p>
+<p><a class="reference external" href="http://3.bp.blogspot.com/-FDgWE5um2xI/UJqCnxDW4YI/AAAAAAAAB6A/b3ycReA1ZTY/s1600/2012-11-07+10.JPG"><img alt="image8" class="aligncenter" src="http://3.bp.blogspot.com/-FDgWE5um2xI/UJqCnxDW4YI/AAAAAAAAB6A/b3ycReA1ZTY/s400/2012-11-07+10.JPG" style="width: 327px; height: 400px;" /></a></p>
+<p>Here's a sketch for the next version of this project. &nbsp;As you can see,
+instead of using the Mux Shield, I'm now using a pair of&nbsp;<a class="reference external" href="https://www.sparkfun.com/products/733">74HC595
+serial-in, parallel-out shift
+registers</a>&nbsp;chained together.
+&nbsp;The idea here is that I would shift in the address I want to read
+through both of the '595s, then latch in the data on the&nbsp;<a class="reference external" href="https://www.sparkfun.com/products/9519">74HC165
+parallel-in, serial-out shift
+register</a>. This is actually
+taking it one step too far, since the '165 is unnecessary. &nbsp;The thing on
+the left is the UV LED and its resistor.</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-ptkXdzVAcIg/UJqOvYeUR5I/AAAAAAAAB6k/R7b3MIyQJVA/s1600/2012-11-07+11.35.20.jpg"><img alt="image9" class="aligncenter" src="http://2.bp.blogspot.com/-ptkXdzVAcIg/UJqOvYeUR5I/AAAAAAAAB6k/R7b3MIyQJVA/s400/2012-11-07+11.35.20.jpg" style="width: 400px; height: 387px;" /></a></p>
+<p>So here's a simplifed version where the data lines of the EPROM are
+hooked directly into the Arduino. &nbsp;It also shows three indicator LEDs on
+the top, which will be used to show the state of the device at runtime.</p>
+<p>I need to order some parts to build this, and once I get them, I will be
+posting further results on the project.</p>
+<p>&quot;Failure is always an option.&quot; -&nbsp;Adam Savage</p>
+
+    </article>
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/interlockroc">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Interlock-Rochester">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Blog powered by <a href="http://getpelican.com">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/theme/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Interlock Rochester</title>
+
+
+        <!-- Bootstrap Core CSS -->
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+
+
+			<meta property="og:locale" content="en">
+		<meta property="og:site_name" content="Interlock Rochester">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/3d-insulin-model-printing.html">
+	<meta property="og:title" content="Printing a 3D Insulin Model">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/">
+	<meta property="article:published_time" content="2012-06-05 08:10:00-04:00">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Interlock Rochester</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Printing a 3D Insulin Model</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/dzho.html">dzho</a>
+                             on Tue 05 June 2012
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- Post Content -->
+    <article>
+        <p>We've held the second of <a class="reference external" href="http://twitter.com/#!/interlockroc/statuses/200546366982848512">our monthly 3D printing
+meetings</a>
+recently, with a fifth person getting trained up on how to use our
+current printer, and are on the cusp of another advancement in our
+<a class="reference external" href="http://interlockroc.org/2012/03/21/quick-open-house-recap/">previously-mentioned 3D printing
+capabilities</a>,
+now that 3 people have decided which printer design they're going to
+build next.</p>
+<p>In the meantime, we continue to torture Beardicus's poor little <a class="reference external" href="http://reprappro.com/Huxley">Huxley
+RepRapPro</a> making other little
+tschotskes that speak to our interests. This doesn't get us closer to
+the glorious future of 3D printers for everyone, but I like to think of
+it as our answer to Wall Street's &quot;profit taking&quot;: Every once in a while
+it's nice to just cash out a little bit and enjoy what you've already
+got.</p>
+<p>My turn at that most recently was this little model of monomeric
+insulin, based on the crystal structure reported by <a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/1504238">Gursky et.
+al.</a></p>
+<p>The trick is how to take a computer model of something like this:</p>
+<p><img alt="9ins solvent-accessible surface Z rotation" src="http://deejoe.etrumeus.com/interlock/9ins/9ins.gif" /></p>
+<p>and print it on the 3D printer so that it goes from being an
+on-the-screen abstraction to something you can hold.</p>
+<p>Consider that there are many different ways to render these things on a
+screen:</p>
+<p><a class="reference external" href="http://interlockroc.wpengine.com/wp-content/uploads/2012/05/montage2.png"><img alt="image1" class="alignnone size-full wp-image-928" src="http://interlockroc.wpengine.com/wp-content/uploads/2012/05/montage2.png" style="width: 576px; height: 567px;" /></a></p>
+<p>Each has its uses. But learning how to manipulate an on-screen rendering
+can be a fraught experience. How much better, then, to have the option
+of turning the model over directly, with your own hands?</p>
+<p>With fused deposition printing, the problem is that the irregular
+surface doesn't really present a good way of getting the nascent object
+to stick to the print bed.</p>
+<p>To start, I trolled through the <a class="reference external" href="http://www.rcsb.org">RCSB</a> web site
+for a suitable small globular protein that had a bit of name
+recognition. I picked
+<a class="reference external" href="http://en.wikipedia.org/wiki/Insulin">insulin</a>, and from among the
+various insulin entries, picked
+<a class="reference external" href="http://www.rcsb.org/pdb/explore/explore.do?structureId=9ins">9INS</a>.</p>
+<p>I brought that file up in <a class="reference external" href="http://pymol.org">PyMOL</a>, issued &quot;hide
+everything&quot; and then &quot;show surface&quot; (or their GUI equivalents) and, with
+a few other visual tweaks, like setting the color, exported a VRML 2
+(.wrl) file. I played around with that in meshlab a bit, exporting it
+then as an .stl file.</p>
+<p>I finally sorted out that what I really needed to do was bring it into
+<a class="reference external" href="http://www.blender.org">Blender</a> and subtract a cube-shaped (well,
+any volume with a flat face would probably do) volume from the molecule
+to give a partial rendering of the model with a flat surface. Doing that
+twice, to generate each &quot;half&quot; of the molecule, leaves me with two .stl
+files that can be printed flat side down. In some cases, I've brought
+the file into <a class="reference external" href="http://cloud.netfabb.com">netfabb's online service</a>
+for cleanup of manifold errors. Then, I bring each file into
+<a class="reference external" href="http://replicat.org">ReplicatorG</a> to more easily scale and orient
+the model. Finally, I bring the .stl files into
+<a class="reference external" href="http://slic3r.org">Slic3r</a> to generate the .g file for taking over
+to the printer.</p>
+<p><a class="reference external" href="http://interlockroc.wpengine.com/wp-content/uploads/2012/05/IMG_4786.jpg"><img alt="image2" class="alignnone size-medium wp-image-889" src="http://interlockroc.wpengine.com/wp-content/uploads/2012/05/IMG_4786-300x225.jpg" style="width: 300px; height: 225px;" /></a></p>
+<p>This result is a fairly small protein and a fairly small model that was
+fast to design and print as a proof of concept. Future challenges will
+be to find ways of dividing up larger models and of larger molecules or
+multi-molecule assemblies so they can be printed, perhaps printing
+different chains in different colors, preserving relative scaling
+between different components and the like.</p>
+<p><a class="reference external" href="http://www.thingiverse.com/thing:12283">There</a>
+<a class="reference external" href="http://www.thingiverse.com/thing:18928">are</a>
+<a class="reference external" href="http://www.thingiverse.com/thing:3511">several</a>
+<a class="reference external" href="http://www.thingiverse.com/thing:21577">examples</a> of this sort of
+thing <a class="reference external" href="http://www.thingiverse.com/thing:21527">over</a>
+<a class="reference external" href="http://www.thingiverse.com/thing:19989">at</a>
+<a class="reference external" href="http://www.thingiverse.com/">Thingiverse,</a>but I first got the idea
+from
+<a class="reference external" href="http://www.mail-archive.com/pymol-users&#64;lists.sourceforge.net/msg01394.html">Chris</a>
+<a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/wgallin-pymol.jpg">Want</a>
+<a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/wgallin-3d-printed.jpg">at</a>
+<a class="reference external" href="http://www.mail-archive.com/pymol-users&#64;lists.sourceforge.net/msg04210.html">University</a>
+<a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/pymol_wrl/pymol_1tii.jpg">of</a>
+<a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/pymol_wrl/pymol_1tii_print.jpg">Alberta</a>
+via the <a class="reference external" href="http://www.pymol.org">PyMOL</a> mailing list several years ago.</p>
+
+    </article>
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/interlockroc">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Interlock-Rochester">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Blog powered by <a href="http://getpelican.com">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/theme/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>

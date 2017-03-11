@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Interlock Rochester</title>
+
+
+        <!-- Bootstrap Core CSS -->
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+
+
+			<meta property="og:locale" content="en">
+		<meta property="og:site_name" content="Interlock Rochester">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/flat-panel-light-box.html">
+	<meta property="og:title" content="Flat panel light box">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/">
+	<meta property="article:published_time" content="2014-11-05 11:18:00-05:00">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Interlock Rochester</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Flat panel light box</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/bleullama.html">BleuLlama</a>
+                             on Wed 05 November 2014
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- Post Content -->
+    <article>
+        <p><a class="reference external" href="http://3.bp.blogspot.com/--EgFkTCN9Jk/VFpB9PasgBI/AAAAAAAAC7s/4jenoIWTxCc/s1600/2014-11-04%2B23.16.21.jpg"><img alt="image0" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F--EgFkTCN9Jk%2FVFpB9PasgBI%2FAAAAAAAAC7s%2F4jenoIWTxCc%2Fs1600%2F2014-11-04%252B23.16.21.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 640px; height: 480px;" /></a></p>
+<p>I've been getting into making stained glass pieces, as I've been taking
+a class at the Rochester Memorial Art Gallery. &nbsp;One of the tools they
+have available there is a light box, which I have used to make the
+template for the macaw piece I'm making. &nbsp;I used it to help me adapt a
+pattern I found online into something that better suits my needs. &nbsp;I
+traced it, then retraced that sketch.</p>
+<p>The light box also works well to see how things look with light behind
+them, however it's not something I can use a lot for this, since my
+project is a couple dozen pieces of glass and we have to share the light
+box.</p>
+<p>On the recycle pile at work was a couple of old, broken laptops. &nbsp;I
+snagged two of them; one with an LED backlight, and one with a CCFT
+backlight. &nbsp;I thought that the LED one would be easier to get working.</p>
+<p>Over at <a class="reference external" href="http://interlockroc.org/">Interlock</a>, I tore apart the
+screens, tossing out the LCD panel, so I was left with just the light
+source, light guide, diffusion screens, and control circuitry. &nbsp;Its
+control/driver board also managed the LCD itself. &nbsp;There were many test
+points on the back, so I applied power to the &quot;LED PWR&quot; pin, ground to a
+ground point, then about +5 volts to the BLEN (assuming it to be
+&quot;backlight enable&quot;) as well as the &quot;PWM&quot; test point. After futzing with
+it for a little bit, I gave up and focused efforts on the CCFT-based
+one.</p>
+<p>The slightly larger CCFT (Fluorescent) based one had a single board that
+connected to the backlight tube through standard white/pink
+silicone-insulated wiring. &nbsp;The board itself had one tiny connector on
+one side with a few pins that seemed to have obvious use. &nbsp;V+, which
+assumably powers the backlight circuitry, should be connected to +5 or
+maybe +12. &nbsp;GND, which of course is ground. Then two other connections
+&quot;EN&quot; and &quot;CTRL&quot;, which I guessed to be &quot;Enable&quot; and &quot;Control&quot;. &nbsp;A guess
+would be to tie these to a logic &quot;high&quot; which might maybe enable the
+thing.</p>
+<p>I connected just the V+ and GND to a power supply, and applied power.
+&nbsp;Ranging from 0v up through 12v yielded no results. I connected the
+other two logic lines to power too, and started ramping up the power.
+&nbsp;At around 7v, the backlight flickered on, but then wouldn't do anything
+until I brought the power back to 0v, and then back up again.</p>
+<p>On a hunch, I figured that the backlight needs a higher voltage, and the
+logic stays at TTL levels. &nbsp;Applying the same power to both would give a
+possible point between the two where both kinda worked, which is where I
+saw the flicker. &nbsp;I hacked together two power supplies, with grounds
+tied together, 5v from one power brick, and the V+ to the variable
+supply.</p>
+<p><a class="reference external" href="http://1.bp.blogspot.com/-9We5elFk1J8/VFpB9JnXiDI/AAAAAAAAC7w/UR087-rhETA/s1600/2014-11-04%2B22.18.15.jpg"><img alt="image1" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F1.bp.blogspot.com%2F-9We5elFk1J8%2FVFpB9JnXiDI%2FAAAAAAAAC7w%2FUR087-rhETA%2Fs1600%2F2014-11-04%252B22.18.15.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 640px; height: 480px;" /></a></p>
+<p>I ramped up the voltage, and sure enough, it would get dim around 7v,
+then go full brightness around 12v. &nbsp;It seemed to use about 300mA to
+drive it too. Good to know. &nbsp;I found a 12v power brick and.. it would
+light for about 20 seconds then power itself off. &nbsp;The 12v brick put out
+18v.</p>
+<p>I eventually found a brick that worked, so i hooked up two supplies, a
+5v and a 12v and it was stable and bright. &nbsp;Next would be the task to
+put in a 5v regulator to provide the 5v it needs, so i can run it all on
+one single power supply.</p>
+<p><a class="reference external" href="http://4.bp.blogspot.com/-stT0iwcG9FE/VFpFzcS57OI/AAAAAAAAC8E/5trk7YF5Vsc/s1600/main-qimg-d1e728f2f684a47d10b25686f66e93f9.gif"><img alt="image2" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F4.bp.blogspot.com%2F-stT0iwcG9FE%2FVFpFzcS57OI%2FAAAAAAAAC8E%2F5trk7YF5Vsc%2Fs1600%2Fmain-qimg-d1e728f2f684a47d10b25686f66e93f9.gif&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 320px; height: 122px;" /></a></p>
+<p>A simple circuit using a 7805 and two capacitors later, and I have 12v
+in, and a backlight lit! &nbsp;I wrapped the circuit in tape (purple because
+it was there), hooked it up to a power connector, and reassembled the
+case.</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-qaXCEb0O6bA/VFpB9O9cu6I/AAAAAAAAC70/f4be5tcJKVU/s1600/2014-11-04%2B22.59.53.jpg"><img alt="image3" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-qaXCEb0O6bA%2FVFpB9O9cu6I%2FAAAAAAAAC70%2Ff4be5tcJKVU%2Fs1600%2F2014-11-04%252B22.59.53.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 640px; height: 480px;" /></a></p>
+<p>Best of all, it all managed to fit within the old plastics. Huzzah!</p>
+<p>Now I just need to put something on the diffusers to protect them from
+cut glass, maybe a piece of plexi, or even a large Ziplock or plastic
+wrap, and I'll be set!</p>
+
+    </article>
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/interlockroc">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Interlock-Rochester">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Blog powered by <a href="http://getpelican.com">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/theme/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
