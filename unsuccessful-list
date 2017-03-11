@@ -6,11 +6,11 @@ fixed, image references given unique numbers, plottopotamus-2.rst
 fixed, image references given unique numbers, pencil-plotting.rst
 fixed, newlines put between image reference and text, jamma-video-game-test-rig-box.rst
 fixed, image references put on separate lines, interlock-wireless-upgrades.rst
-interlock-visits-laser-cuttery.rst
-interlock-reprapchester.rst
-interlock-heads-to-maker-faire.rst
-i-now-pronounce-you-hacker-and-wife.rst
-hello-world-2.rst
+fixed, needed distinct numbering on the Smidgens image references, interlock-visits-laser-cuttery.rst
+fixed, need distinct numbering on First Print! image references, interlock-reprapchester.rst
+fixed, unwrapped some inline refs and added A B C to NYC Maker Faire 2011 refs, interlock-heads-to-maker-faire.rst
+fixed, numbered images 1 2 3 4, i-now-pronounce-you-hacker-and-wife.rst
+fixed, numbered Final Space images 1 and 2, hello-world-2.rst
 eproms-and-success.rst
 eproms-and-success-2.rst
 docubot-hands-free-camera.rst
