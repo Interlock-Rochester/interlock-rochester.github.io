@@ -6,6 +6,8 @@ AUTHOR = u'Interlock Member'
 SITENAME = u'Interlock Rochester'
 SITEURL = ''
 
+SITE_DESC = 'Interlock is a non-profit organization that provides space for its members and the local community to develop and share their interests in science, technology, art, and culture.'
+
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
