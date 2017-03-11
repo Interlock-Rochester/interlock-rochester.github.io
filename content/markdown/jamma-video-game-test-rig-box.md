@@ -1,0 +1,100 @@
+JAMMA Video Game Test Rig Box
+=============================
+
+date
+:   2014-04-19 23:34
+
+author
+:   BleuLlama
+
+category
+:   Hardware, Projects
+
+slug
+:   jamma-video-game-test-rig-box
+
+status
+:   published
+
+[![image0](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F-aAYGcPfh5QI%2FU1My76qiqHI%2FAAAAAAAACv4%2FPtOBkoo0c7M%2Fs1600%2F2014-04-19%2B10.55.53.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://3.bp.blogspot.com/-aAYGcPfh5QI/U1My76qiqHI/AAAAAAAACv4/PtOBkoo0c7M/s1600/2014-04-19+10.55.53.jpg)
+
+I decided to package up my JAMMA test rig so that I could demo Crazy
+Otto at Rochester BarCamp for today.  My design was basically a box that
+would house the entire thing, with a nice control panel for player 1.
+ As you can see in the above image, I have the A/V cable going to an
+external monitor.  Broken out on the box are player 1 and 2 start, coin
+1, and player 1 controls - joystick and 3 buttons.  On the right side of
+the box are the three "coin box" controls -- Test, Tilt, and Service,
+for testing those functions of the board.  Also on that side is a nice
+handle to help it be portable.
+
+This is a continuation of [part 1, where I updated the AV connections of
+the
+rig](http://geodesicsphere.blogspot.com/2014/02/updating-my-jamma-test-rig.html).
+
+[![image1](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F4.bp.blogspot.com%2F-nDP_92M4YFM%2FU1M0gHY_jeI%2FAAAAAAAACwE%2FcfeMOS1ekec%2Fs1600%2F2014-04-08%2B21.33.00.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://4.bp.blogspot.com/-nDP_92M4YFM/U1M0gHY_jeI/AAAAAAAACwE/cfeMOS1ekec/s1600/2014-04-08+21.33.00.jpg)
+
+This is about the extent of blueprints I have for this.  I knew I needed
+14" depth for the monitor, and that it needed about a 2" rise from the
+back to the front to put it at a good angle.  I wanted it to be 18"
+wide, and 24" deep.  That would give enough room for a game board inside
+of it, as well as for a decent sized control panel.
+
+[![image2](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-vj7FRtuwaoI%2FU1M2uUih-PI%2FAAAAAAAACwY%2FjM8BsjZHRrs%2Fs1600%2F2014-04-08%2B23.19.01.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://2.bp.blogspot.com/-vj7FRtuwaoI/U1M2uUih-PI/AAAAAAAACwY/jM8BsjZHRrs/s1600/2014-04-08+23.19.01.jpg) I
+started by cutting a sheet of plywood I've had in our garage for a
+while.  I also built the control panel using spare parts I had.  Thanks
+to members of Interlock to help me use the table saw, suggest tools and
+offer bits of wood.  :D
+
+[![image3](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F1.bp.blogspot.com%2F-hizC7xIVmqY%2FU1M2uwB9Z5I%2FAAAAAAAACwk%2FzxmZfABGA_E%2Fs1600%2F2014-04-08%2B23.18.09.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://1.bp.blogspot.com/-hizC7xIVmqY/U1M2uwB9Z5I/AAAAAAAACwk/zxmZfABGA_E/s1600/2014-04-08+23.18.09.jpg)
+
+[![image4](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F-IV3TVaIMCq4%2FU1M2srjsUPI%2FAAAAAAAACwU%2FxU5j-jrfbHw%2Fs1600%2F2014-04-08%2B23.18.19.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://3.bp.blogspot.com/-IV3TVaIMCq4/U1M2srjsUPI/AAAAAAAACwU/xU5j-jrfbHw/s1600/2014-04-08+23.18.19.jpg)
+
+Some standard microswitch buttons, and a nice ball-top leaf-switch
+joystick.
+
+[![image5](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F1.bp.blogspot.com%2F-cydJ39iIQvw%2FU1M3gCeS2fI%2FAAAAAAAACwo%2F1n4QMzmT-YE%2Fs1600%2F2014-04-13%2B00.02.24.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://1.bp.blogspot.com/-cydJ39iIQvw/U1M3gCeS2fI/AAAAAAAACwo/1n4QMzmT-YE/s1600/2014-04-13+00.02.24.jpg)
+
+The basic construction is that I glued some cleats on the inside of each
+side. Then the back, bottom, front and control panel will be screwed to
+it.  After that, it looked like this:
+
+[![image6](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F-3K5F7U_IA6Q%2FU1M4kGWWFKI%2FAAAAAAAACw4%2FLiOxY_9eV34%2Fs1600%2F2014-04-15%2B23.18.31.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://3.bp.blogspot.com/-3K5F7U_IA6Q/U1M4kGWWFKI/AAAAAAAACw4/LiOxY_9eV34/s1600/2014-04-15+23.18.31.jpg)
+
+ 
+
+[![image7](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-FAKRknjQsgQ%2FU1M4l9zfgjI%2FAAAAAAAACxA%2F0r_V0GPYYVg%2Fs1600%2F2014-04-15%2B23.18.51.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://2.bp.blogspot.com/-FAKRknjQsgQ/U1M4l9zfgjI/AAAAAAAACxA/0r_V0GPYYVg/s1600/2014-04-15+23.18.51.jpg)
+
+I also cut and drilled a small metal bracket to hold the power supply in
+place, which you can see in the above.  The coin 1 button on the front
+has a 12v light in it.  The old P2 controller is still attached to the
+JAMMA rig, in case I want to test/play 2 player games.  You can also see
+the 1 1/4" fine thread drywall screws holding it together here.  From
+here, the only change is that I painted it, stinking up our garage in
+the process. heh.  The top lid hooks under the control panel, and has a
+cleat in the back to keep it from sliding off the back.  There's a
+single screw to hold it in place, and to let it be carried withot the
+contents falling out.
+
+[![image8](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-eZu5wH69luQ%2FU1M5zDFWpfI%2FAAAAAAAACxM%2FjCR3iqEw1F4%2Fs1600%2F2014-04-19%2B16.57.49.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)](http://2.bp.blogspot.com/-eZu5wH69luQ/U1M5zDFWpfI/AAAAAAAACxM/jCR3iqEw1F4/s1600/2014-04-19+16.57.49.jpg)
+
+The great thing about this thing is that it's easy to tote this thing
+around to play/demo games and such.  It takes two trips since the
+monitor is cumbersome, and the box itself is pretty heavy, but it's
+SIGNIFICANTLY easier than toting around a full arcade cabinet.
+
+For reference, here's the JAMMA pinout standard:  (Most games since the
+late 1980s use this or a variant of it -- for example, Neo Geo adds
+additional buttons on unused pins, Rampart uses a trackball on the
+joystick pins, and Mortal Kombat has additional buttons on another
+interface harness.)
+
+[![image9](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F4.bp.blogspot.com%2F-f-lfNHovg-o%2FU1M7AMoGZiI%2FAAAAAAAACxY%2FRYRHymBXE88%2Fs1600%2F2014-04-15%2B21.53.29.gif&container=blogger&gadget=a&rewriteMime=image%2F*)](http://4.bp.blogspot.com/-f-lfNHovg-o/U1M7AMoGZiI/AAAAAAAACxY/RYRHymBXE88/s1600/2014-04-15+21.53.29.gif)
+
+The power and ground at the top portion are wired directly to the old PC
+power supply.  Coin counters and lockout coils are not wired to
+anything.  The speaker wires are broken out to a RCA plug, and the Video
+(RGB,Sync) are out to a DIN connector, as seen in the previous post.
+ Service, Tilt, and Test are wired to the three switches on the side of
+the box.  Coin switch 1, and the two start buttons are on the control
+panel, as are all of the 1P controls (on the right).
