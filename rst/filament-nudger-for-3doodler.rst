@@ -13,7 +13,7 @@ to get going again by giving the filament a gentle nudge. The Filament
 Nudger is a hack to reduce the number of times the 3Doodler stalls or
 jams by providing a continuously nudging force on the filament.
 
-[caption id="attachment\_1658" align="aligncenter" width="518"]\ |Nudger
+[caption id="attachment_1658" align="aligncenter" width="518"]\ |Nudger
 without handle| 3Doodler with Filament Nudger[/caption]
 
 The Nudger works with or without the Phaser Handle described in a
@@ -24,14 +24,14 @@ If you have access to a 3D printer, you can build a Nudger yourself by
 downloading these files on
 `Thingiverse <http://www.thingiverse.com/thing:322553/#files>`__.
 
-[caption id="attachment\_1659" align="aligncenter" width="518"]\ |With
+[caption id="attachment_1659" align="aligncenter" width="518"]\ |With
 handle| 3Doodler with Phaser Handle and Filament Nudger[/caption]
 
 The automatic Filament Nudger was designed to be powered by a pair of
 rubber bands,  and it is cocked by pulling back on the Filament Grabber
 mechanism.
 
-[caption id="attachment\_1654" align="aligncenter"
+[caption id="attachment_1654" align="aligncenter"
 width="518"]\ |Cocking the Nudger| Cocking the Filament Nudger[/caption]
 
 The Grabber works like a 1-way clutch, pulling the filament toward the
@@ -41,7 +41,7 @@ the rubber bands is effective in keeping the extruder going, but is not
 strong enough to prevent the filament retraction which conveniently
 keeps the 3Doodler from oozing between extrusions like a glue gun does.
 
-[caption id="attachment\_1656" align="aligncenter"
+[caption id="attachment_1656" align="aligncenter"
 width="518"]\ |Filament Nudger works with filament provided by 3Doodler|
 Filament Nudger works with filament provided by 3Doodler[/caption]
 
@@ -52,7 +52,7 @@ disappears into the 3Doodler. Without the Nudger, a new stick may fall
 out when the 3Doodler is tipped upward before the new stick is engaged,
 and this can be annoying.
 
-[caption id="attachment\_1655" align="aligncenter"
+[caption id="attachment_1655" align="aligncenter"
 width="518"]\ |Filament Nudger also works with longer 3mm filament|
 Filament Nudger also works with longer 3mm filament[/caption]
 
@@ -172,47 +172,47 @@ Stay tuned!
 
  
 
-.. |Nudger without handle| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/Nudger-without-handle.jpg
+.. |Nudger without handle| image:: {filename}wp-uploads/2014/05/Nudger-without-handle.jpg
    :class: wp-image-1658
    :width: 518px
    :height: 455px
-.. |With handle| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/With-handle.jpg
+.. |With handle| image:: {filename}wp-uploads/2014/05/With-handle.jpg
    :class: wp-image-1659
    :width: 518px
    :height: 296px
-.. |Cocking the Nudger| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/Cocking-the-Nudger.png
+.. |Cocking the Nudger| image:: {filename}wp-uploads/2014/05/Cocking-the-Nudger.png
    :class: wp-image-1654
    :width: 518px
    :height: 328px
-.. |Filament Nudger works with filament provided by 3Doodler| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/Filament-Nudger-works-with-filament-provided-by-3Doodler.jpg
+.. |Filament Nudger works with filament provided by 3Doodler| image:: {filename}wp-uploads/2014/05/Filament-Nudger-works-with-filament-provided-by-3Doodler.jpg
    :class: wp-image-1656
    :width: 518px
    :height: 399px
-.. |Filament Nudger also works with longer 3mm filament| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/Filament-Nudger-also-works-with-longer-3mm-filament.jpg
+.. |Filament Nudger also works with longer 3mm filament| image:: {filename}wp-uploads/2014/05/Filament-Nudger-also-works-with-longer-3mm-filament.jpg
    :class: wp-image-1655
    :width: 518px
    :height: 356px
-.. |Hinge pin| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/Hinge-pin.png
+.. |Hinge pin| image:: {filename}wp-uploads/2014/05/Hinge-pin.png
    :class: wp-image-1657 alignright
    :width: 411px
    :height: 230px
-.. |2 Zip-tie Frame| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/2-Zip-tie-Frame.png
+.. |2 Zip-tie Frame| image:: {filename}wp-uploads/2014/05/2-Zip-tie-Frame.png
    :class: wp-image-1649 alignright
    :width: 414px
    :height: 241px
-.. |3 Insert Skewers| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/3-Insert-Skewers.png
+.. |3 Insert Skewers| image:: {filename}wp-uploads/2014/05/3-Insert-Skewers.png
    :class: wp-image-1650 alignright
    :width: 414px
    :height: 287px
-.. |4 Insert Grabber| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/4-Insert-Grabber.png
+.. |4 Insert Grabber| image:: {filename}wp-uploads/2014/05/4-Insert-Grabber.png
    :class: wp-image-1651 alignright
    :width: 414px
    :height: 270px
-.. |5 Insert Filament Guide| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/5-Insert-Filament-Guide.png
+.. |5 Insert Filament Guide| image:: {filename}wp-uploads/2014/05/5-Insert-Filament-Guide.png
    :class: wp-image-1652 alignright
    :width: 414px
    :height: 268px
-.. |6 Hook rubber bands| image:: http://www.interlockroc.org/wp-content/uploads/2014/05/6-Hook-rubber-bands.png
+.. |6 Hook rubber bands| image:: {filename}wp-uploads/2014/05/6-Hook-rubber-bands.png
    :class: wp-image-1653 alignright
    :width: 414px
    :height: 282px

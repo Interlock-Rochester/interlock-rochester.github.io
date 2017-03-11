@@ -16,7 +16,7 @@ crammed into our temporary hackerspace sitting on anything we could
 find.  Thanks to everyone that made it out and especially those that
 took the time to put a talk together.
 
-[flickr]http://www.flickr.com/photos/bert\_m\_b/4271284795/[/flickr]
+[flickr]http://www.flickr.com/photos/bert_m_b/4271284795/[/flickr]
 
 UPDATE: `RemyD <http://decausemaker.org/>`__ was cool enough to offer
 his point of view on a first experience visit to Rochester's Hackerspace

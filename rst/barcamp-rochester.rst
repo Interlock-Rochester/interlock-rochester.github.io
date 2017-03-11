@@ -58,7 +58,7 @@ But it got better throughout the day, with some live on-the-scene
 hacking. I managed to get a toolchain set up to get webcam input traced
 and plotted thusly:
 
-|IMG\_8267|
+|IMG_8267|
 
 That toolchain starts with
 `OpenCV <http://opencv.willowgarage.com/wiki/>`__ handling the webcam,
@@ -78,7 +78,7 @@ of it. I'll leave you with another image and video of the bot doing its
 thing. A few more can be found in `my flickr
 gallery <http://www.flickr.com/photos/bert_m_b/sets/72157628015314436/detail/>`__.
 
-|IMG\_8269|
+|IMG_8269|
 
 .. |Interlock's BarCamp Table| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_84671-1024x678.jpg
    :class: alignnone size-large wp-image-665
@@ -95,11 +95,11 @@ gallery <http://www.flickr.com/photos/bert_m_b/sets/72157628015314436/detail/>`_
    :width: 600px
    :height: 400px
    :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_8494.jpg
-.. |IMG\_8267| image:: http://farm7.static.flickr.com/6039/6294760604_cbcfdc264e_z.jpg
+.. |IMG_8267| image:: http://farm7.static.flickr.com/6039/6294760604_cbcfdc264e_z.jpg
    :width: 600px
    :height: 400px
    :target: http://www.flickr.com/photos/bert_m_b/6294760604/
-.. |IMG\_8269| image:: http://farm7.static.flickr.com/6100/6294232619_e42b143249_z.jpg
+.. |IMG_8269| image:: http://farm7.static.flickr.com/6100/6294232619_e42b143249_z.jpg
    :width: 600px
    :height: 400px
    :target: http://www.flickr.com/photos/bert_m_b/6294232619/

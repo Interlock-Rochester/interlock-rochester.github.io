@@ -35,7 +35,7 @@ recently from `College Home
 Hardware <http://www.homehardware.ca/en/dealer-microsites/1381-7/contact-information.htm#>`__
 in `Toronto <http://goo.gl/maps/7Cga8>`__.
 
-[caption id="attachment\_1480" align="alignnone"
+[caption id="attachment_1480" align="alignnone"
 width="512"]\ |Interlock's table at RMSC| Interlock table at RMSC Family
 Friday[/caption]
 
@@ -56,7 +56,7 @@ Huxley to printing in fluorescent yellow ABS
 (acrylonitrile/butadiene/styrene) on the MacGyverbot. This led us to
 discover that kids love them some bright plastic sharks.
 
-[caption id="attachment\_1481" align="alignnone" width="512"]\ |GRR
+[caption id="attachment_1481" align="alignnone" width="512"]\ |GRR
 robot at RMSC| Greater Rochester Robotic's 2013 FIRST robot wheels
 around the first floor of the Rochester Museum & Science
 Center.[/caption]

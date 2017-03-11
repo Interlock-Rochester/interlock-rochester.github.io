@@ -90,68 +90,68 @@ types. Check back here for updates!
 Additional pictures of the build:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[caption id="attachment\_382" align="alignnone" width="300" caption="All
+[caption id="attachment_382" align="alignnone" width="300" caption="All
 components, before starting assembly. Note that the blackened spot on
 the tube is normal."]\ |image3|\ [/caption]
 
-[caption id="attachment\_386" align="alignnone" width="300" caption="VFD
+[caption id="attachment_386" align="alignnone" width="300" caption="VFD
 Tube, as shipped."]\ |image4|\ [/caption]
 
-[caption id="attachment\_379" align="alignnone" width="300"
+[caption id="attachment_379" align="alignnone" width="300"
 caption="Vacuum Tube fed through PCB"]\ |image5|\ [/caption]
 
-[caption id="attachment\_387" align="alignnone" width="300"
+[caption id="attachment_387" align="alignnone" width="300"
 caption="Timing circuitry, including the ATmega and
 crystal"]\ |image6|\ [/caption]
 
-[caption id="attachment\_381" align="alignnone" width="300"
+[caption id="attachment_381" align="alignnone" width="300"
 caption="Bare Clock, without Case"]\ |image7|\ [/caption]
 
-[caption id="attachment\_383" align="alignnone" width="300" caption="The
+[caption id="attachment_383" align="alignnone" width="300" caption="The
 assembled clock. Yay!"]\ |image8|\ [/caption]
 
-.. |image0| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/dark-adjusted-300x224.jpg
+.. |image0| image:: {filename}wp-uploads/2011/03/dark-adjusted-300x224.jpg
    :class: alignright size-medium wp-image-392
    :width: 240px
    :height: 179px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/dark-adjusted.jpg
-.. |image1| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/2011-03-05_16-55-00_706-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/dark-adjusted.jpg
+.. |image1| image:: {filename}wp-uploads/2011/03/2011-03-05_16-55-00_706-300x224.jpg
    :class: size-medium wp-image-378 alignright
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/2011-03-05_16-55-00_706.jpg
-.. |image2| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/2011-03-05_16-55-00_706.jpg
+.. |image2| image:: {filename}wp-uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg
    :class: alignleft size-medium wp-image-379
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/2011-03-05_19-20-52_474.jpg
-.. |image3| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/components-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/2011-03-05_19-20-52_474.jpg
+.. |image3| image:: {filename}wp-uploads/2011/03/components-300x224.jpg
    :class: size-medium wp-image-382
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/components.jpg
-.. |image4| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/bare_tube-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/components.jpg
+.. |image4| image:: {filename}wp-uploads/2011/03/bare_tube-300x224.jpg
    :class: size-medium wp-image-386
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/bare_tube.jpg
-.. |image5| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/bare_tube.jpg
+.. |image5| image:: {filename}wp-uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg
    :class: size-medium wp-image-379
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/2011-03-05_19-20-52_474.jpg
-.. |image6| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/timing-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/2011-03-05_19-20-52_474.jpg
+.. |image6| image:: {filename}wp-uploads/2011/03/timing-300x224.jpg
    :class: size-medium wp-image-387
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/timing.jpg
-.. |image7| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/bare_clock-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/timing.jpg
+.. |image7| image:: {filename}wp-uploads/2011/03/bare_clock-300x224.jpg
    :class: size-medium wp-image-381
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/bare_clock.jpg
-.. |image8| image:: http://www.interlockroc.org/wp-content/uploads/2011/03/assembled-300x224.jpg
+   :target: {filename}wp-uploads/2011/03/bare_clock.jpg
+.. |image8| image:: {filename}wp-uploads/2011/03/assembled-300x224.jpg
    :class: size-medium wp-image-383
    :width: 300px
    :height: 224px
-   :target: http://www.interlockroc.org/wp-content/uploads/2011/03/assembled.jpg
+   :target: {filename}wp-uploads/2011/03/assembled.jpg

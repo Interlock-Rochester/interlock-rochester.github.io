@@ -6,7 +6,7 @@ Open Mate, Beta 2
 :slug: open-mate-beta-2
 :status: published
 
-http://www.flickr.com/photos/bert\_m\_b/4480074334
+http://www.flickr.com/photos/bert_m_b/4480074334
 
 Two long weeks ago, we finally scrounged the equipment and ingredients
 necessary to iterate `Hack Pittsburgh's Open Mate
@@ -33,8 +33,8 @@ Ingredients
 -  juice of 0.5 lemons
 -  0.5t citric acid
 
-| http://www.flickr.com/photos/bert\_m\_b/4480069168
-| http://www.flickr.com/photos/bert\_m\_b/4480092698
+| http://www.flickr.com/photos/bert_m_b/4480069168
+| http://www.flickr.com/photos/bert_m_b/4480092698
 
 Procedure
 ~~~~~~~~~
@@ -55,7 +55,7 @@ out `Hack Pittsburgh's
 recipe <http://www.hackpittsburgh.org/brewing-open-mate-soda>`__ for the
 correct measurements and warnings).
 
-http://www.flickr.com/photos/bert\_m\_b/4525162394
+http://www.flickr.com/photos/bert_m_b/4525162394
 
 Yum?
 ~~~~
@@ -85,4 +85,4 @@ some things differently next time:
 Any other ideas? I can't wait to work through our first three gallons,
 so we can start brewing the next version. Bottoms up!
 
-http://www.flickr.com/photos/bert\_m\_b/4524528227
+http://www.flickr.com/photos/bert_m_b/4524528227

@@ -29,7 +29,7 @@ hand.  You can apply the tape in any pattern you like.  I chose a
 geometric patter, making sure to wrap the tape all the way around the
 edges and on to the back.
 
-|100\_2675|
+|100_2675|
 
  
 
@@ -57,7 +57,7 @@ not anticipate in planning the chaos of your abstraction.
 
 Here's the finished product:
 
-|100\_2678|
+|100_2678|
 
  
 
@@ -77,18 +77,18 @@ to have fun and create a unique piece of art for very little cost.
 
 Happy Painting!
 
-.. |blank canvas| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2677-300x225.jpg
+.. |blank canvas| image:: {filename}wp-uploads/2013/12/100_2677-300x225.jpg
    :class: alignnone size-medium wp-image-1595
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2677.jpg
-.. |100\_2675| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2675-300x225.jpg
+   :target: {filename}wp-uploads/2013/12/100_2677.jpg
+.. |100_2675| image:: {filename}wp-uploads/2013/12/100_2675-300x225.jpg
    :class: alignnone size-medium wp-image-1593
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2675.jpg
-.. |100\_2678| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2678-300x225.jpg
+   :target: {filename}wp-uploads/2013/12/100_2675.jpg
+.. |100_2678| image:: {filename}wp-uploads/2013/12/100_2678-300x225.jpg
    :class: alignnone size-medium wp-image-1597
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2678.jpg
+   :target: {filename}wp-uploads/2013/12/100_2678.jpg

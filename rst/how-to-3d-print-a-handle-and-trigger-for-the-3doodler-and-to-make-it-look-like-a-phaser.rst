@@ -86,27 +86,27 @@ of using the 3Doodler to hack an existing product.
 
 Stay tuned!
 
-.. |Doodler 1| image:: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-1.png
+.. |Doodler 1| image:: {filename}wp-uploads/2014/03/Doodler-1.png
    :class: aligncenter wp-image-1635
    :width: 518px
    :height: 290px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-1.png
-.. |Doodler 2| image:: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-2.png
+   :target: {filename}wp-uploads/2014/03/Doodler-1.png
+.. |Doodler 2| image:: {filename}wp-uploads/2014/03/Doodler-2.png
    :class: aligncenter wp-image-1636
    :width: 373px
    :height: 386px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-2.png
-.. |Doodler 3| image:: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-3.jpg
+   :target: {filename}wp-uploads/2014/03/Doodler-2.png
+.. |Doodler 3| image:: {filename}wp-uploads/2014/03/Doodler-3.jpg
    :class: aligncenter wp-image-1637
    :width: 518px
    :height: 409px
-.. |Doodler 4| image:: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-4.jpg
+.. |Doodler 4| image:: {filename}wp-uploads/2014/03/Doodler-4.jpg
    :class: aligncenter wp-image-1638
    :width: 518px
    :height: 419px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-4.jpg
-.. |Doodler 5| image:: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-5.jpg
+   :target: {filename}wp-uploads/2014/03/Doodler-4.jpg
+.. |Doodler 5| image:: {filename}wp-uploads/2014/03/Doodler-5.jpg
    :class: aligncenter wp-image-1639
    :width: 518px
    :height: 383px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/03/Doodler-5.jpg
+   :target: {filename}wp-uploads/2014/03/Doodler-5.jpg

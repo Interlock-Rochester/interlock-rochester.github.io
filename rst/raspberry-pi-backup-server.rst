@@ -33,7 +33,7 @@ edit /etc/default/keyboard, change gb to us, save and reboot
 
 | useradd to create the network backup owner
 | ssh-keygen to make .ssh and some keys
-| edit ~netback/.ssh/authorized\_keys to add your keys
+| edit ~netback/.ssh/authorized_keys to add your keys
 
 apt-get install samba samba-common-bin nfs-common nfs-server rsync
 

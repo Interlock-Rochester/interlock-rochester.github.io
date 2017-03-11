@@ -18,6 +18,6 @@ So come out on Friday to get your keys signed!
 
 If you missed both classes but are still interested in having a secret
 decoder ring of your very own the slides are now available
-`here <http://www.interlockroc.org/wp-content/uploads/2016/05/GPG.odp>`__.
+`here <{filename}wp-uploads/2016/05/GPG.odp>`__.
 
  

@@ -17,7 +17,7 @@ name of its list ("Ideas", "Active", "Need Help", etc).  The "goal" is
 for the cards to move from left to right as ideas progress from vague
 concepts to completed projects.
 
-[caption id="attachment\_1706" align="alignnone" width="300"]\ |Trello
+[caption id="attachment_1706" align="alignnone" width="300"]\ |Trello
 at a glance: here's some of our ideas and active projects.| Trello at a
 glance: here's some of our ideas and active projects.[/caption]
 
@@ -42,8 +42,8 @@ to between our monthly meetings.  If you're an Interlock member and
 would like access, create a Trello account and then let Joe or another
 board member know your username.
 
-.. |Trello at a glance: here's some of our ideas and active projects.| image:: http://www.interlockroc.org/wp-content/uploads/2014/12/trello-screenshot-300x225.png
+.. |Trello at a glance: here's some of our ideas and active projects.| image:: {filename}wp-uploads/2014/12/trello-screenshot-300x225.png
    :class: size-medium wp-image-1706
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/12/trello-screenshot.png
+   :target: {filename}wp-uploads/2014/12/trello-screenshot.png

@@ -17,7 +17,9 @@ So here are the recipes and the links for where I originally acquired
 them. Thank you Alton Brown for teaching me to love the Science of
 Baking. http://altonbrown.com/
 
-|20130430\_152452|  |CCCookies-50|
+|20130430_152452|  
+
+|CCCookies_50|
 
 Notice in my image of the recipe they list cups instead of weights for
 the ingredients… if you want accuracy and consistency in your cookie
@@ -49,13 +51,14 @@ your cookie scoop, how hot does your oven get, how much patience do you
 have, who will be eating the cookies (let’s face it you want to impress
 but not everyone deserves the best).
 
-.. |20130430\_152452| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/20130430_152452-225x300.jpg
+.. |20130430_152452| image:: {filename}wp-uploads/2013/12/20130430_152452-225x300.jpg
    :class: size-medium wp-image-1612 alignnone
    :width: 225px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/20130430_152452.jpg
-.. |CCCookies-50| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/CCCookies-50-300x200.jpg
+   :target: {filename}wp-uploads/2013/12/20130430_152452.jpg
+
+.. |CCCookies_50| image:: {filename}wp-uploads/2013/12/CCCookies-50-300x200.jpg
    :class: alignnone size-medium wp-image-1613
    :width: 300px
    :height: 200px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/CCCookies-50.jpg
+   :target: {filename}wp-uploads/2013/12/CCCookies-50.jpg

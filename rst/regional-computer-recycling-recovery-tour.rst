@@ -55,8 +55,8 @@ for sale.
 EDIT: Their facility is 100,000 sqft in Victor and their Central Ave.
 location is 20,000 sqft.
 
-.. |Regional Computer Recycling & Recovery| image:: http://www.interlockroc.org/wp-content/uploads/2010/12/rcrr.jpg
+.. |Regional Computer Recycling & Recovery| image:: {filename}wp-uploads/2010/12/rcrr.jpg
    :class: right
-.. |rotating knives sign| image:: http://www.interlockroc.org/wp-content/uploads/2010/12/rotatingknivessm-297x300.jpg
+.. |rotating knives sign| image:: {filename}wp-uploads/2010/12/rotatingknivessm-297x300.jpg
    :class: photo left
 

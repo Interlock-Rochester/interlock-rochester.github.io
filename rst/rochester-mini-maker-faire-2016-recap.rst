@@ -8,7 +8,7 @@ Rochester Mini Maker Faire 2016 - Recap
 
  
 
-|img\_3243|\ |img\_3241|
+|img_3243|\ |img_3241|
 
 Today was the 2016 Rochester Mini Maker Faire in the Riverside
 Convention Center.  We had a blast, and hope you all did too.  As you
@@ -27,7 +27,7 @@ descriptions about the projects...  (from left to right)
 -  Walter - Motion Capture Puppet in Technic Lego, etc - Scott
 -  Friendly Plastic - Low-melting-temperature moldable plastic - Joe
 
-|img\_3248|
+|img_3248|
 
 Here's a brief recap of our experiences with the event...
 
@@ -64,23 +64,23 @@ work, here are the solutions:
 
  
 
-.. |img\_3243| image:: http://www.interlockroc.org/wp-content/uploads/2016/11/IMG_3243.jpg
+.. |img_3243| image:: {filename}wp-uploads/2016/11/IMG_3243.jpg
    :class: alignnone wp-image-2004 aligncenter
    :width: 480px
    :height: 360px
-   :target: http://www.interlockroc.org/wp-content/uploads/2016/11/IMG_3243.jpg
-.. |img\_3241| image:: http://www.interlockroc.org/wp-content/uploads/2016/11/IMG_3241.jpg
+   :target: {filename}wp-uploads/2016/11/IMG_3243.jpg
+.. |img_3241| image:: {filename}wp-uploads/2016/11/IMG_3241.jpg
    :class: alignnone wp-image-2003 aligncenter
    :width: 480px
    :height: 360px
-   :target: http://www.interlockroc.org/wp-content/uploads/2016/11/IMG_3241.jpg
-.. |img\_3248| image:: http://www.interlockroc.org/wp-content/uploads/2016/11/IMG_3248.jpg
+   :target: {filename}wp-uploads/2016/11/IMG_3241.jpg
+.. |img_3248| image:: {filename}wp-uploads/2016/11/IMG_3248.jpg
    :class: wp-image-2005 aligncenter
    :width: 480px
    :height: 360px
-   :target: http://www.interlockroc.org/wp-content/uploads/2016/11/IMG_3248.jpg
-.. |makerfaire2016-solutions| image:: http://www.interlockroc.org/wp-content/uploads/2016/11/MakerFaire2016-Solutions.png
+   :target: {filename}wp-uploads/2016/11/IMG_3248.jpg
+.. |makerfaire2016-solutions| image:: {filename}wp-uploads/2016/11/MakerFaire2016-Solutions.png
    :class: wp-image-2006 aligncenter
    :width: 540px
    :height: 331px
-   :target: http://www.interlockroc.org/wp-content/uploads/2016/11/MakerFaire2016-Solutions.png
+   :target: {filename}wp-uploads/2016/11/MakerFaire2016-Solutions.png

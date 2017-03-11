@@ -25,7 +25,7 @@ freshly imaged SD card, hook it up to a Mac or Ubuntu laptop through
 their internet sharing capabilities, and use VNC to share the GUI over
 the network.
 
-|IMG\_4611.jpg|
+|IMG_4611.jpg|
 
 Getting Started
 ~~~~~~~~~~~~~~~
@@ -152,7 +152,7 @@ command ``vinagre x.x.x.x:1`` will do the same thing. Yay! You're done.
 Celebrate your hard work and dedication while admiring your glorious
 accomplishment:
 
-|IMG\_4617.jpg|
+|IMG_4617.jpg|
 
 Extra Credit
 ~~~~~~~~~~~~
@@ -178,7 +178,7 @@ enabled VNC client, of course).
    :width: 600px
    :height: 400px
    :target: http://www.flickr.com/photos/bert_m_b/8227589302/
-.. |IMG\_4611.jpg| image:: http://farm9.staticflickr.com/8209/8248698572_2f0cac271c_z.jpg
+.. |IMG_4611.jpg| image:: http://farm9.staticflickr.com/8209/8248698572_2f0cac271c_z.jpg
    :width: 600px
    :height: 400px
    :target: http://www.flickr.com/photos/bert_m_b/8248698572/
@@ -206,7 +206,7 @@ enabled VNC client, of course).
    :width: 509px
    :height: 314px
    :target: http://www.flickr.com/photos/bert_m_b/8248539760/
-.. |IMG\_4617.jpg| image:: http://farm9.staticflickr.com/8208/8248701138_078e58a0be_z.jpg
+.. |IMG_4617.jpg| image:: http://farm9.staticflickr.com/8208/8248701138_078e58a0be_z.jpg
    :width: 600px
    :height: 400px
    :target: http://www.flickr.com/photos/bert_m_b/8248701138/

@@ -59,7 +59,7 @@ IDE makes REALLY easy to do), but rather the secondary micro's firmware,
 which basically was just a USB-Serial interface driver.
 
 Long story short, I grabbed the `8u2 code from github,
-"MEGA-dfu\_and\_usbserial\_combined.hex" <https://github.com/arduino/Arduino/tree/master/hardware/arduino/avr/firmwares/atmegaxxu2>`__,
+"MEGA-dfu_and_usbserial_combined.hex" <https://github.com/arduino/Arduino/tree/master/hardware/arduino/avr/firmwares/atmegaxxu2>`__,
 and used the following command line (using a mixture of the code on that
 page, with the parameters that my system used via the arduino IDE on my
 Mac:

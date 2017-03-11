@@ -50,8 +50,8 @@ Meetup <http://www.meetup.com/Interlock-Rochester-Hackerspace/events/220284849/>
 
  
 
-.. |hdsdr1[1]| image:: http://www.interlockroc.org/wp-content/uploads/2015/02/hdsdr11-300x169.jpg
+.. |hdsdr1[1]| image:: {filename}wp-uploads/2015/02/hdsdr11-300x169.jpg
    :class: size-medium wp-image-1902 aligncenter
    :width: 300px
    :height: 169px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/02/hdsdr11.jpg
+   :target: {filename}wp-uploads/2015/02/hdsdr11.jpg

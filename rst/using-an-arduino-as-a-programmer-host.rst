@@ -201,7 +201,7 @@ target.  Disconnect the FTDI cable, disconnect the ICSP widget, and move
 the newly programmed device into the DB15 connector on the board.
  Adjust the jumper so that "RESET" is enabled.  Now plug the DB15 cable
 back in.  This is now the equivalent to using the DB15 as a barebones
-Arduino.  Load up the D15\_Test sketch included in the github repository
+Arduino.  Load up the D15_Test sketch included in the github repository
 mentioned above.  Click the "upload" arrow button, wait a moment, and
 the LED on the target widget should be blinking.  That's it!
 

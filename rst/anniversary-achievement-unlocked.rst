@@ -43,8 +43,8 @@ A thanks goes out to all of our members and friends who donate their
 time, money, and ideas to our cause.  We seriously couldn't have done it
 without you.
 
-.. |Financial numbers for 2010| image:: http://www.interlockroc.org/wp-content/uploads/2010/12/2010_expenses-300x124.png
+.. |Financial numbers for 2010| image:: {filename}wp-uploads/2010/12/2010_expenses-300x124.png
    :class: aligncenter size-medium wp-image-306
    :width: 300px
    :height: 124px
-   :target: http://www.interlockroc.org/wp-content/uploads/2010/12/2010_expenses.png
+   :target: {filename}wp-uploads/2010/12/2010_expenses.png

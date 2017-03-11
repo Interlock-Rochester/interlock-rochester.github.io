@@ -30,8 +30,8 @@ Interested in becoming a member?  Take a look at `our About
 page <http://www.interlockroc.org/about/>`__ for more information on
 becoming a member, or stop by one of our Weekly Meetup Nights!
 
-.. |BitcoinSign.svg| image:: http://www.interlockroc.org/wp-content/uploads/2016/02/BitcoinSign.svg_.png
+.. |BitcoinSign.svg| image:: {filename}wp-uploads/2016/02/BitcoinSign.svg_.png
    :class: alignright wp-image-1988
    :width: 152px
    :height: 200px
-   :target: http://www.interlockroc.org/wp-content/uploads/2016/02/BitcoinSign.svg_.png
+   :target: {filename}wp-uploads/2016/02/BitcoinSign.svg_.png

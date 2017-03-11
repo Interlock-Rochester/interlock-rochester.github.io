@@ -25,8 +25,8 @@ I'm not exactly sure why I find this hilarious, but I do.
 
  
 
-.. |trees-in-forth-screenie-2-3rds| image:: http://www.interlockroc.org/wp-content/uploads/2014/01/trees-in-forth-screenie-2-3rds-300x220.png
+.. |trees-in-forth-screenie-2-3rds| image:: {filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds-300x220.png
    :class: alignnone size-medium wp-image-1622
    :width: 300px
    :height: 220px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/01/trees-in-forth-screenie-2-3rds.png
+   :target: {filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds.png

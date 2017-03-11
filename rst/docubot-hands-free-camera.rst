@@ -6,16 +6,16 @@ Docubot Hands-free Camera
 :slug: docubot-hands-free-camera
 :status: published
 
-|DSC\_6891.jpg|
+|DSC_6891.jpg|
 
-|DSC\_6888.jpg|
+|DSC_6888.jpg|
 
 Surely this will be my last poorly documented project: a hands-free foot
 operated documentation camera. I thought it'd be handy, and I had an old
 broken desk lamp kicking around, so of course, the two must be mushed
 together.
 
-|DSC\_6894.jpg|
+|DSC_6894.jpg|
 
 I started out with an old Canon SD1000, with
 `CHDK <http://chdk.wikia.com/wiki/CHDK>`__ installed of course. For
@@ -26,7 +26,7 @@ ever possibly want to. It's awesome, and I needed it so I could trigger
 the shutter via an external button (you basically toggle +5v on one of
 the USB port pins).
 
-|DSC\_6902.jpg|
+|DSC_6902.jpg|
 
 I didn't want to worry about running out of batteries mid-shoot, so I
 printed a dummy battery at `Shapeways <http://www.shapeways.com/>`__,
@@ -38,9 +38,9 @@ up straight out of the
 also goes through an old lamp foot switch to the camera's USB port, for
 the external trigger.
 
-|DSC\_6905.jpg|
+|DSC_6905.jpg|
 
-|DSC\_6898.jpg|
+|DSC_6898.jpg|
 
 Finally, I took to the lathe to make an adapter between the weird lamp
 thread and standard camera tripod thread (1/4" diameter, 20 threads per
@@ -63,29 +63,29 @@ base... perhaps it will turn into a time-lapse-bot.
 
 |DocuBot Test|
 
-.. |DSC\_6891.jpg| image:: http://farm7.static.flickr.com/6080/6077141844_89382e76c4.jpg
+.. |DSC_6891.jpg| image:: http://farm7.static.flickr.com/6080/6077141844_89382e76c4.jpg
    :class: alignleft
    :width: 380px
    :height: 250px
    :target: http://www.flickr.com/photos/bert_m_b/6077141844/
-.. |DSC\_6888.jpg| image:: http://farm7.static.flickr.com/6181/6077135434_f0893c06a4.jpg
+.. |DSC_6888.jpg| image:: http://farm7.static.flickr.com/6181/6077135434_f0893c06a4.jpg
    :class: alignleft
    :width: 166px
    :height: 250px
    :target: http://www.flickr.com/photos/bert_m_b/6077135434/
-.. |DSC\_6894.jpg| image:: http://farm7.static.flickr.com/6190/6077147088_4b3c84db77.jpg
+.. |DSC_6894.jpg| image:: http://farm7.static.flickr.com/6190/6077147088_4b3c84db77.jpg
    :width: 500px
    :height: 333px
    :target: http://www.flickr.com/photos/bert_m_b/6077147088/
-.. |DSC\_6902.jpg| image:: http://farm7.static.flickr.com/6205/6076628007_f98976013f.jpg
+.. |DSC_6902.jpg| image:: http://farm7.static.flickr.com/6205/6076628007_f98976013f.jpg
    :width: 500px
    :height: 333px
    :target: http://www.flickr.com/photos/bert_m_b/6076628007/
-.. |DSC\_6905.jpg| image:: http://farm7.static.flickr.com/6187/6077171350_06cb8350d0.jpg
+.. |DSC_6905.jpg| image:: http://farm7.static.flickr.com/6187/6077171350_06cb8350d0.jpg
    :width: 500px
    :height: 333px
    :target: http://www.flickr.com/photos/bert_m_b/6077171350/
-.. |DSC\_6898.jpg| image:: http://farm7.static.flickr.com/6061/6076615413_b204a847f4.jpg
+.. |DSC_6898.jpg| image:: http://farm7.static.flickr.com/6061/6076615413_b204a847f4.jpg
    :width: 500px
    :height: 333px
    :target: http://www.flickr.com/photos/bert_m_b/6076615413/

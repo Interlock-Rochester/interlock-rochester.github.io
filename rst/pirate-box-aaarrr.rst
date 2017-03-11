@@ -20,7 +20,7 @@ stick <https://www.pny.com/Compact_Attache?sku=P-FD32GCOMB-GE>`__ and a
 `TP-Link TL-WN722N USB Wireless
 Adapter <http://www.tp-link.us/products/details/?categoryid=3958&model=TL-WN722N>`__.
 
-|IMG\_20150327\_191659|
+|IMG_20150327_191659|
 
  
 
@@ -28,7 +28,7 @@ Adapter <http://www.tp-link.us/products/details/?categoryid=3958&model=TL-WN722N
 
 This is what it looks like completed.
 
-|IMG\_20150327\_203842|
+|IMG_20150327_203842|
 
  
 
@@ -55,28 +55,28 @@ And the files that are uploaded to be shared.
 This would be prefect to use to exchange encryption keys at BSidesRoc or
 have the presenters post their papers to share with the public.
 
-.. |IMG\_20150327\_191659| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/IMG_20150327_191659-300x225.jpg
+.. |IMG_20150327_191659| image:: {filename}wp-uploads/2015/03/IMG_20150327_191659-300x225.jpg
    :class: alignnone size-medium wp-image-1922
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/03/IMG_20150327_191659.jpg
-.. |IMG\_20150327\_203842| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/IMG_20150327_203842-300x225.jpg
+   :target: {filename}wp-uploads/2015/03/IMG_20150327_191659.jpg
+.. |IMG_20150327_203842| image:: {filename}wp-uploads/2015/03/IMG_20150327_203842-300x225.jpg
    :class: alignnone size-medium wp-image-1923
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/03/IMG_20150327_203842.jpg
-.. |Screenshot from 2015-03-28 08:18:21| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-from-2015-03-28-081821-300x169.png
+   :target: {filename}wp-uploads/2015/03/IMG_20150327_203842.jpg
+.. |Screenshot from 2015-03-28 08:18:21| image:: {filename}wp-uploads/2015/03/Screenshot-from-2015-03-28-081821-300x169.png
    :class: alignnone size-medium wp-image-1924
    :width: 300px
    :height: 169px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-from-2015-03-28-081821.png
-.. |Screenshot from 2015-03-28 08:21:00| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-from-2015-03-28-082100-300x169.png
+   :target: {filename}wp-uploads/2015/03/Screenshot-from-2015-03-28-081821.png
+.. |Screenshot from 2015-03-28 08:21:00| image:: {filename}wp-uploads/2015/03/Screenshot-from-2015-03-28-082100-300x169.png
    :class: alignnone size-medium wp-image-1925
    :width: 300px
    :height: 169px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-from-2015-03-28-082100.png
-.. |Screenshot from 2015-03-28 08:23:40| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-from-2015-03-28-082340-300x169.png
+   :target: {filename}wp-uploads/2015/03/Screenshot-from-2015-03-28-082100.png
+.. |Screenshot from 2015-03-28 08:23:40| image:: {filename}wp-uploads/2015/03/Screenshot-from-2015-03-28-082340-300x169.png
    :class: alignnone size-medium wp-image-1926
    :width: 300px
    :height: 169px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-from-2015-03-28-082340.png
+   :target: {filename}wp-uploads/2015/03/Screenshot-from-2015-03-28-082340.png

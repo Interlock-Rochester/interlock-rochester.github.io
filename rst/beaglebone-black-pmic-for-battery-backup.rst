@@ -21,7 +21,7 @@ can be used to hook up to a battery.
 Having a battery connected to your board gives you the ability to do
 things like making a UPS for you beaglebone so in the case of a power
 loss, it can politely shut-down, run a custom command, or just continue
-running for as long as the battery can charge it.\ |bbb\_pinouts|
+running for as long as the battery can charge it.\ |bbb_pinouts|
 
 **Power**
 =========
@@ -117,16 +117,16 @@ information here:
 
 Thanks to Alex for finding a fatal flaw in the 10k resistor I was using.
 
-.. |beaglebone with sparkfun battery| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/IMAG0734.jpg-300x170.jpeg
+.. |beaglebone with sparkfun battery| image:: {filename}wp-uploads/2015/03/IMAG0734.jpg-300x170.jpeg
    :class: aligncenter size-medium wp-image-1906
    :width: 300px
    :height: 170px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/03/IMAG0734.jpg.jpeg
-.. |bbb\_pinouts| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/bbb_pinouts-e1425329803523-267x300.jpg
+   :target: {filename}wp-uploads/2015/03/IMAG0734.jpg.jpeg
+.. |bbb_pinouts| image:: {filename}wp-uploads/2015/03/bbb_pinouts-e1425329803523-267x300.jpg
    :class: aligncenter size-medium wp-image-1907
    :width: 267px
    :height: 300px
-.. |bbb-batt-srm| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/bbb-batt-srm-300x109.jpg
+.. |bbb-batt-srm| image:: {filename}wp-uploads/2015/03/bbb-batt-srm-300x109.jpg
    :class: alignright wp-image-1905
    :width: 377px
    :height: 137px

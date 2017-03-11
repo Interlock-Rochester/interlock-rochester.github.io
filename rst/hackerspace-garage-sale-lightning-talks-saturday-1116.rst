@@ -33,12 +33,12 @@ So TL;DR:
 -  Outsiders welcome
 -  Help us raise money and clean up the space!
 
-|Flyer\_garage\_sale|
+|Flyer_garage_sale|
 
  
 
-.. |Flyer\_garage\_sale| image:: http://www.interlockroc.org/wp-content/uploads/2013/11/Flyer_garage_sale-231x300.png
+.. |Flyer_garage_sale| image:: {filename}wp-uploads/2013/11/Flyer_garage_sale-231x300.png
    :class: size-medium wp-image-1579 aligncenter
    :width: 231px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/11/Flyer_garage_sale.png
+   :target: {filename}wp-uploads/2013/11/Flyer_garage_sale.png

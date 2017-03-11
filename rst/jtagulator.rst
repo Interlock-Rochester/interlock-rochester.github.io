@@ -79,7 +79,7 @@ so you can connect something to them. In my little Asus router that I
 found, these pins are pretty easy to access. I just soldered some cables
 on to them, and added a bit of glue to make sure they kept. :)
 
-[caption id="attachment\_1527" align="aligncenter" width="225"]\ |Asus
+[caption id="attachment_1527" align="aligncenter" width="225"]\ |Asus
 Router with wires near JTAG leads| Asus Router with wires near JTAG
 leads[/caption]
 

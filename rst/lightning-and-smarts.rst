@@ -15,6 +15,6 @@ the board game go, IRSSI, cat5 cables, learning how to program, things
 going on at RIT, guest wireless access points, offsite backup solutions,
 and 3D molecule rendering.
 
-| [flickr]http://www.flickr.com/photos/bert\_m\_b/4422595768[/flickr]
-| [flickr]http://www.flickr.com/photos/bert\_m\_b/4421833521[/flickr]
-| [flickr]http://www.flickr.com/photos/bert\_m\_b/4422592150[/flickr]
+| [flickr]http://www.flickr.com/photos/bert_m_b/4422595768[/flickr]
+| [flickr]http://www.flickr.com/photos/bert_m_b/4421833521[/flickr]
+| [flickr]http://www.flickr.com/photos/bert_m_b/4422592150[/flickr]

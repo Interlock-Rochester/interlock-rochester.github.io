@@ -53,23 +53,23 @@ evening...
 
  
 
-.. |2015-04-07 20.49.45| image:: http://www.interlockroc.org/wp-content/uploads/2015/04/2015-04-07-20.49.45-300x225.jpg
+.. |2015-04-07 20.49.45| image:: {filename}wp-uploads/2015/04/2015-04-07-20.49.45-300x225.jpg
    :class: wp-image-1947 aligncenter
    :width: 400px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/04/CCCTy4iWAAMfjrm.jpg
-.. |2015-04-07 21.25.38| image:: http://www.interlockroc.org/wp-content/uploads/2015/04/2015-04-07-21.25.38-300x225.jpg
+   :target: {filename}wp-uploads/2015/04/CCCTy4iWAAMfjrm.jpg
+.. |2015-04-07 21.25.38| image:: {filename}wp-uploads/2015/04/2015-04-07-21.25.38-300x225.jpg
    :class: wp-image-1948 aligncenter
    :width: 400px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/04/2015-04-07-21.25.38.jpg
-.. |2015-04-07 21.43.35| image:: http://www.interlockroc.org/wp-content/uploads/2015/04/2015-04-07-21.43.35-225x300.jpg
+   :target: {filename}wp-uploads/2015/04/2015-04-07-21.25.38.jpg
+.. |2015-04-07 21.43.35| image:: {filename}wp-uploads/2015/04/2015-04-07-21.43.35-225x300.jpg
    :class: wp-image-1949 aligncenter
    :width: 277px
    :height: 369px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/04/2015-04-07-21.43.35.jpg
-.. |CCCTy4iWAAMfjrm| image:: http://www.interlockroc.org/wp-content/uploads/2015/04/CCCTy4iWAAMfjrm-300x225.jpg
+   :target: {filename}wp-uploads/2015/04/2015-04-07-21.43.35.jpg
+.. |CCCTy4iWAAMfjrm| image:: {filename}wp-uploads/2015/04/CCCTy4iWAAMfjrm-300x225.jpg
    :class: wp-image-1946 aligncenter
    :width: 400px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/04/2015-04-07-21.48.01.jpg
+   :target: {filename}wp-uploads/2015/04/2015-04-07-21.48.01.jpg

@@ -16,11 +16,11 @@ For questions or to make sure the space is open, contact Ryan Tucker via
 `e-mail <mailto:knitterlock@ryantucker.us>`__ or
 `Twitter <https://twitter.com/hoopycat>`__.
 
-[caption id="attachment\_1678" align="aligncenter" width="203"]\ |Not a
+[caption id="attachment_1678" align="aligncenter" width="203"]\ |Not a
 football schedule| Not a football schedule[/caption]
 
-.. |Not a football schedule| image:: http://www.interlockroc.org/wp-content/uploads/2014/09/knitting-at-interlock-203x300.png
+.. |Not a football schedule| image:: {filename}wp-uploads/2014/09/knitting-at-interlock-203x300.png
    :class: size-medium wp-image-1678
    :width: 203px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/09/knitting-at-interlock.png
+   :target: {filename}wp-uploads/2014/09/knitting-at-interlock.png

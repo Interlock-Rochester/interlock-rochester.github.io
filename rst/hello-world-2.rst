@@ -26,7 +26,7 @@ by early January. In the meantime we're having some really productive
 meetings every Tuesday night, and would love to see more potential
 members show up to give their input.
 
-|DSC\_8749|
+|DSC_8749|
 
 If you can't make the meetings, there are many options for getting in
 touch with us. I recommend `our IRC
@@ -42,7 +42,7 @@ page <http://www.interlockroc.org/contact/>`__.
    :width: 500px
    :height: 333px
    :target: http://www.flickr.com/photos/bert_m_b/4147399201/
-.. |DSC\_8749| image:: http://farm3.static.flickr.com/2778/4152703689_715603a0fe.jpg
+.. |DSC_8749| image:: http://farm3.static.flickr.com/2778/4152703689_715603a0fe.jpg
    :width: 500px
    :height: 333px
    :target: http://www.flickr.com/photos/bert_m_b/4152703689/

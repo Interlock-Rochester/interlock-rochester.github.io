@@ -77,7 +77,7 @@ garage in October, it was more like an hour.
 Because this stuff isn't very cheap, I did a demo mold just to make sure
 I was on the right track.
 
-|IMG\_20131024\_1607041[1]|
+|IMG_20131024_1607041[1]|
 
 PlatSil Gel-10:
 ===============
@@ -94,7 +94,7 @@ wanted light to diffuse through it so I got that translucent version. It
 still comes out pretty white depending on how thick of a mold you're
 making.
 
-|IMG\_20131025\_1707301[1]|
+|IMG_20131025_1707301[1]|
 
 Neo Pixel:
 ==========
@@ -113,7 +113,7 @@ Adafruit has a \ `Neo Pixel
 library <https://github.com/adafruit/Adafruit_NeoPixel>`__ that you can
 use pretty easily, even if you just want to hack one of their demos.
 
-|1060quattro\_MED1[1]|
+|1060quattro_MED1[1]|
 
 Arduino:
 ========
@@ -212,17 +212,17 @@ https://gist.github.com/antitree/7188144
    :width: 225px
    :height: 300px
    :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/2013-10-271.jpg
-.. |IMG\_20131024\_1607041[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131024_16070411-300x225.jpg
+.. |IMG_20131024_1607041[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131024_16070411-300x225.jpg
    :class: alignnone size-medium wp-image-1554
    :width: 300px
    :height: 225px
    :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131024_16070411.jpg
-.. |IMG\_20131025\_1707301[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131025_17073011-225x300.jpg
+.. |IMG_20131025_1707301[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131025_17073011-225x300.jpg
    :class: alignnone size-medium wp-image-1556
    :width: 225px
    :height: 300px
    :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131025_17073011.jpg
-.. |1060quattro\_MED1[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/1060quattro_MED11-300x231.jpg
+.. |1060quattro_MED1[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/1060quattro_MED11-300x231.jpg
    :class: alignnone size-medium wp-image-1557
    :width: 300px
    :height: 231px

@@ -60,7 +60,7 @@ catalog the contents as things get added.
 
 -s
 
-.. |THE SHELVES OF POTENTIAL AWESOME!| image:: http://www.interlockroc.org/wp-content/uploads/2015/05/2015-05-19-21.25.00-300x225.jpg
+.. |THE SHELVES OF POTENTIAL AWESOME!| image:: {filename}wp-uploads/2015/05/2015-05-19-21.25.00-300x225.jpg
    :class: wp-image-1954 aligncenter
    :width: 491px
    :height: 368px

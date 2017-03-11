@@ -69,38 +69,38 @@ onto the screening, setting their backs aside into a small bag.
 Here are some pictures of the finished product in place, and covered in
 earrings.
 
-|100\_2989|
+|100_2989|
 
  
 
-|100\_2988|
+|100_2988|
 
  
 
-|100\_2987|
+|100_2987|
 
  
 
-|100\_2985|
+|100_2985|
 
  
 
-|100\_2983|
+|100_2983|
 
  
 
 And here are some close-ups of the tacks attaching the screen to the
 window frame:
 
-|100\_2992|
+|100_2992|
 
  
 
-|100\_2991|
+|100_2991|
 
  
 
-|100\_2990|
+|100_2990|
 
  
 
@@ -123,43 +123,43 @@ doing, ask for help from someone in the know.
 
 Happy Craigslist Hunting!
 
-.. |100\_2989| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2989-300x225.jpg
+.. |100_2989| image:: {filename}wp-uploads/2013/12/100_2989-300x225.jpg
    :class: alignnone size-medium wp-image-1604
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2989.jpg
-.. |100\_2988| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2988-300x225.jpg
+   :target: {filename}wp-uploads/2013/12/100_2989.jpg
+.. |100_2988| image:: {filename}wp-uploads/2013/12/100_2988-300x225.jpg
    :class: alignnone size-medium wp-image-1603
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2988.jpg
-.. |100\_2987| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2987-300x225.jpg
+   :target: {filename}wp-uploads/2013/12/100_2988.jpg
+.. |100_2987| image:: {filename}wp-uploads/2013/12/100_2987-300x225.jpg
    :class: alignnone size-medium wp-image-1602
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2987.jpg
-.. |100\_2985| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2985-300x225.jpg
+   :target: {filename}wp-uploads/2013/12/100_2987.jpg
+.. |100_2985| image:: {filename}wp-uploads/2013/12/100_2985-300x225.jpg
    :class: alignnone size-medium wp-image-1601
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2985.jpg
-.. |100\_2983| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2983-300x225.jpg
+   :target: {filename}wp-uploads/2013/12/100_2985.jpg
+.. |100_2983| image:: {filename}wp-uploads/2013/12/100_2983-300x225.jpg
    :class: alignnone size-medium wp-image-1600
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2983.jpg
-.. |100\_2992| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2992-225x300.jpg
+   :target: {filename}wp-uploads/2013/12/100_2983.jpg
+.. |100_2992| image:: {filename}wp-uploads/2013/12/100_2992-225x300.jpg
    :class: alignnone size-medium wp-image-1607
    :width: 225px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2992.jpg
-.. |100\_2991| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2991-300x225.jpg
+   :target: {filename}wp-uploads/2013/12/100_2992.jpg
+.. |100_2991| image:: {filename}wp-uploads/2013/12/100_2991-300x225.jpg
    :class: alignnone size-medium wp-image-1606
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2991.jpg
-.. |100\_2990| image:: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2990-225x300.jpg
+   :target: {filename}wp-uploads/2013/12/100_2991.jpg
+.. |100_2990| image:: {filename}wp-uploads/2013/12/100_2990-225x300.jpg
    :class: alignnone size-medium wp-image-1605
    :width: 225px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2013/12/100_2990.jpg
+   :target: {filename}wp-uploads/2013/12/100_2990.jpg

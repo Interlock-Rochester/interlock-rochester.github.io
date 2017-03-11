@@ -22,30 +22,30 @@ the hi-hat is a momentary on-switch.
 
 Drum Module
 
-|IMG\_20141216\_203915|
+|IMG_20141216_203915|
 
 Toms/Snares
 
-|IMG\_20141216\_203647 (1)|
+|IMG_20141216_203647 (1)|
 
 Cymbals and Cowbell
 
-|IMG\_20141216\_203658|
+|IMG_20141216_203658|
 
  
 
-.. |IMG\_20141216\_203915| image:: http://www.interlockroc.org/wp-content/uploads/2014/12/IMG_20141216_203915-225x300.jpg
+.. |IMG_20141216_203915| image:: {filename}wp-uploads/2014/12/IMG_20141216_203915-225x300.jpg
    :class: alignnone size-medium wp-image-1721
    :width: 225px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/12/IMG_20141216_203915.jpg
-.. |IMG\_20141216\_203647 (1)| image:: http://www.interlockroc.org/wp-content/uploads/2014/12/IMG_20141216_203647-1-300x225.jpg
+   :target: {filename}wp-uploads/2014/12/IMG_20141216_203915.jpg
+.. |IMG_20141216_203647 (1)| image:: {filename}wp-uploads/2014/12/IMG_20141216_203647-1-300x225.jpg
    :class: alignnone size-medium wp-image-1719
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/12/IMG_20141216_203647-1.jpg
-.. |IMG\_20141216\_203658| image:: http://www.interlockroc.org/wp-content/uploads/2014/12/IMG_20141216_203658-300x225.jpg
+   :target: {filename}wp-uploads/2014/12/IMG_20141216_203647-1.jpg
+.. |IMG_20141216_203658| image:: {filename}wp-uploads/2014/12/IMG_20141216_203658-300x225.jpg
    :class: alignnone size-medium wp-image-1720
    :width: 300px
    :height: 225px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/12/IMG_20141216_203658.jpg
+   :target: {filename}wp-uploads/2014/12/IMG_20141216_203658.jpg

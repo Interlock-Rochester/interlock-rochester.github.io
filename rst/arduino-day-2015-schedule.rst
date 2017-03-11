@@ -72,8 +72,8 @@ event... <http://www.meetup.com/Interlock-Rochester-Hackerspace/events/220785478
 
  
 
-.. |Screenshot 2015-03-26 21.54.10| image:: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-2015-03-26-21.54.10-300x112.png
+.. |Screenshot 2015-03-26 21.54.10| image:: {filename}wp-uploads/2015/03/Screenshot-2015-03-26-21.54.10-300x112.png
    :class: alignnone wp-image-1918
    :width: 557px
    :height: 208px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/03/Screenshot-2015-03-26-21.54.10.png
+   :target: {filename}wp-uploads/2015/03/Screenshot-2015-03-26-21.54.10.png

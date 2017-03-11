@@ -12,7 +12,7 @@ that cover a variety of topics, and an evening typically consists of
 between 15 and 20 of them. This event is free and open to the public,
 and all attendees are welcome to present.
 
-|DSC\_0639|
+|DSC_0639|
 
 While Interlock is generally a tech savvy crowd, no subject matter is
 discouraged. Past topics have included homebrewing, chemistry,
@@ -31,7 +31,7 @@ Event registration is available at
 limited! Visit our `Contact </contact/>`__ page for details on getting
 to our location.
 
-.. |DSC\_0639| image:: http://farm5.static.flickr.com/4001/4639149704_afd2826f88_m.jpg
+.. |DSC_0639| image:: http://farm5.static.flickr.com/4001/4639149704_afd2826f88_m.jpg
    :width: 240px
    :height: 160px
    :target: http://www.flickr.com/photos/bert_m_b/4639149704/

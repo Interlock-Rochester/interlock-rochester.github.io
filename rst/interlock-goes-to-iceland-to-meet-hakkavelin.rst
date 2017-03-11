@@ -25,7 +25,7 @@ passport <https://www.noisebridge.net/wiki/passport>`__ that Noisebridge
 started where you can get it stamped at the various hackerspaces that
 you visit.
 
-Hakkavélin\ |20141230\_205213|
+Hakkavélin\ |20141230_205213|
 ==============================
 
 Myself and another member recently visited Iceland for New Years for
@@ -56,8 +56,8 @@ vacation or business trip, I would strongly recommend you consider it
 next time. It's a great way to meet like-minded folk in different
 locations.
 
-.. |20141230\_205213| image:: http://www.interlockroc.org/wp-content/uploads/2015/01/20141230_205213-168x300.jpg
+.. |20141230_205213| image:: {filename}wp-uploads/2015/01/20141230_205213-168x300.jpg
    :class: size-medium wp-image-1890 alignright
    :width: 168px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/01/20141230_205213.jpg
+   :target: {filename}wp-uploads/2015/01/20141230_205213.jpg

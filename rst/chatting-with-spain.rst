@@ -19,7 +19,7 @@ Russian station but not quite enough signal to get to him with 50
 watts.  Here’s a link to a wiki
 on\ `PSK31: <http://en.wikipedia.org/wiki/PSK31>`__
 
-[caption id="attachment\_753" align="aligncenter" width="300"
+[caption id="attachment_753" align="aligncenter" width="300"
 caption="JustBill at the controls….with aliens
 supervising"]\ |image0|\ [/caption]
 

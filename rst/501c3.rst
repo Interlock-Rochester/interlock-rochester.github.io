@@ -48,8 +48,8 @@ donations, changing how dues are accepted, and working on taking
 advantage of our status, but in the mean time if you have any questions,
 you can email info at interlockroc.org.
 
-.. |501c3| image:: http://www.interlockroc.org/wp-content/uploads/2014/10/501c3-300x161.jpg
+.. |501c3| image:: {filename}wp-uploads/2014/10/501c3-300x161.jpg
    :class: size-medium wp-image-1682 aligncenter
    :width: 300px
    :height: 161px
-   :target: http://www.interlockroc.org/wp-content/uploads/2014/10/501c3.jpg
+   :target: {filename}wp-uploads/2014/10/501c3.jpg

@@ -22,7 +22,7 @@ world of hackers and makers.  A world  known as the\ * `Open-Source
 Hardware
 Movement <http://en.wikipedia.org/wiki/Open_source_hardware>`__.*
 
-[caption id="attachment\_1418" align="alignright"
+[caption id="attachment_1418" align="alignright"
 width="281"]\ |stepcounter 1| First Patent: The Stepcounter[/caption]
 
 **In many ways, being an inventor has scarred my life.   **\ In the
@@ -46,7 +46,7 @@ of your assigned responsibilities, you will probably be rebuked with
 something like “No thanks. I’ve got my own ideas and I know what I’m
 doing.  Go work on your own assignment.”
 
-[caption id="attachment\_1419" align="alignright" width="288"]\ |vue
+[caption id="attachment_1419" align="alignright" width="288"]\ |vue
 iPad in comfort| vue-stand[/caption]
 
 I graduated from Xerox a few years ago and **in 2010, my friend Ken and
@@ -98,7 +98,7 @@ and maliciously created computer viruses and things like that.**  Now it
 has come to mean people who take an existing good idea and hack on it to
 make it better.
 
-[caption id="attachment\_1420" align="alignright"
+[caption id="attachment_1420" align="alignright"
 width="277"]\ |HandleStand| iPad on a HandleStand[/caption]
 
 For instance, I have hacked-up an iPad accessory that I call the

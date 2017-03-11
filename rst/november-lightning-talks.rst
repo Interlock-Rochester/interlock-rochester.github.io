@@ -6,7 +6,7 @@ November Lightning Talks
 :slug: november-lightning-talks
 :status: published
 
-|DSC\_0313|
+|DSC_0313|
 
 Join us this Friday, November 12th at 8pm for another stimulating night
 of lightning talks at Interlock! Lightning talks are five minute(-ish)
@@ -22,7 +22,7 @@ just tech-oriented subjects. Previous talks have been about lockpicking,
 homebrewing, bookbinding, artificial intelligence, basic electronics,
 laser cutting, and on and on. Teach us something new!
 
-|DSC\_0316|
+|DSC_0316|
 
 Here is our `Googley Maps
 page <http://maps.google.com/maps/place?cid=16733278776132858158&q=1115+Main+St+E,+Rochester,+NY+14609&hl=en&ved=0CFQQ-QswAw&ei=6R7YTL24JZLqzASk97jKCQ&sll=43.161954,-77.582684&sspn=0.006295,0.006295&ie=UTF8&ll=43.166594,-77.592337&spn=0,0&z=16>`__
@@ -35,11 +35,11 @@ event <http://www.facebook.com/event.php?eid=159525710747026>`__ on said
 site, so we can calculate pizza ingestion and seating requirements. See
 you this Friday!
 
-.. |DSC\_0313| image:: http://farm3.static.flickr.com/2706/4422595768_d141b52aa5_m.jpg
+.. |DSC_0313| image:: http://farm3.static.flickr.com/2706/4422595768_d141b52aa5_m.jpg
    :width: 240px
    :height: 160px
    :target: http://www.flickr.com/photos/bert_m_b/4422595768/
-.. |DSC\_0316| image:: http://farm5.static.flickr.com/4038/4421833521_746fb94c07_m.jpg
+.. |DSC_0316| image:: http://farm5.static.flickr.com/4038/4421833521_746fb94c07_m.jpg
    :width: 240px
    :height: 160px
    :target: http://www.flickr.com/photos/bert_m_b/4421833521/

@@ -24,7 +24,7 @@ Alternately, with a little bit of prep work, perhaps using the above
 technique to get everything set up to start, you can program your Pi to
 announce its IP address via audio using text-to-speech.
 
-[caption id="attachment\_1665" align="aligncenter"
+[caption id="attachment_1665" align="aligncenter"
 width="300"]\ |earbuds| Much cheaper output than a HDMI-capable
 monitor[/caption]
 
@@ -106,7 +106,7 @@ Thanks go Matt via the Raspberry Pi blog for this `tip on configuring
 the
 audio. <http://www.raspberrypi-spy.co.uk/2013/06/raspberry-pi-command-line-audio/>`__
 
-.. |earbuds| image:: http://www.interlockroc.org/wp-content/uploads/2014/06/earbuds-300x225.jpg
+.. |earbuds| image:: {filename}wp-uploads/2014/06/earbuds-300x225.jpg
    :class: wp-image-1665 size-medium
    :width: 300px
    :height: 225px

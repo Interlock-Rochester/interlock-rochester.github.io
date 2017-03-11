@@ -16,12 +16,12 @@ unfortunately not sustainable for us.  After much research and
 thoughtful debate, the decision was to use a Ubiquiti based wireless
 system. Here are some action shots of the team installing them.
 
-|20150428\_193446|  |20150428\_201328| |image|
+|20150428_193446|  |20150428_201328| |image|
 
 Wonderfully professional install if you ask me.  Here is a nice image of
 the layout.
 
-|Selection\_002|
+|Selection_002|
 
  
 
@@ -33,22 +33,22 @@ Please enjoy your new wireless experience at Interlock Rochester.
 
 JustBill -- an Interlock NetAdmin
 
-.. |20150428\_193446| image:: http://www.interlockroc.org/wp-content/uploads/2015/05/20150428_193446-e1432343321802-169x300.jpg
+.. |20150428_193446| image:: {filename}wp-uploads/2015/05/20150428_193446-e1432343321802-169x300.jpg
    :class: alignnone size-medium wp-image-1958
    :width: 169px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/05/20150428_193446-e1432343321802.jpg
-.. |20150428\_201328| image:: http://www.interlockroc.org/wp-content/uploads/2015/05/20150428_201328-e1432343776657-169x300.jpg
+   :target: {filename}wp-uploads/2015/05/20150428_193446-e1432343321802.jpg
+.. |20150428_201328| image:: {filename}wp-uploads/2015/05/20150428_201328-e1432343776657-169x300.jpg
    :class: alignnone size-medium wp-image-1959
    :width: 169px
    :height: 300px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/05/20150428_201328-e1432343776657.jpg
-.. |image| image:: http://www.interlockroc.org/wp-content/uploads/2015/05/image-170x300.jpg
+   :target: {filename}wp-uploads/2015/05/20150428_201328-e1432343776657.jpg
+.. |image| image:: {filename}wp-uploads/2015/05/image-170x300.jpg
    :class: alignnone size-medium wp-image-1960
    :width: 170px
    :height: 300px
-.. |Selection\_002| image:: http://www.interlockroc.org/wp-content/uploads/2015/05/Selection_002-300x235.png
+.. |Selection_002| image:: {filename}wp-uploads/2015/05/Selection_002-300x235.png
    :class: size-medium wp-image-1961 aligncenter
    :width: 300px
    :height: 235px
-   :target: http://www.interlockroc.org/wp-content/uploads/2015/05/Selection_002.png
+   :target: {filename}wp-uploads/2015/05/Selection_002.png
