@@ -30,7 +30,7 @@
                 </h2>
             </a>
             {% if article.summary %}
-                {{ article.summary|truncate(140) }}
+                {{ article.summary|striptags|truncate(140) }}
             {% endif %}
             <p class="post-meta">Posted by
                 {% for author in article.authors %}
