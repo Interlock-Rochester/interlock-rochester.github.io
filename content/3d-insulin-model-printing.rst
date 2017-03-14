@@ -99,13 +99,13 @@ from
 via the `PyMOL <http://www.pymol.org>`__ mailing list several years ago.
 
 .. |9ins solvent-accessible surface Z rotation| image:: http://deejoe.etrumeus.com/interlock/9ins/9ins.gif
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/montage2.png
+.. |image1| image:: /wp-uploads/2012/05/montage2.png
    :class: alignnone size-full wp-image-928
    :width: 576px
    :height: 567px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/montage2.png
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/IMG_4786-300x225.jpg
+   :target: /wp-uploads/2012/05/montage2.png
+.. |image2| image:: /wp-uploads/2012/05/IMG_4786-300x225.jpg
    :class: alignnone size-medium wp-image-889
    :width: 300px
    :height: 225px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/IMG_4786.jpg
+   :target: /wp-uploads/2012/05/IMG_4786.jpg

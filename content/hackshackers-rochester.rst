@@ -193,11 +193,11 @@ otherwise utilize your vast cranial resources. See you there!
    :width: 600px
    :height: 400px
    :target: http://www.flickr.com/photos/bert_m_b/6726571927/
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/02/tilemill_screenshot.jpg
+.. |image1| image:: /wp-uploads/2012/02/tilemill_screenshot.jpg
    :class: alignnone size-full wp-image-814
    :width: 600px
    :height: 389px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/02/tilemill_screenshot.jpg
+   :target: /wp-uploads/2012/02/tilemill_screenshot.jpg
 .. |Geiger Counter| image:: http://farm7.staticflickr.com/6145/6190437602_041ccdbf22_z.jpg
    :width: 600px
    :height: 400px

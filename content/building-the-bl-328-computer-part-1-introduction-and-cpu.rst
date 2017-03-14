@@ -220,23 +220,23 @@ need a host computer at all!
 
  
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.38.02-300x224.jpg
+.. |image0| image:: /wp-uploads/2012/10/2012-09-30-14.38.02-300x224.jpg
    :class: aligncenter size-medium wp-image-1009
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.38.02.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.38.15-300x224.jpg
+   :target: /wp-uploads/2012/10/2012-09-30-14.38.02.jpg
+.. |image1| image:: /wp-uploads/2012/10/2012-09-30-14.38.15-300x224.jpg
    :class: aligncenter size-medium wp-image-1010
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.38.15.jpg
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.39.24-300x224.jpg
+   :target: /wp-uploads/2012/10/2012-09-30-14.38.15.jpg
+.. |image2| image:: /wp-uploads/2012/10/2012-09-30-14.39.24-300x224.jpg
    :class: aligncenter size-medium wp-image-1013
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.39.24.jpg
-.. |image3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.38.45-300x224.jpg
+   :target: /wp-uploads/2012/10/2012-09-30-14.39.24.jpg
+.. |image3| image:: /wp-uploads/2012/10/2012-09-30-14.38.45-300x224.jpg
    :class: aligncenter size-medium wp-image-1011
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/2012-09-30-14.38.45.jpg
+   :target: /wp-uploads/2012/10/2012-09-30-14.38.45.jpg

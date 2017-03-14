@@ -8,6 +8,6 @@
 
 |Open House|
 
-.. |Open House| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/2013-FlyerSM.jpg
+.. |Open House| image:: /wp-uploads/2013/02/2013-FlyerSM.jpg
    :width: 612px
    :height: 792px

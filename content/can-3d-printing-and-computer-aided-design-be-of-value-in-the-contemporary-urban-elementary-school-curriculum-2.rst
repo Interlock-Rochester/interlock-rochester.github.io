@@ -70,18 +70,18 @@ discussed in later postings.  One of the neat things about
 rapid-prototyping in the classroom is the ease with which teachers,
 parents and designers can share their designs and ideas with each other.
 
-.. |America's Cup Toy Boat| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/08/Americas-Cup-Toy-Boat1.png
+.. |America's Cup Toy Boat| image:: /wp-uploads/2013/08/Americas-Cup-Toy-Boat1.png
    :class: aligncenter wp-image-1489
    :width: 480px
    :height: 341px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/08/Americas-Cup-Toy-Boat1.png
-.. |Student ratings| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/08/Student-ratings.png
+   :target: /wp-uploads/2013/08/Americas-Cup-Toy-Boat1.png
+.. |Student ratings| image:: /wp-uploads/2013/08/Student-ratings.png
    :class: aligncenter size-full wp-image-1490
    :width: 590px
    :height: 308px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/08/Student-ratings.png
-.. |MacGyverBot in the classroom| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/08/MacGyverBot-in-the-classroom.jpg
+   :target: /wp-uploads/2013/08/Student-ratings.png
+.. |MacGyverBot in the classroom| image:: /wp-uploads/2013/08/MacGyverBot-in-the-classroom.jpg
    :class: aligncenter wp-image-1491
    :width: 553px
    :height: 338px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/08/MacGyverBot-in-the-classroom.jpg
+   :target: /wp-uploads/2013/08/MacGyverBot-in-the-classroom.jpg

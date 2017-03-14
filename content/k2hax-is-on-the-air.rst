@@ -63,7 +63,7 @@ may have.
 
 |Hammy Shack|\ |The Ham Shack|
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/11/ham_temp-e1322411759170.jpg
+.. |image0| image:: /wp-uploads/2011/11/ham_temp-e1322411759170.jpg
    :class: alignright size-full wp-image-707
    :width: 256px
    :height: 569px

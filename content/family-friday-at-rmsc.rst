@@ -61,13 +61,13 @@ robot at RMSC| Greater Rochester Robotic's 2013 FIRST robot wheels
 around the first floor of the Rochester Museum & Science
 Center.[/caption]
 
-.. |Interlock's table at RMSC| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/rmsc-anon-512.jpg
+.. |Interlock's table at RMSC| image:: /wp-uploads/2013/07/rmsc-anon-512.jpg
    :class: size-full wp-image-1480
    :width: 512px
    :height: 384px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/rmsc-anon-512.jpg
-.. |GRR robot at RMSC| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/nemesis-pixelize-5121.jpg
+   :target: /wp-uploads/2013/07/rmsc-anon-512.jpg
+.. |GRR robot at RMSC| image:: /wp-uploads/2013/07/nemesis-pixelize-5121.jpg
    :class: size-full wp-image-1481
    :width: 512px
    :height: 384px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/nemesis-pixelize-5121.jpg
+   :target: /wp-uploads/2013/07/nemesis-pixelize-5121.jpg

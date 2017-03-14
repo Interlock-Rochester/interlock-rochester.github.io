@@ -31,8 +31,8 @@ I'm also volunteering with Livonia Fire/EMS, so for the public safety
 scanning enthusiasts listen for 298[X] (EMS) or 25[X] (fire) on
 Livingston County Fire/EMS dispatch (46.16).
 
-.. |Ben's Antenna| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o-224x300.jpg
+.. |Ben's Antenna| image:: /wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o-224x300.jpg
    :class: alignright
    :width: 224px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o.jpg
+   :target: /wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o.jpg

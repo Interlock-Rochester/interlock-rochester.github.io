@@ -33,15 +33,15 @@ took a bunch of pictures as they held hands. With the help of some
 software, he'll be able to turn them into a 3D model and hopefully print
 them out so they look like cake toppers. Congratulations guys!
 
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_20121215_143018.jpg
+.. |image1| image:: /wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg
    :class: aligncenter
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_20121215_143018.jpg
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_4713.jpg
+   :target: /wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg
+.. |image2| image:: /wp-uploads/2012/12/wpid-IMG_4713.jpg
    :class: aligncenter
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_4713.jpg
-.. |image3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_4738.jpg
+   :target: /wp-uploads/2012/12/wpid-IMG_4713.jpg
+.. |image3| image:: /wp-uploads/2012/12/wpid-IMG_4738.jpg
    :class: aligncenter
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_4738.jpg
-.. |image4| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_20121215_152207.jpg
+   :target: /wp-uploads/2012/12/wpid-IMG_4738.jpg
+.. |image4| image:: /wp-uploads/2012/12/wpid-IMG_20121215_152207.jpg
    :class: aligncenter
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/12/wpid-IMG_20121215_152207.jpg
+   :target: /wp-uploads/2012/12/wpid-IMG_20121215_152207.jpg

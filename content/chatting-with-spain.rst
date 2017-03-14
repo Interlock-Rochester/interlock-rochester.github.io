@@ -36,8 +36,8 @@ around K2HAX, go `here <http://aprs.fi/?call=K2HAX&others=1>`__.
 
 ’73 – N2ZVP - rochbert
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/12/chattingwithspain-300x225.jpg
+.. |image0| image:: /wp-uploads/2011/12/chattingwithspain-300x225.jpg
    :class: size-medium wp-image-753
    :width: 300px
    :height: 225px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/12/chattingwithspain.jpg
+   :target: /wp-uploads/2011/12/chattingwithspain.jpg

@@ -94,68 +94,68 @@ Experiments for another day.
 
 Thanks to Jaimee and Bill for their help with this.
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0179-300x200.jpg
+.. |image0| image:: /wp-uploads/2011/08/DSC_0179-300x200.jpg
    :class: size-medium wp-image-447
    :width: 300px
    :height: 200px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0179.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/squishy1-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_0179.jpg
+.. |image1| image:: /wp-uploads/2011/08/squishy1-150x150.jpg
    :class: size-thumbnail wp-image-446
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/squishy1.jpg
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/squishy4-150x150.jpg
+   :target: /wp-uploads/2011/08/squishy1.jpg
+.. |image2| image:: /wp-uploads/2011/08/squishy4-150x150.jpg
    :class: size-thumbnail wp-image-448
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/squishy4.jpg
-.. |image3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/squishy71-150x150.jpg
+   :target: /wp-uploads/2011/08/squishy4.jpg
+.. |image3| image:: /wp-uploads/2011/08/squishy71-150x150.jpg
    :class: size-thumbnail wp-image-453
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/squishy71.jpg
-.. |image4| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_01481-150x150.jpg
+   :target: /wp-uploads/2011/08/squishy71.jpg
+.. |image4| image:: /wp-uploads/2011/08/DSC_01481-150x150.jpg
    :class: size-thumbnail wp-image-454
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_01481.jpg
-.. |image5| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_01501-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_01481.jpg
+.. |image5| image:: /wp-uploads/2011/08/DSC_01501-150x150.jpg
    :class: size-thumbnail wp-image-455
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_01501.jpg
-.. |image6| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0159-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_01501.jpg
+.. |image6| image:: /wp-uploads/2011/08/DSC_0159-150x150.jpg
    :class: size-thumbnail wp-image-456
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0159.jpg
-.. |image7| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0160-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_0159.jpg
+.. |image7| image:: /wp-uploads/2011/08/DSC_0160-150x150.jpg
    :class: size-thumbnail wp-image-457
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0160.jpg
-.. |image8| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0162-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_0160.jpg
+.. |image8| image:: /wp-uploads/2011/08/DSC_0162-150x150.jpg
    :class: size-thumbnail wp-image-458
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0162.jpg
-.. |image9| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0163-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_0162.jpg
+.. |image9| image:: /wp-uploads/2011/08/DSC_0163-150x150.jpg
    :class: size-thumbnail wp-image-459
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0163.jpg
-.. |image10| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0171-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_0163.jpg
+.. |image10| image:: /wp-uploads/2011/08/DSC_0171-150x150.jpg
    :class: size-thumbnail wp-image-468
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0171.jpg
-.. |image11| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0179-150x150.jpg
+   :target: /wp-uploads/2011/08/DSC_0171.jpg
+.. |image11| image:: /wp-uploads/2011/08/DSC_0179-150x150.jpg
    :class: size-thumbnail wp-image-447
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0179.jpg
-.. |image12| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0197-200x300.jpg
+   :target: /wp-uploads/2011/08/DSC_0179.jpg
+.. |image12| image:: /wp-uploads/2011/08/DSC_0197-200x300.jpg
    :class: size-medium wp-image-463
    :width: 200px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSC_0197.jpg
+   :target: /wp-uploads/2011/08/DSC_0197.jpg

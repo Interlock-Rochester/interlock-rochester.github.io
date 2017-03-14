@@ -55,13 +55,13 @@ Attendance is free but requires that you sign up before hand. Go
 `HERE <http://www.bsidesroc.com>`__\ to sign up. The conference starts
 at 8am so be there early to get the breakfast.
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/BSides_Roc_web_2-243x300.png
+.. |image0| image:: /wp-uploads/2012/05/BSides_Roc_web_2-243x300.png
    :class: aligncenter size-medium wp-image-873
    :width: 243px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/BSides_Roc_web_2.png
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/masonic_temple_bsidesroc-1024x337.jpg
+   :target: /wp-uploads/2012/05/BSides_Roc_web_2.png
+.. |image1| image:: /wp-uploads/2012/05/masonic_temple_bsidesroc-1024x337.jpg
    :class: aligncenter wp-image-874
    :width: 717px
    :height: 236px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/masonic_temple_bsidesroc.jpg
+   :target: /wp-uploads/2012/05/masonic_temple_bsidesroc.jpg
