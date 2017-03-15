@@ -8,7 +8,7 @@ Hacking a controller back into an Arduino Mega 1280
 
 |image0|
 
-At `Interlock <http://interlockroc.org/>`__, JustBill handed me the old
+At `Interlock </>`__, JustBill handed me the old
 controller board for a gutted 3D printer that he was rebuilding. "Do
 whatever you want with this." A close inspection of the board showed
 that it had a main microcontroller of the ATmega 1280, which is the chip

@@ -49,4 +49,4 @@ When And Where
 These classes will take place every Tuesday at 8:00PM from October 12th
 until November 9th. For further information or to get directions to the
 space, please visit the
-`Contact <http://www.interlockroc.org/contact/>`__ page.
+`Contact </contact/>`__ page.

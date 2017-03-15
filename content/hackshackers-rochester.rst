@@ -79,7 +79,7 @@ one format into another, extending it with web services, and linking it
 to databases like `Freebase <http://www.freebase.com/>`__." If you're
 dealing with cruddy data of any sort, you should check it out. It's a
 bit of a weird install, running as a web server on your computer. Ask
-your `local nerds <http://interlockroc.org/>`__ if you're having
+your `local nerds </>`__ if you're having
 trouble... it's worth it.
 
 Community Data

@@ -16,15 +16,15 @@ Fridays <http://www.rmsc.org/Experiences/FamilyPrograms/FamilyFridays/>`__
 series.
 
 From left to right, we see the
-`MacGyverbot <http://interlockroc.org/author/macgyvrbot/>`__ Printrbot
+`MacGyverbot </author/macgyvrbot/>`__ Printrbot
 LC generously lent for this demonstration but often seen in operation at
 Interlock, the `Interlock
-Huxley <http://interlockroc.org/2011/12/06/interlock-reprapchester/>`__
+Huxley </2011/12/06/interlock-reprapchester/>`__
 `RepRapPro <http://reprappro.com/products/huxley/>`__ 3D printer, a blue
 and white lunch-sized slow cooker keeping some `Polycaprolactone (PCL)
 hand-moldable <http://en.wikipedia.org/wiki/Polycaprolactone>`__ and
 `3D-printable thermoplastic <http://reprap.org/wiki/Polycaprolactone>`__
-(`previously <http://interlockroc.org/2011/12/01/dashing-through-the-thermoplastic-2/>`__)
+(`previously </2011/12/01/dashing-through-the-thermoplastic-2/>`__)
 warm and ready to try for free-form molding, the `shoebox
 regatta <http://www.thingiverse.com/thing:116005>`__ demonstration (with
 special guest `Mr. Jaws! <http://www.thingiverse.com/thing:14702>`__),

@@ -17,7 +17,7 @@ into your ssh client.
 
 Earlier, these pages addressed this problem `using VNC to provide a
 remote Raspberry Pi
-display <http://www.interlockroc.org/2012/12/06/raspberry-pi-macgyver/>`__
+display </2012/12/06/raspberry-pi-macgyver/>`__
 (eg, from your laptop).  It's a good approach, well documented.
 
 Alternately, with a little bit of prep work, perhaps using the above

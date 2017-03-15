@@ -76,7 +76,7 @@ Hackerspace Tour
 
    </div>
 
-`See you there <http://interlockroc.org/contact/>`__
+`See you there </contact/>`__
 ====================================================
 
 .. |image0| image:: /wp-uploads/2012/03/interlock_oldspice-e1331824667576.png

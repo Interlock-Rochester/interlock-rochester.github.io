@@ -27,7 +27,7 @@ Interlock <http://wiki.interlockroc.org/wiki/index.php/Treasurer_Operations#Ways
 wiki page.
 
 Interested in becoming a member?  Take a look at `our About
-page <http://www.interlockroc.org/about/>`__ for more information on
+page </about/>`__ for more information on
 becoming a member, or stop by one of our Weekly Meetup Nights!
 
 .. |BitcoinSign.svg| image:: {filename}wp-uploads/2016/02/BitcoinSign.svg_.png

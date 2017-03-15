@@ -52,7 +52,7 @@ on it for a while.
 
 A few days ago, a comment on the above video re-sparked interest in this
 project and I decided to bring the Amiga over
-to \ `Interlock <http://interlockroc.org/>`__ and really get to the
+to \ `Interlock </>`__ and really get to the
 bottom of the problem. I hooked it up to a scope and followed the paths
 according to the schematics.
 

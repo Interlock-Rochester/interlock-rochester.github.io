@@ -17,7 +17,7 @@ It was, in short, a great time.  We had a fairly good variety of folks
 wander through, from pre-teens on up.  I spent a while fishing out from
 a small water-filled [STRIKEOUT:crockpot] slow cooker `fun little blobs
 of warm
-polycaprolactone <http://interlockroc.org/2011/12/01/dashing-through-the-thermoplastic-2/>`__
+polycaprolactone </2011/12/01/dashing-through-the-thermoplastic-2/>`__
 These I then shoved into the hands of anyone who would take them as they
 wandered through our conference/presentation/meeting room. It was great
 seeing folks' reaction to its warm, pliable nature and to listen to them
@@ -30,7 +30,7 @@ I took a bit of a break from running my mouth and from noodling around
 in the hot water and gooey PCL  to watch  a short but sweet
 `TOOOL <http://toool.us/>`__-designed lockpicking slideshow, followed by
 a lockpicking workshop. 
-`Antitree <http://interlockroc.org/author/antitree/>`__ had done the
+`Antitree </author/antitree/>`__ had done the
 pied-piper trick, drawing a bunch of kids-in-fact and kids-at-heart into
 the conference room for a short statement of the lock picking rules, a
 little bit of lock construction and mechanism theory and picking
@@ -39,7 +39,7 @@ tools and real locksets for some hand's-on experience.  Folks really
 seemed to have a good time with trying it out.
 
 Elsewhere in the space, all the folks `originally promised to
-appear <http://interlockroc.org/2012/03/15/open-house-new-space/>`__\ were
+appear </2012/03/15/open-house-new-space/>`__\ were
 around.  I can only guess at how awesome their presentations were, but
 there seemed to be people everywhere.  Early on, I was worried no one
 would make it into the not-a-kitchen for snacks, but that turned out to

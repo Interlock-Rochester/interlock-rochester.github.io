@@ -28,7 +28,7 @@ backlight.  I thought that the LED one would be easier to get working.
 
  
 
-Over at `Interlock <http://interlockroc.org/>`__, I tore apart the
+Over at `Interlock </>`__, I tore apart the
 screens, tossing out the LCD panel, so I was left with just the light
 source, light guide, diffusion screens, and control circuitry.  Its
 control/driver board also managed the LCD itself.  There were many test

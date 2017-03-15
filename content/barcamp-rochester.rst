@@ -23,7 +23,7 @@ what Interlock is all about... but no longer!
 |image1|
 
 After becoming a little obsessed with `old pen
-plotters <http://interlockroc.org/2011/09/13/plottopotamus/>`__ over the
+plotters </2011/09/13/plottopotamus/>`__ over the
 past few months, I decided I'd like to try assembling my own drawing
 robot. The main goal, again, was to have something small, cool, and
 interactive to attract folks at events where we have a table or booth.
