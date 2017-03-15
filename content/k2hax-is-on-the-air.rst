@@ -67,7 +67,7 @@ may have.
    :class: alignright size-full wp-image-707
    :width: 256px
    :height: 569px
-   :target: /wp-content/uploads/2011/11/ham_temp-e1322411639629.jpg
+   :target: /wp-uploads/2011/11/ham_temp-e1322411639629.jpg
 .. |Hammy Shack| image:: http://farm7.staticflickr.com/6113/6359831907_fc4ced2e17_z.jpg
    :class: alignnone
    :width: 252px

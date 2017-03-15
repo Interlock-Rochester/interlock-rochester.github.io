@@ -38,7 +38,7 @@ Thingiverse <http://www.thingiverse.com/thing:48096>`__
  
 
 `|Fan Shroud|\ Z-Stop Adjuster for Printrbot LC by MacGyvrBot -
-Thingiverse </2013/02/07/macgyvrbot-introduction/fan-shroud/>`__ that
+Thingiverse </wp-uploads/2013/02/Fan-Shroud.jpg>`__ that
 lets Skip tweak the thickness of my first layer if the printed perimeter
 doesn’t look perfect.
 
@@ -78,16 +78,16 @@ blog**.
    :class: aligncenter
    :width: 336px
    :height: 450px
-   :target: /2013/02/07/macgyvrbot-introduction/brackets/
-.. |Fan Shroud| image:: http://interlockroc.wpengine.com/wp-content/upl%C2%A0%3Ca%20href=
+   :target: /wp-uploads/2013/02/Brackets.jpg
+.. |Fan Shroud| image:: /wp-uploads/2013/02/Fan-Shroud.jpg
    :class: aligncenter
 .. |Spotlight| image:: /wp-uploads/2013/02/Spotlight-300x245.jpg
    :class: aligncenter
    :width: 300px
    :height: 245px
-   :target: /2013/02/07/macgyvrbot-introduction/spotlight/
+   :target: /wp-uploads/2013/02/Spotlight.jpg
 .. |Handle Stand| image:: /wp-uploads/2013/02/Handle-Stand1-225x300.jpg
    :class: aligncenter
    :width: 270px
    :height: 360px
-   :target: /2013/02/07/macgyvrbot-introduction/handle-stand/
+   :target: /wp-uploads/2013/02/HandleStand.jpg

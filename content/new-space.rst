@@ -49,7 +49,7 @@ in fact... some of which we're not quite sure what to do with. If you
 want to see more pictures, there's always `our flickr
 group <http://www.flickr.com/groups/interlock_roc/pool/>`__, or better
 yet: come visit us in person! Check out `our
-calendar </calendar/>`__ for a schedule of events
+calendar </pages/calendar.html>`__ for a schedule of events
 and open nights.
 
 .. |The Workshop| image:: http://farm7.staticflickr.com/6107/6356772513_7c2a8f93cc_z.jpg

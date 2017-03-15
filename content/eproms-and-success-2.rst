@@ -7,7 +7,7 @@ Eproms and SUCCESS!
 :status: published
 
 This is a continuation of a \ `previous
-article </2012/11/07/eproms-and-failure/>`__.
+article </eproms-and-failure>`__.
  Quick summary: I tried to build a device for dumping an EPROM via
 Arduino, and I constructed a device that had no chance of working.
  Oops.

@@ -16,7 +16,7 @@ room.
 
 Brian wowed them with his always crowd pleasing custom pen `plot-matrix
 printer he's famous
-for </2011/10/30/barcamp-rochester/>`__. The
+for </barcamp-rochester>`__. The
 picture above is the pre-printed artist's rendition of Seth holding his
 mic.
 

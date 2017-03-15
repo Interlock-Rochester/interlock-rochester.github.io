@@ -64,4 +64,4 @@ Membership is the best way to support the group because this is how
 we pay the bills. If you're interested in becoming a member, stop by and
 see if you like the space, and fill out the membership application. You
 can find more information in our
-`About </about/>`__\ section.
+`About </pages/about.html>`__\ section.

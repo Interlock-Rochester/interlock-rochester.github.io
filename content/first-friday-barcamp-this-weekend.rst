@@ -23,5 +23,5 @@ Rochester <http://barcamprochester.org/>`__. This is an event at RIT
 that a lot of people will be attending. The idea is anyone can attend
 but you must participate by doing a talk.
 
-Check out our `calendar </calendar>`__ for times and other events going
+Check out our `calendar </pages/calendar.html>`__ for times and other events going
 on.

@@ -11,7 +11,7 @@ meetings <http://twitter.com/#!/interlockroc/statuses/200546366982848512>`__
 recently, with a fifth person getting trained up on how to use our
 current printer, and are on the cusp of another advancement in our
 `previously-mentioned 3D printing
-capabilities </2012/03/21/quick-open-house-recap/>`__,
+capabilities </quick-open-house-recap>`__,
 now that 3 people have decided which printer design they're going to
 build next.
 
