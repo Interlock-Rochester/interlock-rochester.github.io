@@ -36,8 +36,9 @@ I can carry my MacBook around in **Brackets** on my starboard side.
 Thingiverse <http://www.thingiverse.com/thing:48096>`__
 
  
+|Fan Shroud|
 
-`|Fan Shroud|\ Z-Stop Adjuster for Printrbot LC by MacGyvrBot -
+`Z-Stop Adjuster for Printrbot LC by MacGyvrBot -
 Thingiverse </wp-uploads/2013/02/Fan-Shroud.jpg>`__ that
 lets Skip tweak the thickness of my first layer if the printed perimeter
 doesn’t look perfect.
@@ -79,8 +80,11 @@ blog**.
    :width: 336px
    :height: 450px
    :target: /wp-uploads/2013/02/Brackets.jpg
-.. |Fan Shroud| image:: /wp-uploads/2013/02/Fan-Shroud.jpg
+.. |Fan Shroud| image:: /wp-uploads/2013/02/Fan-Shroud-259x300.jpg
+   :width: 259px
+   :height: 300px
    :class: aligncenter
+   :target: /wp-uploads/2013/02/Fan-Shroud.jpg
 .. |Spotlight| image:: /wp-uploads/2013/02/Spotlight-300x245.jpg
    :class: aligncenter
    :width: 300px
