@@ -202,28 +202,28 @@ and I'll be upgrading it next iteration.
 
 https://gist.github.com/antitree/7188144
 
-.. |2013-10-27-1[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/2013-10-27-11-225x300.jpg
+.. |2013-10-27-1[1]| image:: /wp-uploads/2013/11/2013-10-27-11-225x300.jpg
    :class: alignnone size-medium wp-image-1551
    :width: 225px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/2013-10-27-11.jpg
-.. |2013-10-27[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/2013-10-271-225x300.jpg
+   :target: /wp-uploads/2013/11/2013-10-27-11.jpg
+.. |2013-10-27[1]| image:: /wp-uploads/2013/11/2013-10-271-225x300.jpg
    :class: alignnone size-medium wp-image-1555
    :width: 225px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/2013-10-271.jpg
-.. |IMG_20131024_1607041[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131024_16070411-300x225.jpg
+   :target: /wp-uploads/2013/11/2013-10-271.jpg
+.. |IMG_20131024_1607041[1]| image:: /wp-uploads/2013/11/IMG_20131024_16070411-300x225.jpg
    :class: alignnone size-medium wp-image-1554
    :width: 300px
    :height: 225px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131024_16070411.jpg
-.. |IMG_20131025_1707301[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131025_17073011-225x300.jpg
+   :target: /wp-uploads/2013/11/IMG_20131024_16070411.jpg
+.. |IMG_20131025_1707301[1]| image:: /wp-uploads/2013/11/IMG_20131025_17073011-225x300.jpg
    :class: alignnone size-medium wp-image-1556
    :width: 225px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/IMG_20131025_17073011.jpg
-.. |1060quattro_MED1[1]| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/1060quattro_MED11-300x231.jpg
+   :target: /wp-uploads/2013/11/IMG_20131025_17073011.jpg
+.. |1060quattro_MED1[1]| image:: /wp-uploads/2013/11/1060quattro_MED11-300x231.jpg
    :class: alignnone size-medium wp-image-1557
    :width: 300px
    :height: 231px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/11/1060quattro_MED11.jpg
+   :target: /wp-uploads/2013/11/1060quattro_MED11.jpg

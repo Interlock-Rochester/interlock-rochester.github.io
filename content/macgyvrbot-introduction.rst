@@ -36,9 +36,10 @@ I can carry my MacBook around in **Brackets** on my starboard side.
 Thingiverse <http://www.thingiverse.com/thing:48096>`__
 
  
+|Fan Shroud|
 
-`|Fan Shroud|\ Z-Stop Adjuster for Printrbot LC by MacGyvrBot -
-Thingiverse <http://interlockroc.org/2013/02/07/macgyvrbot-introduction/fan-shroud/>`__ that
+`Z-Stop Adjuster for Printrbot LC by MacGyvrBot -
+Thingiverse </wp-uploads/2013/02/Fan-Shroud.jpg>`__ that
 lets Skip tweak the thickness of my first layer if the printed perimeter
 doesn’t look perfect.
 
@@ -70,24 +71,27 @@ blog**.
 
 ￼
 
-.. |MacGyvrBot Mug| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/MacGyvrBot-Mug1-273x300.jpg
+.. |MacGyvrBot Mug| image:: /wp-uploads/2013/02/MacGyvrBot-Mug1-273x300.jpg
    :class: aligncenter
    :width: 410px
    :height: 450px
-.. |Brackets| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/Brackets-224x300.jpg
+.. |Brackets| image:: /wp-uploads/2013/02/Brackets-224x300.jpg
    :class: aligncenter
    :width: 336px
    :height: 450px
-   :target: http://interlockroc.org/2013/02/07/macgyvrbot-introduction/brackets/
-.. |Fan Shroud| image:: http://interlockroc.wpengine.com/wp-content/upl%C2%A0%3Ca%20href=
+   :target: /wp-uploads/2013/02/Brackets.jpg
+.. |Fan Shroud| image:: /wp-uploads/2013/02/Fan-Shroud-259x300.jpg
+   :width: 259px
+   :height: 300px
    :class: aligncenter
-.. |Spotlight| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/Spotlight-300x245.jpg
+   :target: /wp-uploads/2013/02/Fan-Shroud.jpg
+.. |Spotlight| image:: /wp-uploads/2013/02/Spotlight-300x245.jpg
    :class: aligncenter
    :width: 300px
    :height: 245px
-   :target: http://interlockroc.org/2013/02/07/macgyvrbot-introduction/spotlight/
-.. |Handle Stand| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/Handle-Stand1-225x300.jpg
+   :target: /wp-uploads/2013/02/Spotlight.jpg
+.. |Handle Stand| image:: /wp-uploads/2013/02/Handle-Stand1-225x300.jpg
    :class: aligncenter
    :width: 270px
    :height: 360px
-   :target: http://interlockroc.org/2013/02/07/macgyvrbot-introduction/handle-stand/
+   :target: /wp-uploads/2013/02/HandleStand.jpg

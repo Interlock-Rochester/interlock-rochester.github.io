@@ -106,13 +106,13 @@ out: \ http://www.engadget.com/2011/06/10/engadget-primed-what-is-nfc-and-why-d
 Here' s a random YouTube video of two guys with Galaxy Nexuses so I
 don't have to make one: \ http://www.youtube.com/watch?v=ZQSc4uiakv4
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/NFC-logo.png
+.. |image0| image:: /wp-uploads/2011/08/NFC-logo.png
    :class: alignright size-full wp-image-429
    :width: 284px
    :height: 237px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/NFC-logo.png
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/tinfoilhat.jpg
+   :target: /wp-uploads/2011/08/NFC-logo.png
+.. |image1| image:: /wp-uploads/2011/08/tinfoilhat.jpg
    :class: alignright size-full wp-image-428
    :width: 340px
    :height: 255px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/tinfoilhat.jpg
+   :target: /wp-uploads/2011/08/tinfoilhat.jpg

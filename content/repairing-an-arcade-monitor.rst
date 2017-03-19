@@ -90,7 +90,7 @@ the board.  Old, dusty, puffy caps in the plastic bag.  I'm not entirely
 sure why I kept them...*
 
 Thanks to the awesome desoldering tool
-at \ `Interlock <http://interlockroc.org/>`__, I was able to do this in
+at \ `Interlock </>`__, I was able to do this in
 about 45 minutes, rather than the 3 hours it took me years ago.
 
 |image4|

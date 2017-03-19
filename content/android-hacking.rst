@@ -85,8 +85,8 @@ In the coming months, along with all the other changes, we're planning
 on doing an Android workshop at the space. Depending on the interest it
 may be related to rooting or application development.
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/09/android_hack_logo-150x150.jpg
+.. |image0| image:: /wp-uploads/2011/09/android_hack_logo-150x150.jpg
    :class: alignright size-thumbnail wp-image-520
    :width: 150px
    :height: 150px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/09/android_hack_logo.jpg
+   :target: /wp-uploads/2011/09/android_hack_logo.jpg

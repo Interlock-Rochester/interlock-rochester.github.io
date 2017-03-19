@@ -23,7 +23,7 @@ Missed The Class?
 
 If you would like to take this course but were unable to attend the
 first class, fret not! You can catch up by reading the `lecture
-notes </wp-content/uploads/2010/10/basic-electronics-class-1.pdf>`__,
+notes </wp-uploads/2010/10/basic-electronics-class-1.pdf>`__,
 and there will be plenty of knowledgeable individuals to answer
 questions after the class or during the course labs on Thursday nights.
 
@@ -31,5 +31,5 @@ The course continues this Tuesday, October 19th at 8:00PM, and will go
 into further detail about how each component works and how they function
 within a circuit.
 
-.. |Cam's Pizzeria| image:: /wp-content/uploads/2010/10/cams-pizzeria-small.gif
+.. |Cam's Pizzeria| image:: /wp-uploads/2010/10/cams-pizzeria-small.gif
    :target: http://www.camspizzeria.com/

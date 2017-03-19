@@ -6,7 +6,7 @@ Scott's Project Smörgåsbord 1
 :slug: scotts-project-smorgasbord-1
 :status: published
 
-Some nights when I head to \ `Interlock <http://interlockroc.org/>`__,
+Some nights when I head to \ `Interlock </>`__,
 rather than having one single project, or a part of a larger project to
 work on, I have a bunch of little things I want to get done.  They have
 the tools and materials I often need to do this.  This past Tuesday was

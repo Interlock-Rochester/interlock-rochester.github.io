@@ -109,13 +109,13 @@ too.
 
 http://www.grandideastudio.com/portfolio/jtagulator/
 
-.. |http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/10/1550_LRG-600x4611.jpg
+.. |http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/| image:: /wp-uploads/2013/10/1550_LRG-600x4611.jpg
    :class: aligncenter
    :width: 600px
    :height: 461px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/10/1550_LRG-600x4611.jpg
-.. |Asus Router with wires near JTAG leads| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/10/IMG_20131015_1929571-225x300.jpg
+   :target: /wp-uploads/2013/10/1550_LRG-600x4611.jpg
+.. |Asus Router with wires near JTAG leads| image:: /wp-uploads/2013/10/IMG_20131015_1929571-225x300.jpg
    :class: size-medium wp-image-1527
    :width: 225px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/10/IMG_20131015_1929571.jpg
+   :target: /wp-uploads/2013/10/IMG_20131015_1929571.jpg

@@ -75,8 +75,8 @@ ongoing since at least this last summer, they now are moving towards
 ambitious goals to grow fast. I continue eagerly to await the opening of
 another maker-friendly space in Rochester, expected some time in March.
 
-.. |Rochester Brainery logo| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/brainery-third.png
-.. |Smokestack Coworking logo| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/smokestackcowork.png
-.. |Ithaca Generator logo| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/robotic-logo-like2.png
-.. |Buffalo Labs logo| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/02/buffalo-lab.png
+.. |Rochester Brainery logo| image:: /wp-uploads/2013/02/brainery-third.png
+.. |Smokestack Coworking logo| image:: /wp-uploads/2013/02/smokestackcowork.png
+.. |Ithaca Generator logo| image:: /wp-uploads/2013/02/robotic-logo-like2.png
+.. |Buffalo Labs logo| image:: /wp-uploads/2013/02/buffalo-lab.png
 

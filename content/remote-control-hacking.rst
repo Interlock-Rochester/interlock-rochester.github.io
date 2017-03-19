@@ -35,7 +35,7 @@ signal.
    <div align="center">
 
 |image0|\ |image1|\ `
- <http://interlockroc.wpengine.com/wp-content/uploads/2012/07/DSC_8664.jpg>`__
+ </wp-uploads/2012/07/DSC_8664.jpg>`__
 
 .. raw:: html
 
@@ -195,53 +195,53 @@ follow me on `twitter <http://twitter.com/antitree/>`__.
 
  
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/DSC_8657-300x198.jpg
+.. |image0| image:: /wp-uploads/2012/07/DSC_8657-300x198.jpg
    :class: size-medium wp-image-969 alignnone
    :width: 300px
    :height: 198px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/DSC_8657.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/DSC_8664-198x300.jpg
+   :target: /wp-uploads/2012/07/DSC_8657.jpg
+.. |image1| image:: /wp-uploads/2012/07/DSC_8664-198x300.jpg
    :class: alignnone
    :width: 198px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/DSC_8664.jpg
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/hynix_circuit-300x192.png
+   :target: /wp-uploads/2012/07/DSC_8664.jpg
+.. |image2| image:: /wp-uploads/2012/07/hynix_circuit-300x192.png
    :class: aligncenter size-medium wp-image-973
    :width: 300px
    :height: 192px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/hynix_circuit.png
-.. |image3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/HYNIX_chiplayout-246x300.png
+   :target: /wp-uploads/2012/07/hynix_circuit.png
+.. |image3| image:: /wp-uploads/2012/07/HYNIX_chiplayout-246x300.png
    :class: aligncenter size-medium wp-image-964
    :width: 246px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/HYNIX_chiplayout.png
-.. |image4| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/logic_comparison_IR_DECODE-e1342714104358-300x40.png
+   :target: /wp-uploads/2012/07/HYNIX_chiplayout.png
+.. |image4| image:: /wp-uploads/2012/07/logic_comparison_IR_DECODE-e1342714104358-300x40.png
    :class: aligncenter size-medium wp-image-975
    :width: 300px
    :height: 40px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/logic_comparison_IR_DECODE-e1342714104358.png
-.. |image5| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/CF_manual.png
+   :target: /wp-uploads/2012/07/logic_comparison_IR_DECODE-e1342714104358.png
+.. |image5| image:: /wp-uploads/2012/07/CF_manual.png
    :class: aligncenter size-full wp-image-984
    :width: 334px
    :height: 49px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/CF_manual.png
-.. |image6| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/DSC_8664-198x300.jpg
+   :target: /wp-uploads/2012/07/CF_manual.png
+.. |image6| image:: /wp-uploads/2012/07/DSC_8664-198x300.jpg
    :class: aligncenter size-medium wp-image-972
    :width: 198px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/DSC_8664.jpg
-.. |image7| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/omfg_iv_had_this_the_whole_time-e1342715544473-300x56.png
+   :target: /wp-uploads/2012/07/DSC_8664.jpg
+.. |image7| image:: /wp-uploads/2012/07/omfg_iv_had_this_the_whole_time-e1342715544473-300x56.png
    :class: aligncenter size-medium wp-image-963
    :width: 300px
    :height: 56px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/omfg_iv_had_this_the_whole_time-e1342715544473.png
-.. |image8| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/IMG_20120707_150902-e1342717151722-300x152.jpg
+   :target: /wp-uploads/2012/07/omfg_iv_had_this_the_whole_time-e1342715544473.png
+.. |image8| image:: /wp-uploads/2012/07/IMG_20120707_150902-e1342717151722-300x152.jpg
    :class: aligncenter size-medium wp-image-978
    :width: 300px
    :height: 152px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/IMG_20120707_150902-e1342717151722.jpg
-.. |image9| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/usrp-1024x678.jpg
+   :target: /wp-uploads/2012/07/IMG_20120707_150902-e1342717151722.jpg
+.. |image9| image:: /wp-uploads/2012/07/usrp-1024x678.jpg
    :class: aligncenter
    :width: 614px
    :height: 407px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/07/usrp.jpg
+   :target: /wp-uploads/2012/07/usrp.jpg

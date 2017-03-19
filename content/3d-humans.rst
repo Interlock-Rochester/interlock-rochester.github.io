@@ -25,12 +25,12 @@ so we'll see if our process has improved enough to give some higher
 resolution models. Once we're good to go and have this process down, you
 should feel free to stop in sometime and get yourself digitized!
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/markme.gif
+.. |image0| image:: /wp-uploads/2012/10/markme.gif
    :class: alignnone size-full wp-image-1034
    :width: 600px
    :height: 400px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/markme.gif
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/10/mark-from-rochester-208x300.jpg
+   :target: /wp-uploads/2012/10/markme.gif
+.. |image1| image:: /wp-uploads/2012/10/mark-from-rochester-208x300.jpg
    :class: alignright size-medium wp-image-1036
    :width: 208px
    :height: 300px

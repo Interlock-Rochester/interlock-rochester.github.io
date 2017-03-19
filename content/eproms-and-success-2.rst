@@ -7,7 +7,7 @@ Eproms and SUCCESS!
 :status: published
 
 This is a continuation of a \ `previous
-article <http://interlockroc.org/2012/11/07/eproms-and-failure/>`__.
+article </eproms-and-failure>`__.
  Quick summary: I tried to build a device for dumping an EPROM via
 Arduino, and I constructed a device that had no chance of working.
  Oops.
@@ -182,7 +182,7 @@ to try to make it a little easier to wire up.
 
 I bought some wire wrap wire for address, data, and
 control lines, and did most of the work of wiring those up \ `one
-evening at Interlock <http://interlockroc.org/>`__.  I used red for
+evening at Interlock </>`__.  I used red for
 control (counter clear, clock data cascade lines) as well as eprom
 address lines.  I used blue for data lines.  In the above pictures you
 can see how the wires were routed around (there was some more writing on

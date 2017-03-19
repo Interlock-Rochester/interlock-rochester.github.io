@@ -14,7 +14,7 @@ I've wanted one since I read an article on the web about how to make
 your own Stormtrooper costume in the late 1990s.  It now seemed like a
 good time to make one, as I'd like to use it for producing the bird
 parts, and it seems pretty straightforward, so within a week, I was
-at \ `Interlock <http://interlockroc.org/>`__, crafting up a vacuum
+at \ `Interlock </>`__, crafting up a vacuum
 plate.
 
 The basic design I'm going with for the vacuum plate/box is a small box,
@@ -106,7 +106,7 @@ this green plastic seen above. MAN, does it smell horrible.  When you
 see people mentioning "work in a well ventilated area" they aren't
 kidding. The plastic continued to have a foul odor for a few hours after
 it cooled down. I had to drive home
-from \ `Interlock <http://interlockroc.org/>`__ with my windows down.
+from \ `Interlock </>`__ with my windows down.
 
 It shows promise, but it's not quite there yet.  I wouldn't call it a
 success, but I wouldn't call it a failure either.

@@ -24,8 +24,8 @@ going from strength to strength, including their plans to host the
 `Orlando Mini Maker Faire <http://www.orlandominimakerfaire.com/>`__
 coming up May 26.
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/familab-xray-john-640x480-300x168.jpg
+.. |image0| image:: /wp-uploads/2012/03/familab-xray-john-640x480-300x168.jpg
    :class: alignnone size-medium wp-image-827
    :width: 300px
    :height: 168px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/familab-xray-john-640x480.jpg
+   :target: /wp-uploads/2012/03/familab-xray-john-640x480.jpg

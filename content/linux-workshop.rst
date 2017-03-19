@@ -32,13 +32,13 @@ will run in wine. Maybe we'll have an answer by next month.
 
  
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/01/2012-01-21_14-02-23_546-300x168.jpg
+.. |image0| image:: /wp-uploads/2012/01/2012-01-21_14-02-23_546-300x168.jpg
    :class: alignnone size-medium wp-image-785
    :width: 300px
    :height: 168px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/01/2012-01-21_14-02-23_546.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/01/2012-01-21_14-02-07_504-300x168.jpg
+   :target: /wp-uploads/2012/01/2012-01-21_14-02-23_546.jpg
+.. |image1| image:: /wp-uploads/2012/01/2012-01-21_14-02-07_504-300x168.jpg
    :class: alignnone size-medium wp-image-784
    :width: 300px
    :height: 168px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/01/2012-01-21_14-02-07_504.jpg
+   :target: /wp-uploads/2012/01/2012-01-21_14-02-07_504.jpg

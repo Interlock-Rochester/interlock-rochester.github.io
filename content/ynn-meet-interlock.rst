@@ -16,7 +16,7 @@ room.
 
 Brian wowed them with his always crowd pleasing custom pen `plot-matrix
 printer he's famous
-for <http://interlockroc.org/2011/10/30/barcamp-rochester/>`__. The
+for </barcamp-rochester>`__. The
 picture above is the pre-printed artist's rendition of Seth holding his
 mic.
 
@@ -58,23 +58,23 @@ than local hackerspaces but we'll let you know when.
 
  
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/DSC_8773-300x221.jpg
+.. |image0| image:: /wp-uploads/2012/03/DSC_8773-300x221.jpg
    :class: size-medium wp-image-846 aligncenter
    :width: 300px
    :height: 221px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/DSC_8773.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/DSC_8777-199x300.jpg
+   :target: /wp-uploads/2012/03/DSC_8773.jpg
+.. |image1| image:: /wp-uploads/2012/03/DSC_8777-199x300.jpg
    :class: alignright size-medium wp-image-844
    :width: 199px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/DSC_8777.jpg
+   :target: /wp-uploads/2012/03/DSC_8777.jpg
 .. |image2| image:: http://images.rnews.com/media/2012/3/29/images/hs55345178-aebf-4c75-aa41-050578c4786a.jpg
    :class: aligncenter
    :width: 431px
    :height: 238px
    :target: http://rochester.ynn.com/content/578776/welcome-to--hackerspace-/
-.. |image3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/DSC_8812.jpg
+.. |image3| image:: /wp-uploads/2012/03/DSC_8812.jpg
    :class: aligncenter wp-image-845
    :width: 584px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/DSC_8812.jpg
+   :target: /wp-uploads/2012/03/DSC_8812.jpg

@@ -37,7 +37,7 @@ things out from there, but after seeing \ `this post on Hack-A-Day with
 a "HOG Drive" <http://hackaday.com/2013/02/28/3d-printed-hog-drive/>`__,
 I realized I could leverage off of this design for the head linkages.
 
-I chatted with Skip at \ `Interlock <http://interlockroc.org/>`__, and
+I chatted with Skip at \ `Interlock </>`__, and
 by the end of this last Tuesday evening, I had two 3-D printed versions
 of this, using ABS, rather than the PLA material I am
 more familiar with. (`Here's the Thingiverse link for the

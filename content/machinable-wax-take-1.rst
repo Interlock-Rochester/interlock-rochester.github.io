@@ -23,8 +23,8 @@ This will be great for practicing with our Sherline Mill, or Craftsman
 
 Thanks Rob!
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSCN4740-300x168.jpg
+.. |image0| image:: /wp-uploads/2011/08/DSCN4740-300x168.jpg
    :class: alignnone size-medium wp-image-509
    :width: 300px
    :height: 168px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/08/DSCN4740.jpg
+   :target: /wp-uploads/2011/08/DSCN4740.jpg

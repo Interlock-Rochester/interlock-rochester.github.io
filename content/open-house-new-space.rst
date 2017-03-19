@@ -76,11 +76,11 @@ Hackerspace Tour
 
    </div>
 
-`See you there <http://interlockroc.org/contact/>`__
+`See you there </pages/contact.html>`__
 ====================================================
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/interlock_oldspice-e1331824667576.png
+.. |image0| image:: /wp-uploads/2012/03/interlock_oldspice-e1331824667576.png
    :class: alignright size-full wp-image-834
    :width: 341px
    :height: 280px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/03/interlock_oldspice-e1331824667576.png
+   :target: /wp-uploads/2012/03/interlock_oldspice-e1331824667576.png

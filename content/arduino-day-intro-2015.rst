@@ -14,7 +14,7 @@ maybe you haven't...) Regardless of your skill and knowledge level with
 Arduino boards, we will have something fun for you.
 
 `A full schedule of events has been posted
-here... <http://www.interlockroc.org/2015/03/26/arduino-day-2015-schedule/>`__
+here... </arduino-day-2015-schedule>`__
 
 All day: Workshop time - Work on your project, get help on hardware and
 software...

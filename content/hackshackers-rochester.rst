@@ -79,7 +79,7 @@ one format into another, extending it with web services, and linking it
 to databases like `Freebase <http://www.freebase.com/>`__." If you're
 dealing with cruddy data of any sort, you should check it out. It's a
 bit of a weird install, running as a web server on your computer. Ask
-your `local nerds <http://interlockroc.org/>`__ if you're having
+your `local nerds </>`__ if you're having
 trouble... it's worth it.
 
 Community Data
@@ -193,11 +193,11 @@ otherwise utilize your vast cranial resources. See you there!
    :width: 600px
    :height: 400px
    :target: http://www.flickr.com/photos/bert_m_b/6726571927/
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/02/tilemill_screenshot.jpg
+.. |image1| image:: /wp-uploads/2012/02/tilemill_screenshot.jpg
    :class: alignnone size-full wp-image-814
    :width: 600px
    :height: 389px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/02/tilemill_screenshot.jpg
+   :target: /wp-uploads/2012/02/tilemill_screenshot.jpg
 .. |Geiger Counter| image:: http://farm7.staticflickr.com/6145/6190437602_041ccdbf22_z.jpg
    :width: 600px
    :height: 400px

@@ -17,5 +17,5 @@ the event for some schwag and to learn more about Interlock.
 For more information about BarCamp or to get directions, visit the
 `BarCamp Rochester <http://barcamproc.org/>`__ site.
 
-.. |BarCamp| image:: /wp-content/uploads/2010/10/barcamp.gif
+.. |BarCamp| image:: /wp-uploads/2010/10/barcamp.gif
    :target: http://barcamproc.org/

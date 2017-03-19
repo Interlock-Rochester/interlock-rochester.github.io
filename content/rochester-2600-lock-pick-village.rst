@@ -18,5 +18,5 @@ some grub from `Cam's
 Pizzeria <http://www.camspizzeria.com/locations/eastave.html>`__. The
 festivities start at 7:30PM.
 
-.. |Rochester 2600| image:: /wp-content/uploads/2010/11/2600-logo.gif
+.. |Rochester 2600| image:: /wp-uploads/2010/11/2600-logo.gif
 

@@ -73,18 +73,18 @@ Ross <mailto:algorythm%20at%20the%20gmails%20dot%20come>`__.
 
 Rochester TOOOL Chapter meeting starts at 7pm on 4/19 at Interlock.
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/04/a_misery1990.jpg
+.. |image0| image:: /wp-uploads/2012/04/a_misery1990.jpg
    :class: size-full wp-image-861 aligncenter
    :width: 590px
    :height: 403px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/04/a_misery1990.jpg
+   :target: /wp-uploads/2012/04/a_misery1990.jpg
 .. |image1| image:: http://toool.us/images/toool_logo_lg.gif
    :class: aligncenter
    :width: 485px
    :height: 176px
    :target: http://www.toool.us
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/04/2011-05-07_16-57-041.jpg
+.. |image2| image:: /wp-uploads/2012/04/2011-05-07_16-57-041.jpg
    :class: alignright size-full wp-image-868
    :width: 292px
    :height: 478px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/04/2011-05-07_16-57-041.jpg
+   :target: /wp-uploads/2012/04/2011-05-07_16-57-041.jpg

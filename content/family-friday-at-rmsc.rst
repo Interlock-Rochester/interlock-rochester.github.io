@@ -16,15 +16,15 @@ Fridays <http://www.rmsc.org/Experiences/FamilyPrograms/FamilyFridays/>`__
 series.
 
 From left to right, we see the
-`MacGyverbot <http://interlockroc.org/author/macgyvrbot/>`__ Printrbot
+`MacGyverbot </author/macgyvrbot.html>`__ Printrbot
 LC generously lent for this demonstration but often seen in operation at
 Interlock, the `Interlock
-Huxley <http://interlockroc.org/2011/12/06/interlock-reprapchester/>`__
+Huxley </interlock-reprapchester>`__
 `RepRapPro <http://reprappro.com/products/huxley/>`__ 3D printer, a blue
 and white lunch-sized slow cooker keeping some `Polycaprolactone (PCL)
 hand-moldable <http://en.wikipedia.org/wiki/Polycaprolactone>`__ and
 `3D-printable thermoplastic <http://reprap.org/wiki/Polycaprolactone>`__
-(`previously <http://interlockroc.org/2011/12/01/dashing-through-the-thermoplastic-2/>`__)
+(`previously </dashing-through-the-thermoplastic-2>`__)
 warm and ready to try for free-form molding, the `shoebox
 regatta <http://www.thingiverse.com/thing:116005>`__ demonstration (with
 special guest `Mr. Jaws! <http://www.thingiverse.com/thing:14702>`__),
@@ -61,13 +61,13 @@ robot at RMSC| Greater Rochester Robotic's 2013 FIRST robot wheels
 around the first floor of the Rochester Museum & Science
 Center.[/caption]
 
-.. |Interlock's table at RMSC| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/rmsc-anon-512.jpg
+.. |Interlock's table at RMSC| image:: /wp-uploads/2013/07/rmsc-anon-512.jpg
    :class: size-full wp-image-1480
    :width: 512px
    :height: 384px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/rmsc-anon-512.jpg
-.. |GRR robot at RMSC| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/nemesis-pixelize-5121.jpg
+   :target: /wp-uploads/2013/07/rmsc-anon-512.jpg
+.. |GRR robot at RMSC| image:: /wp-uploads/2013/07/nemesis-pixelize-5121.jpg
    :class: size-full wp-image-1481
    :width: 512px
    :height: 384px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/07/nemesis-pixelize-5121.jpg
+   :target: /wp-uploads/2013/07/nemesis-pixelize-5121.jpg

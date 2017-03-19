@@ -219,80 +219,80 @@ or Smart Cover closed while the assembly is being carried around.
 
  
 
-.. |HandleStand, 2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/HandleStand-2.jpg
+.. |HandleStand, 2| image:: /wp-uploads/2013/04/HandleStand-2.jpg
    :class: aligncenter wp-image-1357
    :width: 529px
    :height: 596px
-.. |Stand and case| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Stand-and-case.jpg
+.. |Stand and case| image:: /wp-uploads/2013/04/Stand-and-case.jpg
    :class: aligncenter wp-image-1381
    :width: 424px
    :height: 291px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Stand-and-case.jpg
-.. |smart cover 3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/smart-cover-3-300x251.jpg
+   :target: /wp-uploads/2013/04/Stand-and-case.jpg
+.. |smart cover 3| image:: /wp-uploads/2013/04/smart-cover-3-300x251.jpg
    :width: 216px
    :height: 181px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/smart-cover-3.jpg
-.. |keyboard 1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/keyboard-1-168x300.jpg
+   :target: /wp-uploads/2013/04/smart-cover-3.jpg
+.. |keyboard 1| image:: /wp-uploads/2013/04/keyboard-1-168x300.jpg
    :width: 168px
    :height: 300px
-.. |keyboard folded| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/keyboard-folded-300x261.jpg
+.. |keyboard folded| image:: /wp-uploads/2013/04/keyboard-folded-300x261.jpg
    :width: 155px
    :height: 136px
-.. |ergonomic stand| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/ergonomic-stand.jpg
+.. |ergonomic stand| image:: /wp-uploads/2013/04/ergonomic-stand.jpg
    :class: aligncenter size-full wp-image-1371
    :width: 670px
    :height: 204px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/ergonomic-stand.jpg
-.. |solvent| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/solvent-225x300.jpg
+   :target: /wp-uploads/2013/04/ergonomic-stand.jpg
+.. |solvent| image:: /wp-uploads/2013/04/solvent-225x300.jpg
    :class: size-medium wp-image-1296 aligncenter
    :width: 225px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/solvent.jpg
-.. |Exploded 1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Exploded-1-300x170.png
+   :target: /wp-uploads/2013/04/solvent.jpg
+.. |Exploded 1| image:: /wp-uploads/2013/04/Exploded-1-300x170.png
    :class: size-medium wp-image-1300 aligncenter
    :width: 300px
    :height: 170px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Exploded-1.png
-.. |Travel with MacBot| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Travel-with-MacBot.jpg
+   :target: /wp-uploads/2013/04/Exploded-1.png
+.. |Travel with MacBot| image:: /wp-uploads/2013/04/Travel-with-MacBot.jpg
    :class: aligncenter wp-image-1387
    :width: 311px
    :height: 415px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Travel-with-MacBot.jpg
-.. |HandleStand as tripod| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/HandleStand-as-tripod-239x300.jpg
+   :target: /wp-uploads/2013/04/Travel-with-MacBot.jpg
+.. |HandleStand as tripod| image:: /wp-uploads/2013/04/HandleStand-as-tripod-239x300.jpg
    :class: aligncenter size-medium wp-image-1346
    :width: 239px
    :height: 300px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/HandleStand-as-tripod.jpg
-.. |Hinge set 3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Hinge-set-3-300x204.png
+   :target: /wp-uploads/2013/04/HandleStand-as-tripod.jpg
+.. |Hinge set 3| image:: /wp-uploads/2013/04/Hinge-set-3-300x204.png
    :class: wp-image-1315 alignleft
    :width: 168px
    :height: 114px
-.. |Handle set 1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Handle-set-300x212.png
+.. |Handle set 1| image:: /wp-uploads/2013/04/Handle-set-300x212.png
    :class: wp-image-1316 alignleft
    :width: 134px
    :height: 95px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Handle-set.png
-.. |Handle set 2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Handle-set-300x212.png
+   :target: /wp-uploads/2013/04/Handle-set.png
+.. |Handle set 2| image:: /wp-uploads/2013/04/Handle-set-300x212.png
    :class: wp-image-1316 alignnone
    :width: 134px
    :height: 95px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Handle-set.png
-.. |Hinge assembly 2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/Hinge-assembly-2-300x251.png
+   :target: /wp-uploads/2013/04/Handle-set.png
+.. |Hinge assembly 2| image:: /wp-uploads/2013/04/Hinge-assembly-2-300x251.png
    :class: aligncenter size-medium wp-image-1317
    :width: 300px
    :height: 251px
-.. |neckstrap| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/neckstrap.jpg
+.. |neckstrap| image:: /wp-uploads/2013/04/neckstrap.jpg
    :class: aligncenter wp-image-1382
    :width: 605px
    :height: 614px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/neckstrap.jpg
-.. |parts 1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/parts-1.jpg
+   :target: /wp-uploads/2013/04/neckstrap.jpg
+.. |parts 1| image:: /wp-uploads/2013/04/parts-1.jpg
    :class: aligncenter wp-image-1378
    :width: 687px
    :height: 605px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/parts-1.jpg
-.. |BabyBeaner| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/BabyBeaner.jpg
+   :target: /wp-uploads/2013/04/parts-1.jpg
+.. |BabyBeaner| image:: /wp-uploads/2013/04/BabyBeaner.jpg
    :class: aligncenter wp-image-1383
    :width: 451px
    :height: 354px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/BabyBeaner.jpg
+   :target: /wp-uploads/2013/04/BabyBeaner.jpg

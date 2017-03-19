@@ -28,7 +28,7 @@ Avenue <http://www.camspizzeria.com/locations/eastave.html>`__.
 Presentations will begin at 8:00PM, and should last a couple of hours.
 Event registration is available at
 `Eventbrite <http://lightningtalks.eventbrite.com>`__. Seating is
-limited! Visit our `Contact </contact/>`__ page for details on getting
+limited! Visit our `Contact </pages/contact.html>`__ page for details on getting
 to our location.
 
 .. |DSC_0639| image:: http://farm5.static.flickr.com/4001/4639149704_afd2826f88_m.jpg

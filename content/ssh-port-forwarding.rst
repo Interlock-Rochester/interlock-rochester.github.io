@@ -88,10 +88,10 @@ For anyone wondering what app that sexy screenshot came from, it is
 Software -- an IRC client for OS X -- using the Erstwhile theme. Very
 retro.
 
-.. |IRC| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/11/linkinus2-300x189.png
+.. |IRC| image:: /wp-uploads/2012/11/linkinus2-300x189.png
    :class: alignright size-medium wp-image-1084
    :width: 300px
    :height: 189px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/11/linkinus2.png
+   :target: /wp-uploads/2012/11/linkinus2.png
 .. |Yay! IRC goodness| image:: https://www.evernote.com/shard/s12/sh/69f51770-2020-4b17-b4a1-2b9c4ff9cec8/804981870bec3e00fb98da354041f354/res/319665fe-898d-4ba9-bb62-63820bff07f6/skitch.png
 

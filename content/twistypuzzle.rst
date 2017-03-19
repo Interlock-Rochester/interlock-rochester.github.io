@@ -97,58 +97,58 @@ changed for the next print, by first using TomZ's design which can use a
 screw to hold it together, and also being more cautious while sanding to
 keep everything within decent tolerances.
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/11-300x224.jpg
+.. |image0| image:: /wp-uploads/2012/05/11-300x224.jpg
    :class: aligncenter size-medium wp-image-907
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/11.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/15-300x224.jpg
+   :target: /wp-uploads/2012/05/11.jpg
+.. |image1| image:: /wp-uploads/2012/05/15-300x224.jpg
    :class: aligncenter size-medium wp-image-908
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/15.jpg
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/21-300x224.jpg
+   :target: /wp-uploads/2012/05/15.jpg
+.. |image2| image:: /wp-uploads/2012/05/21-300x224.jpg
    :class: aligncenter size-medium wp-image-909
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/21.jpg
-.. |image3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/40-300x224.jpg
+   :target: /wp-uploads/2012/05/21.jpg
+.. |image3| image:: /wp-uploads/2012/05/40-300x224.jpg
    :class: aligncenter size-medium wp-image-910
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/40.jpg
-.. |image4| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/41-300x224.jpg
+   :target: /wp-uploads/2012/05/40.jpg
+.. |image4| image:: /wp-uploads/2012/05/41-300x224.jpg
    :class: aligncenter size-medium wp-image-911
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/41.jpg
-.. |image5| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/44-300x224.jpg
+   :target: /wp-uploads/2012/05/41.jpg
+.. |image5| image:: /wp-uploads/2012/05/44-300x224.jpg
    :class: aligncenter size-medium wp-image-912
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/44.jpg
-.. |image6| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/50-300x224.jpg
+   :target: /wp-uploads/2012/05/44.jpg
+.. |image6| image:: /wp-uploads/2012/05/50-300x224.jpg
    :class: size-medium wp-image-913 aligncenter
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/50.jpg
-.. |image7| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/53-300x224.jpg
+   :target: /wp-uploads/2012/05/50.jpg
+.. |image7| image:: /wp-uploads/2012/05/53-300x224.jpg
    :class: size-medium wp-image-915
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/53.jpg
-.. |image8| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/55-300x224.jpg
+   :target: /wp-uploads/2012/05/53.jpg
+.. |image8| image:: /wp-uploads/2012/05/55-300x224.jpg
    :class: size-medium wp-image-914 aligncenter
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/55.jpg
-.. |image9| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/57-300x224.jpg
+   :target: /wp-uploads/2012/05/55.jpg
+.. |image9| image:: /wp-uploads/2012/05/57-300x224.jpg
    :class: size-medium wp-image-917
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/57.jpg
-.. |image10| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/60-300x224.jpg
+   :target: /wp-uploads/2012/05/57.jpg
+.. |image10| image:: /wp-uploads/2012/05/60-300x224.jpg
    :class: aligncenter size-medium wp-image-916
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/05/60.jpg
+   :target: /wp-uploads/2012/05/60.jpg

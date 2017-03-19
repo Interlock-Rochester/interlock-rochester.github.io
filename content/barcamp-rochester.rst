@@ -23,7 +23,7 @@ what Interlock is all about... but no longer!
 |image1|
 
 After becoming a little obsessed with `old pen
-plotters <http://interlockroc.org/2011/09/13/plottopotamus/>`__ over the
+plotters </plottopotamus>`__ over the
 past few months, I decided I'd like to try assembling my own drawing
 robot. The main goal, again, was to have something small, cool, and
 interactive to attract folks at events where we have a table or booth.
@@ -80,21 +80,21 @@ gallery <http://www.flickr.com/photos/bert_m_b/sets/72157628015314436/detail/>`_
 
 |IMG_8269|
 
-.. |Interlock's BarCamp Table| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_84671-1024x678.jpg
+.. |Interlock's BarCamp Table| image:: /wp-uploads/2011/10/DSC_84671-1024x678.jpg
    :class: alignnone size-large wp-image-665
    :width: 600px
    :height: 400px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_84671.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_84971-1024x678.jpg
+   :target: /wp-uploads/2011/10/DSC_84671.jpg
+.. |image1| image:: /wp-uploads/2011/10/DSC_84971-1024x678.jpg
    :class: alignnone size-large wp-image-666
    :width: 600px
    :height: 400px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_84971.jpg
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_8494-1024x678.jpg
+   :target: /wp-uploads/2011/10/DSC_84971.jpg
+.. |image2| image:: /wp-uploads/2011/10/DSC_8494-1024x678.jpg
    :class: alignnone size-large wp-image-672
    :width: 600px
    :height: 400px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2011/10/DSC_8494.jpg
+   :target: /wp-uploads/2011/10/DSC_8494.jpg
 .. |IMG_8267| image:: http://farm7.static.flickr.com/6039/6294760604_cbcfdc264e_z.jpg
    :width: 600px
    :height: 400px

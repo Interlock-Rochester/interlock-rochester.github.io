@@ -27,7 +27,7 @@ wires terminated in a small box with some knobs which were meant to
 attenuate the signal but never really worked right.  The power switch
 was on this cord that came out and was weirdly fastened to the side of
 the power supply.  I decided to clean this up while
-at \ `Interlock <http://interlockroc.org/>`__ for open night.
+at \ `Interlock </>`__ for open night.
 
 |image2| 
 

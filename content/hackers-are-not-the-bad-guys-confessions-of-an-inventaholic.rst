@@ -151,18 +151,18 @@ inventions…** I don’t care.  I’m an inventaholic.
 
  
 
-.. |stepcounter 1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/stepcounter-1.png
+.. |stepcounter 1| image:: /wp-uploads/2013/04/stepcounter-1.png
    :class: wp-image-1418
    :width: 281px
    :height: 274px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/stepcounter-1.png
-.. |vue iPad in comfort| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/vue-iPad-in-comfort.jpg
+   :target: /wp-uploads/2013/04/stepcounter-1.png
+.. |vue iPad in comfort| image:: /wp-uploads/2013/04/vue-iPad-in-comfort.jpg
    :class: wp-image-1419
    :width: 288px
    :height: 170px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/vue-iPad-in-comfort.jpg
-.. |HandleStand| image:: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/HandleStand.jpg
+   :target: /wp-uploads/2013/04/vue-iPad-in-comfort.jpg
+.. |HandleStand| image:: /wp-uploads/2013/04/HandleStand.jpg
    :class: wp-image-1420
    :width: 277px
    :height: 311px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2013/04/HandleStand.jpg
+   :target: /wp-uploads/2013/04/HandleStand.jpg

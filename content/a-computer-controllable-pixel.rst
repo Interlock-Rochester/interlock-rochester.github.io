@@ -58,23 +58,23 @@ at Interlock, I had this working.  I wrote up two processing sketches.
 another playing the video as described above.  (Arduino and Processing
 sketches available upon request. :D )
 
-.. |image0| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.10.10-e1348677126508-300x271.jpg
+.. |image0| image:: /wp-uploads/2012/09/2012-09-26-09.10.10-e1348677126508-300x271.jpg
    :class: aligncenter size-medium wp-image-994
    :width: 300px
    :height: 271px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.10.10-e1348677126508.jpg
-.. |image1| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.13.51-300x224.jpg
+   :target: /wp-uploads/2012/09/2012-09-26-09.10.10-e1348677126508.jpg
+.. |image1| image:: /wp-uploads/2012/09/2012-09-26-09.13.51-300x224.jpg
    :class: aligncenter size-medium wp-image-997
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.13.51.jpg
-.. |image2| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.11.51-300x224.jpg
+   :target: /wp-uploads/2012/09/2012-09-26-09.13.51.jpg
+.. |image2| image:: /wp-uploads/2012/09/2012-09-26-09.11.51-300x224.jpg
    :class: aligncenter size-medium wp-image-995
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.11.51.jpg
-.. |image3| image:: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.12.31-300x224.jpg
+   :target: /wp-uploads/2012/09/2012-09-26-09.11.51.jpg
+.. |image3| image:: /wp-uploads/2012/09/2012-09-26-09.12.31-300x224.jpg
    :class: aligncenter size-medium wp-image-996
    :width: 300px
    :height: 224px
-   :target: http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.12.31.jpg
+   :target: /wp-uploads/2012/09/2012-09-26-09.12.31.jpg

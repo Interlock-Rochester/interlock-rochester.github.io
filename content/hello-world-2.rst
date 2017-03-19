@@ -12,7 +12,7 @@ page <http://www.meetup.com/Rochester-Hackerspace>`__ if you're already
 convinced you need to join us.
 
 For everybody else, the `about
-page <http://www.interlockroc.org/about/>`__ is a good place to get up
+page </pages/about.html>`__ is a good place to get up
 to speed with what's going on. In summary: we're creating a space in
 which we plan to make cool stuff, teach, learn, and race robots. We've
 already found a suitably grungy spot to inhabit:
@@ -32,7 +32,7 @@ If you can't make the meetings, there are many options for getting in
 touch with us. I recommend `our IRC
 channel <irc://irc.slashnet.org#interlock>`__, but you'll find more
 social-networky stuff on the `contact
-page <http://www.interlockroc.org/contact/>`__.
+page </pages/contact.html>`__.
 
 .. |The Final Space 1| image:: http://farm3.static.flickr.com/2569/4147395075_8b5d67e5d7.jpg
    :width: 500px
