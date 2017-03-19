@@ -21,15 +21,15 @@
             <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
 
         <!-- Custom Fonts -->
-        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-        <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+            <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
 
@@ -118,7 +118,7 @@ them directly from an Arduino. &nbsp; I know that I could have used one of
 the BlinkM modules, or the strand of RGB Pixels or whatever for this,
 but I had these, and I wanted to see what I could do / how bright I
 could make them without frying the Arduino.</p>
-<p><a class="reference external" href="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.10.10-e1348677126508.jpg"><img alt="image0" class="aligncenter size-medium wp-image-994" src="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.10.10-e1348677126508-300x271.jpg" style="width: 300px; height: 271px;" /></a></p>
+<p><a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.10.10-e1348677126508.jpg"><img alt="image0" class="aligncenter size-medium wp-image-994" src="/wp-uploads/2012/09/2012-09-26-09.10.10-e1348677126508-300x271.jpg" style="width: 300px; height: 271px;" /></a></p>
 <p>The project I decided to work on with them is to make a single
 high-brightness RGB pixel, and drive it from a Processing sketch on my
 computer. &nbsp;Eventually, the thought might be to sample a TV's color,
@@ -129,18 +129,18 @@ show. &nbsp;The way I went with testing this was to take a movie trailer, and
 crunch it down to a few pixels, and then average the colors in it while
 it plays back, live via Processing, then send the RGB values over
 USB-Serial to be displayed on the pixel.</p>
-<p><a class="reference external" href="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.13.51.jpg"><img alt="image1" class="aligncenter size-medium wp-image-997" src="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.13.51-300x224.jpg" style="width: 300px; height: 224px;" /></a></p>
+<p><a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.13.51.jpg"><img alt="image1" class="aligncenter size-medium wp-image-997" src="/wp-uploads/2012/09/2012-09-26-09.13.51-300x224.jpg" style="width: 300px; height: 224px;" /></a></p>
 <p>I started out by soldering up a Red, Green, and Blue LED to a small
 piece of perf board. &nbsp;I tied them together for a common ground on one
 side, and through a 220 ohm resistor on the other side, and all of this
 out to the Arduino. &nbsp;I use PWM pins on the Arduino to adjust their
 brightness, since that's simple to do.</p>
-<p><a class="reference external" href="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.11.51.jpg"><img alt="image2" class="aligncenter size-medium wp-image-995" src="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.11.51-300x224.jpg" style="width: 300px; height: 224px;" /></a></p>
+<p><a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.11.51.jpg"><img alt="image2" class="aligncenter size-medium wp-image-995" src="/wp-uploads/2012/09/2012-09-26-09.11.51-300x224.jpg" style="width: 300px; height: 224px;" /></a></p>
 <p>The Processing sketch sends down 0..255 for red, green, and blue
 intensities, then those values are plugged directly into the PWM pins
 via AnalogWrite() calls, which displays a reasonable facsimile of the
 color requested.</p>
-<p><a class="reference external" href="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.12.31.jpg"><img alt="image3" class="aligncenter size-medium wp-image-996" src="http://interlockroc.wpengine.com/wp-content/uploads/2012/09/2012-09-26-09.12.31-300x224.jpg" style="width: 300px; height: 224px;" /></a></p>
+<p><a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.12.31.jpg"><img alt="image3" class="aligncenter size-medium wp-image-996" src="/wp-uploads/2012/09/2012-09-26-09.12.31-300x224.jpg" style="width: 300px; height: 224px;" /></a></p>
 <p>The project worked out pretty darn well. &nbsp;Without current drivers for
 the LEDs, I can't make them too bright, but in an hour of sitting down
 at Interlock, I had this working. &nbsp;I wrote up two processing sketches.
