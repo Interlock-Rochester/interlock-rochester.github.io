@@ -1,0 +1,14 @@
+lanuage: python
+python:
+    - "2.7"
+install:
+    - pip install --user pelican markdown
+script:
+    - pelican
+deploy:
+    provider: pages
+    github_token: $GITHUB_TOKEN
+    skip_cleanup: true
+    local_dir: output
+    on:
+        branch: master
