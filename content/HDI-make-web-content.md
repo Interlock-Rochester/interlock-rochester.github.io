@@ -10,12 +10,11 @@ First I cloned the website git repository.
 
     git clone https://github.com/Interlock-Rochester/interlock-rochester.github.io.src
 
-Then I started editing this file in the markdown directory. The file
+Then I started editing this file in the <s>markdown/</s> ```content/``` directory. The file
 is called ```HDI-make-web-content.md```
 
-I followed the format of an existing file to get all the content
-headers correct. Now I am filling in the rest of the page.
-
+We follow the format of an existing ```.md``` file to get all the content
+headers (metadata) correct. Now I am filling in the rest of the page.
 
 [![blank canvas]({filename}wp-uploads/2013/12/100_2677-300x225.jpg)]({filename}wp-uploads/2013/12/100_2677.jpg)
 
@@ -62,8 +61,11 @@ Here are some of Joe's instructions:
 
 
 Now I am going to try putting this into the git repo. Then if successfull
-I will then attempt to make updates to the frontpage so you can find this.
+I will then attempt to make updates to the front page so you can find this.
+
+***[ When pandoc is run, it automatically updates ```index.html``` to include new content. --dzho ]***
 
 ***[ I also gave a very terse step-by-step for using Pelican in [this post from issue #3](https://github.com/Interlock-Rochester/interlock-rochester.github.io.src/issues/3#issue-213828111) --dzho ]***
 
 ***[ The documentation on [writing content for Pelican](http://docs.getpelican.com/en/3.6.3/content.html) can also be useful here --dzho]***
+
