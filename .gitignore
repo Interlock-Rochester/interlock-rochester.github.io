@@ -7,3 +7,7 @@
 *.py[cod]
 output
 *.pid
+interlock-redirects-bothmatch
+interlock-redirects-match
+interlock-redirects-terminal
+.gitignore
