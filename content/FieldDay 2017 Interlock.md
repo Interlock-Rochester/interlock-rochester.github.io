@@ -1,5 +1,5 @@
 Title: K2HAX Field Day 2017
-Date: June 13, 2017
+Date: June 15, 2017
 Author: JustBill
 
 **K2HAX 2017 Field Day Notice**
