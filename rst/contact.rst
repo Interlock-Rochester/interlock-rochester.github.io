@@ -14,7 +14,7 @@ Contact Info
 | Rochester, NY 14609
 
 View `Interlock
-Rochester <http://maps.google.com/maps/ms?vpsrc=6&ctz=240&ie=UTF8&msa=0&msid=211234068639551436646.00048030a8c2971281ca7&ll=43.161669,-77.582961&spn=0.000771,0.002167&t=h&source=embed>`__
+Rochester <https://www.google.com/maps/place/Interlock+Rochester/>`__
 in a larger map
 
 -  **Come visit us for our "Open Night" every first Tuesday of the month
