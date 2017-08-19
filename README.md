@@ -22,8 +22,6 @@ Pelican-flavored [reStructuredText](http://docutils.sourceforge.net/rst.html) fo
 
 Most content created or modified after that has been in [Markdown](https://en.wikipedia.org/wiki/Markdown).
 
-
-
 # Clone the repository in github
 
 If you don't have a github account, create one.
@@ -60,7 +58,6 @@ If using a virtual environment, be sure it is active before installing or
 trying to use pelican.
 
 
-
 # get the repos
 
 ```
@@ -72,6 +69,8 @@ git clone git@github.com:your-github-username/interlock-rochester.github.io.src.
 
 cd interlock-rochester.github.io.src
 
+git remote add upstream git@github.com:Interlock-Rochester/interlock-rochester.github.io.src.git
+
 ```
 
 Be sure to substitute your own github account name in place of
@@ -79,32 +78,59 @@ Be sure to substitute your own github account name in place of
 
 # Edit the site
 
+Be sure you're working from the newest version of the site each time by
+either pulling or fetching and merging from upstream:
+
+```
+git pull upstream
+```
+
+```
+git fetch upstream
+git merge upstream
+```
+
 You can change or create files as either reStructuredText (.rst) or Markdown
 (.md) but these files need to be somewhere within the ```content```
 directory. 
 
 # Test your changes by running Pelican
 
-Start Development version of site
+Start Development version of site:
 
 ```
 ./develop_server.sh start
 ```
 
+View your development version in your web browser at:
+
+    http://localhost:8000
+
+
 Repeat the edit-test process as often as necessary to get the result you
 seek.
 
+The development server will continue to run in the background, incorporating
+changes, until you stop it:
+
+```
+./develop_server.sh stop
+```
+
 # Push your changes to your fork at github
 
+Once you're satisfied with your changes and the test out OK:
+
+```
 git add [list of changed files]
 
 git commit
 
 git push
+```
 
-(You may wish to develop on a separate branch from **master** but how to do
+(Typically one will develop on a separate branch from **master** but how to do
 that is beyond the scope of this README.)
-
 
 # Make a pull request to submit your changes to the public site
 
