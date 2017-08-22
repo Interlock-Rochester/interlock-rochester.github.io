@@ -22,7 +22,7 @@ it'll be at an old Masonic Temple inside the Auditorium Center.
 |image1|
 
 There will be a lock picking village where the local `Rochester TOOOL
-chapter </new-lockpicking-club-rochester-toool>`__
+chapter <{filename}/new-lockpicking-club-rochester-toool.rst>`__
 will be around to teach people how to pick locks and the issues involved
 with physical security. They'll also be selling lock picks to attendees.
 

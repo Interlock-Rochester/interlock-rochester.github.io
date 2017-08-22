@@ -17,7 +17,7 @@ into your ssh client.
 
 Earlier, these pages addressed this problem `using VNC to provide a
 remote Raspberry Pi
-display </raspberry-pi-macgyver>`__
+display <{filename}/raspberry-pi-macgyver.rst>`__
 (eg, from your laptop).  It's a good approach, well documented.
 
 Alternately, with a little bit of prep work, perhaps using the above

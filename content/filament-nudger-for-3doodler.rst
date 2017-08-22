@@ -19,7 +19,7 @@ without handle| 3Doodler with Filament Nudger[/caption]
 The Nudger works with or without the Phaser Handle described in a
 previous blog : `How to 3D-print a Handle and Trigger for the 3Doodler
 (and to make it look like a Phaser)
-  </how-to-3d-print-a-handle-and-trigger-for-the-3doodler-and-to-make-it-look-like-a-phaser>`__ 
+  <{filename}/how-to-3d-print-a-handle-and-trigger-for-the-3doodler-and-to-make-it-look-like-a-phaser.rst>`__ 
 If you have access to a 3D printer, you can build a Nudger yourself by
 downloading these files on
 `Thingiverse <http://www.thingiverse.com/thing:322553/#files>`__.

@@ -13,7 +13,7 @@ Oops. We've got another pen plotter at Interlock.
 |HP 7580B Plotter 2|
 
 I `mentioned
-before </plottopotamus>`__ that I've
+before <{filename}/plottopotamus.rst>`__ that I've
 been tinkering with said plotters and webcams and some minimal computer
 vision noodling. Eventually, I'd like to implement some of my own
 software (likely using `Processing <http://processing.org/>`__) to do
@@ -46,7 +46,7 @@ know. For the rest of you, maybe you've got an
 `Eggbot <http://egg-bot.com/>`__ or a `Makerbot
 Unicorn <http://store.makerbot.com/toolheads/makerbot-unicorn-pen-plotter-kit.html>`__
 or some cool sort of `homebrewed
-plotter </barcamp-rochester>`__... go
+plotter <{filename}/barcamp-rochester.rst>`__... go
 get it running with some genuine [STRIKEOUT:100% lead] `mixture of
 graphite with clay binder <http://en.wikipedia.org/wiki/Pencil>`__. And
 if you're into drawing and/or robots and/or software, you should stop in

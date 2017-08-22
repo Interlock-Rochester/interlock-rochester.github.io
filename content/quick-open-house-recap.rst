@@ -17,7 +17,7 @@ It was, in short, a great time.  We had a fairly good variety of folks
 wander through, from pre-teens on up.  I spent a while fishing out from
 a small water-filled [STRIKEOUT:crockpot] slow cooker `fun little blobs
 of warm
-polycaprolactone </dashing-through-the-thermoplastic-2>`__
+polycaprolactone <{filename}/dashing-through-the-thermoplastic-2.rst>`__
 These I then shoved into the hands of anyone who would take them as they
 wandered through our conference/presentation/meeting room. It was great
 seeing folks' reaction to its warm, pliable nature and to listen to them
@@ -39,7 +39,7 @@ tools and real locksets for some hand's-on experience.  Folks really
 seemed to have a good time with trying it out.
 
 Elsewhere in the space, all the folks `originally promised to
-appear </open-house-new-space>`__\ were
+appear <{filename}/open-house-new-space.rst>`__ were
 around.  I can only guess at how awesome their presentations were, but
 there seemed to be people everywhere.  Early on, I was worried no one
 would make it into the not-a-kitchen for snacks, but that turned out to
