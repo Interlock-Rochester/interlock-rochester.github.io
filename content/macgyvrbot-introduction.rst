@@ -94,4 +94,4 @@ blog**.
    :class: aligncenter
    :width: 270px
    :height: 360px
-   :target: /wp-uploads/2013/02/HandleStand.jpg
+   :target: /wp-uploads/2013/02/Handle-Stand.jpg
