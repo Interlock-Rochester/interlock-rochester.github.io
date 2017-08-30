@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Interlock Rochester - Rochester's Hackerspace</title>
+
+            <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Interlock Rochester - Rochester's Hackerspace Full Atom Feed" />
+            <link href="/feeds/hardware-projects.atom.xml" type="application/atom+xml" rel="alternate" title="Interlock Rochester - Rochester's Hackerspace Categories Atom Feed" />
+
+        <!-- Bootstrap Core CSS -->
+        <link href="/theme/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/theme/css/clean-blog.min.css" rel="stylesheet">
+
+        <!-- Code highlight color scheme -->
+            <link href="/theme/css/code_blocks/darkly.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+
+
+
+
+
+			<meta property="og:locale" content="en">
+		<meta property="og:site_name" content="Interlock Rochester - Rochester's Hackerspace">
+
+	<meta property="og:type" content="article">
+	<meta property="article:author" content="">
+	<meta property="og:url" content="/repairing-the-audio-on-a-pac-man-arcade-board.html">
+	<meta property="og:title" content="Repairing the audio on a Pac-Man arcade board">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/">
+	<meta property="article:published_time" content="2014-02-12 11:06:00-05:00">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Interlock Rochester - Rochester's Hackerspace</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                                <li><a href="/pages/contact.html">Contact</a></li>
+                                <li><a href="/pages/contribute.html">Contribute</a></li>
+                                <li><a href="/pages/photos.html">Photos</a></li>
+				<li> <a href="http://wiki.interlockroc.org/">Wiki</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+        <header class="intro-header" style="background-image: url('/theme/images/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Repairing the audio on a Pac-Man arcade board</h1>
+                        <span class="meta">Posted by
+                                <a href="/author/bleullama.html">BleuLlama</a>
+                             on Wed 12 February 2014
+                        </span>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <!-- Post Content -->
+    <article>
+        <p>I got this knockoff JAMMA Ms Pac-Man arcade board many years back. &nbsp;It's
+got two ROMs instead of the authentic board's 6 (9 for Ms Pac), and is
+substantially smaller than the &quot;real thing&quot;. &nbsp;The only issue is that the
+audio is poor... REALLY poor. &nbsp;It makes sounds but they're... wrong and
+noisy.</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-s8GO4HSgKUU/Uuqe6gx2UoI/AAAAAAAACp8/8kG4H9-mZYo/s1600/2014-01-28+22.59.08.jpg"><img alt="image0" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-s8GO4HSgKUU%2FUuqe6gx2UoI%2FAAAAAAAACp8%2F8kG4H9-mZYo%2Fs1600%2F2014-01-28%2B22.59.08.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 640px; height: 480px;" /></a></p>
+<p>I took over some desk space at Interlock and got to work. &nbsp;(I should
+note that the beverages you can see here are other people's, not mine.
+;)</p>
+<p>I traced the audio circuit on a real Pac-Man schematic (seen on my
+laptop's monitor), and buzzed it out on the Yenox board to try to
+corrolate the two.</p>
+<p><a class="reference external" href="http://3.bp.blogspot.com/-9SZwuigjePY/UuqihQhaOqI/AAAAAAAACqc/lyX0wtzBBfg/s1600/2014-01-30+14.05.06.jpg"><img alt="image1" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F-9SZwuigjePY%2FUuqihQhaOqI%2FAAAAAAAACqc%2FlyX0wtzBBfg%2Fs1600%2F2014-01-30%2B14.05.06.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 480px; height: 640px;" /></a></p>
+<p>I had to trace four similar paths from a quad flip-flop, through a quad
+bidirecional switch, to the audio output. &nbsp;It got really confusing at
+times, and took me probably a bit longer than it should have. &nbsp;For the
+most part, they were pin-for-pin correct as far as how they were wired.
+&nbsp;These chips have the same device (eg, a flip flop, or a logic gate)
+repeated 4 or 6 times. &nbsp;In some cases here, the Yenox board had a
+different one of these devices hooked up, which added to the confusion.</p>
+<p>This portion of the circuit uses 8 resistors to make a digital-to-analog
+converter. These generally work by having different resistance levels,
+usually something like multiples of eachother, eg, &nbsp;10k ohm, 22k ohm,
+47k ohm then 100kohm. &nbsp;I traced out all of the lines on the Yenox board
+and I found out that not only were the resistors in the wrong order on
+the board, but they were also wildly wrong (47 ohm instead of 4.7k ohm),
+which you can see in this table I made:</p>
+<p><a class="reference external" href="http://3.bp.blogspot.com/-Nnjo_5_2VUc/Uuqe6k2NJxI/AAAAAAAACp4/Ff-1Iqri6Bo/s1600/2014-01-28+23.07.43.jpg"><img alt="image2" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F3.bp.blogspot.com%2F-Nnjo_5_2VUc%2FUuqe6k2NJxI%2FAAAAAAAACp4%2FFf-1Iqri6Bo%2Fs1600%2F2014-01-28%2B23.07.43.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 480px; height: 640px;" /></a></p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-zeQMG0ohkqA/Uuqe8kFdqkI/AAAAAAAACqQ/SZjMuEWZ7aI/s1600/2014-01-28+23.07.59.jpg"><img alt="image3" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F2.bp.blogspot.com%2F-zeQMG0ohkqA%2FUuqe8kFdqkI%2FAAAAAAAACqQ%2FSZjMuEWZ7aI%2Fs1600%2F2014-01-28%2B23.07.59.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 640px; height: 480px;" /></a></p>
+<p>You can see these resistors here on the Yenox board, right next to the
+JAMMA connector. &nbsp;They start from the left with R1 (my notation.) &nbsp;The
+printing on the board completely matched the resistance values that sat
+on them, so it's obvious that the engineer who made this board seriously
+screwed it up in the design stage.</p>
+<p><a class="reference external" href="http://4.bp.blogspot.com/-MRXGr6YFnAI/Uuqe7IEuznI/AAAAAAAACqA/CEcTI-WDWrg/s1600/2014-01-29+00.00.35.jpg"><img alt="image4" class="aligncenter" src="https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2F4.bp.blogspot.com%2F-MRXGr6YFnAI%2FUuqe7IEuznI%2FAAAAAAAACqA%2FCEcTI-WDWrg%2Fs1600%2F2014-01-29%2B00.00.35.jpg&amp;container=blogger&amp;gadget=a&amp;rewriteMime=image%2F*" style="width: 640px; height: 480px;" /></a></p>
+<p>I replaced resistors R3 - R7. &nbsp;I put them in with the gold band closer
+to the JAMMA connector, rather than the other way around.</p>
+<p>And now it sounds near-perfect. &nbsp;There's a little bit of popping left,
+but I was getting tired and decided to head home for the night. &nbsp;I'll
+hook it up to an oscilloscope at some point and see if i can figure out
+which line is causing problems.</p>
+<p>For what it's worth, I also did the same as this on the video path DAC,
+seen in the above picture as the next three groups of resistors. &nbsp;In the
+above, the group of four and then the group of five are for audio, then
+the next group of three is for the &quot;red&quot;, next three for &quot;green&quot;, next
+two for &quot;blue&quot;, and the remaining two are for the sync. &nbsp;Again, there
+were some 47 ohm resistors mixed in, and notice two of the three in the
+&quot;green&quot; section are identical (red-red-brown)... which is surely wrong.
+&nbsp;Color is now perfect on the board too!</p>
+
+    </article>
+
+    <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/interlockroc">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Interlock-Rochester">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Blog powered by <a href="http://getpelican.com">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="/theme/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/theme/js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/theme/js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
