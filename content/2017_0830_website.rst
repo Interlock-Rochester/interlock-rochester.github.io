@@ -26,4 +26,4 @@ Our design goals are:
 Maybe not in that order. 
 
 
-Checkout our `Meetup.com <https://www.meetup.com/Interlock-Rochester-Hackerspace/`__ page for more information. 
+Checkout our `Meetup.com <https://www.meetup.com/Interlock-Rochester-Hackerspace/>`__ page for more information. 
