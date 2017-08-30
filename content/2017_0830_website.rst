@@ -1,0 +1,29 @@
+Hack Our Website: 101
+#####################################
+:date: 2017-08-30 14:44
+:author: AntiTree
+:category: Web, Projects
+:slug: hacksite
+:status: published
+
+If you're a regular viewer of our website, you'll notice that it's
+been going through some changes but it still doesn't reflect what's 
+been happening in the space. We're going to change that. 
+
+This coming Tuesday, we'll be holding a website hackathon to get
+people into web technologies and discuss various different architectures.
+The idea will be that we'll discuss different types of technologies
+and ways of hosting the website so that no only do we up-date our
+own page, but we'll show you how to update yours as well. 
+
+Our design goals are:
+
+* FOSS Friendly
+* Distributed responsibility
+* Secure
+* Cool
+
+Maybe not in that order. 
+
+
+Checkout our `Meetup.com <https://www.meetup.com/Interlock-Rochester-Hackerspace/`__ page for more information. 
