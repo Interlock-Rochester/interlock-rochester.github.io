@@ -1,0 +1,19 @@
+fixed, two image references on same line, the-best-chocolate-chip-cookies-ever.rst
+fixed, two image references on same line, repairing-the-audio-on-a-pac-man-arcade-board.rst
+fixed, NB note started with asterisk mistaken for bulleted list now removed, raspberry-pi-ip-audio-announcement-ippivox.rst
+fixed, image references given unique numbers, plottopotamus.rst
+fixed, image references given unique numbers, plottopotamus-2.rst
+fixed, image references given unique numbers, pencil-plotting.rst
+fixed, newlines put between image reference and text, jamma-video-game-test-rig-box.rst
+fixed, image references put on separate lines, interlock-wireless-upgrades.rst
+fixed, needed distinct numbering on the Smidgens image references, interlock-visits-laser-cuttery.rst
+fixed, need distinct numbering on First Print! image references, interlock-reprapchester.rst
+fixed, unwrapped some inline refs and added A B C to NYC Maker Faire 2011 refs, interlock-heads-to-maker-faire.rst
+fixed, numbered images 1 2 3 4, i-now-pronounce-you-hacker-and-wife.rst
+fixed, numbered Final Space images 1 and 2, hello-world-2.rst
+fixed, put newlines after image references, eproms-and-success.rst
+fixed, put newlines after image references, eproms-and-success-2.rst
+fixed, number Test 1 2 3, docubot-hands-free-camera.rst
+fixed, put some newlines after one image ref, bl-jamma-testrig.rst
+fixed, put some newlines around image refs, arduino-day-2015-pics-2.rst
+fixed, some newlines around image refs and numbered Handle set refs, 3d-printed-handlestand-for-ipad.rst

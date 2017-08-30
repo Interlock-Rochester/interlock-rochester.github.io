@@ -1,0 +1,13 @@
+*~
+._*
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.py[cod]
+output
+*.pid
+interlock-redirects-bothmatch
+interlock-redirects-match
+interlock-redirects-terminal
+.gitignore
