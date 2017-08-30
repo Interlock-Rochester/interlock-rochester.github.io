@@ -129,6 +129,18 @@ git commit
 git push
 ```
 
+Now, because it's stupid, you will also push to the HTML branch:
+
+```
+cd output
+
+git add -A
+
+git commit -am 'adding all of these stupid HTML files'
+
+git push origin master
+```
+
 (Typically one will develop on a separate branch from **master** but how to do
 that is beyond the scope of this README.)
 
