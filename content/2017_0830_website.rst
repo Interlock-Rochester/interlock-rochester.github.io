@@ -6,7 +6,7 @@ Hack Our Website: 101
 :slug: hacksite
 :status: published
 
-If you're a regular viewer of our website, you'll notice that it's
+If you're a regular visitor of our website, you'll notice that it's
 been going through some changes but it still doesn't reflect what's 
 been happening in the space. We're going to change that. 
 
