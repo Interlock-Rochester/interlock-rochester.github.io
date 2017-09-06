@@ -9,7 +9,7 @@
 
  
 
-**If you have access to a 3D printer you can make this!   **
+**If you have access to a 3D printer you can make this!**
 
 |HandleStand, 2|
 
@@ -40,7 +40,7 @@ attached "Smart Cover" or keyboard.**
 
 \*    \*    \*
 
-** The A-Frame stand gets the iPad screen up to a comfortable eye-level.
+**The A-Frame stand gets the iPad screen up to a comfortable eye-level.
  A recent study at Harvard concludes:** *"Head and neck posture during
 tablet computing can be improved by placing the tablet higher to avoid
 low gaze angles (i.e. on a table rather than on the lap) and through the
@@ -82,7 +82,7 @@ solid piece of plastic**!\* (Please see the WARNING below!)
 
 **With the HandleStand, an iPad can be adjusted to any position about
 the horizontal or vertical axis, so it is great for FaceTime or shooting
-video.  **
+video.**
 
 |HandleStand as tripod|
 
@@ -213,7 +213,7 @@ or Smart Cover closed while the assembly is being carried around.
 
  
 
-**Enjoy the HandleStand! **
+**Enjoy the HandleStand!**
 
  
 
