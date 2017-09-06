@@ -25,8 +25,8 @@ Movement <http://en.wikipedia.org/wiki/Open_source_hardware>`__.*
 [caption id="attachment_1418" align="alignright"
 width="281"]\ |stepcounter 1| First Patent: The Stepcounter[/caption]
 
-**In many ways, being an inventor has scarred my life.   **\ In the
-early 1970s I squandered all the funds I could beg or borrow (at least I
+**In many ways, being an inventor has scarred my life.**
+In the early 1970s I squandered all the funds I could beg or borrow (at least I
 didn’t steal), and I blew it all on my first patent.  The Stepcounter
 was a research device to measure the activity levels of laboratory
 animals.  My wife wanted to make the down payment on a house.  Thanks to

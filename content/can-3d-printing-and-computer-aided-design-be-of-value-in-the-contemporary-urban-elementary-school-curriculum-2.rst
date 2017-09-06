@@ -63,7 +63,7 @@ website) for Tinkercad to be safely used by kids (else the child's
 access to sharing on the internet will be unsupervised).  Autodesk, the
 new owner of Tinkercad, is working on eliminating this requirement.
 
-**Parents and teachers, stay tuned… **
+**Parents and teachers, stay tuned…**
 
 More about what we learned from participating in the Tech Camp will be
 discussed in later postings.  One of the neat things about
