@@ -62,7 +62,7 @@ is sold in hardware stores to be used on plastic plumbing pipes.
 \* \* \*
 
 **The trick is to design the device in pieces that are small enough to
-be printed, and they\ ** also must fit together precisely**.**  Then you
+be printed, and they\ ** also must fit together precisely**.  Then you
 print them in ABS plastic which can be **bonded with solvent to form a
 solid piece of plastic**!\* (Please see the WARNING below!)
 
