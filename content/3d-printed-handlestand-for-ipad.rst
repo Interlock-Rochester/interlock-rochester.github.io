@@ -40,8 +40,8 @@ attached "Smart Cover" or keyboard.**
 
 \*    \*    \*
 
-**The A Frame stand gets the iPad screen up to a comfortable eye level.
- A recent study at Harvard concludes:** "Head and neck posture during
+The A Frame stand gets the iPad screen up to a comfortable eye level.
+ A recent study at Harvard concludes: "Head and neck posture during
 tablet computing can be improved by placing the tablet higher to avoid
 low gaze angles (i.e. on a table rather than on the lap) and through the
 use of a case that provides optimal viewing angles."

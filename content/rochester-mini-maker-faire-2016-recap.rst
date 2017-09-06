@@ -56,7 +56,7 @@ Good:
 All in all, it was a great day, and I am super thankful to you all for
 participating!
 
-*Note: *\ On the back of our handout (before we ran out of them) were a
+*Note:* On the back of our handout (before we ran out of them) were a
 few puzzles to do.  In case you got stuck on them, or want to check your
 work, here are the solutions:
 

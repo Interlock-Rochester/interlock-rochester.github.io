@@ -11,8 +11,8 @@ project to make my emoticon pumpkins glow. That's cute and all but not
 very difficult.
 
 This year, I decided to work on this idea I've had for more than a year
-and a half. \ **The Brain - a silicone based brain with controllable
-LEDs inside. **\ I have some ideas of what to do next with it, but this
+and a half. **The Brain - a silicone based brain with controllable
+LEDs inside.** I have some ideas of what to do next with it, but this
 first iteration is just to be a fun decoration for Halloween.
 
 |2013-10-27-1[1]|\ |2013-10-27[1]|\ 
