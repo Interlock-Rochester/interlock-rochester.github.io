@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Interlock Rochester - Rochester's Hackerspace - Web, Projects</title><link href="/" rel="alternate"></link><link href="/feeds/web-projects.atom.xml" rel="self"></link><id>/</id><updated>2017-08-30T14:44:00-04:00</updated><entry><title>Hack Our Website: 101</title><link href="/hacksite.html" rel="alternate"></link><published>2017-08-30T14:44:00-04:00</published><updated>2017-08-30T14:44:00-04:00</updated><author><name>AntiTree</name></author><id>tag:None,2017-08-30:/hacksite.html</id><summary type="html">&lt;p&gt;If you're a regular visitor of our website, you'll notice that it's
+been going through some changes but it still doesn't reflect what's
+been happening in the space. We're going to change that.&lt;/p&gt;
+&lt;p&gt;This coming Tuesday, we'll be holding a website hackathon to get
+people into web technologies and discuss …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you're a regular visitor of our website, you'll notice that it's
+been going through some changes but it still doesn't reflect what's
+been happening in the space. We're going to change that.&lt;/p&gt;
+&lt;p&gt;This coming Tuesday, we'll be holding a website hackathon to get
+people into web technologies and discuss various different architectures.
+The idea will be that we'll discuss different types of technologies
+and ways of hosting the website so that no only do we up-date our
+own page, but we'll show you how to update yours as well.&lt;/p&gt;
+&lt;p&gt;Our design goals are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;FOSS Friendly&lt;/li&gt;
+&lt;li&gt;Distributed responsibility&lt;/li&gt;
+&lt;li&gt;Secure&lt;/li&gt;
+&lt;li&gt;Cool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Maybe not in that order.&lt;/p&gt;
+&lt;p&gt;Checkout our &lt;a class="reference external" href="https://www.meetup.com/Interlock-Rochester-Hackerspace/"&gt;Meetup.com&lt;/a&gt; page for more information.&lt;/p&gt;
+</content></entry></feed>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Interlock Rochester - Rochester's Hackerspace - Hardware, Security</title><link href="/" rel="alternate"></link><link href="/feeds/hardware-security.atom.xml" rel="self"></link><id>/</id><updated>2013-10-16T12:50:00-04:00</updated><entry><title>Playing with the JTAGulator</title><link href="/jtagulator.html" rel="alternate"></link><published>2013-10-16T12:50:00-04:00</published><updated>2013-10-16T12:50:00-04:00</updated><author><name>antitree</name></author><id>tag:None,2013-10-16:/jtagulator.html</id><summary type="html">&lt;p&gt;The JTAGulator is a tool designed by Joe Grand - the guy that used to
+make the DEFCON badges for years and was part of one of the first
+hackerspaces,&amp;nbsp;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/L0pht"&gt;Lopht&lt;/a&gt;. He did a
+Blackhat LV presentation on his newest open hardware, open source
+project called the JTAGulator. It's purpose is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The JTAGulator is a tool designed by Joe Grand - the guy that used to
+make the DEFCON badges for years and was part of one of the first
+hackerspaces,&amp;nbsp;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/L0pht"&gt;Lopht&lt;/a&gt;. He did a
+Blackhat LV presentation on his newest open hardware, open source
+project called the JTAGulator. It's purpose is to help you figure out
+the pins of a JTAG or UART device. This is normally an annoying and time
+consuming process.&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;a class="reference external" href="/wp-uploads/2013/10/1550_LRG-600x4611.jpg"&gt;&lt;img alt="http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/" class="aligncenter" src="/wp-uploads/2013/10/1550_LRG-600x4611.jpg" style="width: 600px; height: 461px;" /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/"&gt;http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;&lt;div class="section" id="jtag"&gt;
+&lt;h2&gt;JTAG&lt;/h2&gt;
+&lt;p&gt;JTAG (Joint Test Action Group) is just a name for a standard way of
+providing a debug interface to your hardware devices. What's nice about
+it is with one interface, you can provide debugging capabilities to a
+variety of chips on your board. So if you have two microcontrollers,
+each of them can be separately accessed through one interface. Pretty
+cool.&lt;/p&gt;
+&lt;p&gt;Hackers have been using JTAG for years to reverse hardware. You might
+have seen them used when messing with router firmware to install DD-WRT
+or OpenWRT. For WRT supported routers, JTAG often gives you the ability
+to push a custom firmware onto a board or extra the firmware that is
+currently installed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jtag-for-security"&gt;
+&lt;h2&gt;JTAG For Security&lt;/h2&gt;
+&lt;p&gt;Of course with all of my projects, I add a security twist. JTAG lets me
+gain low level access to a device and see how it works. An interface may
+be able to dump an EEPROM which could contain the cryptographic keys
+that are securing another piece of memory on the chip. Or it could give
+me a serial console similar to a root terminal that lets me interact
+with a device like a computer. The point is, it's a debuggable interface
+that I can use to exploit in a variety of ways to learn about how the
+device works.&lt;/p&gt;
+&lt;p&gt;You might wonder why these interfaces even exist on hardware since they
+give hackers the opportunity to access your hardware. Because JTAG is so
+useful for debugging, manufacturers actually use this interface the same
+way you would, to make sure the device is functioning properly. That's
+why it's highly likely you'll find some kind of debug interface for your
+boards.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jtagulator-setup"&gt;
+&lt;h2&gt;JTAGulator Setup&lt;/h2&gt;
+&lt;p&gt;The JTAGulator connects to your computer using a micro-USB cable that
+shows up as a serial device. In Linux, that device will be something
+like /dev/ttyUSB0. It uses 115.2K baud 8N1. Once connected using
+something like minicom or gtkterm in Linux, you'll see a prompt of
+available options. You can now start JTAGulating.&lt;/p&gt;
+&lt;p&gt;To connect the JTAGulator to a device, the board is designed to use the
+cables from a standard Bus Pirate board. You can either do that, or just
+use some aligator clips to connect to the pins. Either way, the board
+you're working on is going to need to be have the JTAG leads broken out
+so you can connect something to them. In my little Asus router that I
+found, these pins are pretty easy to access. I just soldered some cables
+on to them, and added a bit of glue to make sure they kept. :)&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_1527&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;225&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2013/10/IMG_20131015_1929571.jpg"&gt;&lt;img alt="Asus Router with wires near JTAG leads" class="size-medium wp-image-1527" src="/wp-uploads/2013/10/IMG_20131015_1929571-225x300.jpg" style="width: 225px; height: 300px;" /&gt;&lt;/a&gt; Asus Router with wires near JTAG
+leads[/caption]&lt;/p&gt;
+&lt;p&gt;From this point, your router should be connected to the JTAGulator, your
+JTAGulator connected to your computer, and you should have a console
+interface waiting for directions.&lt;/p&gt;
+&lt;p&gt;The first step is to set the voltage. It has a range of 1.2 to 3.3V and
+this is going to be important for you to figure out before hand. (If you
+don't know how to figure out the voltage on your board, you can probably
+ask someone at Interlock to show you using a multimeter.) Then you can
+choose how you'd like to scan for JTAG. There are two options, one is
+more thorough and time consuming but I don't have enough data to tell
+you which is better for which situation (feel free to chime in if you
+know). Either one will prompt you for which pins you'd like to test
+with, which should correspond to the pins you've connected on your
+JTAGulator. When you run it, it will attempt every possible combination
+of pins until it thinks it has found the right one. It also has a UART
+discovery mode.&lt;/p&gt;
+&lt;p&gt;This is not the first JTAG discovery product out there but it's the
+first I've used. I mentioned that the project is open source so here is
+a link to Joe's site to help you build your own board if you want, or if
+you're like me, you can buy them from a company like
+&lt;a class="reference external" href="http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/"&gt;Adafruit&lt;/a&gt;,
+too.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.grandideastudio.com/portfolio/jtagulator/"&gt;http://www.grandideastudio.com/portfolio/jtagulator/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content></entry></feed>
