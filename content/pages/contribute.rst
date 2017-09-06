@@ -18,9 +18,9 @@ Donate
 ======
 
 Interlock Rochester, Inc. is a registered 501(c)(3) charitable
-organization and if you're interested in donating money or equipment, it
-is eligible for a tax right off. To do this, we ask that you come to the
-space with your donation and any member can fill out the donation slip
+organization and if you're interested in donating money or equipment, it
+is eligible for a tax write-off. To do this, we ask that you come to the
+space with your donation, and any member can fill out the donation slip
 and sign it for you. If you can't make it in but would like to donate
 you can always email treasurer at interlockroc.org to make arrangements.
 
@@ -28,14 +28,14 @@ If you have equipment that you think would be useful to the space,
 please understand that we can't accept everything. Examples of things we
 would be interested in:
 
--  Servers, computers, and networking equipment manufactured within the
+-  Servers, computers, and networking equipment manufactured within the
    last 4 years
 -  LCD monitors
 -  Electronics parts (e.g. microcontrollers, integrated circuits,
    capacitors, resistors) worth more than $50
 -  Tools such as saws, drills, or hand tools. (Please check that we are
    in need of such a tool first)
--  Retro systems (not to be confused with old computers) such as the
+-  Retro systems (not to be confused with old computers) such as the
    Ataris, Apple IIe, Commodore 64
 -  Useful amateur radio equipment like H.T.'s, antennas, or a working
    rig
@@ -47,7 +47,7 @@ The following are things that we invariably **cannot** accept:
 -  Random bag of old cables
 -  Old printers or scanners
 
-If you're unsure of if your donation would be accepted,  please email
+If you're unsure of whether your donation would be accepted, please email
 info at interlockroc.org.
 
 Share
@@ -60,8 +60,8 @@ member to contribute to our community.
 Become a Member
 ===============
 
-Membership is the best way to support the group because this is how
-we pay the bills. If you're interested in becoming a member, stop by and
+Membership is the best way to support the group because this is how
+we pay the bills. If you're interested in becoming a member, stop by and
 see if you like the space, and fill out the membership application. You
 can find more information in our
-`About </pages/about.html>`__\ section.
+`About </pages/about.html>`__ section.
