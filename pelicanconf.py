@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Interlock Member'
 SITENAME = u'Interlock Rochester - Rochester\'s Hackerspace'
-SITEURL = ''
+SITEURL = 'http://interlockroc.org'
 
 #FRONT_PIC_BACKGROUND = 'cut_wood_crop.jpg'
 #FRONT_PIC_BACKGROUND = 'gear_on_table.jpg'
@@ -28,7 +28,7 @@ DEFAULT_LANG = u'en'
 THEME = "./themes/clean-blog"
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
