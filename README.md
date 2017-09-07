@@ -60,7 +60,7 @@ trying to use pelican.*
 Clone your fork of your repo: 
 
 ```
-git clone git@github.com:your-github-username/interlock-rochester.github.io.src.git
+git clone git@github.com:your-github-username/interlock-rochester.github.io.git
 ```
 
 *NOTE: Be sure to substitute your own github account name in place of
