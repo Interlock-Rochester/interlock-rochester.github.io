@@ -4,7 +4,7 @@ python:
 install:
     - pip install --user pelican markdown
 script:
-    - pelican
+    - pelican content -o output -s publishconf.py
 deploy:
     provider: pages
     github_token: $GITHUB_TOKEN
