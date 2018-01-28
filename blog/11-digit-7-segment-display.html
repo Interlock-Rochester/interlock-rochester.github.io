@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A Pelican Blog</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Full Atom Feed" />
+        <link href="/feeds/hardware-projects.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Categories Atom Feed" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/11-digit-7-segment-display.html" rel="bookmark"
+         title="Permalink to 11 Digit, 7 Segment Display">11 Digit, 7 Segment Display</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2013-05-17T13:26:00+00:00">
+      Fri 17 May 2013
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/bleullama.html">BleuLlama</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p><a class="reference external" href="http://1.bp.blogspot.com/-dkD0ogUU58o/UZZwNl-PA-I/AAAAAAAACbg/9s-kiPZUZ8Q/s1600/IMG_1468.JPG"><img alt="image0" class="aligncenter" src="http://1.bp.blogspot.com/-dkD0ogUU58o/UZZwNl-PA-I/AAAAAAAACbg/9s-kiPZUZ8Q/s640/IMG_1468.JPG" style="width: 640px; height: 478px;" /></a></p>
+<p><em>An early test result, showing text and millseconds since power-on.</em></p>
+<p>About a year ago, I bought a few 11 digit, 7 segment red LED displays
+from Active Surplus up on Queen Street in Toronto. (Excellent store. &nbsp;If
+you're into hacking stuff at all, it's well worth the trip. Look for the
+monkey on Queen street to find their entrance.)</p>
+<p>This past week, I wasn't sure what to do at Interlock on Tuesday night,
+but I had recently re-found these displays, so I figured I would finally
+get them working. &nbsp;I hit Radio Shack to get a Seeed Studio Arduino
+Shield ($10 with a mess of components, probably the best deal in all of
+Radio Shack.)</p>
+<p><a class="reference external" href="http://4.bp.blogspot.com/-gRsOSI_LtfU/UZZz1mwZnpI/AAAAAAAACb4/or8abBr4-TM/s1600/IMG_1459.JPG"><img alt="image1" src="http://4.bp.blogspot.com/-gRsOSI_LtfU/UZZz1mwZnpI/AAAAAAAACb4/or8abBr4-TM/s640/IMG_1459.JPG" style="width: 640px; height: 478px;" /></a></p>
+<p><em>The display with a header soldered on, and the shield with its assorted
+parts.</em></p>
+<p>I was all set to figure out how to reverse-engineer the pinout on the
+bottom of the display; I googled for the LED module, and found specs on
+those, and then on a whim, decided to check on the entire module board,
+a Rohm LU-3011, and found the jackpot,&nbsp;<a class="reference external" href="http://bobdasquirrel.blogspot.com/2011/08/rohm-lu-3011-led-display-module.html">this post about figuring out
+the
+pinout</a>.
+&nbsp;It suddenly became very easy to do this project.</p>
+<p>The two key things gleaned from that above post, which I have mirrored
+here, are this table of enables for each of the 11 digits:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="13%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+<col width="9%" />
+</colgroup>
+<tbody valign="top">
+<tr><td>Digit</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+<td>10</td>
+<td>11</td>
+</tr>
+<tr><td>Pin</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>6</td>
+<td>8</td>
+<td>10</td>
+<td>12</td>
+<td>14</td>
+<td>16</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+<p>and this image, showing the pin mappings of the segments:</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-O2_Yz-oWDgE/UZZstuDtijI/AAAAAAAACbQ/eLleHoWirVw/s1600/digit.JPG"><img alt="image2" src="http://2.bp.blogspot.com/-O2_Yz-oWDgE/UZZstuDtijI/AAAAAAAACbQ/eLleHoWirVw/s320/digit.JPG" style="width: 320px; height: 300px;" /></a></p>
+<p><em>Mapping of the segments to the pins on the header.</em></p>
+<p>The basic way these displays work is that all of the 7 segments (plus
+one decimal point) are all tied together to the pins specified above.
+&nbsp;Then the anodes for each of the displays are broken out to the pins in
+the table above. &nbsp;So to draw a '7', you would set all of the segments to
+LOW, except for pins 11, 19, and 7 which you set HIGH. &nbsp;Then to turn on
+a specific digit, let's say digit 11 (rightmost), you set the digit
+enable pin 18 to be an output, and set it LOW. &nbsp;Set all of the other
+digit enables to be inputs (tri-state, not low or high), and only
+position 11 will show a &quot;7&quot;. &nbsp;You repeat this for all of the 11 digits
+in the display, and you can display 11 full digits from just those 19
+pins.</p>
+<p>In my code (available below) I start at digit 1, and work down to digit
+11, enabling each one, in turn, showing its segments, waiting 1
+millisecond, then disable that digit, move on to the next one.</p>
+<p>I soldered a pin header on the display, and built up a shield to plug it
+into.</p>
+<p><a class="reference external" href="http://4.bp.blogspot.com/-bh1tSeeWrGA/UZZ0MK4HVlI/AAAAAAAACcA/cBy-KgCnyfg/s1600/IMG_1463.JPG"><img alt="image3" class="aligncenter" src="http://4.bp.blogspot.com/-bh1tSeeWrGA/UZZ0MK4HVlI/AAAAAAAACcA/cBy-KgCnyfg/s640/IMG_1463.JPG" style="width: 640px; height: 478px;" /></a></p>
+<p><em>All of the digit enables wired up. &nbsp;The top ones are a bit messy. Sorry
+about that.</em></p>
+<p>I wired it up such that the digit enables and segments are wired
+directly to IO lines on my Arduino. &nbsp;This used all of the IO lines,
+minus the D13 pin, which has an on-board LED.</p>
+<p>The code that I wrote (available below) lets you do arbitrary digits per
+character, so that i can do (primitive) alphanumerics, or do animation
+patterns, etc. &nbsp;I also store the decimal point as a separate character
+going in to the display code, so &quot;3.141&quot; is five ascii characters going
+in, but a flag is set on the '3' position saying that this digit should
+also display its decimal point, so it only consumes four digits in the
+display.</p>
+<p><a class="reference external" href="http://2.bp.blogspot.com/-Iu8GH9eT68o/UZZ0WDS63kI/AAAAAAAACcI/HTfpMMcb3Fg/s1600/IMG_1464.JPG"><img alt="image4" class="aligncenter" src="http://2.bp.blogspot.com/-Iu8GH9eT68o/UZZ0WDS63kI/AAAAAAAACcI/HTfpMMcb3Fg/s640/IMG_1464.JPG" style="width: 640px; height: 478px;" /></a></p>
+<p><em>just testing out all of the segments and digits</em></p>
+<p>For now, it displays a nice clock and some animations on my desk, but I
+plan on changing it around a little in the near future. &nbsp;I want to use
+the D13 line as one of the segment enables (probably decimal point) and
+move the segment enables off of the Serial Receive line. &nbsp;That way i
+will be able to control it via serial to display patterns, animations or
+text content. &nbsp;Since the hardware serial port is hardwired to 0 and 1,
+and I will be using the TX line for the LED displays, I'll have to
+instead use the Software Serial, with only its Receive line mapped to an
+IO pin, and its Transmit line mapped to junk. I've done this before and
+it works well.</p>
+<p>The code for this project is&nbsp;<a class="reference external" href="https://github.com/BleuLlama/GeodesicSphere/tree/master/Projects/SevenSegment11">available in my Geodesic Sphere github
+repository</a>.</p>
+<p>This post is also available on <a class="reference external" href="http://geodesicsphere.blogspot.com/2013/05/11-digit-7-segment-display.html">my personal project blog
+thing</a>.</p>
+
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

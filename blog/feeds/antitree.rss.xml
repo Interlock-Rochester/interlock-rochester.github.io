@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>A Pelican Blog - AntiTree</title><link>/</link><description></description><lastBuildDate>Wed, 30 Aug 2017 14:44:00 +0000</lastBuildDate><item><title>Hack Our Website: 101</title><link>/hacksite.html</link><description>&lt;p&gt;If you're a regular visitor of our website, you'll notice that it's
+been going through some changes but it still doesn't reflect what's
+been happening in the space. We're going to change that.&lt;/p&gt;
+&lt;p&gt;This coming Tuesday, we'll be holding a website hackathon to get
+people into web technologies and discuss …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">AntiTree</dc:creator><pubDate>Wed, 30 Aug 2017 14:44:00 +0000</pubDate><guid isPermaLink="false">tag:None,2017-08-30:/hacksite.html</guid></item><item><title>How Do I ... Encryption</title><link>/how-do-i-encryption.html</link><description>&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2016/06/padlock-157619_960_7201.png"&gt;&lt;img alt="padlock-157619_960_720[1]" class="alignright wp-image-1998" src="{filename}wp-uploads/2016/06/padlock-157619_960_7201.png" style="width: 197px; height: 221px;" /&gt;&lt;/a&gt;Next week, June 14th we'll be continuing
+our seminar series that teaches about core things we use. This month
+will be an introduction to encryption. This will be a hands on,
+practical learning about the basics of things like symmetric vs
+asymmetric ciphers, hashing vs key derivation functions, the good …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Thu, 09 Jun 2016 11:40:00 +0000</pubDate><guid isPermaLink="false">tag:None,2016-06-09:/how-do-i-encryption.html</guid></item><item><title>Beaglebone Black PMIC for battery backup</title><link>/beaglebone-black-pmic-for-battery-backup.html</link><description>&lt;p&gt;One of my &lt;a class="reference external" href="https://trello.com/c/Hlx0umUw/12-tactical-beaglebone"&gt;Interlock
+projects&lt;/a&gt; has
+been to explore the capabilities of the Beaglebone Black's built-in
+Power Management Integrated Circuit
+(&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Power_management_integrated_circuit"&gt;PMIC&lt;/a&gt;)
+that gives the BBB a pretty&amp;nbsp;useful feature; charging and operating off
+of li-po batteries.&amp;nbsp;If you look at the BBB board, you will see 4
+through-holes behind the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Mon, 02 Mar 2015 16:03:00 +0000</pubDate><guid isPermaLink="false">tag:None,2015-03-02:/beaglebone-black-pmic-for-battery-backup.html</guid></item><item><title>Software Defined Radio Workshops</title><link>/software-defined-radio-workshops.html</link><description>&lt;p&gt;This Thursday the 19th, we have another installment of the &lt;a class="reference external" href="http://www.meetup.com/Interlock-Rochester-Hackerspace/events/220284849/"&gt;Software
+Defined Radio (SDR)
+workshop&lt;/a&gt;.
+The goal of which is to provide introductory support to people learning
+about SDR's as well as let some of the more seasoned folk work on their
+projects. We've talk to a lot of people …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Tue, 17 Feb 2015 10:09:00 +0000</pubDate><guid isPermaLink="false">tag:None,2015-02-17:/software-defined-radio-workshops.html</guid></item><item><title>Playing with the JTAGulator</title><link>/jtagulator.html</link><description>&lt;p&gt;The JTAGulator is a tool designed by Joe Grand - the guy that used to
+make the DEFCON badges for years and was part of one of the first
+hackerspaces,&amp;nbsp;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/L0pht"&gt;Lopht&lt;/a&gt;. He did a
+Blackhat LV presentation on his newest open hardware, open source
+project called the JTAGulator. It's purpose is …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Wed, 16 Oct 2013 12:50:00 +0000</pubDate><guid isPermaLink="false">tag:None,2013-10-16:/jtagulator.html</guid></item><item><title>I now pronounce you hacker and wife</title><link>/i-now-pronounce-you-hacker-and-wife.html</link><description>&lt;p&gt;This weekend, Interlock&amp;nbsp;participated&amp;nbsp;in two milestone events: Our third
+annual meeting, which we'll talk about in another post, and one of our
+members getting married. Walter (N2VBP) and Cheryl have finally tied the
+knot to &amp;nbsp;make it official.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="/wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Attendees were friends and family of the couple including Walter 's …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Mon, 17 Dec 2012 08:23:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-12-17:/i-now-pronounce-you-hacker-and-wife.html</guid></item><item><title>Raspberry Pi Workshop With Rob Bishop</title><link>/raspberry-pi-workshop-with-rob-bishop.html</link><description>&lt;p&gt;This Tuesday at 7pm, we'll be welcoming Rob Bishop of the Raspberry Pi
+Foundation to do a workshop. He'll be bringing in a bunch of Raspberry
+Pi's to play with and hack on during the event. The workshop is, as
+always, open to the public so we welcome anyone that's …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Mon, 26 Nov 2012 06:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-11-26:/raspberry-pi-workshop-with-rob-bishop.html</guid></item><item><title>Remote Control Hacking</title><link>/remote-control-hacking.html</link><description>&lt;p&gt;A project that I've been spending a lot of time on, is learning about
+how this silly little RF remote communicates to its home base. The
+remote controls a music playing device and since it's RF, the project
+required me to learn about radio frequencies and some hardware hacking.
+I've …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Fri, 20 Jul 2012 07:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-07-20:/remote-control-hacking.html</guid></item><item><title>Intro To 3D Printing</title><link>/intro-to-3d-printing.html</link><description>&lt;p&gt;The two Bills, JustBill and DollarBill, teamed up to give an intro to 3D
+printing with a demo at the space. Thanks guys!&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Tue, 03 Jul 2012 20:55:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-07-03:/intro-to-3d-printing.html</guid></item><item><title>BSidesROC: Free Hacker Con For Security Nerds</title><link>/bsidesroc-free-hacker-con-for-security-nerds.html</link><description>&lt;p&gt;Saturday May 12th is the second annual BSidesROC hacker con. It's
+Rochester's only &amp;quot;Hacker con&amp;quot; and Interlock will be there running a
+booth and showing support. Come visit our table.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/BSides_Roc_web_2.png"&gt;&lt;img alt="image0" class="aligncenter size-medium wp-image-873" src="/wp-uploads/2012/05/BSides_Roc_web_2-243x300.png" style="width: 243px; height: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="what-to-expect"&gt;
+&lt;h2&gt;What to expect&lt;/h2&gt;
+&lt;p&gt;If you've never been to a hacker con, it's a bit different than your
+standard conference. Don't …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Mon, 07 May 2012 07:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-05-07:/bsidesroc-free-hacker-con-for-security-nerds.html</guid></item><item><title>New Lockpicking Club: Rochester TOOOL</title><link>/new-lockpicking-club-rochester-toool.html</link><description>&lt;p&gt;Tonight (Thursday) a new club will be using the Rochester hackerspace as
+a meeting ground for its first event. The Rochester TOOOL (yes three
+O's) chapter is starting up organized by Jason Ross. What's a Jason Ross
+and what's a TOOOL right? Jason is the newest Interlock member and comes …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Thu, 19 Apr 2012 14:48:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-04-19:/new-lockpicking-club-rochester-toool.html</guid></item><item><title>YNN, meet Interlock.</title><link>/ynn-meet-interlock.html</link><description>&lt;p&gt;This morning a few members stopped by to meet reporters from
+&lt;a class="reference external" href="http://rochester.ynn.com/"&gt;YNN&lt;/a&gt;. Seth Voorhees and Veronica Chiesi
+were given the nickle tour, and then chatted with Bill, Von, Brian and
+myself. Thankfully they weren't scared away by the level of geek in the
+room.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/DSC_8773.jpg"&gt;&lt;img alt="image0" class="size-medium wp-image-846 aligncenter" src="/wp-uploads/2012/03/DSC_8773-300x221.jpg" style="width: 300px; height: 221px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Brian wowed them with his always …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Wed, 28 Mar 2012 14:30:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-03-28:/ynn-meet-interlock.html</guid></item><item><title>Open House: New Space</title><link>/open-house-new-space.html</link><description>&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/interlock_oldspice-e1331824667576.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-834" src="/wp-uploads/2012/03/interlock_oldspice-e1331824667576.png" style="width: 341px; height: 280px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hello hackers. Look at your office. Now look at the hackerspace. Now
+back at your office. Now back to the space. Sadly, your office doesn't
+look like the hacker space. Do you know what the new hackerspace looks
+like? No? Well now's your opportunity. I'm on a horse.&lt;/p&gt;
+&lt;p&gt;Tomorrow, Friday …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Thu, 15 Mar 2012 10:25:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-03-15:/open-house-new-space.html</guid></item><item><title>Near Field Communication Primer</title><link>/near-field-communication-primer.html</link><description>&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/NFC-logo.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-429" src="/wp-uploads/2011/08/NFC-logo.png" style="width: 284px; height: 237px;" /&gt;&lt;/a&gt;I thought I'd do a primer about NFC since Samsung's Galaxy
+Nexus is getting a lot of press about it. You may have heard of Google
+Wallet or how NFC is going to be built into smart phones in the future.
+Maybe you haven't thought about how it works or …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Wed, 21 Dec 2011 12:00:00 +0000</pubDate><guid isPermaLink="false">tag:None,2011-12-21:/near-field-communication-primer.html</guid><category>hacking</category><category>infosec</category><category>near field communication</category><category>NFC</category><category>security</category></item><item><title>Chatting With Spain</title><link>/chatting-with-spain.html</link><description>&lt;p&gt;Last Thursday’s Do night, JustBill brought in his HF rig to try out on
+our club antennas.&amp;nbsp; Bill is an expert user on several digital
+communications modes including PSK31.&amp;nbsp; PSK31 or &amp;quot;Phase Shift Keying, 31
+Baud&amp;quot; is a digital radio modulation mode, used primarily in the amateur
+radio field …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Tue, 13 Dec 2011 03:29:00 +0000</pubDate><guid isPermaLink="false">tag:None,2011-12-13:/chatting-with-spain.html</guid></item><item><title>K2HAX Is On The Air</title><link>/k2hax-is-on-the-air.html</link><description>&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/11/ham_temp-e1322411639629.jpg"&gt;&lt;img alt="image0" class="alignright size-full wp-image-707" src="/wp-uploads/2011/11/ham_temp-e1322411759170.jpg" style="width: 256px; height: 569px;" /&gt;&lt;/a&gt;K2HAX is on the air!&amp;nbsp; With our move to the new space, we have
+access to the roof.&amp;nbsp; On a beautiful fall day, Chris Olin and I put up a
+30’ fiberglass mast on a tripod base (not attached to the roof).&amp;nbsp; Then
+we hoisted up a trapped dipole for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Sun, 27 Nov 2011 11:42:00 +0000</pubDate><guid isPermaLink="false">tag:None,2011-11-27:/k2hax-is-on-the-air.html</guid><category>amateur radio</category><category>HAM</category></item><item><title>Android Hacking</title><link>/android-hacking.html</link><description>&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/09/android_hack_logo.jpg"&gt;&lt;img alt="image0" class="alignright size-thumbnail wp-image-520" src="/wp-uploads/2011/09/android_hack_logo-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;Android right now makes up 52% of the smartphone market share
+and a third of the tablets. I've been focused on Android lately and
+wanted to do an&amp;nbsp;introduction&amp;nbsp;to the hackability of these devices.&amp;nbsp;From a
+security perspective, Android offers some interesting opportunities:
+rooting your phone, hacking an app …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Wed, 07 Sep 2011 09:43:00 +0000</pubDate><guid isPermaLink="false">tag:None,2011-09-07:/android-hacking.html</guid></item><item><title>Regional Computer Recycling Recovery Tour</title><link>/regional-computer-recycling-recovery-tour.html</link><description>&lt;p&gt;&lt;img alt="Regional Computer Recycling &amp;amp; Recovery" class="right" src="{filename}wp-uploads/2010/12/rcrr.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Have you ever wanted to watch a hard drive get shredded in seconds, see
+a box of RAM that was 800 pounds, or wander through a 100,000 square
+foot grave yard of electronics? So did we, and our tour of Regional
+Computer Recycling and Recovery was just that. RCR …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Tue, 28 Dec 2010 06:46:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-12-28:/regional-computer-recycling-recovery-tour.html</guid></item><item><title>Anniversary Achievement Unlocked</title><link>/anniversary-achievement-unlocked.html</link><description>&lt;p&gt;Last Saturday, Interlock celebrated its one year anniversary. &amp;nbsp;Although
+this wasn't the original date of our inception, it was the agreed upon
+time to meet, discuss what we did the year before, announce plans for
+the year after, decide upon the budget, and share ideas that could help
+improve Interlock …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Thu, 16 Dec 2010 20:20:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-12-16:/anniversary-achievement-unlocked.html</guid></item><item><title>Arduino Class</title><link>/arduino-class.html</link><description>&lt;p&gt;Join us on August 24th for a 6 week class as we join O'Reilly's training
+class.&lt;a class="reference external" href="http://training.oreilly.com/arduino/"&gt;http://training.oreilly.com/arduino/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For those of you that are new to Arduinos:&lt;/p&gt;
+&lt;blockquote&gt;
+Arduino is an open-source electronics prototyping platform based on
+flexible, easy-to-use hardware and software. It's intended for
+artists, designers, hobbyists …&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Fri, 13 Aug 2010 10:36:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-08-13:/arduino-class.html</guid></item><item><title>Interlock Story From Ithaca College</title><link>/interlock-story-from-ithaca-college.html</link><description>&lt;p&gt;Bryant K from Ithaca College came up to visit and interview some of the
+members about hacking, Interlock, and the scene.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Mon, 10 May 2010 20:30:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-05-10:/interlock-story-from-ithaca-college.html</guid></item><item><title>First Friday / Barcamp This Weekend</title><link>/first-friday-barcamp-this-weekend.html</link><description>&lt;p&gt;This Friday, Interlock and the rest of the
+&lt;a class="reference external" href="http://rocwiki.org/Hungerford_Building"&gt;Hungerford&lt;/a&gt; building will
+open as part of the &lt;a class="reference external" href="http://www.firstfridayrochester.org/"&gt;First
+Friday&lt;/a&gt; art exhibit. If you
+haven't visited during a First Friday you can expect a good time to meet
+other members of Interlock and explore the building looking for some
+interesting art and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Thu, 01 Apr 2010 15:34:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-04-01:/first-friday-barcamp-this-weekend.html</guid></item><item><title>Linux Workshop This Weekend</title><link>/linux-workshop-this-weekend.html</link><description>&lt;p&gt;We are holding a Linux Workshop this Saturday, March 20 from noon to
+4PM.&lt;/p&gt;
+&lt;p&gt;If you've never been to the Linux Workshops in the past they're a lot of
+fun and a great way to learn something new!&amp;nbsp; Everyone is welcome!&lt;/p&gt;
+&lt;p&gt;Experts will be on hand to help with any …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Thu, 18 Mar 2010 12:27:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-03-18:/linux-workshop-this-weekend.html</guid></item><item><title>Lightning Smarts</title><link>/lightning-and-smarts.html</link><description>&lt;p&gt;Last night more than two dozen people joined us for our second edition
+of Lightning Talks. A time for people to share their interests or a
+random subject they've just learned. The talks showed the range of
+knowledge of Interlock from artificial intellegence, soldering, art
+history, orienteering, making booklets, cross …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Wed, 10 Mar 2010 10:59:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-03-10:/lightning-and-smarts.html</guid></item><item><title>Lightning Talks this week!</title><link>/lightning-talks-this-week.html</link><description>&lt;p&gt;This Tuesday at 7pm will be our second Interlock Lightning talks. If you
+didn't hear about our last one, it was a ton of fun and a lot of people
+came out.&lt;/p&gt;
+&lt;p&gt;Here's more info on what a Lightning Talk is:
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Lightning_Talk"&gt;http://en.wikipedia.org/wiki/Lightning_Talk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you've never …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Mon, 08 Mar 2010 09:20:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-03-08:/lightning-talks-this-week.html</guid></item><item><title>Lightning Talks at Rochester Hackerspace</title><link>/lightning-talks-at-rochester-hackerspace.html</link><description>&lt;p&gt;Last night marked the Rochester Hackerspace's first &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Lightning_Talk"&gt;lightning
+talk&lt;/a&gt; event where we
+invited members and friends to come and present on a subject of their
+choosing that is less than 5 minutes long. &amp;nbsp;The subjects reflected the
+diverse backgrounds of its members; making pcb boards, bump keys, book
+binding, boxes …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Wed, 13 Jan 2010 12:06:00 +0000</pubDate><guid isPermaLink="false">tag:None,2010-01-13:/lightning-talks-at-rochester-hackerspace.html</guid></item><item><title>New Years at Interlock</title><link>/new-years-at-interlock.html</link><description>&lt;p&gt;Ring in the new year at Rochester's hackerspace! A bunch of us will be
+there partying, playing &amp;quot;catch phrase,&amp;quot; and building robots. Feel free
+to bring drinks and snacks.&amp;nbsp; This informal party starts at 7pm and open
+to anyone that's interested.&lt;/p&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Sun, 27 Dec 2009 18:40:00 +0000</pubDate><guid isPermaLink="false">tag:None,2009-12-27:/new-years-at-interlock.html</guid></item><item><title>Interlock Visits Familab</title><link>/interlock-visits-familab.html</link><description>&lt;p&gt;Tonight, I was able to meetup with some of the members of Familab at
+their new hackerspace in Orlando, Florida. They've started the same time
+as Interlock and have been working hard to startup a cool community of
+hackers. The space is filleed with fun toys including a server room …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Wed, 16 Dec 2009 02:04:00 +0000</pubDate><guid isPermaLink="false">tag:None,2009-12-16:/interlock-visits-familab.html</guid></item><item><title>First Meeting With A Home</title><link>/first-meeting-with-a-home.html</link><description>&lt;p&gt;This week was the first time we were able to visit the new home of
+Interlock at 1115 E. Main St, Rochester.&amp;nbsp; This is a temporary setup
+until the final space across the hall is finished in February but it's
+still home.&lt;/p&gt;
+&lt;p&gt;[flickr]http://www.flickr.com/photos/bert_m_b/4171929450 …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">antitree</dc:creator><pubDate>Thu, 10 Dec 2009 09:07:00 +0000</pubDate><guid isPermaLink="false">tag:None,2009-12-10:/first-meeting-with-a-home.html</guid></item></channel></rss>

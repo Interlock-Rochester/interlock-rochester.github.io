@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Programming</title><link href="/" rel="alternate"></link><link href="/feeds/programming.atom.xml" rel="self"></link><id>/</id><updated>2014-01-12T13:15:00+00:00</updated><entry><title>Unexpected googling win</title><link href="/unexpected-googling-win.html" rel="alternate"></link><published>2014-01-12T13:15:00+00:00</published><updated>2014-01-12T13:15:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2014-01-12:/unexpected-googling-win.html</id><summary type="html">&lt;p&gt;So, pursuing goals too convoluted to explain well on a lazy Sunday, I
+went to see what I could find about a certain type of data structure
+(trees) in a certain &lt;a class="reference external" href="http://www.pigdog.org/auto/electro_diddle/link/915.html"&gt;awesome but increasingly
+obscure&lt;/a&gt;
+language called &lt;a class="reference external" href="http://www.forth.org/"&gt;Forth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds.png"&gt;&lt;img alt="trees-in-forth-screenie-2-3rds" class="alignnone size-medium wp-image-1622" src="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds-300x220.png" style="width: 300px; height: 220px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm not exactly sure why I find this hilarious, but I do …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So, pursuing goals too convoluted to explain well on a lazy Sunday, I
+went to see what I could find about a certain type of data structure
+(trees) in a certain &lt;a class="reference external" href="http://www.pigdog.org/auto/electro_diddle/link/915.html"&gt;awesome but increasingly
+obscure&lt;/a&gt;
+language called &lt;a class="reference external" href="http://www.forth.org/"&gt;Forth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds.png"&gt;&lt;img alt="trees-in-forth-screenie-2-3rds" class="alignnone size-medium wp-image-1622" src="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds-300x220.png" style="width: 300px; height: 220px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm not exactly sure why I find this hilarious, but I do.&lt;/p&gt;
+</content><category term="forth"></category><category term="hacking"></category><category term="programming"></category></entry></feed>

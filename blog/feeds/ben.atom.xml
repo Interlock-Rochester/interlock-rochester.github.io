@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Ben</title><link href="/" rel="alternate"></link><link href="/feeds/ben.atom.xml" rel="self"></link><id>/</id><updated>2012-11-23T15:38:00+00:00</updated><entry><title>SSH Port Forwarding</title><link href="/ssh-port-forwarding.html" rel="alternate"></link><published>2012-11-23T15:38:00+00:00</published><updated>2012-11-23T15:38:00+00:00</updated><author><name>Ben</name></author><id>tag:None,2012-11-23:/ssh-port-forwarding.html</id><summary type="html">&lt;p&gt;I've been toying with the idea of setting up an IRC bouncer (&amp;quot;BNC&amp;quot;). A
+BNC is a process that acts in a similar manner to a proxy: I connect to
+it, and it connects to the IRC network. The advantage of this, for me,
+is that it can stay connected …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been toying with the idea of setting up an IRC bouncer (&amp;quot;BNC&amp;quot;). A
+BNC is a process that acts in a similar manner to a proxy: I connect to
+it, and it connects to the IRC network. The advantage of this, for me,
+is that it can stay connected to the network even when I'm not: logging
+conversations and messages and holding on to my nickname for me.&lt;a class="reference external" href="/wp-uploads/2012/11/linkinus2.png"&gt;&lt;img alt="IRC" class="alignright size-medium wp-image-1084" src="/wp-uploads/2012/11/linkinus2-300x189.png" style="width: 300px; height: 189px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I initially started with a blank slate: an install of Ubuntu Server
+12.04 LTS in a virtual machine (thanks to our wonderful netadmin team).
+Almost immediately I realized I had a problem though: the VM was behind
+a firewall and NAT, with only a single firewall rule and port forward
+for SSH.&lt;/p&gt;
+&lt;p&gt;One of our members recently sent out a message to our mailing list about
+doing some cool things with SSH. So I thought it would be a great
+opportunity to take advantage of this new knowledge. In order to set
+this up, I needed to have SSH open and accessible on another machine.
+For convenience sake, I made this the machine that I was going to
+connect to the BNC from.&lt;/p&gt;
+&lt;p&gt;For the purposes of this article, I'm going to refer to the two
+computers in question as &amp;quot;bwvm&amp;quot; which is the Ubuntu Server virtual
+machine, and &amp;quot;bwhome&amp;quot; which is my MacBook Pro on my desk (&amp;quot;bw&amp;quot; being my
+initials -- clever, I know).&lt;/p&gt;
+&lt;p&gt;The first thing I did was setup SSH keys so that I didn't have to use
+passwords when connecting back and fourth between these two computers.
+I've done this a few times before but it isn't something I do on a daily
+basis, so I followed this excellent guide from Paul Keck on doing so:
+&lt;a class="reference external" href="http://paulkeck.com/ssh/"&gt;HOTWO: set up ssh keys&lt;/a&gt;. The gist is that
+you generate a public/private key-pair on each computer
+(&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;ssh-keygen&lt;/span&gt; &lt;span class="pre"&gt;-t&lt;/span&gt; dsa&lt;/tt&gt;) and then copy the contents of the resulting
+&lt;tt class="docutils literal"&gt;id_dsa.pub&lt;/tt&gt; public key file to the &lt;tt class="docutils literal"&gt;authorized_keys2&lt;/tt&gt; file on the
+opposite computer (i.e. bwvm's &lt;tt class="docutils literal"&gt;id_dsa.pub&lt;/tt&gt; contents go into bwhome's
+&lt;tt class="docutils literal"&gt;authorized_keys2&lt;/tt&gt; file). Now I can SSH back and fourth freely.&lt;/p&gt;
+&lt;p&gt;Next step: install and configure a BNC. At first I started with psyBNC.
+I ran into some troubles with that though, in that for some reason it
+would only allow me to use super insecure passwords (instead of the
+insanely complex ones that I'd generated with
+&lt;a class="reference external" href="https://agilebits.com/onepassword"&gt;1Password&lt;/a&gt;) and it refused to
+connect to some of the IRC servers I wanted to connect to. I spent some
+time troubleshooting but ultimately decided it wasn't worth
+the&amp;nbsp;hassle&amp;nbsp;and went with a recommendation to use an easier to configure
+BNC: ZNC.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;I got ZNC installed and configured and began the process of forwarding
+the port via SSH. The command I'm using to do so looks like this:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;tt class="docutils literal"&gt;ssh bwhome &lt;span class="pre"&gt;-R&lt;/span&gt; 4242:localhost:31337 &lt;span class="pre"&gt;-N&lt;/span&gt;&lt;/tt&gt;&lt;/div&gt;
+&lt;div class="line"&gt;When run from a shell on bwvm what this does is links port 31337 on
+bwvm to port 4242 on bwhome (which to me is localhost -- the computer
+I'm sitting at). So what I can do now is &amp;nbsp;run a
+&lt;tt class="docutils literal"&gt;/connect localhost 4242&lt;/tt&gt; in my IRC client, and be connected to the
+BNC running on port 31337 on bwvm without bugging the netadmin team
+for another port forward and firewall rule!&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;This is a bit convoluted, but works. At the moment, the process looks
+like this (sitting at bwhome):&lt;/div&gt;
+&lt;div class="line"&gt;`` &lt;a class="reference external" href="mailto:me&amp;#64;bwhome"&gt;me&amp;#64;bwhome&lt;/a&gt;:~$ ssh bwvm &lt;a class="reference external" href="mailto:me&amp;#64;bwvm"&gt;me&amp;#64;bwvm&lt;/a&gt;:~$ ssh bwhome -R 4242:localhost:31337 -N &amp;amp; [switch back to bwhome] me&amp;#64;bwhome:~$ irssi /connect localhost 4242 (BNC password)&amp;nbsp;``&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;The result:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;img alt="Yay! IRC goodness" src="https://www.evernote.com/shard/s12/sh/69f51770-2020-4b17-b4a1-2b9c4ff9cec8/804981870bec3e00fb98da354041f354/res/319665fe-898d-4ba9-bb62-63820bff07f6/skitch.png" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;(Yay! IRC goodness)&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Instead I'd like to simply run one command from bwhome, without having
+to initiate a shell session with bwvm. This should be possible by
+simply switching some of the command around. To do that it will likely
+end up looking something like this (again, sitting at bwhome):&lt;/div&gt;
+&lt;div class="line"&gt;&lt;tt class="docutils literal"&gt;ssh bwvm &lt;span class="pre"&gt;-L&lt;/span&gt; 4242:localhost:31337 &lt;span class="pre"&gt;-N&lt;/span&gt; &amp;amp;&lt;/tt&gt;&lt;/div&gt;
+&lt;div class="line"&gt;(actually it looks exactly like that)&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;One distinct advantage of this method (using SSH) over having a firewall
+rule and a port forward is an added layer of security: in order to
+access my BNC someone would have to be able to SSH into my VM. Note that
+I don't have to use SSL when connecting to the BNC, because all of the
+traffic is already tunneled over SSH.&lt;/p&gt;
+&lt;p&gt;For anyone wondering what app that sexy screenshot came from, it is
+&lt;a class="reference external" href="http://www.conceitedsoftware.com/linkinus"&gt;Linkinus&lt;/a&gt; from Conceited
+Software&amp;nbsp;-- an IRC client for OS X -- using the Erstwhile theme. Very
+retro.&lt;/p&gt;
+</content></entry><entry><title>SSH Port Forwarding</title><link href="/ssh-port-forwarding-2.html" rel="alternate"></link><published>2012-11-23T15:38:00+00:00</published><updated>2012-11-23T15:38:00+00:00</updated><author><name>Ben</name></author><id>tag:None,2012-11-23:/ssh-port-forwarding-2.html</id><summary type="html">&lt;p&gt;I've been toying with the idea of setting up an IRC bouncer (&amp;quot;BNC&amp;quot;). A
+BNC is a process that acts in a similar manner to a proxy: I connect to
+it, and it connects to the IRC network. The advantage of this, for me,
+is that it can stay connected …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been toying with the idea of setting up an IRC bouncer (&amp;quot;BNC&amp;quot;). A
+BNC is a process that acts in a similar manner to a proxy: I connect to
+it, and it connects to the IRC network. The advantage of this, for me,
+is that it can stay connected to the network even when I'm not: logging
+conversations and messages and holding on to my nickname for me.&lt;a class="reference external" href="/wp-uploads/2012/11/linkinus2.png"&gt;&lt;img alt="IRC" class="alignright size-medium wp-image-1084" src="/wp-uploads/2012/11/linkinus2-300x189.png" style="width: 300px; height: 189px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I initially started with a blank slate: an install of Ubuntu Server
+12.04 LTS in a virtual machine (thanks to our wonderful netadmin team).
+Almost immediately I realized I had a problem though: the VM was behind
+a firewall and NAT, with only a single firewall rule and port forward
+for SSH.&lt;/p&gt;
+&lt;p&gt;One of our members recently sent out a message to our mailing list about
+doing some cool things with SSH. So I thought it would be a great
+opportunity to take advantage of this new knowledge. In order to set
+this up, I needed to have SSH open and accessible on another machine.
+For convenience sake, I made this the machine that I was going to
+connect to the BNC from.&lt;/p&gt;
+&lt;p&gt;For the purposes of this article, I'm going to refer to the two
+computers in question as &amp;quot;bwvm&amp;quot; which is the Ubuntu Server virtual
+machine, and &amp;quot;bwhome&amp;quot; which is my MacBook Pro on my desk (&amp;quot;bw&amp;quot; being my
+initials -- clever, I know).&lt;/p&gt;
+&lt;p&gt;The first thing I did was setup SSH keys so that I didn't have to use
+passwords when connecting back and fourth between these two computers.
+I've done this a few times before but it isn't something I do on a daily
+basis, so I followed this excellent guide from Paul Keck on doing so:
+&lt;a class="reference external" href="http://paulkeck.com/ssh/"&gt;HOTWO: set up ssh keys&lt;/a&gt;. The gist is that
+you generate a public/private key-pair on each computer
+(&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;ssh-keygen&lt;/span&gt; &lt;span class="pre"&gt;-t&lt;/span&gt; dsa&lt;/tt&gt;) and then copy the contents of the resulting
+&lt;tt class="docutils literal"&gt;id_dsa.pub&lt;/tt&gt; public key file to the &lt;tt class="docutils literal"&gt;authorized_keys2&lt;/tt&gt; file on the
+opposite computer (i.e. bwvm's &lt;tt class="docutils literal"&gt;id_dsa.pub&lt;/tt&gt; contents go into bwhome's
+&lt;tt class="docutils literal"&gt;authorized_keys2&lt;/tt&gt; file). Now I can SSH back and fourth freely.&lt;/p&gt;
+&lt;p&gt;Next step: install and configure a BNC. At first I started with psyBNC.
+I ran into some troubles with that though, in that for some reason it
+would only allow me to use super insecure passwords (instead of the
+insanely complex ones that I'd generated with
+&lt;a class="reference external" href="https://agilebits.com/onepassword"&gt;1Password&lt;/a&gt;) and it refused to
+connect to some of the IRC servers I wanted to connect to. I spent some
+time troubleshooting but ultimately decided it wasn't worth
+the&amp;nbsp;hassle&amp;nbsp;and went with a recommendation to use an easier to configure
+BNC: ZNC.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;I got ZNC installed and configured and began the process of forwarding
+the port via SSH. The command I'm using to do so looks like this:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;tt class="docutils literal"&gt;ssh bwhome &lt;span class="pre"&gt;-R&lt;/span&gt; 4242:localhost:31337 &lt;span class="pre"&gt;-N&lt;/span&gt;&lt;/tt&gt;&lt;/div&gt;
+&lt;div class="line"&gt;When run from a shell on bwvm what this does is links port 31337 on
+bwvm to port 4242 on bwhome (which to me is localhost -- the computer
+I'm sitting at). So what I can do now is &amp;nbsp;run a
+&lt;tt class="docutils literal"&gt;/connect localhost 4242&lt;/tt&gt; in my IRC client, and be connected to the
+BNC running on port 31337 on bwvm without bugging the netadmin team
+for another port forward and firewall rule!&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;This is a bit convoluted, but works. At the moment, the process looks
+like this (sitting at bwhome):&lt;/div&gt;
+&lt;div class="line"&gt;`` &lt;a class="reference external" href="mailto:me&amp;#64;bwhome"&gt;me&amp;#64;bwhome&lt;/a&gt;:~$ ssh bwvm &lt;a class="reference external" href="mailto:me&amp;#64;bwvm"&gt;me&amp;#64;bwvm&lt;/a&gt;:~$ ssh bwhome -R 4242:localhost:31337 -N &amp;amp; [switch back to bwhome] me&amp;#64;bwhome:~$ irssi /connect localhost 4242 (BNC password)&amp;nbsp;``&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;The result:&lt;/div&gt;
+&lt;div class="line"&gt;&lt;img alt="Yay! IRC goodness" src="https://www.evernote.com/shard/s12/sh/69f51770-2020-4b17-b4a1-2b9c4ff9cec8/804981870bec3e00fb98da354041f354/res/319665fe-898d-4ba9-bb62-63820bff07f6/skitch.png" /&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;(Yay! IRC goodness)&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Instead I'd like to simply run one command from bwhome, without having
+to initiate a shell session with bwvm. This should be possible by
+simply switching some of the command around. To do that it will likely
+end up looking something like this (again, sitting at bwhome):&lt;/div&gt;
+&lt;div class="line"&gt;&lt;tt class="docutils literal"&gt;ssh bwvm &lt;span class="pre"&gt;-L&lt;/span&gt; 4242:localhost:31337 &lt;span class="pre"&gt;-N&lt;/span&gt; &amp;amp;&lt;/tt&gt;&lt;/div&gt;
+&lt;div class="line"&gt;(actually it looks exactly like that)&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;One distinct advantage of this method (using SSH) over having a firewall
+rule and a port forward is an added layer of security: in order to
+access my BNC someone would have to be able to SSH into my VM. Note that
+I don't have to use SSL when connecting to the BNC, because all of the
+traffic is already tunneled over SSH.&lt;/p&gt;
+&lt;p&gt;For anyone wondering what app that sexy screenshot came from, it is
+&lt;a class="reference external" href="http://www.conceitedsoftware.com/linkinus"&gt;Linkinus&lt;/a&gt; from Conceited
+Software&amp;nbsp;-- an IRC client for OS X -- using the Erstwhile theme. Very
+retro.&lt;/p&gt;
+</content></entry><entry><title>From Hermit To Ham: My New Antenna</title><link href="/from-hermit-to-ham-my-new-antenna.html" rel="alternate"></link><published>2011-08-15T21:38:00+00:00</published><updated>2011-08-15T21:38:00+00:00</updated><author><name>Ben</name></author><id>tag:None,2011-08-15:/from-hermit-to-ham-my-new-antenna.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o.jpg"&gt;&lt;img alt="Ben's Antenna" class="alignright" src="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o-224x300.jpg" style="width: 224px; height: 300px;" /&gt;&lt;/a&gt;After graduating RIT this May with a BS in Information
+Technology,&amp;nbsp;I moved out to rural Livingston County; some 30+ miles away
+from Interlock and downtown Rochester.&amp;nbsp;Partially because of the distance
+to the local repeaters, and partially to impress the ladies,&amp;nbsp;I picked up
+an&amp;nbsp;&lt;a class="reference external" href="http://www.arrowantennas.com/"&gt;Arrow Antenna&lt;/a&gt;&amp;nbsp;dual-band
+(VHF …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o.jpg"&gt;&lt;img alt="Ben's Antenna" class="alignright" src="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o-224x300.jpg" style="width: 224px; height: 300px;" /&gt;&lt;/a&gt;After graduating RIT this May with a BS in Information
+Technology,&amp;nbsp;I moved out to rural Livingston County; some 30+ miles away
+from Interlock and downtown Rochester.&amp;nbsp;Partially because of the distance
+to the local repeaters, and partially to impress the ladies,&amp;nbsp;I picked up
+an&amp;nbsp;&lt;a class="reference external" href="http://www.arrowantennas.com/"&gt;Arrow Antenna&lt;/a&gt;&amp;nbsp;dual-band
+(VHF/UHF) j-pole style antenna&amp;nbsp;from our friend Steve KC2YTC along with a
+used 30' antenna mast.&amp;nbsp;Installation entailed mounting the mast to the
+side of my house, installing the antenna, soldering the PL-259 connector
+to a coax cable (LMR-400 from hamfest) and running it down to my Yaesu
+FT-8800 that sits in my office. This ended up being a great little
+antenna and now I'm back talking with my friends on the Rochester
+repeaters. Special thanks to Chris N2CDO for help soldering the PL-259
+connectors on the coax.&lt;/p&gt;
+&lt;p&gt;N0BDW is back on the air!&lt;/p&gt;
+&lt;p&gt;For all you Hams out there, check in to the Monroe County ARES/RACES
+net&amp;nbsp;on 146.61 / 444.45 (N2MPE) repeater on Thursday nights at 9pm EST
+and you'll likely hear me there.&lt;/p&gt;
+&lt;p&gt;I'm also volunteering with Livonia Fire/EMS, so for the public safety
+scanning enthusiasts listen for 298[X] (EMS) or 25[X] (fire) on
+Livingston County Fire/EMS dispatch (46.16).&lt;/p&gt;
+</content><category term="antenna"></category><category term="HAM"></category><category term="radio"></category></entry><entry><title>Ham Club Station</title><link href="/ham-club-station.html" rel="alternate"></link><published>2010-11-10T11:47:00+00:00</published><updated>2010-11-10T11:47:00+00:00</updated><author><name>Ben</name></author><id>tag:None,2010-11-10:/ham-club-station.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/5163910621"&gt;&lt;img alt="KC2ZHO" src="http://farm5.static.flickr.com/4033/5163910621_a8c44127cd.jpg" style="width: 300px; height: 169px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Given our number of active (&amp;quot;radioactive&amp;quot;?) amateur radio enthusiasts,
+we recently applied for a club station license to give Interlock its
+very own call sign. The paperwork arrived last night and we're pleased
+to announce that Interlock now has an official presence on the air. The
+aptly named call sign …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/5163910621"&gt;&lt;img alt="KC2ZHO" src="http://farm5.static.flickr.com/4033/5163910621_a8c44127cd.jpg" style="width: 300px; height: 169px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Given our number of active (&amp;quot;radioactive&amp;quot;?) amateur radio enthusiasts,
+we recently applied for a club station license to give Interlock its
+very own call sign. The paperwork arrived last night and we're pleased
+to announce that Interlock now has an official presence on the air. The
+aptly named call sign, K2HAX, has also been applied for.&lt;/p&gt;
+&lt;p&gt;We are currently VHF/UHF capable using a homemade J-Pole antenna. Our
+roof antenna project is progressing nicely and, despite a few snags, the
+necessary supplies will soon be ordered in hopes of being functional
+before the city experiences any significant snowfall. When all is said
+and done, we will have a fairly powerful ham station capable of reaching
+the far edges of Monroe County and beyond.&lt;/p&gt;
+&lt;p&gt;Upcoming projects include using modified Motorola Bravo pagers for
+paging over ham frequencies, and setting up a WinLink node to allow for
+e-mailing over ham radio.&lt;/p&gt;
+</content></entry><entry><title>Antenna Make Night</title><link href="/antenna-make-night.html" rel="alternate"></link><published>2010-07-01T20:53:00+00:00</published><updated>2010-07-01T20:53:00+00:00</updated><author><name>Ben</name></author><id>tag:None,2010-07-01:/antenna-make-night.html</id><summary type="html">&lt;p&gt;Next Thursday, July 15th, we will be making amateur radio 2M antennas
+(half-wave, j-pole). If anyone is interested in learning about antenna
+theory, soldering, or anything else that goes into making antennas...
+come down and check it out.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; Due to a mixup with our supplier we won't have the …&lt;/div&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Next Thursday, July 15th, we will be making amateur radio 2M antennas
+(half-wave, j-pole). If anyone is interested in learning about antenna
+theory, soldering, or anything else that goes into making antennas...
+come down and check it out.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; Due to a mixup with our supplier we won't have the
+materials to make&lt;/div&gt;
+&lt;div class="line"&gt;antennas until NEXT Thursday, July 15th. We will hold antenna make&lt;/div&gt;
+&lt;div class="line"&gt;night then.&lt;/div&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Interlock Lightning Talks at Coworking Rochester: Success!</title><link href="/interlock-lightning-talks-at-coworking-rochester-success.html" rel="alternate"></link><published>2010-05-14T23:13:00+00:00</published><updated>2010-05-14T23:13:00+00:00</updated><author><name>Ben</name></author><id>tag:None,2010-05-14:/interlock-lightning-talks-at-coworking-rochester-success.html</id><summary type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks to everyone who made it out to our first of hopefully many
+successful Lightning Talk nights sponsored and hosted by &lt;a class="reference external" href="http://www.coworkingrochester.com/"&gt;Coworking
+Rochester&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="line"&gt;Special thanks to Dave M. and his crew for their hospitality, as well
+as Remy D. and the RIT storytellers who recorded most of the talks.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If …&lt;/p&gt;</summary><content type="html">&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks to everyone who made it out to our first of hopefully many
+successful Lightning Talk nights sponsored and hosted by &lt;a class="reference external" href="http://www.coworkingrochester.com/"&gt;Coworking
+Rochester&lt;/a&gt;.&lt;/div&gt;
+&lt;div class="line"&gt;Special thanks to Dave M. and his crew for their hospitality, as well
+as Remy D. and the RIT storytellers who recorded most of the talks.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you missed them, you can watch them on ustream:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.ustream.tv/channel/rit-storytellers"&gt;http://www.ustream.tv/channel/rit-storytellers&lt;/a&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6921770&amp;amp;usg=AFQjCNFdSchJC2FRUHNU6UIhHOhAguFtEw"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6921770&amp;amp;usg=AFQjCNFdSchJC2FRUHNU6UIhHOhAguFtEw&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6921770"&gt;http://www.ustream.tv/recorded/6921770&lt;/a&gt;
+- Home Brew&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6921989&amp;amp;usg=AFQjCNGHqvD_h6-Bq3fyy6Zz29axZC_quQ"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6921989&amp;amp;usg=AFQjCNGHqvD_h6-Bq3fyy6Zz29axZC_quQ&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6921989"&gt;http://www.ustream.tv/recorded/6921989&lt;/a&gt;
+- Intro to Electronics&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922213&amp;amp;usg=AFQjCNHzb2YIwlopp7U2GmsVz2Ef-LeUdQ"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922213&amp;amp;usg=AFQjCNHzb2YIwlopp7U2GmsVz2Ef-LeUdQ&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6922213"&gt;http://www.ustream.tv/recorded/6922213&lt;/a&gt;
+- OLPC&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922405&amp;amp;usg=AFQjCNF9ga4JV-Bg0F0KC-aFvpGjKqmy1Q"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922405&amp;amp;usg=AFQjCNF9ga4JV-Bg0F0KC-aFvpGjKqmy1Q&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6922405"&gt;http://www.ustream.tv/recorded/6922405&lt;/a&gt;
+- Amateur Radio&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922594&amp;amp;usg=AFQjCNHMS6Df2LCRHAahIEUfXkhyDIgJ6Q"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922594&amp;amp;usg=AFQjCNHMS6Df2LCRHAahIEUfXkhyDIgJ6Q&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6922594"&gt;http://www.ustream.tv/recorded/6922594&lt;/a&gt;
+- Breaking out of handcuffs&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922869&amp;amp;usg=AFQjCNEJyu7vgpuT93G7DIVCYe9RlmlSgQ"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6922869&amp;amp;usg=AFQjCNEJyu7vgpuT93G7DIVCYe9RlmlSgQ&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6922869"&gt;http://www.ustream.tv/recorded/6922869&lt;/a&gt;
+- HDR Photography&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923031&amp;amp;usg=AFQjCNF6mY_7iV1wYVpY1vUXPUWb6NTmRg"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923031&amp;amp;usg=AFQjCNF6mY_7iV1wYVpY1vUXPUWb6NTmRg&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6923031"&gt;http://www.ustream.tv/recorded/6923031&lt;/a&gt;
+- Deacon&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923180&amp;amp;usg=AFQjCNH3IiCE89yeMvnRlGA4ZJp8QKHzBg"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923180&amp;amp;usg=AFQjCNH3IiCE89yeMvnRlGA4ZJp8QKHzBg&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6923180"&gt;http://www.ustream.tv/recorded/6923180&lt;/a&gt;
+- RG&amp;amp;E Outage Map&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923409&amp;amp;usg=AFQjCNEOcpQeUvrb4v4oZPfN2vd9OoHa6g"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923409&amp;amp;usg=AFQjCNEOcpQeUvrb4v4oZPfN2vd9OoHa6g&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6923409"&gt;http://www.ustream.tv/recorded/6923409&lt;/a&gt;
+- Roc Tech Groups&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923784&amp;amp;usg=AFQjCNHGwifmQVPGAn8g233lJ0-0nW4Trw"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6923784&amp;amp;usg=AFQjCNHGwifmQVPGAn8g233lJ0-0nW4Trw&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6923784"&gt;http://www.ustream.tv/recorded/6923784&lt;/a&gt;
+- Scratch&lt;/div&gt;
+&lt;div class="line"&gt;` &amp;lt;&lt;a class="reference external" href="http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6924373&amp;amp;usg=AFQjCNEOV8cn1C9gYu5wkBAlpELUSzhRDw"&gt;http://www.google.com/url?sa=D&amp;amp;q=http://www.ustream.tv/recorded/6924373&amp;amp;usg=AFQjCNEOV8cn1C9gYu5wkBAlpELUSzhRDw&lt;/a&gt;&amp;gt;`__&lt;a class="reference external" href="http://www.ustream.tv/recorded/6924373"&gt;http://www.ustream.tv/recorded/6924373&lt;/a&gt;
+- Apple II&lt;/div&gt;
+&lt;/div&gt;
+</content></entry></feed>

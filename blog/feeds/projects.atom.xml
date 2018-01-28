@@ -1,0 +1,1568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Projects</title><link href="/" rel="alternate"></link><link href="/feeds/projects.atom.xml" rel="self"></link><id>/</id><updated>2014-12-21T13:23:00+00:00</updated><entry><title>Electronic Drum Set</title><link href="/electronic-drum-set-2.html" rel="alternate"></link><published>2014-12-21T13:23:00+00:00</published><updated>2014-12-21T13:23:00+00:00</updated><author><name>radicalgeek</name></author><id>tag:None,2014-12-21:/electronic-drum-set-2.html</id><summary type="html">&lt;p&gt;I wanted to tell you my progress in making the electronic drum set. &amp;nbsp;The
+drum pads/cymbals/cowbell is a peizzo element sandwiched between 1/4
+inch MDF and foam pad. &amp;nbsp;The peizzo is wired to a 1/4 inch phono jack.
+&amp;nbsp;The drum module was the part that I …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I wanted to tell you my progress in making the electronic drum set. &amp;nbsp;The
+drum pads/cymbals/cowbell is a peizzo element sandwiched between 1/4
+inch MDF and foam pad. &amp;nbsp;The peizzo is wired to a 1/4 inch phono jack.
+&amp;nbsp;The drum module was the part that I looked into before starting this
+project. &amp;nbsp;Finally found
+&lt;a class="reference external" href="http://microdrum.altervista.org"&gt;MicroDrum&lt;/a&gt;&amp;nbsp;that interfaces with an
+Arduino and can connect 48 different drums. &amp;nbsp;It is cheaper then getting
+a profession drum module that can do 10. &amp;nbsp;I am just in the middle of
+making foot pedals for the base drum and the hi-hat pedal that is made
+out of 1/2 inch MDF, hinge and spring. &amp;nbsp;The base drum is a peizzo and
+the hi-hat is a momentary on-switch.&lt;/p&gt;
+&lt;p&gt;Drum Module&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/12/IMG_20141216_203915.jpg"&gt;&lt;img alt="IMG_20141216_203915" class="alignnone size-medium wp-image-1721" src="{filename}wp-uploads/2014/12/IMG_20141216_203915-225x300.jpg" style="width: 225px; height: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Toms/Snares&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/12/IMG_20141216_203647-1.jpg"&gt;&lt;img alt="IMG_20141216_203647 (1)" class="alignnone size-medium wp-image-1719" src="{filename}wp-uploads/2014/12/IMG_20141216_203647-1-300x225.jpg" style="width: 300px; height: 225px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Cymbals and Cowbell&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/12/IMG_20141216_203658.jpg"&gt;&lt;img alt="IMG_20141216_203658" class="alignnone size-medium wp-image-1720" src="{filename}wp-uploads/2014/12/IMG_20141216_203658-300x225.jpg" style="width: 300px; height: 225px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Anamatronic Avian: Skeleton Experiments</title><link href="/anamatronic-avian-skeleton-experiments.html" rel="alternate"></link><published>2013-03-06T11:17:00+00:00</published><updated>2013-03-06T11:17:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2013-03-06:/anamatronic-avian-skeleton-experiments.html</id><summary type="html">&lt;p&gt;I'm about to start making the skeleton for my animatronic Tiki-Room
+Macaw. &amp;nbsp;Rather than futzing with drawing up detailed plans in some cad
+program, Iv'e decided to instead get the basic shape made, and then just
+build one out of foam core. &amp;nbsp;My thought was that once I have the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I'm about to start making the skeleton for my animatronic Tiki-Room
+Macaw. &amp;nbsp;Rather than futzing with drawing up detailed plans in some cad
+program, Iv'e decided to instead get the basic shape made, and then just
+build one out of foam core. &amp;nbsp;My thought was that once I have the shape
+worked out, I'll disassemble it and come up with plans for 3d printable
+parts that can be attached together, and eventually some vacuum formed
+parts as well for the head and beak, which need to be lightweight...
+although I'm starting to think that they could all be 3D printed, with a
+skin stretched over them for feathers and fur, after seeing&amp;nbsp;&lt;a class="reference external" href="http://hackaday.com/?s=acetone"&gt;the posts
+on Hack-A-Day about using acetone vapor to smooth out
+parts&lt;/a&gt;... anyway..&lt;/p&gt;
+&lt;p&gt;One of the things I was unsure of was the control linkages, and how the
+articulation points can be made. &amp;nbsp;It needs to have a few points of
+articulation to match the birds in the Enchanted Tiki Room:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-qZOD7wBfc5Y/UTdpnqOh8qI/AAAAAAAACXw/r3R4zyJgR7c/s1600/2013-03-06+11.00.15.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://4.bp.blogspot.com/-qZOD7wBfc5Y/UTdpnqOh8qI/AAAAAAAACXw/r3R4zyJgR7c/s640/2013-03-06+11.00.15.jpg" style="width: 356px; height: 640px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Perch rotation - 270 degrees, spins the bird around (not shown)&lt;/li&gt;
+&lt;li&gt;Lean - +20, -20 degrees, to lean forward and backward at the point
+where the legs connect&lt;/li&gt;
+&lt;li&gt;Head yaw - +45, -45 degrees back and forth&lt;/li&gt;
+&lt;li&gt;Head tilt - +15, -15 degrees up and down&lt;/li&gt;
+&lt;li&gt;Beak - 30 degrees, could be all open or all closed (shown in the
+diagram as 15 degrees)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I was thinking that after I constructed the foam version, I could figure
+things out from there, but after seeing&amp;nbsp;&lt;a class="reference external" href="http://hackaday.com/2013/02/28/3d-printed-hog-drive/"&gt;this post on Hack-A-Day with
+a &amp;quot;HOG Drive&amp;quot;&lt;/a&gt;,
+I realized I could leverage off of this design for the head linkages.&lt;/p&gt;
+&lt;p&gt;I chatted with Skip at&amp;nbsp;&lt;a class="reference external" href="/"&gt;Interlock&lt;/a&gt;, and
+by the end of this last Tuesday evening, I had two 3-D printed versions
+of this, using ABS, rather than the PLA material I am
+more&amp;nbsp;familiar&amp;nbsp;with. (&lt;a class="reference external" href="http://www.thingiverse.com/thing:52097"&gt;Here's the Thingiverse link for the
+design&lt;/a&gt;.) Since I wasn't
+going to be mounting a motor, we (and by &amp;quot;we&amp;quot; I mean &amp;quot;he&amp;quot;) replaced the
+motor space with a flat plate with a mounting screw hole. &amp;nbsp;He also
+replaced the back control arm with just a peg, since the bridge-like
+shape wouldn't hold up properly on his printer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-w3-dNOYQiBU/UTdp-unGYKI/AAAAAAAACX4/UgL3sYxLOsc/s1600/2013-03-05+23.23.34.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="http://4.bp.blogspot.com/-w3-dNOYQiBU/UTdp-unGYKI/AAAAAAAACX4/UgL3sYxLOsc/s640/2013-03-05+23.23.34.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The first print (on the left) has a failed control peg on the center
+disk. &amp;nbsp;It was adding material onto printed material that didn't cool
+yet, so it just kinda globbed up. &amp;nbsp;This was improved by Skip by adding a
+second post, seen in the second version on the right. &amp;nbsp;He also added
+some material around the screw holes in the frame, to improve
+durability.&lt;/p&gt;
+&lt;p&gt;After printing and having this in my hand, I'm realizing that it won't
+quite work for me, although it does give me an excellent starting point.
+&amp;nbsp;The center disk is too small to mount the head on. &amp;nbsp;It's only about 1
+1/2 inches in diameter. I think I'd want something about 2-3&amp;quot; in
+diameter, with plenty of mounting points and space for securing the head
+,as well as space for wiring for the beak servo (or linear motor, or
+solenoid, or whatever). &amp;nbsp;It really showed me the design considerations
+for actually constructing something, not to mention it
+really&amp;nbsp;emphasized&amp;nbsp;that whatever design I can think of, I can print...
+which is pretty&amp;nbsp;futuristically&amp;nbsp;awesome.&lt;/p&gt;
+&lt;p&gt;But the important thing is that I know have ideas to build on for the
+final version. &amp;nbsp;I'll still be constructing a foam core model, and I'll
+be using this above design as a kick-off point.&lt;/p&gt;
+&lt;p&gt;(&lt;a class="reference external" href="http://geodesicsphere.blogspot.com/2013/03/anamatronic-avian-skeleton-experiments.html"&gt;This post is cross-posted to my personal project blog as
+well&lt;/a&gt;.)&lt;/p&gt;
+</content></entry><entry><title>Anamatronic Avian: Skeleton Experiments</title><link href="/anamatronic-avian-skeleton-experiments-2.html" rel="alternate"></link><published>2013-03-06T11:17:00+00:00</published><updated>2013-03-06T11:17:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2013-03-06:/anamatronic-avian-skeleton-experiments-2.html</id><summary type="html">&lt;p&gt;I'm about to start making the skeleton for my animatronic Tiki-Room
+Macaw. &amp;nbsp;Rather than futzing with drawing up detailed plans in some cad
+program, Iv'e decided to instead get the basic shape made, and then just
+build one out of foam core. &amp;nbsp;My thought was that once I have the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I'm about to start making the skeleton for my animatronic Tiki-Room
+Macaw. &amp;nbsp;Rather than futzing with drawing up detailed plans in some cad
+program, Iv'e decided to instead get the basic shape made, and then just
+build one out of foam core. &amp;nbsp;My thought was that once I have the shape
+worked out, I'll disassemble it and come up with plans for 3d printable
+parts that can be attached together, and eventually some vacuum formed
+parts as well for the head and beak, which need to be lightweight...
+although I'm starting to think that they could all be 3D printed, with a
+skin stretched over them for feathers and fur, after seeing&amp;nbsp;&lt;a class="reference external" href="http://hackaday.com/?s=acetone"&gt;the posts
+on Hack-A-Day about using acetone vapor to smooth out
+parts&lt;/a&gt;... anyway..&lt;/p&gt;
+&lt;p&gt;One of the things I was unsure of was the control linkages, and how the
+articulation points can be made. &amp;nbsp;It needs to have a few points of
+articulation to match the birds in the Enchanted Tiki Room:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-qZOD7wBfc5Y/UTdpnqOh8qI/AAAAAAAACXw/r3R4zyJgR7c/s1600/2013-03-06+11.00.15.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://4.bp.blogspot.com/-qZOD7wBfc5Y/UTdpnqOh8qI/AAAAAAAACXw/r3R4zyJgR7c/s640/2013-03-06+11.00.15.jpg" style="width: 356px; height: 640px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Perch rotation - 270 degrees, spins the bird around (not shown)&lt;/li&gt;
+&lt;li&gt;Lean - +20, -20 degrees, to lean forward and backward at the point
+where the legs connect&lt;/li&gt;
+&lt;li&gt;Head yaw - +45, -45 degrees back and forth&lt;/li&gt;
+&lt;li&gt;Head tilt - +15, -15 degrees up and down&lt;/li&gt;
+&lt;li&gt;Beak - 30 degrees, could be all open or all closed (shown in the
+diagram as 15 degrees)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I was thinking that after I constructed the foam version, I could figure
+things out from there, but after seeing&amp;nbsp;&lt;a class="reference external" href="http://hackaday.com/2013/02/28/3d-printed-hog-drive/"&gt;this post on Hack-A-Day with
+a &amp;quot;HOG Drive&amp;quot;&lt;/a&gt;,
+I realized I could leverage off of this design for the head linkages.&lt;/p&gt;
+&lt;p&gt;I chatted with Skip at&amp;nbsp;&lt;a class="reference external" href="/"&gt;Interlock&lt;/a&gt;, and
+by the end of this last Tuesday evening, I had two 3-D printed versions
+of this, using ABS, rather than the PLA material I am
+more&amp;nbsp;familiar&amp;nbsp;with. (&lt;a class="reference external" href="http://www.thingiverse.com/thing:52097"&gt;Here's the Thingiverse link for the
+design&lt;/a&gt;.) Since I wasn't
+going to be mounting a motor, we (and by &amp;quot;we&amp;quot; I mean &amp;quot;he&amp;quot;) replaced the
+motor space with a flat plate with a mounting screw hole. &amp;nbsp;He also
+replaced the back control arm with just a peg, since the bridge-like
+shape wouldn't hold up properly on his printer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-w3-dNOYQiBU/UTdp-unGYKI/AAAAAAAACX4/UgL3sYxLOsc/s1600/2013-03-05+23.23.34.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="http://4.bp.blogspot.com/-w3-dNOYQiBU/UTdp-unGYKI/AAAAAAAACX4/UgL3sYxLOsc/s640/2013-03-05+23.23.34.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The first print (on the left) has a failed control peg on the center
+disk. &amp;nbsp;It was adding material onto printed material that didn't cool
+yet, so it just kinda globbed up. &amp;nbsp;This was improved by Skip by adding a
+second post, seen in the second version on the right. &amp;nbsp;He also added
+some material around the screw holes in the frame, to improve
+durability.&lt;/p&gt;
+&lt;p&gt;After printing and having this in my hand, I'm realizing that it won't
+quite work for me, although it does give me an excellent starting point.
+&amp;nbsp;The center disk is too small to mount the head on. &amp;nbsp;It's only about 1
+1/2 inches in diameter. I think I'd want something about 2-3&amp;quot; in
+diameter, with plenty of mounting points and space for securing the head
+,as well as space for wiring for the beak servo (or linear motor, or
+solenoid, or whatever). &amp;nbsp;It really showed me the design considerations
+for actually constructing something, not to mention it
+really&amp;nbsp;emphasized&amp;nbsp;that whatever design I can think of, I can print...
+which is pretty&amp;nbsp;futuristically&amp;nbsp;awesome.&lt;/p&gt;
+&lt;p&gt;But the important thing is that I know have ideas to build on for the
+final version. &amp;nbsp;I'll still be constructing a foam core model, and I'll
+be using this above design as a kick-off point.&lt;/p&gt;
+&lt;p&gt;(&lt;a class="reference external" href="http://geodesicsphere.blogspot.com/2013/03/anamatronic-avian-skeleton-experiments.html"&gt;This post is cross-posted to my personal project blog as
+well&lt;/a&gt;.)&lt;/p&gt;
+</content></entry><entry><title>Using an Arduino as a Programmer Host</title><link href="/using-an-arduino-as-a-programmer-host.html" rel="alternate"></link><published>2013-03-04T13:12:00+00:00</published><updated>2013-03-04T13:12:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2013-03-04:/using-an-arduino-as-a-programmer-host.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-fjVnBhiYZlg/USuVpGsBK0I/AAAAAAAACTU/wsZe01vZQBY/s1600/2013-02-12+23.42.15.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://4.bp.blogspot.com/-fjVnBhiYZlg/USuVpGsBK0I/AAAAAAAACTU/wsZe01vZQBY/s640/2013-02-12+23.42.15.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One of the things that I've had to do for my re-purposing of the DB15
+Stepper Motor controllers is to be able to reliably reprogram them. &amp;nbsp;The
+early versions of the programmer consisted of just a wire harness with a
+DB-15 connector on one end, and leads that plugged into …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-fjVnBhiYZlg/USuVpGsBK0I/AAAAAAAACTU/wsZe01vZQBY/s1600/2013-02-12+23.42.15.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://4.bp.blogspot.com/-fjVnBhiYZlg/USuVpGsBK0I/AAAAAAAACTU/wsZe01vZQBY/s640/2013-02-12+23.42.15.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;One of the things that I've had to do for my re-purposing of the DB15
+Stepper Motor controllers is to be able to reliably reprogram them. &amp;nbsp;The
+early versions of the programmer consisted of just a wire harness with a
+DB-15 connector on one end, and leads that plugged into the headers on a
+standard Arduino board. It eventually progressed into an octopus-like
+wire harness that used another DB15 as the &amp;quot;host&amp;quot; Arduino. &amp;nbsp;This worked
+well, but is cumbersome. &amp;nbsp;In this post, I'll highlight the basic circuit
+used, and the procedure for using it, specifically for this controller
+board, but the techniques are applicable to other ATmega based micros as
+well.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-ZCQSK2Hy--o/USuXT0QgurI/AAAAAAAACT0/1nTzDp29MIM/s1600/2013-02-12+23.39.41.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="http://4.bp.blogspot.com/-ZCQSK2Hy--o/USuXT0QgurI/AAAAAAAACT0/1nTzDp29MIM/s640/2013-02-12+23.39.41.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The reason for doing all of this work. &amp;nbsp;About 30 or so DB-15 widgets
+which can be repurposed as Arduino-compatible microcontroller boards.
+&amp;nbsp;They don't have all of the IO that a stock Arduino board has, but if
+your device only needs 6 IO (one of which is analog input), with a
+potential for another analog input, and 4 more digital outputs with a
+little work, they're an excellent free resource at Interlock!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The ICSP (In-Circuit Serial Programmer) is basically a device that takes
+in a firmware image from a host computer, and uses SPI-based
+communications with a target device to shove that firmware image into
+place. &amp;nbsp;For general Arduino use, you can shove the Arduino serial
+bootloader into place. This is about 1k (for the optimized bootloader
+aka &amp;quot;Optiboot&amp;quot;) of program space that sits on your micro, next to any
+sketch that you download to it. &amp;nbsp;When the Arduino powers up or gets
+reset, this small bit of code will check for a new sketch to download.
+&amp;nbsp;If it sees something, it will accept it, shove it into program memory
+and then run it. &amp;nbsp;If it doesn't, it simply skips over and runs whatever
+sketch has already been downloaded there.&lt;/p&gt;
+&lt;p&gt;The ICSP allows you to program in that bootloader. &amp;nbsp;You can also use it
+to program in your sketch, if you need to reclaim that 1kbyte of space.
+&amp;nbsp;I'll get into that later on.&lt;/p&gt;
+&lt;p&gt;Okay. &amp;nbsp;Let's get into the hardware for a moment.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-gbxvXGpxJGY/US4q8noQw7I/AAAAAAAACVM/4EcaBPf7WnM/s1600/ArduinoProgrammingHost.png"&gt;&lt;img alt="image2" class="aligncenter" src="http://2.bp.blogspot.com/-gbxvXGpxJGY/US4q8noQw7I/AAAAAAAACVM/4EcaBPf7WnM/s640/ArduinoProgrammingHost.png" style="width: 616px; height: 640px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Host Connection.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Showing the basic construction for the Arduino-ICSP Host.&lt;/em&gt;&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-wmhtPuM5Y4E/US4q8oSWMVI/AAAAAAAACVE/5d9VSEvJBTY/s1600/D15_To_ArduinoProgrammer.png"&gt;&lt;img alt="image3" class="aligncenter" src="http://4.bp.blogspot.com/-wmhtPuM5Y4E/US4q8oSWMVI/AAAAAAAACVE/5d9VSEvJBTY/s1600/D15_To_ArduinoProgrammer.png" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Target connection.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Showing how to hook up the D15 to the programming header above. &amp;nbsp;These
+6 lines can also be arranged in the 2x3 layout standard on Arduino
+boards as well, or wired directly to ATMega chips for other
+applications.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;On the Arduino, the pins are mapped as such:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Digital 13: SCLK (Orange)&lt;/li&gt;
+&lt;li&gt;Digital 12: MISO (Yellow)&lt;/li&gt;
+&lt;li&gt;Digital 11: MOSI (Violet)&lt;/li&gt;
+&lt;li&gt;Digital 10: SS (Green) (Wired to RESET for the programmer, DB15 pin
+4)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;p&gt;The circuit to wire up is pretty easy. &amp;nbsp;On the host, there are three
+status LEDs that the packed-in &amp;quot;ArduinoISP&amp;quot; uses. &amp;nbsp;Heartbeat shows you
+it's alive, Programming shows you when it's programming a target device,
+and Error tells you when something went wrong -- which is also displayed
+on the host computer.&lt;/p&gt;
+&lt;p&gt;These three output should be wired through a 220 ohm resistor, to a LED,
+and tied to ground.&lt;/p&gt;
+&lt;p&gt;One other thing that may be necessary is to disable the reset circuit on
+the host Arduino. &amp;nbsp;This is necessary because when the computer connects
+to the host Arduino-programmer, that micro will reset, and then quickly
+hop into the &amp;quot;check for new firmware over serial for itself&amp;quot; routine, as
+explained above. &amp;nbsp;This may often cause failures with the host computer
+connecting and communicating with the programmer properly. &amp;nbsp;If you
+disable the reset circuit here, it will never fall into this state, and
+will remain perfectly stable. &amp;nbsp;The easiest way to disable it, if you're
+building it up from scratch, is to disconnect the DTR/Serial based reset
+trigger completely, leaving the 10k pullup resistor tied to the
+arduino's reset line. &amp;nbsp;However, if you're using a pre-constructed
+Arduino as the host, you can simply tie the reset line to +5v through a
+120 ohm resistor.&lt;/p&gt;
+&lt;p&gt;Connecting the host to the target is also easy. &amp;nbsp;The target device
+should be hooked up as a basic arduino -- power, crystal clock, etc. Be
+sure that even if they're on separate power supplies, that they at least
+have their grounds tied together. &amp;nbsp;For ease of use, just power the
+target from the host completely. Past that, simply connect up pins 11,
+12, 13 from the host to the target device. &amp;nbsp;This will put both on the
+same SPI bus. &amp;nbsp;This is how the data will get sent to the target device.
+&amp;nbsp;Basically, this maps out as SPI-MISO, SPI-MOSI, and SPI-CLOCK. &amp;nbsp;The
+only other connection you need to do is to hook up pin 10 from the host
+computer through to the RESET line of the target.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-PccHS7Y3pE0/USuU0C6kxoI/AAAAAAAACTA/Etr9RQxqWjU/s1600/2013-01-29+21.44.56.jpg"&gt;&lt;img alt="image4" class="aligncenter" src="http://2.bp.blogspot.com/-PccHS7Y3pE0/USuU0C6kxoI/AAAAAAAACTA/Etr9RQxqWjU/s640/2013-01-29+21.44.56.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Step 1: hook up power, ground, serial IO, and reset circuitry.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The reset circuit is a 10k pullup resistor to +5v, and a .1uF cap to
+the reset line.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Next up will be putting a jumper to disable the reset line as explained
+above.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(Note: this picture is from a different build but shows the same first
+step)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The DB15 as seen here has pin 1 on the right. &amp;nbsp;The pins are basically:
+1) TX, &amp;nbsp;2) RX, 4) RESET, then +5 and ground on the bottom pins.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-fjVnBhiYZlg/USuVpGsBK0I/AAAAAAAACTU/wsZe01vZQBY/s1600/2013-02-12+23.42.15.jpg"&gt;&lt;img alt="image5" class="aligncenter" src="http://4.bp.blogspot.com/-fjVnBhiYZlg/USuVpGsBK0I/AAAAAAAACTU/wsZe01vZQBY/s640/2013-02-12+23.42.15.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Red LED is the power indicator. &amp;nbsp;The resistor and cap for the reset
+circuit are visible, as is the jumper for disabling reset on the ICSP
+widget.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Above you can see the version of this board that I fabbed up for
+Interlock. &amp;nbsp;It has the FTDI header for connecting to the host computer,
+and used a pre-programmed DB-15 widget with the ICSP firmware on it. &amp;nbsp;I
+know this sounds like a chicken-and-egg thing, but once you program your
+first device using a standard Arduino as the host, it makes sense to
+program one of these, and use it to replace that board &amp;nbsp;instead.
+(especially when you have ~100 of them to spare. hehe)&lt;/p&gt;
+&lt;p&gt;The blue/white/red/white lines from the ICSP widget are equivalent to
+pins 10,11,12,13 on a standard host Arduino, and those go right into the
+cable down to the target device. Since pins 9, 8, and 7 were not all
+able to be broken out to the LEDs, I had to tweak the sketch a little.
+&amp;nbsp;8 is the LED on the ICSP widget itself, which is Yellow. &amp;nbsp;The Yellow
+and Green LEDs on the board (along with their current limiting
+resistors) are wired up to Analog 2 and Digital 3 (pwm), and these ports
+are changed accordingly. &amp;nbsp;8 remains as the error LED, 3 became the green
+Heartbeat light, and A2 became the new yellow program light.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-DFLaZBRh8c4/USuVmPnRu_I/AAAAAAAACTI/iwscZJc6a2U/s1600/2013-02-12+23.40.30.jpg"&gt;&lt;img alt="image6" class="aligncenter" src="http://1.bp.blogspot.com/-DFLaZBRh8c4/USuVmPnRu_I/AAAAAAAACTI/iwscZJc6a2U/s640/2013-02-12+23.40.30.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ready to roll, with a target device plugged in!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note the extra prototyping area. &amp;nbsp;This can be for a ZIF socket in the
+future for other devices, etc.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-BpRtrMBwj4c/US4q8gyfdSI/AAAAAAAACVI/E2sdLVU5ky0/s1600/D15_to_D15_Programmer.png"&gt;&lt;img alt="image7" class="aligncenter" src="http://2.bp.blogspot.com/-BpRtrMBwj4c/US4q8gyfdSI/AAAAAAAACVI/E2sdLVU5ky0/s640/D15_to_D15_Programmer.png" style="width: 570px; height: 640px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The full circuit diagram for the D15-hosted programmer, connected to a
+D15 target.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(The wire colors are the same as the above for reference.)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Once this is all wired up, we can get some firmware down onto that
+thing. &amp;nbsp;In our case, we have a device that isn't directly supported by
+the Arduino IDE, so we need to configure that first.&lt;/p&gt;
+&lt;p&gt;Two things need to be installed. First is the board definition, second
+is the optiboot hex file. Both of these content files can be grabbed
+from my&amp;nbsp;&lt;a class="reference external" href="https://github.com/BleuLlama/GeodesicSphere/tree/master/Projects/DB15Arduino"&gt;Geodesic Sphere
+repository&lt;/a&gt;.
+&amp;nbsp;Full instructions are also there as for specific directories on Windows
+and Mac for doing this installation. The &amp;quot;readme&amp;quot; there shows the text
+block to drop into your &amp;quot;Boards.txt&amp;quot; file, and where to find that file.
+&amp;nbsp;You will also need to drop the optiboot.hex file into the &amp;quot;optiboot&amp;quot;
+folder as well. &amp;nbsp;Once these two steps are done, you can start up the
+Arduino IDE and you're ready to program. &amp;nbsp;Let's also assume that we've
+already externally kickstarted this, and the &amp;quot;Arduino ISP&amp;quot; sketch is
+already on the host device, and is running properly.&lt;/p&gt;
+&lt;p&gt;Here's where it gets confusing. &amp;nbsp;What? You're not already confused?
+&amp;nbsp;HERE WE GO!&lt;/p&gt;
+&lt;p&gt;Fire up the Arduino IDE, and let's set it for the D15 device. &amp;nbsp;From the
+&amp;quot;Tools&amp;quot; menu, select &amp;quot;Serial Port&amp;quot; and select your FTDI interface's
+serial port name. &amp;nbsp;Next, from the &amp;quot;Tools&amp;quot; menu, select &amp;quot;ATmega168 at
+7372800Hz (D15)&amp;quot; from the &amp;quot;Board&amp;quot; menu. &amp;nbsp;This will tell the IDE what our
+target device is. &amp;nbsp;Now, from the &amp;quot;Tools&amp;quot; menu, select &amp;quot;Arduino as ISP&amp;quot;
+from the &amp;quot;Programmer&amp;quot; menu. This is all one-time configuration stuff.
+&amp;nbsp;Now, you can plug in a target D15 widget to the end of the cable seen
+above, and then select &amp;quot;Burn Bootloader&amp;quot; from the &amp;quot;Tools&amp;quot; menu. &amp;nbsp;A bunch
+of lights should flash, and you'll end up with the Arduino bootloader on
+the target widget!&lt;/p&gt;
+&lt;p&gt;On the above setup, it's wired such that you can also use it to test the
+target. &amp;nbsp;Disconnect the FTDI cable, disconnect the ICSP widget, and move
+the newly programmed device into the DB15 connector on the board.
+&amp;nbsp;Adjust the jumper so that &amp;quot;RESET&amp;quot; is enabled. &amp;nbsp;Now plug the DB15 cable
+back in. &amp;nbsp;This is now the equivalent to using the DB15 as a barebones
+Arduino. &amp;nbsp;Load up the D15_Test sketch included in the github repository
+mentioned above. &amp;nbsp;Click the &amp;quot;upload&amp;quot; arrow button, wait a moment, and
+the LED on the target widget should be blinking. &amp;nbsp;That's it!&lt;/p&gt;
+&lt;p&gt;One alternate way you can use this is to program your Arduino code onto
+the target widget without installing the bootloader. &amp;nbsp;These widgets use
+an ATMega 168, which has very constrained space, so this might be
+preferred for larger programs.&lt;/p&gt;
+&lt;p&gt;Hook it back up in the programmer configuration, with the ICSP widget on
+the board, the target on the cable, and the jumper set to disable RESET.&lt;/p&gt;
+&lt;p&gt;From the Arduino IDE, instead of just clicking the &amp;quot;upload&amp;quot; arrow
+button, hold down the [SHIFT] key, and the text will change from
+&amp;quot;upload&amp;quot; to &amp;quot;upload using programmer&amp;quot;. &amp;nbsp;It may take a moment longer, but
+the end result is that you will see the LED blinking on the target
+widget.&lt;/p&gt;
+&lt;p&gt;You can use this to program other Arduino-like devices too (ATMega,
+ATTiny, etc). &amp;nbsp;You will just need to breakout the 6 lines (MOSI, MISO,
+CLOCK, RESET, +5v, GROUND) to whatever pin header configuration or
+socket is necessary. &amp;nbsp;Then you can just select the target device from
+the menu as appropriate (ATmega 168, 328, 5v, 3.3v, etc) and then select
+&amp;quot;Burn Bootloader&amp;quot; from the menus as above, and it will put the
+appropriate serial bootloader onto the device for you.&lt;/p&gt;
+</content></entry><entry><title>Addressable LED Strands</title><link href="/addressable-led-strands.html" rel="alternate"></link><published>2013-01-25T16:44:00+00:00</published><updated>2013-01-25T16:44:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2013-01-25:/addressable-led-strands.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-_5qem2vNfqs/UQABrjat5lI/AAAAAAAACMk/ZCwYvbAP5IY/s1600/2013-01-22+23.12.55.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://3.bp.blogspot.com/-_5qem2vNfqs/UQABrjat5lI/AAAAAAAACMk/ZCwYvbAP5IY/s640/2013-01-22+23.12.55.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm in the process of constructing/setting up my office in the house,
+and for lighting, I have decided that I want to use xmas light-style
+lighting. &amp;nbsp;Many years ago, I used to light my room with
+multicolored&amp;nbsp;incandescent&amp;nbsp;lights. I loved the warm indirect glow, and
+smooth light without …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-_5qem2vNfqs/UQABrjat5lI/AAAAAAAACMk/ZCwYvbAP5IY/s1600/2013-01-22+23.12.55.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://3.bp.blogspot.com/-_5qem2vNfqs/UQABrjat5lI/AAAAAAAACMk/ZCwYvbAP5IY/s640/2013-01-22+23.12.55.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm in the process of constructing/setting up my office in the house,
+and for lighting, I have decided that I want to use xmas light-style
+lighting. &amp;nbsp;Many years ago, I used to light my room with
+multicolored&amp;nbsp;incandescent&amp;nbsp;lights. I loved the warm indirect glow, and
+smooth light without a single light source. &amp;nbsp;This time, I'm going to
+take it a step further.&lt;/p&gt;
+&lt;p&gt;While there's nothing about this project yet that is really innovative
+over what others have done, it is the first step to getting the office
+lighting done. &amp;nbsp;The real fun will come into play once I'm able to hang
+this up, and start programming effects, and tying those effects in to
+physical or time-based events.&lt;/p&gt;
+&lt;p&gt;A couple years back I picked up a strand of addressable LED lights,
+similar to&amp;nbsp;&lt;a class="reference external" href="http://adafruit.com/products/322"&gt;this one, available at
+adafruit.com&lt;/a&gt;. &amp;nbsp;I got a strand of
+50 lights, blew out one of them while being stupid, and used a few of
+them in Jasper's Toy Box (posts to come about that eventually), so I'm
+left with 42 lights. &amp;nbsp;A nice number.&lt;/p&gt;
+&lt;p&gt;In any event, the plan is to hang them up around the upper perimeter of
+the room, and it will give a nice comfortable glow to illuminate the
+room. &amp;nbsp;I can also extend it by doing lighting effects with the color.
+&amp;nbsp;For example, in the evening I can have all of them dim blue, and
+randomly twinkle one to white, to simulate a star in the sky. &amp;nbsp;I could
+also tie them in to an automation system to glow a particular corner of
+the room red or yellow when i have email from a specific person. &amp;nbsp;I
+could also adjust their color based on the content of my monitor, or the
+light outisde, etc.&lt;/p&gt;
+&lt;p&gt;The basic design for the control circuitry is that there will be
+an&amp;nbsp;&lt;a class="reference external" href="http://arduino.cc/"&gt;Arduino-based&lt;/a&gt;&amp;nbsp;AVR micro (actually&amp;nbsp;&lt;a class="reference external" href="http://geodesicsphere.blogspot.com/2012/11/reverse-engineering-stepper-motor_5.html"&gt;one of
+the D-15 servo controllers I've
+appropriated&lt;/a&gt;),
+which is perfect, since the strands only need two lines to control them.
+&amp;nbsp;The host computer will send down codes to address the LEDs (set all to
+color X, set led Y to color X, etc) and this will pass on the content to
+the strand, and twiddle the data lines and all of that fun stuff. &amp;nbsp;I had
+considered putting more &amp;quot;smarts&amp;quot; into the micro, but the amount of space
+in there would severely limit the kind of content I could &amp;quot;display&amp;quot;, so
+I decided to put all of the grunt work back on the host computer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-uM2j8G4bmkI/UQAByR5gu9I/AAAAAAAACMs/VDXCsItz4Y8/s1600/2013-01-22+20.57.51.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="http://4.bp.blogspot.com/-uM2j8G4bmkI/UQAByR5gu9I/AAAAAAAACMs/VDXCsItz4Y8/s640/2013-01-22+20.57.51.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To power it, I needed to get a 5 volt power supply. I snagged a power
+brick from an old external drive case, as well as a standard PC power
+connector, from a failed power supply, and spliced the two of them
+together.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-0Lk4XPmclbQ/UQAB5hIWmkI/AAAAAAAACM0/kjh75lnZnPI/s1600/2013-01-22+21.08.04.jpg"&gt;&lt;img alt="image2" class="aligncenter" src="http://3.bp.blogspot.com/-0Lk4XPmclbQ/UQAB5hIWmkI/AAAAAAAACM0/kjh75lnZnPI/s640/2013-01-22+21.08.04.jpg" style="width: 640px; height: 454px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Copious, yet appropriate amounts of heat shrink tubing and splicing some
+wires yielded a nice power supply.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-qRuJm5PwJS8/UQACEt5W8LI/AAAAAAAACM8/DRBHdWGILGk/s1600/2013-01-22+22.17.59.jpg"&gt;&lt;img alt="image3" class="aligncenter" src="http://2.bp.blogspot.com/-qRuJm5PwJS8/UQACEt5W8LI/AAAAAAAACM8/DRBHdWGILGk/s640/2013-01-22+22.17.59.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next, I built an interface board to tie it all together. &amp;nbsp;The ports on
+the board are (left to right) - 6 pin FTDI interface for serial IO, 2
+pin jumper (power the D15 from the power supply rather than FTDI
+source), 3 pin power, 4 pin light strand connector. &amp;nbsp;You can also see in
+this picture, the process of crimping the terminals for the molex
+connector on the LED strand's wires.&lt;/p&gt;
+&lt;p&gt;I kept the layout and pinout of the FTDI the same as I used for&amp;nbsp;&lt;a class="reference external" href="http://geodesicsphere.blogspot.com/2012/12/prototype-elias-serial-network-node.html"&gt;my
+serial node
+experiment&lt;/a&gt;.
+&amp;nbsp;This will help me plug that connector in correctly. &amp;nbsp;I&amp;nbsp;still&amp;nbsp;need to
+add visual cues (colored sharpie markings) to help me align the pins
+correctly. &amp;nbsp;The power connector has GND on pins 1 and 3, and +5V on pin
+2. &amp;nbsp;Keeping it symmetrical will help me always plug it in correctly,
+reducing the chance that I will blow it all up. &amp;nbsp;The 4 pin connector is
+the same pinout as the wiring of the LEDs. &amp;nbsp;GND, Data, Clock, +5.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-sn6v9P3L0Ck/UQDMlTmqFZI/AAAAAAAACOk/auhjvIBC_9w/s1600/2013-01-24+00.12.35.jpg"&gt;&lt;img alt="image4" class="aligncenter" src="http://2.bp.blogspot.com/-sn6v9P3L0Ck/UQDMlTmqFZI/AAAAAAAACOk/auhjvIBC_9w/s640/2013-01-24+00.12.35.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The jumper on the board (dis)connects the power header from the D15 and
+FTDI portion. &amp;nbsp;If I make standalone firmware for it, I can power
+everything from the power supply, if need be. The tiny green LED on the
+board just lights when the D15 has power. &amp;nbsp;A nice indicator in case
+everything else is not functioning.&lt;/p&gt;
+&lt;p&gt;The protocol I used for this is very simple. &amp;nbsp;There's a command
+character sent through serial, then the data for that command. &amp;nbsp;If the
+firmware is expecting a command character but gets something it doesn't
+understand, it just keeps checking the serial input for a command it
+knows. &amp;nbsp;The protocol is as follows:&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;&lt;strong&gt;p&amp;lt;index of LED&amp;gt;&amp;lt;red value&amp;gt;&amp;lt;green value&amp;gt;&amp;lt;blue value&amp;gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;Five bytes. &amp;nbsp;It sets the specified LED (0..42 in this case) with the
+specified RGB value (0..255 each). &amp;nbsp;Note that this is not an ascii
+string, it is data. &amp;nbsp;So no matter what, it is 5 bytes to change a single
+pixel.&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;&lt;strong&gt;f&amp;lt;red value&amp;gt;&amp;lt;green value&amp;gt;&amp;lt;blue value&amp;gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;Force all of the lights to the specified color. &amp;nbsp;This is handy for
+clearing everything to black, or flashing/fading effects.&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="https://github.com/BleuLlama/GeodesicSphere/tree/master/Projects/AddressableLEDStrip"&gt;Here's the Arduino firmware used to handle all of
+this&lt;/a&gt;:
+&amp;nbsp;(Note: it requires that the strand's library be installed.)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-hvlLzR8S3ew/UQAGvMGSVII/AAAAAAAACNc/H5LFUVdgCZ0/s1600/2013-01-23++1.27.57+AM.png"&gt;&lt;img alt="image5" class="aligncenter" src="http://1.bp.blogspot.com/-hvlLzR8S3ew/UQAGvMGSVII/AAAAAAAACNc/H5LFUVdgCZ0/s400/2013-01-23++1.27.57+AM.png" style="width: 400px; height: 358px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;For now, that's it. &amp;nbsp;I made&lt;a class="reference external" href="https://github.com/BleuLlama/GeodesicSphere/tree/master/Projects/AddressableLEDStrip"&gt;a simple interface on the desktop side in
+Processing&lt;/a&gt;,
+adapted from&amp;nbsp;&lt;a class="reference external" href="http://geodesicsphere.blogspot.com/2012/10/a-computer-controllable-pixel.html"&gt;my previous controllable pixel
+software&lt;/a&gt;,
+to let me click and change the color of an LED. I also added some key
+commands to do simple effects with the lights. (all red/green/blue.
+flash, etc)&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-BduKt0WqcQ4/UQAI-6l9X_I/AAAAAAAACN8/47UV5TsPbA4/s1600/2013-01-23+01.32.06+HDR.jpg"&gt;&lt;img alt="image6" class="aligncenter" src="http://3.bp.blogspot.com/-BduKt0WqcQ4/UQAI-6l9X_I/AAAAAAAACN8/47UV5TsPbA4/s640/2013-01-23+01.32.06+HDR.jpg" style="width: 640px; height: 478px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;Eventually, I will write better desktop software which will use the LEDs
+for indication of events, as well as f.lux style color effects
+throughout the day, audio/visual synchronization to media being played,
+and other effects as well as time goes on&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;NOTE: All of the source/projects for this are&amp;nbsp;&lt;a class="reference external" href="https://github.com/BleuLlama/GeodesicSphere/tree/master/Projects/AddressableLEDStrip"&gt;available on
+github&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</content></entry><entry><title>Electronic Timer Repair</title><link href="/electronic-timer-repair.html" rel="alternate"></link><published>2012-11-30T14:04:00+00:00</published><updated>2012-11-30T14:04:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2012-11-30:/electronic-timer-repair.html</id><summary type="html">&lt;p&gt;Our kitchen timer has been acting up recently, and with Thanksgiving
+quickly approaching, I needed to do something about it. &amp;nbsp;The push button
+for the start/stop function has been getting harder and harder to use.
+&amp;nbsp;In the past, I've cracked it open and cleaned out the pad underneath
+the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Our kitchen timer has been acting up recently, and with Thanksgiving
+quickly approaching, I needed to do something about it. &amp;nbsp;The push button
+for the start/stop function has been getting harder and harder to use.
+&amp;nbsp;In the past, I've cracked it open and cleaned out the pad underneath
+the rubberized button membrane, but this time, doing this didn't work. I
+also &amp;nbsp;wanted a more permanent fix.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-W2RX7bp_FDQ/ULTZfXs02OI/AAAAAAAAB-k/J9ZA4wveUHw/s1600/l_6x6x9mm-tactile-push-button-switch-momentary-x200-a97d.JPG"&gt;&lt;img alt="image0" class="aligncenter" src="http://4.bp.blogspot.com/-W2RX7bp_FDQ/ULTZfXs02OI/AAAAAAAAB-k/J9ZA4wveUHw/s320/l_6x6x9mm-tactile-push-button-switch-momentary-x200-a97d.JPG" style="width: 320px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I decided to replace the membrane switch for that function with one of
+these tactile buttons. &amp;nbsp;I just had to make sure that the solder pads
+would line up. &amp;nbsp;I worked out an orientation in which the solder pads
+would match the pushbutton pads, as you can see in the next image.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-5CeberbMixw/ULTZM7UihAI/AAAAAAAAB-I/wLUai6clHPo/s1600/2012-11-20+22.05.48.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="http://3.bp.blogspot.com/-5CeberbMixw/ULTZM7UihAI/AAAAAAAAB-I/wLUai6clHPo/s400/2012-11-20+22.05.48.jpg" style="width: 298px; height: 400px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The only issue is that rather than the rubber membrane sitting flush
+with the board, it now had to&amp;nbsp;accommodate&amp;nbsp;the shape and size of the
+switch along with the button which extended out quite far. &amp;nbsp;I used a
+pair of diagonal cutters to nip away at the rubber from behind to recess
+the switch into the button itself, Ben Heck style.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-EEh7ZDp8H7o/ULTZNu0snjI/AAAAAAAAB-Q/1oGXGXTRpho/s1600/2012-11-20+22.08.16.jpg"&gt;&lt;img alt="image2" class="aligncenter" src="http://4.bp.blogspot.com/-EEh7ZDp8H7o/ULTZNu0snjI/AAAAAAAAB-Q/1oGXGXTRpho/s400/2012-11-20+22.08.16.jpg" style="width: 298px; height: 400px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can see this in the top right of the gray membrane. &amp;nbsp;The two contact
+pads have been removed, and instead there is the hole, into which the
+switch recesses. &amp;nbsp;The hole was made fairly crudely, but it works!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-hS3feisTxMk/ULTZOc3WfZI/AAAAAAAAB-Y/-IID8imYNqI/s1600/2012-11-20+22.17.39.jpg"&gt;&lt;img alt="image3" class="aligncenter" src="http://1.bp.blogspot.com/-hS3feisTxMk/ULTZOc3WfZI/AAAAAAAAB-Y/-IID8imYNqI/s320/2012-11-20+22.17.39.jpg" style="width: 239px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It's been accidentally abused over the years, and as a result, the
+screws on the bottom no longer hold it together as the plastic has
+broken enough. &amp;nbsp;The strip of electrical tape around the base does well
+to hold it together while still looking super stylish! NOTE: It's not
+actually very stylish, but rather, functional and should last for many
+years more to come. &amp;nbsp;No reason to throw it out, when an hour or so of
+work will get it fully functional again!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://geodesicsphere.blogspot.com/2012/11/timer-repair.html"&gt;This post was originally posted on Scott's blog
+here.&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Eproms and SUCCESS!</title><link href="/eproms-and-success.html" rel="alternate"></link><published>2012-11-14T23:59:00+00:00</published><updated>2012-11-14T23:59:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2012-11-14:/eproms-and-success.html</id><summary type="html">&lt;p&gt;This is a continuation of a&amp;nbsp; &lt;a class="reference external" href="{filename}/eproms-and-failure.rst"&gt;previous article&lt;/a&gt;.  &amp;nbsp;Quick
+summary: I tried to build a device for dumping an EPROM via Arduino, and I
+constructed a device that had no chance of working.  &amp;nbsp;Oops.&lt;/p&gt;
+&lt;p&gt;This post will continue where that one left off. &amp;nbsp;I'll walk through some
+of the process …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a continuation of a&amp;nbsp; &lt;a class="reference external" href="{filename}/eproms-and-failure.rst"&gt;previous article&lt;/a&gt;.  &amp;nbsp;Quick
+summary: I tried to build a device for dumping an EPROM via Arduino, and I
+constructed a device that had no chance of working.  &amp;nbsp;Oops.&lt;/p&gt;
+&lt;p&gt;This post will continue where that one left off. &amp;nbsp;I'll walk through some
+of the process to hopefully get to a solution that works...&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-yjVkgyfT8Ao/UKHVQYVDczI/AAAAAAAAB78/5ApnGVPQ5Z8/s1600/2012-11-12+23.56.10.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://4.bp.blogspot.com/-yjVkgyfT8Ao/UKHVQYVDczI/AAAAAAAAB78/5ApnGVPQ5Z8/s320/2012-11-12+23.56.10.jpg" style="width: 273px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To summarize the overall project; &amp;nbsp;I want to build a device that will
+illuminate an UV light-erasable ROM (EPROM) device, and also dump out
+its contents. I will then take the contents, display them as a graphic,
+and animate them over time as the bits fade away into an erased
+oblivion.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-ptkXdzVAcIg/UJqOvYeUR5I/AAAAAAAAB6k/R7b3MIyQJVA/s1600/2012-11-07+11.35.20.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="http://2.bp.blogspot.com/-ptkXdzVAcIg/UJqOvYeUR5I/AAAAAAAAB6k/R7b3MIyQJVA/s400/2012-11-07+11.35.20.jpg" style="width: 400px; height: 387px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When we last left this, the above circuit was what I was going
+to work with. &amp;nbsp;The Arduino would shift out a 16 bit address, which will
+be stored in the 74HC595 serial-in, parallel-out shift registers. &amp;nbsp;Those
+would out&amp;nbsp;I was all set to place the order, but then I started thinking
+about other ways to sample the data, and then it hit me...&lt;/p&gt;
+&lt;p&gt;In the late 1980s, I had an Amiga 1000 computer (see previous post about
+restoring it). &amp;nbsp;We used Macintosh SE computers in High School, and as a
+result, we bought the&amp;nbsp; &lt;a class="reference external" href="http://crossconnect.tripod.com/AMAXHIST.HTML"&gt;&amp;quot;AMAX&amp;quot; Macintosh emulation system for the Amiga&lt;/a&gt;. &amp;nbsp;It was a lot
+easier to carry a floppy or two, rather than a SE or SE/30 in a plastic
+milk crate, not to mention that MacWrite was a substantially better word
+processor than TextCraft. ;)&lt;/p&gt;
+&lt;p&gt;AMAX consisted of software you run that emulated the Mac's hardware, as
+well as a &amp;quot;cartridge&amp;quot; that plugged into the floppy drive port of the
+Amiga. &amp;nbsp;I remember hearing that they went with the floppy drive port
+because it was the only appropriate port identical on all Amigas that
+were available at the time. (Amiga 1000, 500, 2000).&lt;/p&gt;
+&lt;p&gt;The cartridge served two functions. First, it let you plug in a Mac
+floppy drive right into the Amiga so that you could read and write 800k
+Mac floppies directly. &amp;nbsp;There was something about Amiga drives and Mac
+drives supporting a different number of drive speeds, so full
+Mac&amp;nbsp;compatibility&amp;nbsp;on the Amiga's drives was directly impossible. &amp;nbsp;Future
+versions of AMAX that used an internal card on the Amiga 2000 worked
+around this issue. &amp;nbsp;It was possible to make a floppy that supported just
+the sectors/speeds that were the same on both, but they only stored 272k
+of content. &amp;nbsp;But I digress...&lt;/p&gt;
+&lt;p&gt;The other function of the cartridge was that you needed to plug in Mac
+roms into it, which the software would read in as it starts. &amp;nbsp;Rather
+than storing the ROM on the Amiga, this protected the copyrights or
+whatever. &amp;nbsp;But the important thing here is the function. &amp;nbsp;I had picked
+up a few AMAX cartridges for $2 apiece at the awesome&amp;nbsp; &lt;a class="reference external" href="http://www.activesurplus.ca/en/"&gt;Active Surplus on Queen Street in Toronto&lt;/a&gt;&amp;nbsp;a bunch
+of years back, so I dug one out.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-7Q7anY45dnM/UJyUgpiEVAI/AAAAAAAAB7M/U3p_sw6izzM/s1600/2012-11-08+22.59.34.jpg"&gt;&lt;img alt="image2" class="aligncenter" src="http://2.bp.blogspot.com/-7Q7anY45dnM/UJyUgpiEVAI/AAAAAAAAB7M/U3p_sw6izzM/s640/2012-11-08+22.59.34.jpg" style="width: 640px; height: 401px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Left-to-Right, you see: Amiga D23 floppy connector, for connecting it to
+your Amiga, two 28 pin rom sockets, two 74LS393s, one 74LS165, a
+resistor, some diodes, a 74LS139, the Mac D19 floppy connector on the
+bottom, then the Amiga D23 floppy connector for adding additional Amiga
+floppy drives.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-18w4vJIID1g/UJyU1jLxhdI/AAAAAAAAB7c/kg4tRl3TVUk/s1600/2012-11-08+23.53.05.jpg"&gt;&lt;img alt="image3" class="aligncenter" src="http://4.bp.blogspot.com/-18w4vJIID1g/UJyU1jLxhdI/AAAAAAAAB7c/kg4tRl3TVUk/s640/2012-11-08+23.53.05.jpg" style="width: 640px; height: 476px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I've started to trace out the circuit, but it became obvious quickly
+that it was optimized for board layout rather than what I would consider
+to be a sane arrangements of data lines. &amp;nbsp;For example the 8 data output
+lines of the ROMs go into the 74LS165 PISO shift register out of order,
+so they need to be reshuffled once captured in the host computer.&lt;/p&gt;
+&lt;p&gt;Instead I decided to desolder the chips! &amp;nbsp;My guess at the original
+function is something like: the Amiga issues a clear to the 74LS393
+binary counter chips, ganged together to yeield a 16 bit output, rather
+than two dual-4 bit outputs. &amp;nbsp;This will reset their 16 bit output value
+to 0. &amp;nbsp;The 74LS165 parallel-in, serial-out register then latches the 8
+bit output from the ROM, and provides it through shifting to the Amiga
+via the floppy port. &amp;nbsp;From there, you need to simply pulse the clock on
+the '393, and it will&amp;nbsp;increment&amp;nbsp;through every address. Then you just
+latch and shift in the data. There's also a 74LS139 demultiplexer, which
+might be responsible for sequencing through those events, or perhaps
+something to do with the Mac floppy drive. I had a slight mishap and
+lost the 74LS165, which is okay since I didn't need it for this project
+anyway. &amp;nbsp;Regardless, $2 plus some time -- I'm already ahead and I
+haven't even removed the D23s yet (which are the same size as Amiga RGB
+Video connectors! Perfect for another project...)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-yKqJsMVndpk/UJyU-0ld6vI/AAAAAAAAB7k/ytWr1Yz9T1A/s1600/2012-11-08+23.54.08.jpg"&gt;&lt;img alt="image4" class="aligncenter" src="http://1.bp.blogspot.com/-yKqJsMVndpk/UJyU-0ld6vI/AAAAAAAAB7k/ytWr1Yz9T1A/s640/2012-11-08+23.54.08.jpg" style="width: 640px; height: 476px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For fun, here's the board with no components on it.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-yPhGkww2fo0/UJx-TvHFDFI/AAAAAAAAB64/ZW5j5cNhgYY/s1600/2012-11-08+21.56.26.jpg"&gt;&lt;img alt="image5" class="aligncenter" src="http://2.bp.blogspot.com/-yPhGkww2fo0/UJx-TvHFDFI/AAAAAAAAB64/ZW5j5cNhgYY/s320/2012-11-08+21.56.26.jpg" style="width: 320px; height: 210px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With a slight change in gears I can adapt my design to use the
+parts I now have in my toolbox thanks to my desoldering tools. &amp;nbsp;Instead
+of the Arduino shifting out an address, it will instead do the process
+described above. &amp;nbsp;It will first clear the 393s, then alternately cycle
+between clocking out a pulse to increment their values, and reading in
+the value directly. Since I'm accessing the ROM data from start to
+finish, sequentially anyway, this solution works out perfectly. &amp;nbsp;I also
+show four LEDs in the above diagram. Three for various status, one for
+UV illumination.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-cWIzW2S6maY/UKPpxw8t2JI/AAAAAAAAB9I/0FMuEhfRqEg/s1600/2012-11-13+22.30.40.png"&gt;&lt;img alt="image6" class="aligncenter" src="http://3.bp.blogspot.com/-cWIzW2S6maY/UKPpxw8t2JI/AAAAAAAAB9I/0FMuEhfRqEg/s640/2012-11-13+22.30.40.png" style="width: 426px; height: 640px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is a close up of a 27C128 part. This one has Pac-Man programmed
+onto it... of course. &amp;nbsp;You can see through the quartz window, and down
+onto the EPROM silicon itself.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-Nkxzmx4wLjA/UKRyi43rfVI/AAAAAAAAB9g/KBX-JvT5krk/s1600/2012-11-14+23.16.29.jpg"&gt;&lt;img alt="image7" class="aligncenter" src="http://4.bp.blogspot.com/-Nkxzmx4wLjA/UKRyi43rfVI/AAAAAAAAB9g/KBX-JvT5krk/s400/2012-11-14+23.16.29.jpg" style="width: 400px; height: 268px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here we see the pins on the Arduino, and how the connect to the shield's
+bus connections, along with the LEDs. &amp;nbsp;I could draw this up in a
+computerey drawing program, but sketching it out in Sharpie on graph
+paper is just&amp;nbsp;quicker... and more Mimsian. ;)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-A1qXIZxizuU/UKRyoHy1G0I/AAAAAAAAB9o/y9jV7rs69_0/s1600/2012-11-14+23.16.36.jpg"&gt;&lt;img alt="image8" class="aligncenter" src="http://1.bp.blogspot.com/-A1qXIZxizuU/UKRyoHy1G0I/AAAAAAAAB9o/y9jV7rs69_0/s400/2012-11-14+23.16.36.jpg" style="width: 400px; height: 247px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are the &amp;nbsp;two 74LS393's. &amp;nbsp; You can see their connection to the
+address lines on the ROM, as well as the cascading of the counter, e.g.
+from 1QD to 2A, and from 2QD to 1A on the second chip.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-ouX_QPqw_mU/UKRyskKJwEI/AAAAAAAAB9w/LgIR8UIhkcc/s1600/2012-11-14+23.16.44.jpg"&gt;&lt;img alt="image9" class="aligncenter" src="http://4.bp.blogspot.com/-ouX_QPqw_mU/UKRyskKJwEI/AAAAAAAAB9w/LgIR8UIhkcc/s400/2012-11-14+23.16.44.jpg" style="width: 400px; height: 250px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And the wiring for the 28 pin socket, including the 3 pin (two-way)
+jumper so that i can use smaller 24 pin parts as well.&lt;/p&gt;
+&lt;p&gt;About the UV illumination... &amp;nbsp;The data sheets for the EPROMs show that
+they should be erased with 253.7 nanometer light, at 15-20 minutes,
+2.5cm distance at 15 Watt/seconds per cm^2. &amp;nbsp;I dont know how to measure
+this with respect to LEDs, but I'm going to just wing it and see what
+happens. &amp;nbsp;The sheet also says that 253.7nm is the optimal wavelength for
+erasing them, but anything below 400nm should work. &amp;nbsp;I believe the UV
+LEDs I have are somewhere between 350nm and 400nm, so it should work.
+&amp;nbsp;The other issue is that the LEDs are substantially less powerful,
+probably a tenth to a hundredth the power. We'll see once we get this
+going, but I expect it will take on the order of weeks to erase a rom,
+rather than minutes.&lt;/p&gt;
+&lt;p&gt;The good thing about this project, in comparison to using EPROMs
+functionally, is that you want speed of erasure for functional use. &amp;nbsp;I
+personally found that my eraser worked on most of the devices I own in
+about 10 minutes. &amp;nbsp;I would often have a chip or two in the eraser, while
+programming and debugging others. &amp;nbsp;It worked out fairly well. &amp;nbsp;For this
+project, it's&amp;nbsp;completely&amp;nbsp;okay if it takes on the order of hours to erase
+a device. &amp;nbsp;I'll find out how well it works once I get it going. &amp;nbsp;I may
+use more than one LED just to speed it up a little, in case it takes on
+the order of days instead of minutes or hours.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-7pdS0XmtszQ/UKPeqW1OBtI/AAAAAAAAB8Q/s9vl4QBZE_U/s1600/2012-11-10+00.56.30.jpg"&gt;&lt;img alt="image10" class="aligncenter" src="http://2.bp.blogspot.com/-7pdS0XmtszQ/UKPeqW1OBtI/AAAAAAAAB8Q/s9vl4QBZE_U/s400/2012-11-10+00.56.30.jpg" style="width: 298px; height: 400px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I started laying out the board at home, wiring in just the LEDs, and
+figuring out the best layout for the chips. &amp;nbsp;I used the `&amp;nbsp;DIY shield for Arduino from AdaFruit.com &amp;lt;&lt;a class="reference external" href="https://www.adafruit.com/products/187"&gt;https://www.adafruit.com/products/187&lt;/a&gt;&amp;gt;`__&amp;nbsp;as the
+foundation to build this upon. &amp;nbsp;I wanted to leave space for possibly
+using larger chips in the future, so what is the bottom of the board
+here has space for a few extra data lines if i re-route that red power
+line. &amp;nbsp;The '393's are layed out so that the one on the right, which
+addresses bits A0-A7 has four of its lines directly lined up. &amp;nbsp;This was
+to try to make it a little easier to wire up.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-6xhutFXwlfI/UKPfE_04XSI/AAAAAAAAB8g/h03Dg45PIk0/s1600/2012-11-14+02.07.22.jpg"&gt;&lt;img alt="image11" class="aligncenter" src="http://2.bp.blogspot.com/-6xhutFXwlfI/UKPfE_04XSI/AAAAAAAAB8g/h03Dg45PIk0/s320/2012-11-14+02.07.22.jpg" style="width: 239px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-3Ob_H7OLtbM/UKPfD_4KspI/AAAAAAAAB8Y/IVNUHdtJAkk/s1600/2012-11-14+00.00.38.jpg"&gt;&lt;img alt="image12" class="aligncenter" src="http://3.bp.blogspot.com/-3Ob_H7OLtbM/UKPfD_4KspI/AAAAAAAAB8Y/IVNUHdtJAkk/s320/2012-11-14+00.00.38.jpg" style="width: 320px; height: 239px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I bought some wire wrap wire for address, data, and
+control lines, and did most of the work of wiring those up&amp;nbsp; &lt;a class="reference external" href="/"&gt;one evening at Interlock&lt;/a&gt;. &amp;nbsp;I used red for
+control (counter clear, clock data cascade lines) as well as eprom
+address lines. &amp;nbsp;I used blue for data lines. &amp;nbsp;In the above pictures you
+can see how the wires were routed around (there was some more writing on
+the bottom, obviously.) You can also see how the UV LEDs are mounted
+with some stiff solid core wire. &amp;nbsp;I reduced the number of LEDs to two
+plus the UV LEDs for no real reason at all. &amp;nbsp;(There is an Arduino
+underneath there somewhere...)&lt;/p&gt;
+&lt;p&gt;On the two images above, you can see a jumper on the left of the first
+image, bottom of the second image... this changes what one pin is used
+for. &amp;nbsp;For smaller EPROMs, pin 26 of the 28 pin footprint is used for
+VCC, powering the chip. &amp;nbsp;In the larger packages, VCC is moved to pin 28,
+and pin 26 is used for Address line 13. &amp;nbsp;It's confusing. &amp;nbsp;&lt;a class="reference external" href="https://docs.google.com/spreadsheet/ccc?key=0Ah_ZDi13ZcngdFlfcDJHWERpNUVGMlBYR0dvdE1kdnc"&gt;A table that shows all of the pinouts&lt;/a&gt;&amp;nbsp;doesn't
+really help too much, but it was necessary so that I could figure things
+out for wiring it up.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-YTbYoRlJDnQ/UKPfF034T1I/AAAAAAAAB8s/NsEVhDXgH9M/s1600/2012-11-14+02.17.32.png"&gt;&lt;img alt="image13" class="aligncenter" src="http://2.bp.blogspot.com/-YTbYoRlJDnQ/UKPfF034T1I/AAAAAAAAB8s/NsEVhDXgH9M/s400/2012-11-14+02.17.32.png" style="width: 400px; height: 340px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next is firmware. I wrote a&amp;nbsp;&lt;a class="reference external" href="http://www.umlautllama.com/rand/ROM-Project-Arduino.txt"&gt;pretty simple program for the Arduino&lt;/a&gt;&amp;nbsp;that
+simply enables the EPROM, resets the counters, then clocks through the
+addresses, reads them in and sends that data down through the serial
+link. &amp;nbsp;After getting the enable lines wrong (active low, rather than
+active high), I managed to get it spitting out actual accurate ROM
+contents. &amp;nbsp;As you can see in the above, it read out of the ROM (right
+half) 0xf3, 0x3e, 0x00, and so on. &amp;nbsp;In a disassembly of Ms PacMan on the
+left, you can see these bytes in cyan, just to the right of the red
+numbers 0000, 0001, and so on.&lt;/p&gt;
+&lt;p&gt;The other half is a simple program that runs on a host computer that
+simply reads in serial data and logs it out to a file. &amp;nbsp;That content
+looks like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;f33e00ed47c30b23772310fcc9c30e07060708090a0b0c0d0e0f101114f532c038002a804c702c712c20022ec022804c3aaf4e324a503aec4ea73aef4e20033ae187d75f2356ebe9e146234e23e51812&lt;/p&gt;
+&lt;p&gt;f33e00ed47c30b23772310fcc9c30e07060708090a0b0c0d0e0f101114f532c038002a804c702c712c20022ec022804c3aaf4e324a503aec4ea73aef4e20033ae187d75f2356ebe9e146234e23e51812&lt;/p&gt;
+&lt;p&gt;f33e00ed47c30b23772310fcc9c30e07060708090a0b0c0d0e0f101114f532c038002a804c702c712c20022ec022804c3aaf4e324a503aec4ea73aef4e20033ae187d75f2356ebe9e146234e23e51812&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-OYirbnzlXVU/UKPfFdG641I/AAAAAAAAB8o/O49VdePngmo/s1600/2012-11-14+02.08.15.jpg"&gt;&lt;img alt="image14" class="aligncenter" src="http://2.bp.blogspot.com/-OYirbnzlXVU/UKPfFdG641I/AAAAAAAAB8o/O49VdePngmo/s400/2012-11-14+02.08.15.jpg" style="width: 400px; height: 298px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;I've now had this running for 12 hours with no change in the bits at
+all. &amp;nbsp;I'm thinking that it will require running for upwards of a week or
+two to have any affect on bits. &amp;nbsp;I may need to just drop the Arduino and
+ROM shield into my eraser to get the results I'm looking for... or at
+least a &amp;quot;control&amp;quot; to prove that the idea has a chance of working from
+here.&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;If nothing else, I now have a way to read EPROMS from an Arduino.
+&amp;nbsp;Awesome!&lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>Eproms and SUCCESS!</title><link href="/eproms-and-success-2.html" rel="alternate"></link><published>2012-11-14T23:59:00+00:00</published><updated>2012-11-14T23:59:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2012-11-14:/eproms-and-success-2.html</id><summary type="html">&lt;p&gt;This is a continuation of a&amp;nbsp;&lt;a class="reference external" href="{filename}/eproms-and-failure.rst"&gt;previous
+article&lt;/a&gt;.
+&amp;nbsp;Quick summary: I tried to build a device for dumping an EPROM via
+Arduino, and I constructed a device that had no chance of working.
+&amp;nbsp;Oops.&lt;/p&gt;
+&lt;p&gt;This post will continue where that one left off. &amp;nbsp;I'll walk through some
+of the process …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is a continuation of a&amp;nbsp;&lt;a class="reference external" href="{filename}/eproms-and-failure.rst"&gt;previous
+article&lt;/a&gt;.
+&amp;nbsp;Quick summary: I tried to build a device for dumping an EPROM via
+Arduino, and I constructed a device that had no chance of working.
+&amp;nbsp;Oops.&lt;/p&gt;
+&lt;p&gt;This post will continue where that one left off. &amp;nbsp;I'll walk through some
+of the process to hopefully get to a solution that works...&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-yjVkgyfT8Ao/UKHVQYVDczI/AAAAAAAAB78/5ApnGVPQ5Z8/s1600/2012-11-12+23.56.10.jpg"&gt;&lt;img alt="image0" class="aligncenter" src="http://4.bp.blogspot.com/-yjVkgyfT8Ao/UKHVQYVDczI/AAAAAAAAB78/5ApnGVPQ5Z8/s320/2012-11-12+23.56.10.jpg" style="width: 273px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To summarize the overall project; &amp;nbsp;I want to build a device that will
+illuminate an UV light-erasable ROM (EPROM) device, and also dump out
+its contents. I will then take the contents, display them as a graphic,
+and animate them over time as the bits fade away into an erased
+oblivion.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-ptkXdzVAcIg/UJqOvYeUR5I/AAAAAAAAB6k/R7b3MIyQJVA/s1600/2012-11-07+11.35.20.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="http://2.bp.blogspot.com/-ptkXdzVAcIg/UJqOvYeUR5I/AAAAAAAAB6k/R7b3MIyQJVA/s400/2012-11-07+11.35.20.jpg" style="width: 400px; height: 387px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;When we last left this, the above circuit was what I was going
+to work with. &amp;nbsp;The Arduino would shift out a 16 bit address, which will
+be stored in the 74HC595 serial-in, parallel-out shift registers. &amp;nbsp;Those
+would out&amp;nbsp;I was all set to place the order, but then I started thinking
+about other ways to sample the data, and then it hit me...&lt;/p&gt;
+&lt;p&gt;In the late 1980s, I had an Amiga 1000 computer (see previous post about
+restoring it). &amp;nbsp;We used Macintosh SE computers in High School, and as a
+result, we bought the&amp;nbsp;&lt;a class="reference external" href="http://crossconnect.tripod.com/AMAXHIST.HTML"&gt;&amp;quot;AMAX&amp;quot; Macintosh emulation system for the
+Amiga&lt;/a&gt;. &amp;nbsp;It was a lot
+easier to carry a floppy or two, rather than a SE or SE/30 in a plastic
+milk crate, not to mention that MacWrite was a substantially better word
+processor than TextCraft. ;)&lt;/p&gt;
+&lt;p&gt;AMAX consisted of software you run that emulated the Mac's hardware, as
+well as a &amp;quot;cartridge&amp;quot; that plugged into the floppy drive port of the
+Amiga. &amp;nbsp;I remember hearing that they went with the floppy drive port
+because it was the only appropriate port identical on all Amigas that
+were available at the time. (Amiga 1000, 500, 2000).&lt;/p&gt;
+&lt;p&gt;The cartridge served two functions. First, it let you plug in a Mac
+floppy drive right into the Amiga so that you could read and write 800k
+Mac floppies directly. &amp;nbsp;There was something about Amiga drives and Mac
+drives supporting a different number of drive speeds, so full
+Mac&amp;nbsp;compatibility&amp;nbsp;on the Amiga's drives was directly impossible. &amp;nbsp;Future
+versions of AMAX that used an internal card on the Amiga 2000 worked
+around this issue. &amp;nbsp;It was possible to make a floppy that supported just
+the sectors/speeds that were the same on both, but they only stored 272k
+of content. &amp;nbsp;But I digress...&lt;/p&gt;
+&lt;p&gt;The other function of the cartridge was that you needed to plug in Mac
+roms into it, which the software would read in as it starts. &amp;nbsp;Rather
+than storing the ROM on the Amiga, this protected the copyrights or
+whatever. &amp;nbsp;But the important thing here is the function. &amp;nbsp;I had picked
+up a few AMAX cartridges for $2 apiece at the awesome&amp;nbsp;&lt;a class="reference external" href="http://www.activesurplus.ca/en/"&gt;Active Surplus
+on Queen Street in Toronto&lt;/a&gt;&amp;nbsp;a bunch
+of years back, so I dug one out.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-7Q7anY45dnM/UJyUgpiEVAI/AAAAAAAAB7M/U3p_sw6izzM/s1600/2012-11-08+22.59.34.jpg"&gt;&lt;img alt="image2" class="aligncenter" src="http://2.bp.blogspot.com/-7Q7anY45dnM/UJyUgpiEVAI/AAAAAAAAB7M/U3p_sw6izzM/s640/2012-11-08+22.59.34.jpg" style="width: 640px; height: 401px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Left-to-Right, you see: Amiga D23 floppy connector, for connecting it to
+your Amiga, two 28 pin rom sockets, two 74LS393s, one 74LS165, a
+resistor, some diodes, a 74LS139, the Mac D19 floppy connector on the
+bottom, then the Amiga D23 floppy connector for adding additional Amiga
+floppy drives.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-18w4vJIID1g/UJyU1jLxhdI/AAAAAAAAB7c/kg4tRl3TVUk/s1600/2012-11-08+23.53.05.jpg"&gt;&lt;img alt="image3" class="aligncenter" src="http://4.bp.blogspot.com/-18w4vJIID1g/UJyU1jLxhdI/AAAAAAAAB7c/kg4tRl3TVUk/s640/2012-11-08+23.53.05.jpg" style="width: 640px; height: 476px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I've started to trace out the circuit, but it became obvious quickly
+that it was optimized for board layout rather than what I would consider
+to be a sane arrangements of data lines. &amp;nbsp;For example the 8 data output
+lines of the ROMs go into the 74LS165 PISO shift register out of order,
+so they need to be reshuffled once captured in the host computer.&lt;/p&gt;
+&lt;p&gt;Instead I decided to desolder the chips! &amp;nbsp;My guess at the original
+function is something like: the Amiga issues a clear to the 74LS393
+binary counter chips, ganged together to yeield a 16 bit output, rather
+than two dual-4 bit outputs. &amp;nbsp;This will reset their 16 bit output value
+to 0. &amp;nbsp;The 74LS165 parallel-in, serial-out register then latches the 8
+bit output from the ROM, and provides it through shifting to the Amiga
+via the floppy port. &amp;nbsp;From there, you need to simply pulse the clock on
+the '393, and it will&amp;nbsp;increment&amp;nbsp;through every address. Then you just
+latch and shift in the data. There's also a 74LS139 demultiplexer, which
+might be responsible for sequencing through those events, or perhaps
+something to do with the Mac floppy drive. I had a slight mishap and
+lost the 74LS165, which is okay since I didn't need it for this project
+anyway. &amp;nbsp;Regardless, $2 plus some time -- I'm already ahead and I
+haven't even removed the D23s yet (which are the same size as Amiga RGB
+Video connectors! Perfect for another project...)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-yKqJsMVndpk/UJyU-0ld6vI/AAAAAAAAB7k/ytWr1Yz9T1A/s1600/2012-11-08+23.54.08.jpg"&gt;&lt;img alt="image4" class="aligncenter" src="http://1.bp.blogspot.com/-yKqJsMVndpk/UJyU-0ld6vI/AAAAAAAAB7k/ytWr1Yz9T1A/s640/2012-11-08+23.54.08.jpg" style="width: 640px; height: 476px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For fun, here's the board with no components on it.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-yPhGkww2fo0/UJx-TvHFDFI/AAAAAAAAB64/ZW5j5cNhgYY/s1600/2012-11-08+21.56.26.jpg"&gt;&lt;img alt="image5" class="aligncenter" src="http://2.bp.blogspot.com/-yPhGkww2fo0/UJx-TvHFDFI/AAAAAAAAB64/ZW5j5cNhgYY/s320/2012-11-08+21.56.26.jpg" style="width: 320px; height: 210px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With a slight change in gears I can adapt my design to use the
+parts I now have in my toolbox thanks to my desoldering tools. &amp;nbsp;Instead
+of the Arduino shifting out an address, it will instead do the process
+described above. &amp;nbsp;It will first clear the 393s, then alternately cycle
+between clocking out a pulse to increment their values, and reading in
+the value directly. Since I'm accessing the ROM data from start to
+finish, sequentially anyway, this solution works out perfectly. &amp;nbsp;I also
+show four LEDs in the above diagram. Three for various status, one for
+UV illumination.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-cWIzW2S6maY/UKPpxw8t2JI/AAAAAAAAB9I/0FMuEhfRqEg/s1600/2012-11-13+22.30.40.png"&gt;&lt;img alt="image6" class="aligncenter" src="http://3.bp.blogspot.com/-cWIzW2S6maY/UKPpxw8t2JI/AAAAAAAAB9I/0FMuEhfRqEg/s640/2012-11-13+22.30.40.png" style="width: 426px; height: 640px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is a close up of a 27C128 part. This one has Pac-Man programmed
+onto it... of course. &amp;nbsp;You can see through the quartz window, and down
+onto the EPROM silicon itself.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-Nkxzmx4wLjA/UKRyi43rfVI/AAAAAAAAB9g/KBX-JvT5krk/s1600/2012-11-14+23.16.29.jpg"&gt;&lt;img alt="image7" class="aligncenter" src="http://4.bp.blogspot.com/-Nkxzmx4wLjA/UKRyi43rfVI/AAAAAAAAB9g/KBX-JvT5krk/s400/2012-11-14+23.16.29.jpg" style="width: 400px; height: 268px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here we see the pins on the Arduino, and how the connect to the shield's
+bus connections, along with the LEDs. &amp;nbsp;I could draw this up in a
+computerey drawing program, but sketching it out in Sharpie on graph
+paper is just&amp;nbsp;quicker... and more Mimsian. ;)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://1.bp.blogspot.com/-A1qXIZxizuU/UKRyoHy1G0I/AAAAAAAAB9o/y9jV7rs69_0/s1600/2012-11-14+23.16.36.jpg"&gt;&lt;img alt="image8" class="aligncenter" src="http://1.bp.blogspot.com/-A1qXIZxizuU/UKRyoHy1G0I/AAAAAAAAB9o/y9jV7rs69_0/s400/2012-11-14+23.16.36.jpg" style="width: 400px; height: 247px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are the &amp;nbsp;two 74LS393's. &amp;nbsp; You can see their connection to the
+address lines on the ROM, as well as the cascading of the counter, e.g.
+from 1QD to 2A, and from 2QD to 1A on the second chip.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://4.bp.blogspot.com/-ouX_QPqw_mU/UKRyskKJwEI/AAAAAAAAB9w/LgIR8UIhkcc/s1600/2012-11-14+23.16.44.jpg"&gt;&lt;img alt="image9" class="aligncenter" src="http://4.bp.blogspot.com/-ouX_QPqw_mU/UKRyskKJwEI/AAAAAAAAB9w/LgIR8UIhkcc/s400/2012-11-14+23.16.44.jpg" style="width: 400px; height: 250px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And the wiring for the 28 pin socket, including the 3 pin (two-way)
+jumper so that i can use smaller 24 pin parts as well.&lt;/p&gt;
+&lt;p&gt;About the UV illumination... &amp;nbsp;The data sheets for the EPROMs show that
+they should be erased with 253.7 nanometer light, at 15-20 minutes,
+2.5cm distance at 15 Watt/seconds per cm^2. &amp;nbsp;I dont know how to measure
+this with respect to LEDs, but I'm going to just wing it and see what
+happens. &amp;nbsp;The sheet also says that 253.7nm is the optimal wavelength for
+erasing them, but anything below 400nm should work. &amp;nbsp;I believe the UV
+LEDs I have are somewhere between 350nm and 400nm, so it should work.
+&amp;nbsp;The other issue is that the LEDs are substantially less powerful,
+probably a tenth to a hundredth the power. We'll see once we get this
+going, but I expect it will take on the order of weeks to erase a rom,
+rather than minutes.&lt;/p&gt;
+&lt;p&gt;The good thing about this project, in comparison to using EPROMs
+functionally, is that you want speed of erasure for functional use. &amp;nbsp;I
+personally found that my eraser worked on most of the devices I own in
+about 10 minutes. &amp;nbsp;I would often have a chip or two in the eraser, while
+programming and debugging others. &amp;nbsp;It worked out fairly well. &amp;nbsp;For this
+project, it's&amp;nbsp;completely&amp;nbsp;okay if it takes on the order of hours to erase
+a device. &amp;nbsp;I'll find out how well it works once I get it going. &amp;nbsp;I may
+use more than one LED just to speed it up a little, in case it takes on
+the order of days instead of minutes or hours.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-7pdS0XmtszQ/UKPeqW1OBtI/AAAAAAAAB8Q/s9vl4QBZE_U/s1600/2012-11-10+00.56.30.jpg"&gt;&lt;img alt="image10" class="aligncenter" src="http://2.bp.blogspot.com/-7pdS0XmtszQ/UKPeqW1OBtI/AAAAAAAAB8Q/s9vl4QBZE_U/s400/2012-11-10+00.56.30.jpg" style="width: 298px; height: 400px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I started laying out the board at home, wiring in just the LEDs, and
+figuring out the best layout for the chips. &amp;nbsp;I used the`&amp;nbsp;DIY shield
+for Arduino from
+AdaFruit.com &amp;lt;&lt;a class="reference external" href="https://www.adafruit.com/products/187"&gt;https://www.adafruit.com/products/187&lt;/a&gt;&amp;gt;`__&amp;nbsp;as the
+foundation to build this upon. &amp;nbsp;I wanted to leave space for possibly
+using larger chips in the future, so what is the bottom of the board
+here has space for a few extra data lines if i re-route that red power
+line. &amp;nbsp;The '393's are layed out so that the one on the right, which
+addresses bits A0-A7 has four of its lines directly lined up. &amp;nbsp;This was
+to try to make it a little easier to wire up.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-6xhutFXwlfI/UKPfE_04XSI/AAAAAAAAB8g/h03Dg45PIk0/s1600/2012-11-14+02.07.22.jpg"&gt;&lt;img alt="image11" class="aligncenter" src="http://2.bp.blogspot.com/-6xhutFXwlfI/UKPfE_04XSI/AAAAAAAAB8g/h03Dg45PIk0/s320/2012-11-14+02.07.22.jpg" style="width: 239px; height: 320px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://3.bp.blogspot.com/-3Ob_H7OLtbM/UKPfD_4KspI/AAAAAAAAB8Y/IVNUHdtJAkk/s1600/2012-11-14+00.00.38.jpg"&gt;&lt;img alt="image12" class="aligncenter" src="http://3.bp.blogspot.com/-3Ob_H7OLtbM/UKPfD_4KspI/AAAAAAAAB8Y/IVNUHdtJAkk/s320/2012-11-14+00.00.38.jpg" style="width: 320px; height: 239px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I bought some wire wrap wire for address, data, and
+control lines, and did most of the work of wiring those up&amp;nbsp;&lt;a class="reference external" href="/"&gt;one
+evening at Interlock&lt;/a&gt;. &amp;nbsp;I used red for
+control (counter clear, clock data cascade lines) as well as eprom
+address lines. &amp;nbsp;I used blue for data lines. &amp;nbsp;In the above pictures you
+can see how the wires were routed around (there was some more writing on
+the bottom, obviously.) You can also see how the UV LEDs are mounted
+with some stiff solid core wire. &amp;nbsp;I reduced the number of LEDs to two
+plus the UV LEDs for no real reason at all. &amp;nbsp;(There is an Arduino
+underneath there somewhere...)&lt;/p&gt;
+&lt;p&gt;On the two images above, you can see a jumper on the left of the first
+image, bottom of the second image... this changes what one pin is used
+for. &amp;nbsp;For smaller EPROMs, pin 26 of the 28 pin footprint is used for
+VCC, powering the chip. &amp;nbsp;In the larger packages, VCC is moved to pin 28,
+and pin 26 is used for Address line 13. &amp;nbsp;It's confusing. &amp;nbsp;&lt;a class="reference external" href="https://docs.google.com/spreadsheet/ccc?key=0Ah_ZDi13ZcngdFlfcDJHWERpNUVGMlBYR0dvdE1kdnc"&gt;A table that
+shows all of the
+pinouts&lt;/a&gt;&amp;nbsp;doesn't
+really help too much, but it was necessary so that I could figure things
+out for wiring it up.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-YTbYoRlJDnQ/UKPfF034T1I/AAAAAAAAB8s/NsEVhDXgH9M/s1600/2012-11-14+02.17.32.png"&gt;&lt;img alt="image13" class="aligncenter" src="http://2.bp.blogspot.com/-YTbYoRlJDnQ/UKPfF034T1I/AAAAAAAAB8s/NsEVhDXgH9M/s400/2012-11-14+02.17.32.png" style="width: 400px; height: 340px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next is firmware. I wrote a&amp;nbsp;&lt;a class="reference external" href="http://www.umlautllama.com/rand/ROM-Project-Arduino.txt"&gt;pretty simple program for the
+Arduino&lt;/a&gt;&amp;nbsp;that
+simply enables the EPROM, resets the counters, then clocks through the
+addresses, reads them in and sends that data down through the serial
+link. &amp;nbsp;After getting the enable lines wrong (active low, rather than
+active high), I managed to get it spitting out actual accurate ROM
+contents. &amp;nbsp;As you can see in the above, it read out of the ROM (right
+half) 0xf3, 0x3e, 0x00, and so on. &amp;nbsp;In a disassembly of Ms PacMan on the
+left, you can see these bytes in cyan, just to the right of the red
+numbers 0000, 0001, and so on.&lt;/p&gt;
+&lt;p&gt;The other half is a simple program that runs on a host computer that
+simply reads in serial data and logs it out to a file. &amp;nbsp;That content
+looks like this:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;f33e00ed47c30b23772310fcc9c30e07060708090a0b0c0d0e0f101114f532c038002a804c702c712c20022ec022804c3aaf4e324a503aec4ea73aef4e20033ae187d75f2356ebe9e146234e23e51812&lt;/p&gt;
+&lt;p&gt;f33e00ed47c30b23772310fcc9c30e07060708090a0b0c0d0e0f101114f532c038002a804c702c712c20022ec022804c3aaf4e324a503aec4ea73aef4e20033ae187d75f2356ebe9e146234e23e51812&lt;/p&gt;
+&lt;p&gt;f33e00ed47c30b23772310fcc9c30e07060708090a0b0c0d0e0f101114f532c038002a804c702c712c20022ec022804c3aaf4e324a503aec4ea73aef4e20033ae187d75f2356ebe9e146234e23e51812&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://2.bp.blogspot.com/-OYirbnzlXVU/UKPfFdG641I/AAAAAAAAB8o/O49VdePngmo/s1600/2012-11-14+02.08.15.jpg"&gt;&lt;img alt="image14" class="aligncenter" src="http://2.bp.blogspot.com/-OYirbnzlXVU/UKPfFdG641I/AAAAAAAAB8o/O49VdePngmo/s400/2012-11-14+02.08.15.jpg" style="width: 400px; height: 298px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div&gt;&lt;p&gt;I've now had this running for 12 hours with no change in the bits at
+all. &amp;nbsp;I'm thinking that it will require running for upwards of a week or
+two to have any affect on bits. &amp;nbsp;I may need to just drop the Arduino and
+ROM shield into my eraser to get the results I'm looking for... or at
+least a &amp;quot;control&amp;quot; to prove that the idea has a chance of working from
+here.&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;If nothing else, I now have a way to read EPROMS from an Arduino.
+&amp;nbsp;Awesome!&lt;/p&gt;
+&lt;/div&gt;</content></entry><entry><title>A Computer Controllable Pixel</title><link href="/a-computer-controllable-pixel.html" rel="alternate"></link><published>2012-09-26T11:58:00+00:00</published><updated>2012-09-26T11:58:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2012-09-26:/a-computer-controllable-pixel.html</id><summary type="html">&lt;p&gt;A few years ago, I put in an order at Sparkfun, which included 8 1-Watt
+Luxeon LEDs. &amp;nbsp;My original thought was that I would rebuild an lightshow
+device that I had built many years ago, but instead of it driving 110V
+spot lights through solid state relays, it would instead …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A few years ago, I put in an order at Sparkfun, which included 8 1-Watt
+Luxeon LEDs. &amp;nbsp;My original thought was that I would rebuild an lightshow
+device that I had built many years ago, but instead of it driving 110V
+spot lights through solid state relays, it would instead be more
+self-contained, and use high power LEDs instead. &amp;nbsp;This project never
+happened, since I never figured out how to power the LEDs properly.&lt;/p&gt;
+&lt;p&gt;I've recently been getting into doing more little projects, especially
+since I want to have &lt;em&gt;something&lt;/em&gt; to do on Tuesday nights at Interlock.
+&amp;nbsp;I saw the box of these things on the shelf, and decided to try driving
+them directly from an Arduino. &amp;nbsp; I know that I could have used one of
+the BlinkM modules, or the strand of RGB Pixels or whatever for this,
+but I had these, and I wanted to see what I could do / how bright I
+could make them without frying the Arduino.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.10.10-e1348677126508.jpg"&gt;&lt;img alt="image0" class="aligncenter size-medium wp-image-994" src="/wp-uploads/2012/09/2012-09-26-09.10.10-e1348677126508-300x271.jpg" style="width: 300px; height: 271px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The project I decided to work on with them is to make a single
+high-brightness RGB pixel, and drive it from a Processing sketch on my
+computer. &amp;nbsp;Eventually, the thought might be to sample a TV's color,
+30fps for a few hours, then just store those brightness/color levels.
+&amp;nbsp;Then, play them back on the pixel to light a room. &amp;nbsp;From outside of the
+room, it &lt;em&gt;should&lt;/em&gt; look like a television is on, showing some kind of TV
+show. &amp;nbsp;The way I went with testing this was to take a movie trailer, and
+crunch it down to a few pixels, and then average the colors in it while
+it plays back, live via Processing, then send the RGB values over
+USB-Serial to be displayed on the pixel.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.13.51.jpg"&gt;&lt;img alt="image1" class="aligncenter size-medium wp-image-997" src="/wp-uploads/2012/09/2012-09-26-09.13.51-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I started out by soldering up a Red, Green, and Blue LED to a small
+piece of perf board. &amp;nbsp;I tied them together for a common ground on one
+side, and through a 220 ohm resistor on the other side, and all of this
+out to the Arduino. &amp;nbsp;I use PWM pins on the Arduino to adjust their
+brightness, since that's simple to do.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.11.51.jpg"&gt;&lt;img alt="image2" class="aligncenter size-medium wp-image-995" src="/wp-uploads/2012/09/2012-09-26-09.11.51-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The Processing sketch sends down 0..255 for red, green, and blue
+intensities, then those values are plugged directly into the PWM pins
+via AnalogWrite() calls, which displays a reasonable facsimile of the
+color requested.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/09/2012-09-26-09.12.31.jpg"&gt;&lt;img alt="image3" class="aligncenter size-medium wp-image-996" src="/wp-uploads/2012/09/2012-09-26-09.12.31-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The project worked out pretty darn well. &amp;nbsp;Without current drivers for
+the LEDs, I can't make them too bright, but in an hour of sitting down
+at Interlock, I had this working. &amp;nbsp;I wrote up two processing sketches.
+&amp;nbsp;One with a RGB color wheel - click to send that color to the LEDs, and
+another playing the video as described above. &amp;nbsp;(Arduino and Processing
+sketches available upon request. :D )&lt;/p&gt;
+</content></entry><entry><title>3D Printing a Twisty Puzzle</title><link href="/twistypuzzle.html" rel="alternate"></link><published>2012-05-16T16:05:00+00:00</published><updated>2012-05-16T16:05:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2012-05-16:/twistypuzzle.html</id><summary type="html">&lt;p&gt;I've been getting into twisty puzzles recently. &amp;nbsp;Mainly Rubik's cubes,
+as well as cubes and puzzles by other companies and designers like
+WitEden, Mefferts, TomZ, and so on. &amp;nbsp;While looking around, I noticed a
+few designers are printing one-offs via
+&lt;a class="reference external" href="http://shapeways.com"&gt;Shapeways&lt;/a&gt;, and other designers are offering
+their puzzles through &lt;a class="reference external" href="http://thingiverse.com"&gt;Thingiverse …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been getting into twisty puzzles recently. &amp;nbsp;Mainly Rubik's cubes,
+as well as cubes and puzzles by other companies and designers like
+WitEden, Mefferts, TomZ, and so on. &amp;nbsp;While looking around, I noticed a
+few designers are printing one-offs via
+&lt;a class="reference external" href="http://shapeways.com"&gt;Shapeways&lt;/a&gt;, and other designers are offering
+their puzzles through &lt;a class="reference external" href="http://thingiverse.com"&gt;Thingiverse&lt;/a&gt;. &amp;nbsp;I've
+been wanting to make a 1x2x3 puzzle for a while, probably &lt;a class="reference external" href="http://www.youtube.com/watch?v=pPeiQKmoaUc"&gt;making one my
+own from spare parts&lt;/a&gt;,
+but I happened to see a couple of 1x2x3 designs available on
+Thingiverse...&lt;/p&gt;
+&lt;p&gt;Very shortly after Brian, Alex, and Bill got Interlock's 3D printer
+going, I nudged my way in, and got them to print out a twisty puzzle for
+me. The puzzle I had printed was &lt;a class="reference external" href="http://www.thingiverse.com/thing:3737"&gt;this screwless 1x2x3
+model&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/11.jpg"&gt;&lt;img alt="image0" class="aligncenter size-medium wp-image-907" src="/wp-uploads/2012/05/11-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I decided to go for this one becuase I wanted to have it printed out and
+ready to go as qucickly as possible. &amp;nbsp;In retrospect, I should have gone
+for &lt;a class="reference external" href="http://www.thingiverse.com/thing:2412"&gt;TomZ's 1x2x3 design&lt;/a&gt;, for
+reasons I'll get to later. &amp;nbsp;Anyway... on to the printing!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/15.jpg"&gt;&lt;img alt="image1" class="aligncenter size-medium wp-image-908" src="/wp-uploads/2012/05/15-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The printer did a great job of producing the pieces, although it would
+seem that perhaps the filament was being fed into the printer too
+quickly, as tolerances were overshot, and much sanding needed to be
+performed just to get it to fit together...&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/21.jpg"&gt;&lt;img alt="image2" class="aligncenter size-medium wp-image-909" src="/wp-uploads/2012/05/21-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This design included a &amp;quot;barbell&amp;quot; shaped piece that snapped between the
+two halves of the core, eliminating the need for screws and springs to
+hold it together and give it tension. Because of the lack of support
+material, the printer had a difficult time properly printing out this
+barbell, as you can see in the following picture. &amp;nbsp;There was nothing to
+hold it in place, so it got dragged around a bit as the print head moved
+around.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/40.jpg"&gt;&lt;img alt="image3" class="aligncenter size-medium wp-image-910" src="/wp-uploads/2012/05/40-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The next step I took was to sand down the parts to get them to fit. The
+first thing I tried was sanding the 'feet' that protrude from the wing
+pieces. I was getting decent results, but then realized that a better
+solution was to sand the semicircular holes in the cores a bit more,
+opening them up, making the feet spin in the core more easily.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/41.jpg"&gt;&lt;img alt="image4" class="aligncenter size-medium wp-image-911" src="/wp-uploads/2012/05/41-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Between various nights of heading to Interlock to work on this, and
+without the needed barbell piece, I held it together with a rubber band.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/44.jpg"&gt;&lt;img alt="image5" class="aligncenter size-medium wp-image-912" src="/wp-uploads/2012/05/44-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next, Joe came to my rescue. &amp;nbsp;He extracted the barbell piece out of the
+STL file, sliced it in half, then printed those two halves for me. &amp;nbsp;This
+time using the stylish metallic gray filament, rather than the stylish
+orange filament.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/50.jpg"&gt;&lt;img alt="image6" class="size-medium wp-image-913 aligncenter" src="/wp-uploads/2012/05/50-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/53.jpg"&gt;&lt;img alt="image7" class="size-medium wp-image-915" src="/wp-uploads/2012/05/53-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A little bit of super glue, and a little bit of sanding, and they were
+ready to install inside of the twisty puzzle's core. &amp;nbsp;Within minutes,&amp;nbsp;it
+was assembled properly for the first time! The barbell/snap assembly is
+a bit loose, and I think that some of the feet were sanded down a little
+too much, as there is a lot of play in the fit of the parts.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/55.jpg"&gt;&lt;img alt="image8" class="size-medium wp-image-914 aligncenter" src="/wp-uploads/2012/05/55-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/57.jpg"&gt;&lt;img alt="image9" class="size-medium wp-image-917" src="/wp-uploads/2012/05/57-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I was planning on perhaps dyeing it, or just sanding more and stickering
+it with the expected color scheme (red, orange, green, blue, white,
+yellow) but Nick had asked me a little about rotational symmetry of the
+puzzle, and a few minutes later, he had stickered it with blue painter's
+tape. It was an ingenious solution, as no two pieces are stickered with
+the same pattern. (Note that you can also see the floppy tolerances on
+the top left piece of the next photo.)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/60.jpg"&gt;&lt;img alt="image10" class="aligncenter size-medium wp-image-916" src="/wp-uploads/2012/05/60-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After playing with it for a while, the barbell is definitely the weak
+point of the whole thing. &amp;nbsp;I had sanded it a little to get it to turn
+more smoothly, but now it's way too loose. &amp;nbsp;The wing pieces are a bit
+floppy due to sanding. &amp;nbsp; I think that these two things can easily be
+changed for the next print, by first using TomZ's design which can use a
+screw to hold it together, and also being more cautious while sanding to
+keep everything within decent tolerances.&lt;/p&gt;
+</content><category term="3d printer"></category><category term="projects"></category><category term="puzzles"></category><category term="toys"></category></entry><entry><title>3D Printing a Twisty Puzzle</title><link href="/twistypuzzle-2.html" rel="alternate"></link><published>2012-05-16T16:05:00+00:00</published><updated>2012-05-16T16:05:00+00:00</updated><author><name>BleuLlama</name></author><id>tag:None,2012-05-16:/twistypuzzle-2.html</id><summary type="html">&lt;p&gt;I've been getting into twisty puzzles recently. &amp;nbsp;Mainly Rubik's cubes,
+as well as cubes and puzzles by other companies and designers like
+WitEden, Mefferts, TomZ, and so on. &amp;nbsp;While looking around, I noticed a
+few designers are printing one-offs via
+&lt;a class="reference external" href="http://shapeways.com"&gt;Shapeways&lt;/a&gt;, and other designers are offering
+their puzzles through &lt;a class="reference external" href="http://thingiverse.com"&gt;Thingiverse …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been getting into twisty puzzles recently. &amp;nbsp;Mainly Rubik's cubes,
+as well as cubes and puzzles by other companies and designers like
+WitEden, Mefferts, TomZ, and so on. &amp;nbsp;While looking around, I noticed a
+few designers are printing one-offs via
+&lt;a class="reference external" href="http://shapeways.com"&gt;Shapeways&lt;/a&gt;, and other designers are offering
+their puzzles through &lt;a class="reference external" href="http://thingiverse.com"&gt;Thingiverse&lt;/a&gt;. &amp;nbsp;I've
+been wanting to make a 1x2x3 puzzle for a while, probably &lt;a class="reference external" href="http://www.youtube.com/watch?v=pPeiQKmoaUc"&gt;making one my
+own from spare parts&lt;/a&gt;,
+but I happened to see a couple of 1x2x3 designs available on
+Thingiverse...&lt;/p&gt;
+&lt;p&gt;Very shortly after Brian, Alex, and Bill got Interlock's 3D printer
+going, I nudged my way in, and got them to print out a twisty puzzle for
+me. The puzzle I had printed was &lt;a class="reference external" href="http://www.thingiverse.com/thing:3737"&gt;this screwless 1x2x3
+model&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/11.jpg"&gt;&lt;img alt="image0" class="aligncenter size-medium wp-image-907" src="/wp-uploads/2012/05/11-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I decided to go for this one becuase I wanted to have it printed out and
+ready to go as qucickly as possible. &amp;nbsp;In retrospect, I should have gone
+for &lt;a class="reference external" href="http://www.thingiverse.com/thing:2412"&gt;TomZ's 1x2x3 design&lt;/a&gt;, for
+reasons I'll get to later. &amp;nbsp;Anyway... on to the printing!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/15.jpg"&gt;&lt;img alt="image1" class="aligncenter size-medium wp-image-908" src="/wp-uploads/2012/05/15-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The printer did a great job of producing the pieces, although it would
+seem that perhaps the filament was being fed into the printer too
+quickly, as tolerances were overshot, and much sanding needed to be
+performed just to get it to fit together...&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/21.jpg"&gt;&lt;img alt="image2" class="aligncenter size-medium wp-image-909" src="/wp-uploads/2012/05/21-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This design included a &amp;quot;barbell&amp;quot; shaped piece that snapped between the
+two halves of the core, eliminating the need for screws and springs to
+hold it together and give it tension. Because of the lack of support
+material, the printer had a difficult time properly printing out this
+barbell, as you can see in the following picture. &amp;nbsp;There was nothing to
+hold it in place, so it got dragged around a bit as the print head moved
+around.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/40.jpg"&gt;&lt;img alt="image3" class="aligncenter size-medium wp-image-910" src="/wp-uploads/2012/05/40-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The next step I took was to sand down the parts to get them to fit. The
+first thing I tried was sanding the 'feet' that protrude from the wing
+pieces. I was getting decent results, but then realized that a better
+solution was to sand the semicircular holes in the cores a bit more,
+opening them up, making the feet spin in the core more easily.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/41.jpg"&gt;&lt;img alt="image4" class="aligncenter size-medium wp-image-911" src="/wp-uploads/2012/05/41-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Between various nights of heading to Interlock to work on this, and
+without the needed barbell piece, I held it together with a rubber band.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/44.jpg"&gt;&lt;img alt="image5" class="aligncenter size-medium wp-image-912" src="/wp-uploads/2012/05/44-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Next, Joe came to my rescue. &amp;nbsp;He extracted the barbell piece out of the
+STL file, sliced it in half, then printed those two halves for me. &amp;nbsp;This
+time using the stylish metallic gray filament, rather than the stylish
+orange filament.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/50.jpg"&gt;&lt;img alt="image6" class="size-medium wp-image-913 aligncenter" src="/wp-uploads/2012/05/50-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/53.jpg"&gt;&lt;img alt="image7" class="size-medium wp-image-915" src="/wp-uploads/2012/05/53-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A little bit of super glue, and a little bit of sanding, and they were
+ready to install inside of the twisty puzzle's core. &amp;nbsp;Within minutes,&amp;nbsp;it
+was assembled properly for the first time! The barbell/snap assembly is
+a bit loose, and I think that some of the feet were sanded down a little
+too much, as there is a lot of play in the fit of the parts.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/55.jpg"&gt;&lt;img alt="image8" class="size-medium wp-image-914 aligncenter" src="/wp-uploads/2012/05/55-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/57.jpg"&gt;&lt;img alt="image9" class="size-medium wp-image-917" src="/wp-uploads/2012/05/57-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I was planning on perhaps dyeing it, or just sanding more and stickering
+it with the expected color scheme (red, orange, green, blue, white,
+yellow) but Nick had asked me a little about rotational symmetry of the
+puzzle, and a few minutes later, he had stickered it with blue painter's
+tape. It was an ingenious solution, as no two pieces are stickered with
+the same pattern. (Note that you can also see the floppy tolerances on
+the top left piece of the next photo.)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/60.jpg"&gt;&lt;img alt="image10" class="aligncenter size-medium wp-image-916" src="/wp-uploads/2012/05/60-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;After playing with it for a while, the barbell is definitely the weak
+point of the whole thing. &amp;nbsp;I had sanded it a little to get it to turn
+more smoothly, but now it's way too loose. &amp;nbsp;The wing pieces are a bit
+floppy due to sanding. &amp;nbsp; I think that these two things can easily be
+changed for the next print, by first using TomZ's design which can use a
+screw to hold it together, and also being more cautious while sanding to
+keep everything within decent tolerances.&lt;/p&gt;
+</content><category term="3d printer"></category><category term="projects"></category><category term="puzzles"></category><category term="toys"></category></entry><entry><title>Fixing a MacBook Pro</title><link href="/fixing-a-macbook-pro.html" rel="alternate"></link><published>2012-02-01T09:56:00+00:00</published><updated>2012-02-01T09:56:00+00:00</updated><author><name>carl</name></author><id>tag:None,2012-02-01:/fixing-a-macbook-pro.html</id><summary type="html">&lt;p&gt;Last August I went on a business trip to Silicon Valley and the day
+after I arrived my laptop, a MacBook Pro, died. When I pushed the power
+button the fans would spin and the optical drive would do a seek but
+there was nothing on the screen. About 1 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last August I went on a business trip to Silicon Valley and the day
+after I arrived my laptop, a MacBook Pro, died. When I pushed the power
+button the fans would spin and the optical drive would do a seek but
+there was nothing on the screen. About 1 out of 3 times I could hear the
+startup gong. I could plug it into a network and ssh into the laptop so
+I knew the machine was running - just nothing on the screen. I tried an
+external monitor but there was nothing there either.&lt;/p&gt;
+&lt;p&gt;So I searched the net and tried all the standard resetting of the PRAM,
+booting from dvd and anything I could but there was no change. So I
+bought a new Lenovo laptop, installed Linux and restored all my personal
+files from backups over the network from home. Very slow but within two
+days I had a working laptop and continued with my work.&lt;/p&gt;
+&lt;p&gt;After five more months I still wasn't happy with my new laptop. I had
+everything I needed working but there were a bunch of little annoyances.
+So I decided to spend an afternoon trying to resurrect my MacBook Pro. I
+started by going to ifixit.com for some pointers on disassembling and
+checking on things.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.ifixit.com/Device/MacBook_Pro_15%22_Core_2_Duo_Models_A1226_and_A1260"&gt;http://www.ifixit.com/Device/MacBook_Pro_15%22_Core_2_Duo_Models_A1226_and_A1260&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I had the small philips screw driver and the torx driver but I didn't
+have a spudger (and really had never heard of it). But I was able to use
+a small flat blade screw driver very carefully and managed.&lt;/p&gt;
+&lt;p&gt;First I opened it and tried removing/moving/replacing the ram modules
+just to make sure - do the easy things first even if they aren't likely
+to do anything. Then I tried checking any and all connectors -
+disconnect, reconnect and test again. I followed all the cables that had
+anything to do with video to see if maybe one was broken. After checking
+all of this there still was no change in the behavior.&lt;/p&gt;
+&lt;p&gt;After some more searching it seemed like the last thing to try was to
+reflow the solder on the GPU. There were several videos about doing this
+both specifically for the MacBook Pro and for video cards in general.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.youtube.com/watch?v=1jFTi_P24z8&amp;amp;feature=related"&gt;http://www.youtube.com/watch?v=1jFTi_P24z8&amp;amp;feature=related&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.youtube.com/watch?v=t_uN6VBqWkg&amp;amp;feature=related"&gt;http://www.youtube.com/watch?v=t_uN6VBqWkg&amp;amp;feature=related&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Since the laptop was useless as it was I had nothing to lose. So I
+continued the disassembling until I had the main logic board free. There
+were lots of screws and many tiny little connectors to all the other
+bits in the case. I was fairly sure it would never work again because I
+doubted my ability to get everything connected correctly again but I
+pushed on. I cleaned all the heat sink compound off the cpu, gpu and
+interface chips. Using the heat gun at our soldering station, I heated
+the the little board holding the gpu onto the logic board focusing on
+any solder joints I could see. After ten minutes of this it seemed like
+the solder I could see was a little shinier and the board was certainly
+hot. So I started the long process of assembling the laptop again.
+Getting all the little connectors on top of the logic board and
+reconnected was quite a tedious process. Then getting all the screws
+back was also lots of fun. I tried keeping the screws generally laid out
+in groups by where they came from but there was still a lot of hunting
+for a hole that the screw would fit in. But eventually I had it all back
+together with no left over parts.&lt;/p&gt;
+&lt;p&gt;Now the moment of truth. It was late and time to go home so I waited
+until everything was back together and plugged in. Then I pushed the
+power button and the startup gong sounded. Then wonder of wonders, the
+screen lit up and the system booted all the way up. I was able to login
+and the system was working perfectly! Several days later and everything
+is still fine.&lt;/p&gt;
+&lt;p&gt;So for a few hours work I have a my laptop back.&lt;/p&gt;
+</content></entry><entry><title>Building with Acrylic</title><link href="/building-with-acrylic.html" rel="alternate"></link><published>2012-01-24T11:20:00+00:00</published><updated>2012-01-24T11:20:00+00:00</updated><author><name>dkavanagh</name></author><id>tag:None,2012-01-24:/building-with-acrylic.html</id><summary type="html">&lt;p&gt;I've been working on a telepresence robot on and off for some time. One
+thing I was held up on was getting the main structure built. I had done
+a design in Sketch-Up, but had no idea how to actually get it made for
+real. It turns out there are …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been working on a telepresence robot on and off for some time. One
+thing I was held up on was getting the main structure built. I had done
+a design in Sketch-Up, but had no idea how to actually get it made for
+real. It turns out there are several options for getting acrylic designs
+produced. In this case, I chose water-jet because it leaves a nice edge
+on the finished parts. I wrote up a pretty detailed set of instructions
+for building the robot structure on the &lt;a class="reference external" href="https://github.com/eucalyptus/eucabot/wiki/Stand-Assembly"&gt;project
+wiki&lt;/a&gt;. In
+those, I talk about the production of the parts and assembly process. It
+details how I used Weld-On #3 to bond the parts. This works very well
+for acrylic since it sets up fast, creates a fast bond and is relatively
+easy to work with.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="assembled eucabot" src="https://github.com/eucalyptus/eucabot/raw/master/wiki/images/CurrentState.jpg" style="width: 179px; height: 512px;" /&gt;&lt;/p&gt;
+</content></entry><entry><title>Building with Acrylic</title><link href="/building-with-acrylic-2.html" rel="alternate"></link><published>2012-01-24T11:20:00+00:00</published><updated>2012-01-24T11:20:00+00:00</updated><author><name>dkavanagh</name></author><id>tag:None,2012-01-24:/building-with-acrylic-2.html</id><summary type="html">&lt;p&gt;I've been working on a telepresence robot on and off for some time. One
+thing I was held up on was getting the main structure built. I had done
+a design in Sketch-Up, but had no idea how to actually get it made for
+real. It turns out there are …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I've been working on a telepresence robot on and off for some time. One
+thing I was held up on was getting the main structure built. I had done
+a design in Sketch-Up, but had no idea how to actually get it made for
+real. It turns out there are several options for getting acrylic designs
+produced. In this case, I chose water-jet because it leaves a nice edge
+on the finished parts. I wrote up a pretty detailed set of instructions
+for building the robot structure on the &lt;a class="reference external" href="https://github.com/eucalyptus/eucabot/wiki/Stand-Assembly"&gt;project
+wiki&lt;/a&gt;. In
+those, I talk about the production of the parts and assembly process. It
+details how I used Weld-On #3 to bond the parts. This works very well
+for acrylic since it sets up fast, creates a fast bond and is relatively
+easy to work with.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="assembled eucabot" src="https://github.com/eucalyptus/eucabot/raw/master/wiki/images/CurrentState.jpg" style="width: 179px; height: 512px;" /&gt;&lt;/p&gt;
+</content></entry><entry><title>Near Field Communication Primer</title><link href="/near-field-communication-primer.html" rel="alternate"></link><published>2011-12-21T12:00:00+00:00</published><updated>2011-12-21T12:00:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2011-12-21:/near-field-communication-primer.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/NFC-logo.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-429" src="/wp-uploads/2011/08/NFC-logo.png" style="width: 284px; height: 237px;" /&gt;&lt;/a&gt;I thought I'd do a primer about NFC since Samsung's Galaxy
+Nexus is getting a lot of press about it. You may have heard of Google
+Wallet or how NFC is going to be built into smart phones in the future.
+Maybe you haven't thought about how it works or …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/NFC-logo.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-429" src="/wp-uploads/2011/08/NFC-logo.png" style="width: 284px; height: 237px;" /&gt;&lt;/a&gt;I thought I'd do a primer about NFC since Samsung's Galaxy
+Nexus is getting a lot of press about it. You may have heard of Google
+Wallet or how NFC is going to be built into smart phones in the future.
+Maybe you haven't thought about how it works or how to hack it.&amp;nbsp;As a
+side[side(side)] project I've been working on NFC research with (as
+always for me) a specific focus on the security perspectives. This is an
+overview of NFC to maybe peak your interest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Define:NFC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Near Field Communication is a way to transmit information between
+intelligent devices. I know you're already thinking Bluetooth but wait.
+NFC has a limitation that says in its spec that it can't be more than
+.2m away from its partner during communication. It may be a bit more
+depending on the implementation but the thing to remember here is that
+the protocol itself is what limits the distance, not just the hardware.
+(Quit pointing that gigantic antenna at my pocket right now!) It
+transmits on the HF band 13.56MHz, a frequency already used by some RFID
+chips and fun devices like the Proxmark 3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here's what's different about NFC: There are three different modes.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Reader/Writer: Commonly used in smart posters or smart stickers.
+Think QR code but subtle.&lt;/li&gt;
+&lt;li&gt;Peer to Peer: Data is exchanged back and forth between devices;
+securely exchange credit cards, give your friend your home WIFI
+settings, or exchange business cards.&lt;/li&gt;
+&lt;li&gt;Card Emulation: A device acts like a contactless smart card. What if
+you could use your phone as a bus pass instead of keeping that flimsy
+magstripe pass in your pocket?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;NFC != RFID&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lets take care of that up front. NFC sounds a lot like RFID (they share
+the whole RF thing) and it seems to get stored in people's heads that
+way because NFC has the card emulation mode where it emulates at &amp;quot;tag&amp;quot;
+or an RFID chip. &amp;nbsp;RFID isn't usually much more than a tag blindly
+broadcasting data hoping a receiver picks it up. Passive tags (or little
+antennas without a power source) sit and wait for an RFID reader to come
+by to energize them. They get all excited and tell the reader everything
+they know. Imagine a dog just waiting at the door for it's owner to come
+home. The active RFID tags have a battery in them that constantly
+broadcasts itself to anyone that will listen. Kind of like that annoying
+friend you have that tells you everything about their life even though
+you never asked. NFC on the other hand is like an intelligent college
+student. She can have an intimate conversation with you, she can make a
+presentation in front of a class, but she can still get drunk and act
+stupid if that's what everyone else is doing at the party.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NFC is not a new technology&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We've seen them in European phones since 2003 or 4 and they've been
+hacked on for just as long. The folks at the &lt;a class="reference external" href="http://www.ccc.de/en/"&gt;Chaos Computer
+Club&lt;/a&gt; have been hacking on NFC since it's
+original inception; when manufacturers like Nokia started installing it
+into their feature phones, AKA dumb phones. It never made it across the
+water - some may say due to some FCC regulations on the 13.56 frequency
+but I'll leave that topic to the Ham guys.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Security|image1|&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you haven't already, you should put on your tin foil hat now. &lt;strong&gt;NFC
+is a way for corporations to take over our bodies, man!&lt;/strong&gt; Well...most
+likely not. But you're already thinking about the security problems as
+soon as I wrote &amp;quot;credit card.&amp;quot; I'm going to save this whole discussion
+for another day but the tl;dr version is that NFC has been designed with
+security in mind but a lot is left up to the developer to implement
+securely. We all know how well that works especially for mobile app
+developers so I'm sure everything is going to be fine, right? Maybe next
+time I'll tell you about the butt sniffing attack. No seriously.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Android and The Galaxy Nexus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How is Android implementing NFC in the Galaxy Nexus? Here's an example
+of a peer to peer mode connection: When you put a Galaxy Nexus next to
+another Galaxy Nexus, the phone will make an NFC connection as long as
+both phones are unlocked. If the app that you &amp;nbsp;have open supports NFC
+(i.e. Google Maps) it will allow you to communicate data from your app
+to the other device. Some examples of this are sharing contact
+information, location data, websites, etc but apparently it's going to
+be used for games or whatever developers can think of.&lt;/p&gt;
+&lt;p&gt;The Reader/Writer mode will allow you to take an NFC tag and shove it
+next to the phone. Depending on the data stored on the card, it will
+open an appropriate app to view the content. In the case of an NFC tag
+that is contains a URL, it will automatically go to that page. Ask me
+about some of the NFC tags I've made at a 2600 meeting sometime. :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More info:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you want to see a much better post that's chock full of info check
+this
+out:&amp;nbsp;&lt;a class="reference external" href="http://www.engadget.com/2011/06/10/engadget-primed-what-is-nfc-and-why-do-we-care/"&gt;http://www.engadget.com/2011/06/10/engadget-primed-what-is-nfc-and-why-do-we-care/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here' s a random YouTube video of two guys with Galaxy Nexuses so I
+don't have to make one:&amp;nbsp;&lt;a class="reference external" href="http://www.youtube.com/watch?v=ZQSc4uiakv4"&gt;http://www.youtube.com/watch?v=ZQSc4uiakv4&lt;/a&gt;&lt;/p&gt;
+</content><category term="hacking"></category><category term="infosec"></category><category term="near field communication"></category><category term="NFC"></category><category term="security"></category></entry><entry><title>Dashing through the thermoplastic</title><link href="/dashing-through-the-thermoplastic-2.html" rel="alternate"></link><published>2011-12-01T00:09:00+00:00</published><updated>2011-12-01T00:09:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2011-12-01:/dashing-through-the-thermoplastic-2.html</id><summary type="html">&lt;p&gt;It's that time of the year, again, when families across the country are
+messing with long strings of electrical wire, crazy light bulbs, and
+LEDs plus all sorts of weird objects made of ceramic, glass, metal or
+plastic. I was inspired to offset some of my Grinchiness by using our …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's that time of the year, again, when families across the country are
+messing with long strings of electrical wire, crazy light bulbs, and
+LEDs plus all sorts of weird objects made of ceramic, glass, metal or
+plastic. I was inspired to offset some of my Grinchiness by using our
+put-up-the-decorations day as another opportunity to use one of my new
+favorite materials.&lt;/p&gt;
+&lt;p&gt;Our Christmas tree stand has this nifty tiered collection of what are,
+essentially, big set screws, designed to hold the trunk of the tree
+upright in the center of the tree stand. Problem is, over time we've
+lost the little plastic caps from the trunk end of several of the set
+screws. This means the set screws tear up the bark of the tree trunk
+more quickly, and dig more easily into the trunk of the tree.&lt;/p&gt;
+&lt;p&gt;That can't be good.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/10-PCL-tree-stand-missing-caps-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Also, another of our tree stands, smaller, with only one tier of set
+screws, has a nice little conical stand-off built into the bottom of the
+stand, to help keep the bottom of the tree off the bottom of the stand.
+That way water can get into the bottom and up through the tree. The
+larger stand that we like to use, with two tiers of set screws, has no
+such stand-off.&lt;/p&gt;
+&lt;p&gt;So, I made little caps out of
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Polycaprolactone"&gt;PCL&lt;/a&gt;
+(&lt;a class="reference external" href="http://reprap.org/wiki/Polycaprolactone"&gt;polycaprolactone&lt;/a&gt;, aka
+&lt;a class="reference external" href="http://www.makershed.com/product_p/mkshl1.htm"&gt;Shapelock&lt;/a&gt; aka
+&lt;a class="reference external" href="http://www.amaco.com/shop/category-85-friendly-plastic-modeling-material.html"&gt;Friendly
+Plastic&lt;/a&gt;,
+about which perhaps more some other time) to replace the missing ones.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image1" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/25-PCL-tree-stand-old-and-new-caps-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;I made a mold out of some &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Polymer_clay"&gt;polymer
+clay&lt;/a&gt; using the OEM green
+cap and made one PCL cap with the mold. Using polymer clay this way is
+something I've been meaning to try. Sad to say, that approach still
+needs a little work--I had a lot of trouble with the PCL locking into
+small imperfections in the mold. The rest of the replacement caps I made
+by just pressing warm PCL around the ends of the set screws, free form,
+and then letting them cool and harden in place.&lt;/p&gt;
+&lt;p&gt;I also made a little PCL stand-off to put in the bottom of the tree,
+with a little &amp;quot;spider&amp;quot; consisting of two crossed PCL rods to help keep
+it near the center of the bottom of the well of the stand.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image2" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/30-PCL-tree-stand-standoff-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Here they are, all together:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image3" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/40-PCL-tree-stand-with-new-parts-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The caps seem to have worked pretty well. The spider kept slipping out
+of place as I was trying to get the stand fit onto the tree. Next year
+maybe I'll try putting something soft and sticky on the ends to help
+with more of a press-fit, either some sort of generic silicone caulk or
+some &lt;a class="reference external" href="http://sugru.com/"&gt;Sugru&lt;/a&gt; or something.&lt;/p&gt;
+</content><category term="holiday"></category><category term="material"></category><category term="plastic"></category><category term="repair"></category></entry><entry><title>Squishy Circuits</title><link href="/squishy-circuits.html" rel="alternate"></link><published>2011-08-24T21:25:00+00:00</published><updated>2011-08-24T21:25:00+00:00</updated><author><name>carl</name></author><id>tag:None,2011-08-24:/squishy-circuits.html</id><summary type="html">&lt;p&gt;This was a project I saw on the web called &lt;a class="reference external" href="http://courseweb.stthomas.edu/apthomas/SquishyCircuits/"&gt;Squishy
+Circuits&lt;/a&gt;.
+The idea is to make a dough like substance that will conduct
+electricity. Then you can mold it into interesting shapes and
+incorporate electrical components into the sculpture without putting
+wires inside. Connecting things does not require using …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was a project I saw on the web called &lt;a class="reference external" href="http://courseweb.stthomas.edu/apthomas/SquishyCircuits/"&gt;Squishy
+Circuits&lt;/a&gt;.
+The idea is to make a dough like substance that will conduct
+electricity. Then you can mold it into interesting shapes and
+incorporate electrical components into the sculpture without putting
+wires inside. Connecting things does not require using a soldering iron
+- you just stick a wire into the dough.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_447&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Light the Lights&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0179.jpg"&gt;&lt;img alt="image0" class="size-medium wp-image-447" src="/wp-uploads/2011/08/DSC_0179-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;So the first step is to prepare the dough.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_446&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot; caption=&amp;quot;The
+ingredients are ready.&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/squishy1.jpg"&gt;&lt;img alt="image1" class="size-thumbnail wp-image-446" src="/wp-uploads/2011/08/squishy1-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;We are making two kinds of dough here - conductive and non-conductive.
+The conductive dough will be used for making wires and the
+non-conductive dough will separate the conductive pieces so we don't
+have a short circuit. The conductive dough is colored with red food
+coloring and the non-conductive is left uncolored.&lt;/p&gt;
+&lt;p&gt;The conductive dough:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_448&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Mixing the dough&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/squishy4.jpg"&gt;&lt;img alt="image2" class="size-thumbnail wp-image-448" src="/wp-uploads/2011/08/squishy4-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_453&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Cooking it&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/squishy71.jpg"&gt;&lt;img alt="image3" class="size-thumbnail wp-image-453" src="/wp-uploads/2011/08/squishy71-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_454&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot; caption=&amp;quot;Mad
+Scientist at work&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_01481.jpg"&gt;&lt;img alt="image4" class="size-thumbnail wp-image-454" src="/wp-uploads/2011/08/DSC_01481-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_455&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Cooling off&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_01501.jpg"&gt;&lt;img alt="image5" class="size-thumbnail wp-image-455" src="/wp-uploads/2011/08/DSC_01501-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;Next we mix up the non-conductive dough.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_456&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;non-conductive dough&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0159.jpg"&gt;&lt;img alt="image6" class="size-thumbnail wp-image-456" src="/wp-uploads/2011/08/DSC_0159-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_457&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Kneading it&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0160.jpg"&gt;&lt;img alt="image7" class="size-thumbnail wp-image-457" src="/wp-uploads/2011/08/DSC_0160-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_458&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Finished&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0162.jpg"&gt;&lt;img alt="image8" class="size-thumbnail wp-image-458" src="/wp-uploads/2011/08/DSC_0162-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;Now that we have the dough it is time to experiment. First check to see
+if the conductive dough really is.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_459&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;What is the resistance?&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0163.jpg"&gt;&lt;img alt="image9" class="size-thumbnail wp-image-459" src="/wp-uploads/2011/08/DSC_0163-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;The resistance was over 40K ohms which seems very high but lets see how
+it works. I used 4 AA batteries for power and two LEDs. The pink dough
+on one side is ground and the other is +6 volts.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_468&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot; caption=&amp;quot;It
+works!!&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0171.jpg"&gt;&lt;img alt="image10" class="size-thumbnail wp-image-468" src="/wp-uploads/2011/08/DSC_0171-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;And it works! Yeah. The LEDs are pretty dim but the are glowing. Trying
+different sizes and shapes of dough and some different LEDs we did
+manage to get a little better results.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_447&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Light the Lights&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0179.jpg"&gt;&lt;img alt="image11" class="size-thumbnail wp-image-447" src="/wp-uploads/2011/08/DSC_0179-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;After seeing our results our taste tester wanted to try something a
+little different - he built a battery out of the dough. To make a
+battery you several segments or &amp;quot;cells&amp;quot; hooked together in series using
+two different metals. Here it was steel staples and copper wires. And
+here it is.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_463&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;200&amp;quot; caption=&amp;quot;One
+Volt Battery&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0197.jpg"&gt;&lt;img alt="image12" class="size-medium wp-image-463" src="/wp-uploads/2011/08/DSC_0197-200x300.jpg" style="width: 200px; height: 300px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;So 6 cells make a 1V battery.&lt;/p&gt;
+&lt;p&gt;The next experiment will be to try a week later to see if the dough is
+still conductive. Also, it will be interesting to see if the
+conductivity wears out as it is used. And what happens if we let it dry
+out?&lt;/p&gt;
+&lt;p&gt;Experiments for another day.&lt;/p&gt;
+&lt;p&gt;Thanks to Jaimee and Bill for their help with this.&lt;/p&gt;
+</content><category term="Do Night"></category><category term="squishy circuits"></category></entry><entry><title>Squishy Circuits</title><link href="/squishy-circuits-2.html" rel="alternate"></link><published>2011-08-24T21:25:00+00:00</published><updated>2011-08-24T21:25:00+00:00</updated><author><name>carl</name></author><id>tag:None,2011-08-24:/squishy-circuits-2.html</id><summary type="html">&lt;p&gt;This was a project I saw on the web called &lt;a class="reference external" href="http://courseweb.stthomas.edu/apthomas/SquishyCircuits/"&gt;Squishy
+Circuits&lt;/a&gt;.
+The idea is to make a dough like substance that will conduct
+electricity. Then you can mold it into interesting shapes and
+incorporate electrical components into the sculpture without putting
+wires inside. Connecting things does not require using …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This was a project I saw on the web called &lt;a class="reference external" href="http://courseweb.stthomas.edu/apthomas/SquishyCircuits/"&gt;Squishy
+Circuits&lt;/a&gt;.
+The idea is to make a dough like substance that will conduct
+electricity. Then you can mold it into interesting shapes and
+incorporate electrical components into the sculpture without putting
+wires inside. Connecting things does not require using a soldering iron
+- you just stick a wire into the dough.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_447&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Light the Lights&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0179.jpg"&gt;&lt;img alt="image0" class="size-medium wp-image-447" src="/wp-uploads/2011/08/DSC_0179-300x200.jpg" style="width: 300px; height: 200px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;So the first step is to prepare the dough.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_446&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot; caption=&amp;quot;The
+ingredients are ready.&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/squishy1.jpg"&gt;&lt;img alt="image1" class="size-thumbnail wp-image-446" src="/wp-uploads/2011/08/squishy1-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;We are making two kinds of dough here - conductive and non-conductive.
+The conductive dough will be used for making wires and the
+non-conductive dough will separate the conductive pieces so we don't
+have a short circuit. The conductive dough is colored with red food
+coloring and the non-conductive is left uncolored.&lt;/p&gt;
+&lt;p&gt;The conductive dough:&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_448&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Mixing the dough&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/squishy4.jpg"&gt;&lt;img alt="image2" class="size-thumbnail wp-image-448" src="/wp-uploads/2011/08/squishy4-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_453&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Cooking it&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/squishy71.jpg"&gt;&lt;img alt="image3" class="size-thumbnail wp-image-453" src="/wp-uploads/2011/08/squishy71-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_454&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot; caption=&amp;quot;Mad
+Scientist at work&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_01481.jpg"&gt;&lt;img alt="image4" class="size-thumbnail wp-image-454" src="/wp-uploads/2011/08/DSC_01481-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_455&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Cooling off&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_01501.jpg"&gt;&lt;img alt="image5" class="size-thumbnail wp-image-455" src="/wp-uploads/2011/08/DSC_01501-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;Next we mix up the non-conductive dough.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_456&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;non-conductive dough&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0159.jpg"&gt;&lt;img alt="image6" class="size-thumbnail wp-image-456" src="/wp-uploads/2011/08/DSC_0159-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_457&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Kneading it&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0160.jpg"&gt;&lt;img alt="image7" class="size-thumbnail wp-image-457" src="/wp-uploads/2011/08/DSC_0160-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_458&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Finished&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0162.jpg"&gt;&lt;img alt="image8" class="size-thumbnail wp-image-458" src="/wp-uploads/2011/08/DSC_0162-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;Now that we have the dough it is time to experiment. First check to see
+if the conductive dough really is.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_459&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;What is the resistance?&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0163.jpg"&gt;&lt;img alt="image9" class="size-thumbnail wp-image-459" src="/wp-uploads/2011/08/DSC_0163-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;The resistance was over 40K ohms which seems very high but lets see how
+it works. I used 4 AA batteries for power and two LEDs. The pink dough
+on one side is ground and the other is +6 volts.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_468&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot; caption=&amp;quot;It
+works!!&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0171.jpg"&gt;&lt;img alt="image10" class="size-thumbnail wp-image-468" src="/wp-uploads/2011/08/DSC_0171-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;And it works! Yeah. The LEDs are pretty dim but the are glowing. Trying
+different sizes and shapes of dough and some different LEDs we did
+manage to get a little better results.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_447&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;150&amp;quot;
+caption=&amp;quot;Light the Lights&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0179.jpg"&gt;&lt;img alt="image11" class="size-thumbnail wp-image-447" src="/wp-uploads/2011/08/DSC_0179-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;After seeing our results our taste tester wanted to try something a
+little different - he built a battery out of the dough. To make a
+battery you several segments or &amp;quot;cells&amp;quot; hooked together in series using
+two different metals. Here it was steel staples and copper wires. And
+here it is.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_463&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;200&amp;quot; caption=&amp;quot;One
+Volt Battery&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/08/DSC_0197.jpg"&gt;&lt;img alt="image12" class="size-medium wp-image-463" src="/wp-uploads/2011/08/DSC_0197-200x300.jpg" style="width: 200px; height: 300px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;So 6 cells make a 1V battery.&lt;/p&gt;
+&lt;p&gt;The next experiment will be to try a week later to see if the dough is
+still conductive. Also, it will be interesting to see if the
+conductivity wears out as it is used. And what happens if we let it dry
+out?&lt;/p&gt;
+&lt;p&gt;Experiments for another day.&lt;/p&gt;
+&lt;p&gt;Thanks to Jaimee and Bill for their help with this.&lt;/p&gt;
+</content><category term="Do Night"></category><category term="squishy circuits"></category></entry><entry><title>From Hermit To Ham: My New Antenna</title><link href="/from-hermit-to-ham-my-new-antenna.html" rel="alternate"></link><published>2011-08-15T21:38:00+00:00</published><updated>2011-08-15T21:38:00+00:00</updated><author><name>Ben</name></author><id>tag:None,2011-08-15:/from-hermit-to-ham-my-new-antenna.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o.jpg"&gt;&lt;img alt="Ben's Antenna" class="alignright" src="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o-224x300.jpg" style="width: 224px; height: 300px;" /&gt;&lt;/a&gt;After graduating RIT this May with a BS in Information
+Technology,&amp;nbsp;I moved out to rural Livingston County; some 30+ miles away
+from Interlock and downtown Rochester.&amp;nbsp;Partially because of the distance
+to the local repeaters, and partially to impress the ladies,&amp;nbsp;I picked up
+an&amp;nbsp;&lt;a class="reference external" href="http://www.arrowantennas.com/"&gt;Arrow Antenna&lt;/a&gt;&amp;nbsp;dual-band
+(VHF …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o.jpg"&gt;&lt;img alt="Ben's Antenna" class="alignright" src="/wp-uploads/2011/08/291519_10150262706338803_729273802_7952211_3221040_o-224x300.jpg" style="width: 224px; height: 300px;" /&gt;&lt;/a&gt;After graduating RIT this May with a BS in Information
+Technology,&amp;nbsp;I moved out to rural Livingston County; some 30+ miles away
+from Interlock and downtown Rochester.&amp;nbsp;Partially because of the distance
+to the local repeaters, and partially to impress the ladies,&amp;nbsp;I picked up
+an&amp;nbsp;&lt;a class="reference external" href="http://www.arrowantennas.com/"&gt;Arrow Antenna&lt;/a&gt;&amp;nbsp;dual-band
+(VHF/UHF) j-pole style antenna&amp;nbsp;from our friend Steve KC2YTC along with a
+used 30' antenna mast.&amp;nbsp;Installation entailed mounting the mast to the
+side of my house, installing the antenna, soldering the PL-259 connector
+to a coax cable (LMR-400 from hamfest) and running it down to my Yaesu
+FT-8800 that sits in my office. This ended up being a great little
+antenna and now I'm back talking with my friends on the Rochester
+repeaters. Special thanks to Chris N2CDO for help soldering the PL-259
+connectors on the coax.&lt;/p&gt;
+&lt;p&gt;N0BDW is back on the air!&lt;/p&gt;
+&lt;p&gt;For all you Hams out there, check in to the Monroe County ARES/RACES
+net&amp;nbsp;on 146.61 / 444.45 (N2MPE) repeater on Thursday nights at 9pm EST
+and you'll likely hear me there.&lt;/p&gt;
+&lt;p&gt;I'm also volunteering with Livonia Fire/EMS, so for the public safety
+scanning enthusiasts listen for 298[X] (EMS) or 25[X] (fire) on
+Livingston County Fire/EMS dispatch (46.16).&lt;/p&gt;
+</content><category term="antenna"></category><category term="HAM"></category><category term="radio"></category></entry><entry><title>It's time for hacking, part I</title><link href="/its-time-for-hacking-part-i.html" rel="alternate"></link><published>2011-03-05T21:22:00+00:00</published><updated>2011-03-05T21:22:00+00:00</updated><author><name>steve</name></author><id>tag:None,2011-03-05:/its-time-for-hacking-part-i.html</id><summary type="html">&lt;p&gt;&lt;em&gt;One of our members, `Steven L Smith &amp;lt;http://stevenlsmith.com/&amp;gt;`__, has
+recently been bitten by the clock bug. This post is part I of a
+multi-part series on some of his builds.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;|image0|&lt;/em&gt;I’ve been interested in building kits for some time now,
+having previously built the
+&lt;a class="reference external" href="http://www.paia.com/theremax.asp"&gt;Theremax …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;One of our members, `Steven L Smith &amp;lt;http://stevenlsmith.com/&amp;gt;`__, has
+recently been bitten by the clock bug. This post is part I of a
+multi-part series on some of his builds.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;|image0|&lt;/em&gt;I’ve been interested in building kits for some time now,
+having previously built the
+&lt;a class="reference external" href="http://www.paia.com/theremax.asp"&gt;Theremax&lt;/a&gt;, various small things
+from
+&lt;a class="reference external" href="http://www.vellemanusa.com/us/enu/product/list/?id=523008"&gt;Velleman&lt;/a&gt;,
+and, most recently, a &lt;a class="reference external" href="http://www.morsex.com/ameco/oscs.htm"&gt;morse code practice
+oscillator&lt;/a&gt;. And, I remember a
+place near the central Rochester, NY post office called “&lt;a class="reference external" href="https://rocwiki.org/Rogers_Pianos_and_Clocks"&gt;Rogers
+Pianos and Clocks&lt;/a&gt;”
+that I have fond memories of visiting and gawking at cool looking
+timepieces. So, when I saw the “&lt;a class="reference external" href="http://www.ladyada.net/make/icetube/index.html"&gt;Ice
+Tube&lt;/a&gt;” clock kit
+from &lt;a class="reference external" href="http://www.adafruit.com/"&gt;Adafruit&lt;/a&gt;, I knew it would be a great
+next project. This ATmega-powered clock features a Russian-made IV-18
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Vacuum_fluorescent_display"&gt;vacuum fluorescent
+display&lt;/a&gt;
+(VFD) tube, which, despite being blue, like modern, &lt;a class="reference external" href="http://www.codinghorror.com/blog/2005/07/blue-led-backlash.html"&gt;annoying
+LEDs&lt;/a&gt;,
+is actually really really cool.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="{filename}wp-uploads/2011/03/2011-03-05_16-55-00_706.jpg"&gt;&lt;img alt="image1" class="size-medium wp-image-378 alignright" src="{filename}wp-uploads/2011/03/2011-03-05_16-55-00_706-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;After checking to make sure I had all of the components, I
+began the assembly. The first part of the build should be fairly
+standard for anyone who has some electronics experience. All you have
+to do is assemble a simple regulated 5v power supply. Using the
+provided regulator IC, and capacitors to smooth everything out, my 5v
+power supply clocked in at 4.99 volts. Not too shabby.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I continued assembly by adding a single resistor, the piezo speaker, and
+finally the ATmega itself (thankfully, Adafruit provided a socket for
+all of the ICs, which made the soldering process a lot less stressful!).
+At this point, plugging in the power supply resulted in a beep. All is
+well.&lt;/p&gt;
+&lt;p&gt;The kit, in addition to the ATmega, is driven by a 32.768 khz crystal.
+The crystal really does the bulk of the timekeeping by generating a
+steady reference frequency for the “ticks”. It was good to see Adafruit
+use a crystal for this clock; I think it’s going to stay accurate for a
+long time as a result.&lt;/p&gt;
+&lt;p&gt;Now it’s time for the fun stuff. Unlike, say, an LCD screen, or some
+LEDs, this clock needs around 60 volts to run its vacuum tube properly.
+But we’ve only got 5. So, we build a boost converter. After assembly, I
+used the multimeter to measure 55.7 vdc across the zener diode. The
+kit’s instructions say that anywhere from 40 - 70 is okay, with 60 being
+optimal. I’m not thrilled with that number, but it seems like it’s close
+enough. We’re working with high voltages here. Since I don’t feel like
+taking advantage of Interlock’s insurance policy, I give the capacitors
+time to drain, and, as the instructions suggest, do not work on the
+circuit until we’re below 15 volts.&lt;/p&gt;
+&lt;p&gt;Th&lt;a class="reference external" href="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474.jpg"&gt;&lt;img alt="image2" class="alignleft size-medium wp-image-379" src="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;e VFD goes on a smaller PCB, and coaxing it down into
+place was a frustrating experience, not unlike wiring an 8P8C ethernet
+cable, except bigger, and with a lot more leads. After about 20 minutes
+of carefully walking the leads through the holes, I was able to get the
+tube in place. I soldered it in, plugged in the other microcontroller
+(MAX6921) which actually drives the VFD segments. And... it passed the
+smoke test.&lt;/p&gt;
+&lt;p&gt;The remainder of the build consisted of putting in a battery backup (in
+case mains power is lost), adding a few control switches, and building a
+simple, clear case. All in all, it was a fun build, and I feel like my
+patience was rewarded.&lt;/p&gt;
+&lt;p&gt;In the coming weeks, I plan on building two more clocks of various
+types. Check back here for updates!&lt;/p&gt;
+&lt;div class="section" id="additional-pictures-of-the-build"&gt;
+&lt;h2&gt;Additional pictures of the build:&lt;/h2&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_382&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot; caption=&amp;quot;All
+components, before starting assembly. Note that the blackened spot on
+the tube is normal.&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/components.jpg"&gt;&lt;img alt="image3" class="size-medium wp-image-382" src="{filename}wp-uploads/2011/03/components-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_386&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot; caption=&amp;quot;VFD
+Tube, as shipped.&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/bare_tube.jpg"&gt;&lt;img alt="image4" class="size-medium wp-image-386" src="{filename}wp-uploads/2011/03/bare_tube-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_379&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Vacuum Tube fed through PCB&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474.jpg"&gt;&lt;img alt="image5" class="size-medium wp-image-379" src="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_387&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Timing circuitry, including the ATmega and
+crystal&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/timing.jpg"&gt;&lt;img alt="image6" class="size-medium wp-image-387" src="{filename}wp-uploads/2011/03/timing-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_381&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Bare Clock, without Case&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/bare_clock.jpg"&gt;&lt;img alt="image7" class="size-medium wp-image-381" src="{filename}wp-uploads/2011/03/bare_clock-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_383&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot; caption=&amp;quot;The
+assembled clock. Yay!&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/assembled.jpg"&gt;&lt;img alt="image8" class="size-medium wp-image-383" src="{filename}wp-uploads/2011/03/assembled-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Open Mate, Beta 2</title><link href="/open-mate-beta-2.html" rel="alternate"></link><published>2010-04-17T22:26:00+00:00</published><updated>2010-04-17T22:26:00+00:00</updated><author><name>berticus</name></author><id>tag:None,2010-04-17:/open-mate-beta-2.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/4480074334"&gt;http://www.flickr.com/photos/bert_m_b/4480074334&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Two long weeks ago, we finally scrounged the equipment and ingredients
+necessary to iterate &lt;a class="reference external" href="http://www.hackpittsburgh.org/brewing-open-mate-soda"&gt;Hack Pittsburgh's Open Mate
+recipe&lt;/a&gt;.
+Personally, I hadn't heard of this odd &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Club-Mate"&gt;Club
+Mate&lt;/a&gt; beverage until I saw
+the recipe, but -- being a homebrewer -- I couldn't help but to …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/4480074334"&gt;http://www.flickr.com/photos/bert_m_b/4480074334&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Two long weeks ago, we finally scrounged the equipment and ingredients
+necessary to iterate &lt;a class="reference external" href="http://www.hackpittsburgh.org/brewing-open-mate-soda"&gt;Hack Pittsburgh's Open Mate
+recipe&lt;/a&gt;.
+Personally, I hadn't heard of this odd &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Club-Mate"&gt;Club
+Mate&lt;/a&gt; beverage until I saw
+the recipe, but -- being a homebrewer -- I couldn't help but to order a
+case (for comparison purposes only, of course) and hunt down some &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Yerba_mat%C3%A9"&gt;yerba
+maté&lt;/a&gt; and caffeine
+powder of my own.&lt;/p&gt;
+&lt;p&gt;With said ingredients in hand, we put three gallons of water on the hot
+plate during one of our Tuesday open nights (come visit!), and proceeded
+to spend three hours hovering around the kitchen area, waiting for it to
+get anywhere near boiling. The tea was brewed, sugared, cooled, and
+kegged with the following specifications:&lt;/p&gt;
+&lt;div class="section" id="ingredients"&gt;
+&lt;h2&gt;Ingredients&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;3 gallons of water&lt;/li&gt;
+&lt;li&gt;3oz yerba mate tea&lt;/li&gt;
+&lt;li&gt;2c sugar&lt;/li&gt;
+&lt;li&gt;juice of 0.5 lemons&lt;/li&gt;
+&lt;li&gt;0.5t citric acid&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/4480069168"&gt;http://www.flickr.com/photos/bert_m_b/4480069168&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/4480092698"&gt;http://www.flickr.com/photos/bert_m_b/4480092698&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="section" id="procedure"&gt;
+&lt;h2&gt;Procedure&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;bring water to just under a boil&lt;/li&gt;
+&lt;li&gt;add tea to water (I put the tea in a big homebrewing grain bag,
+effectively creating a huge teabag)&lt;/li&gt;
+&lt;li&gt;steep for six minutes&lt;/li&gt;
+&lt;li&gt;remove tea&lt;/li&gt;
+&lt;li&gt;add sugar, lemon juice, citric acid&lt;/li&gt;
+&lt;li&gt;cool, pour into a keg, carbonate at 20psi&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You'll notice we skipped the caffeine this time. Personally, I'm more
+concerned with flavor than (added) stimulants, so I never bothered
+tracking down a scale sensitive enough to measure out one or two grams
+of powder. Feel free to add that in when you're adding the sugar (check
+out &lt;a class="reference external" href="http://www.hackpittsburgh.org/brewing-open-mate-soda"&gt;Hack Pittsburgh's
+recipe&lt;/a&gt; for the
+correct measurements and warnings).&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/4525162394"&gt;http://www.flickr.com/photos/bert_m_b/4525162394&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="yum"&gt;
+&lt;h2&gt;Yum?&lt;/h2&gt;
+&lt;p&gt;We finally got to do some beta tasting this past Thursday, and all
+testers agreed that it was yummy and pretty faithful to the original
+product. I have since sat down for a more in-depth side-by-side
+comparison (not double-blinded, mind you), and I feel our recipe --
+although quite tasty -- has come up a bit short compared to the real
+deal. The sweetness is spot on, but there is a complexity and depth to
+the tea flavor that is missing in our beverage. So I think we'll try
+some things differently next time:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;adding lemon was a mistake: I was hoping to avoid uncommon
+ingredients like citric acid, but alas, you should go out and get
+some (cream of tartar was a pretty popular substitute in old-timey
+ginger beer recipes)&lt;/li&gt;
+&lt;li&gt;more citric acid: fizzy tea is pretty dull without a bit of acid
+zing. We should probably at least double it next time, but further
+experimentation is in order&lt;/li&gt;
+&lt;li&gt;increase the tea input: I'm hoping part of the depth-of-flavor
+difference is merely a matter of strength&lt;/li&gt;
+&lt;li&gt;caramelize some of the sugar first: Club Mate has added coloring.
+Hopefully caramelizing some of the sugar will make Open Mate less
+pale, and also improve flavor.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Any other ideas? I can't wait to work through our first three gallons,
+so we can start brewing the next version. Bottoms up!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/4524528227"&gt;http://www.flickr.com/photos/bert_m_b/4524528227&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content></entry></feed>

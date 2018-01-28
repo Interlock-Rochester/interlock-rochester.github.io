@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - AntiTree</title><link href="/" rel="alternate"></link><link href="/feeds/antitree.atom.xml" rel="self"></link><id>/</id><updated>2017-08-30T14:44:00+00:00</updated><entry><title>Hack Our Website: 101</title><link href="/hacksite.html" rel="alternate"></link><published>2017-08-30T14:44:00+00:00</published><updated>2017-08-30T14:44:00+00:00</updated><author><name>AntiTree</name></author><id>tag:None,2017-08-30:/hacksite.html</id><summary type="html">&lt;p&gt;If you're a regular visitor of our website, you'll notice that it's
+been going through some changes but it still doesn't reflect what's
+been happening in the space. We're going to change that.&lt;/p&gt;
+&lt;p&gt;This coming Tuesday, we'll be holding a website hackathon to get
+people into web technologies and discuss …&lt;/p&gt;</summary><content type="html">&lt;p&gt;If you're a regular visitor of our website, you'll notice that it's
+been going through some changes but it still doesn't reflect what's
+been happening in the space. We're going to change that.&lt;/p&gt;
+&lt;p&gt;This coming Tuesday, we'll be holding a website hackathon to get
+people into web technologies and discuss various different architectures.
+The idea will be that we'll discuss different types of technologies
+and ways of hosting the website so that no only do we up-date our
+own page, but we'll show you how to update yours as well.&lt;/p&gt;
+&lt;p&gt;Our design goals are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;FOSS Friendly&lt;/li&gt;
+&lt;li&gt;Distributed responsibility&lt;/li&gt;
+&lt;li&gt;Secure&lt;/li&gt;
+&lt;li&gt;Cool&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Maybe not in that order.&lt;/p&gt;
+&lt;p&gt;Checkout our &lt;a class="reference external" href="https://www.meetup.com/Interlock-Rochester-Hackerspace/"&gt;Meetup.com&lt;/a&gt; page for more information.&lt;/p&gt;
+</content></entry><entry><title>How Do I ... Encryption</title><link href="/how-do-i-encryption.html" rel="alternate"></link><published>2016-06-09T11:40:00+00:00</published><updated>2016-06-09T11:40:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2016-06-09:/how-do-i-encryption.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2016/06/padlock-157619_960_7201.png"&gt;&lt;img alt="padlock-157619_960_720[1]" class="alignright wp-image-1998" src="{filename}wp-uploads/2016/06/padlock-157619_960_7201.png" style="width: 197px; height: 221px;" /&gt;&lt;/a&gt;Next week, June 14th we'll be continuing
+our seminar series that teaches about core things we use. This month
+will be an introduction to encryption. This will be a hands on,
+practical learning about the basics of things like symmetric vs
+asymmetric ciphers, hashing vs key derivation functions, the good …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2016/06/padlock-157619_960_7201.png"&gt;&lt;img alt="padlock-157619_960_720[1]" class="alignright wp-image-1998" src="{filename}wp-uploads/2016/06/padlock-157619_960_7201.png" style="width: 197px; height: 221px;" /&gt;&lt;/a&gt;Next week, June 14th we'll be continuing
+our seminar series that teaches about core things we use. This month
+will be an introduction to encryption. This will be a hands on,
+practical learning about the basics of things like symmetric vs
+asymmetric ciphers, hashing vs key derivation functions, the good and
+bad of normal algorithms, and maybe some demos using existing libraries
+like NaCL. As always, this is open to the public and all are welcome.
+You can &lt;a class="reference external" href="http://www.meetup.com/Interlock-Rochester-Hackerspace/events/230838766/"&gt;RSVP
+here&lt;/a&gt;&amp;nbsp;so
+that we can plan for enough spots.&lt;/p&gt;
+</content></entry><entry><title>Beaglebone Black PMIC for battery backup</title><link href="/beaglebone-black-pmic-for-battery-backup.html" rel="alternate"></link><published>2015-03-02T16:03:00+00:00</published><updated>2015-03-02T16:03:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2015-03-02:/beaglebone-black-pmic-for-battery-backup.html</id><summary type="html">&lt;p&gt;One of my &lt;a class="reference external" href="https://trello.com/c/Hlx0umUw/12-tactical-beaglebone"&gt;Interlock
+projects&lt;/a&gt; has
+been to explore the capabilities of the Beaglebone Black's built-in
+Power Management Integrated Circuit
+(&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Power_management_integrated_circuit"&gt;PMIC&lt;/a&gt;)
+that gives the BBB a pretty&amp;nbsp;useful feature; charging and operating off
+of li-po batteries.&amp;nbsp;If you look at the BBB board, you will see 4
+through-holes behind the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;One of my &lt;a class="reference external" href="https://trello.com/c/Hlx0umUw/12-tactical-beaglebone"&gt;Interlock
+projects&lt;/a&gt; has
+been to explore the capabilities of the Beaglebone Black's built-in
+Power Management Integrated Circuit
+(&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Power_management_integrated_circuit"&gt;PMIC&lt;/a&gt;)
+that gives the BBB a pretty&amp;nbsp;useful feature; charging and operating off
+of li-po batteries.&amp;nbsp;If you look at the BBB board, you will see 4
+through-holes behind the 5v plug. These are break outs for the PMIC and
+can be used to&amp;nbsp;hook up to a battery.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2015/03/IMAG0734.jpg.jpeg"&gt;&lt;img alt="beaglebone with sparkfun battery" class="aligncenter size-medium wp-image-1906" src="{filename}wp-uploads/2015/03/IMAG0734.jpg-300x170.jpeg" style="width: 300px; height: 170px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Having a battery connected to your board gives you the ability to do
+things like making a UPS for you beaglebone so in the case of a power
+loss, it can politely shut-down, run a custom command, or just continue
+running for as long as the battery can charge it.&lt;img alt="bbb_pinouts" class="aligncenter size-medium wp-image-1907" src="{filename}wp-uploads/2015/03/bbb_pinouts-e1425329803523-267x300.jpg" style="width: 267px; height: 300px;" /&gt;&lt;/p&gt;
+&lt;div class="section" id="power"&gt;
+&lt;h2&gt;&lt;strong&gt;Power&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;In most of the use cases, you're going to find a lithium&amp;nbsp;polymer that
+can produce around 3.7V which is under the BBB's 5v requirement. 3.7V
+will work fine to power the board but of course your 5V USB port will
+not work while on the
+battery.&amp;nbsp;&lt;a class="reference external" href="https://www.sparkfun.com/products/8483"&gt;Sparkfun&lt;/a&gt;has a
+few nice ones that have the voltage protection circuits built in&amp;nbsp;to help
+limit the risk you brick your li-po.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="configuration"&gt;
+&lt;h2&gt;&lt;strong&gt;Configuration&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;There are 4 pins we're talking about:&lt;strong&gt;|bbb-batt-srm|&lt;/strong&gt;&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;TP5&lt;/li&gt;
+&lt;li&gt;TP6&lt;/li&gt;
+&lt;li&gt;TP7&lt;/li&gt;
+&lt;li&gt;TP8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can see in the diagram what each pin-out is. Li-po's are riskier
+than some batteries because they're&amp;nbsp;known to explode&amp;nbsp;in some cases of
+over powering. A temperature sensor that is designed to check how hot
+the battery is getting and decide how to handle it, is built into the
+PMIC in case your battery doesn't have this capability already(many do).
+The directions below are going to show you how to jump this temperatur
+check with a 10k resistor, which is not recommended if you value your
+home or hackerspace. If you don't trust the battery you're charging, I'd
+suggest looking into accurately reading the temperature from your
+battery. My Sparkfun batteries do no break out the temperature sensor so
+this wasn't plausible.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="directions"&gt;
+&lt;h2&gt;&lt;strong&gt;Directions&lt;/strong&gt;:&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;jumper pins TP5 to TP6 (or use an SMT zero ohm resistor)&lt;/li&gt;
+&lt;li&gt;connect a 10K resistor between TP7 and TP8&lt;/li&gt;
+&lt;li&gt;Install a JST connector on TP6 and TP8&lt;/li&gt;
+&lt;li&gt;Connect your battery into the JST connector&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;With a little luck and the correct battery, you should be in business.
+You'll need to let your battery charge before you try and yank the power
+cable from it. In the mean time, you can query the status of the battery
+via the i2cget command built into the OS.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="testing"&gt;
+&lt;h2&gt;&lt;strong&gt;Testing&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The PMIC is accessible using I2C and the builti-n OS for BBB has a
+simple command line interface to query its state. The following command
+will tell you whether or not battery is plugged in:&lt;/p&gt;
+&lt;p&gt;`` i2cget -y -f 0 0x24 0xA``&lt;/p&gt;
+&lt;p&gt;This will return information that contains this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+0 device 0x24
+On battery power only? 0
+STATUS: r[0xa]=0x88
+Push Button = 0
+USB Power = 0
+AC Power = 1
+CHARGER: r[0x3]=0x1
+Active (charging) = 1
+&lt;/pre&gt;
+&lt;p&gt;&amp;quot;Active&amp;quot; refers to whether it can recognize the battery you have plugged
+in. &amp;nbsp;You can also read this state to detect a power failure and
+automatically failover. If you're using the default OS for the
+Beaglebone Black (the one that comes pre-installed), the OS will
+automatically shut itself down in the case of a power loss. You'll want
+to either install another OS, or disable that service if you'd like to
+change how long the battery should stay online.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="more-info"&gt;
+&lt;h2&gt;More info&lt;/h2&gt;
+&lt;p&gt;A decent amount of research went into this simple project. There are a
+ton of warnings and caveats that I'm not going to cram into this blog
+post (i2c address is read only, pin-outs are not a standard size, beware
+of jumping the resistor next to the pins). You can find out more
+information here:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Detailed information on how to interface the PMIC with a 3 pin
+li-po&amp;nbsp;&lt;a class="reference external" href="http://www.beaglebone-asterisk.org/uninterruptible-power-supply-ups-for-beaglebone-black-a-diy-project/"&gt;http://www.beaglebone-asterisk.org/uninterruptible-power-supply-ups-for-beaglebone-black-a-diy-project/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Python wrapper to query the PMIC via
+I2C&amp;nbsp;&lt;a class="reference external" href="https://github.com/pehrtree/beaglebone_snippets/tree/master/power"&gt;https://github.com/pehrtree/beaglebone_snippets/tree/master/power&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Discussion of powering the BBB with
+3.7V&amp;nbsp;&lt;a class="reference external" href="https://groups.google.com/forum/#!topic/beagleboard/Ahzk6Ut7xYE"&gt;https://groups.google.com/forum/#!topic/beagleboard/Ahzk6Ut7xYE&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thanks to Alex for finding a fatal flaw in the 10k resistor I was using.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Software Defined Radio Workshops</title><link href="/software-defined-radio-workshops.html" rel="alternate"></link><published>2015-02-17T10:09:00+00:00</published><updated>2015-02-17T10:09:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2015-02-17:/software-defined-radio-workshops.html</id><summary type="html">&lt;p&gt;This Thursday the 19th, we have another installment of the &lt;a class="reference external" href="http://www.meetup.com/Interlock-Rochester-Hackerspace/events/220284849/"&gt;Software
+Defined Radio (SDR)
+workshop&lt;/a&gt;.
+The goal of which is to provide introductory support to people learning
+about SDR's as well as let some of the more seasoned folk work on their
+projects. We've talk to a lot of people …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This Thursday the 19th, we have another installment of the &lt;a class="reference external" href="http://www.meetup.com/Interlock-Rochester-Hackerspace/events/220284849/"&gt;Software
+Defined Radio (SDR)
+workshop&lt;/a&gt;.
+The goal of which is to provide introductory support to people learning
+about SDR's as well as let some of the more seasoned folk work on their
+projects. We've talk to a lot of people lately about what an SDR is and
+why we have a workshop for it so I thought&amp;nbsp;I'd review why they're fun.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is an SDR?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Unlike some&amp;nbsp;radio equipment which only provides a small range of
+frequencies you can transmit and receive on, SDR's&amp;nbsp;let you use&amp;nbsp;a single
+device, and control their frequency from very low (&amp;lt;100Mhz) to very high
+(2.4GHz+).&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2015/02/hdsdr11.jpg"&gt;&lt;img alt="hdsdr1[1]" class="size-medium wp-image-1902 aligncenter" src="{filename}wp-uploads/2015/02/hdsdr11-300x169.jpg" style="width: 300px; height: 169px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;So what?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the past,&amp;nbsp;if you wanted to listen in on a certain frequency, say your
+garage door opener for example, you'd have to buy a piece of hardware
+that runs at that frequency -- in this case it's often 434MHz. Now for
+as little as $20, you can buy a device that can read your &lt;a class="reference external" href="http://www.rtl-sdr.com/using-rtl-sdr-ti-chronos-rf-wristwatch-copy-garage-door-opener/"&gt;garage door
+opener at
+433Mhz&lt;/a&gt;,
+listen to the &lt;a class="reference external" href="http://www.rtl-sdr.com/video-tutorial-hak5-gnu-radio-fm-radio-receiver/"&gt;local FM radio
+station&lt;/a&gt;
+at 90.5Mhz, or &lt;a class="reference external" href="http://www.rtl-sdr.com/adsb-aircraft-radar-with-rtl-sdr/"&gt;track airplanes at
+1090Mhz&lt;/a&gt;.
+This lets you play with different frequencies and see what's being
+transmitted. You may be surprised.&lt;/p&gt;
+&lt;p&gt;This also lets you learn about the basics of RF: electronics,
+antennas,&amp;nbsp;ways to decode a signal.&lt;/p&gt;
+&lt;p&gt;The workshop is open to the public; non-members are welcome as
+always.&amp;nbsp;Feel free to drop a comment on the meetup page if&amp;nbsp;you're
+interested but have some questions.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.meetup.com/Interlock-Rochester-Hackerspace/events/220284849/"&gt;SDR Workshop on
+Meetup&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Playing with the JTAGulator</title><link href="/jtagulator.html" rel="alternate"></link><published>2013-10-16T12:50:00+00:00</published><updated>2013-10-16T12:50:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2013-10-16:/jtagulator.html</id><summary type="html">&lt;p&gt;The JTAGulator is a tool designed by Joe Grand - the guy that used to
+make the DEFCON badges for years and was part of one of the first
+hackerspaces,&amp;nbsp;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/L0pht"&gt;Lopht&lt;/a&gt;. He did a
+Blackhat LV presentation on his newest open hardware, open source
+project called the JTAGulator. It's purpose is …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The JTAGulator is a tool designed by Joe Grand - the guy that used to
+make the DEFCON badges for years and was part of one of the first
+hackerspaces,&amp;nbsp;&lt;a class="reference external" href="http://en.wikipedia.org/wiki/L0pht"&gt;Lopht&lt;/a&gt;. He did a
+Blackhat LV presentation on his newest open hardware, open source
+project called the JTAGulator. It's purpose is to help you figure out
+the pins of a JTAG or UART device. This is normally an annoying and time
+consuming process.&lt;/p&gt;
+&lt;div style="text-align: center;"&gt;&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;a class="reference external" href="/wp-uploads/2013/10/1550_LRG-600x4611.jpg"&gt;&lt;img alt="http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/" class="aligncenter" src="/wp-uploads/2013/10/1550_LRG-600x4611.jpg" style="width: 600px; height: 461px;" /&gt;&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;&lt;a class="reference external" href="http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/"&gt;http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/&lt;/a&gt;&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;&lt;div class="section" id="jtag"&gt;
+&lt;h2&gt;JTAG&lt;/h2&gt;
+&lt;p&gt;JTAG (Joint Test Action Group) is just a name for a standard way of
+providing a debug interface to your hardware devices. What's nice about
+it is with one interface, you can provide debugging capabilities to a
+variety of chips on your board. So if you have two microcontrollers,
+each of them can be separately accessed through one interface. Pretty
+cool.&lt;/p&gt;
+&lt;p&gt;Hackers have been using JTAG for years to reverse hardware. You might
+have seen them used when messing with router firmware to install DD-WRT
+or OpenWRT. For WRT supported routers, JTAG often gives you the ability
+to push a custom firmware onto a board or extra the firmware that is
+currently installed.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jtag-for-security"&gt;
+&lt;h2&gt;JTAG For Security&lt;/h2&gt;
+&lt;p&gt;Of course with all of my projects, I add a security twist. JTAG lets me
+gain low level access to a device and see how it works. An interface may
+be able to dump an EEPROM which could contain the cryptographic keys
+that are securing another piece of memory on the chip. Or it could give
+me a serial console similar to a root terminal that lets me interact
+with a device like a computer. The point is, it's a debuggable interface
+that I can use to exploit in a variety of ways to learn about how the
+device works.&lt;/p&gt;
+&lt;p&gt;You might wonder why these interfaces even exist on hardware since they
+give hackers the opportunity to access your hardware. Because JTAG is so
+useful for debugging, manufacturers actually use this interface the same
+way you would, to make sure the device is functioning properly. That's
+why it's highly likely you'll find some kind of debug interface for your
+boards.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="jtagulator-setup"&gt;
+&lt;h2&gt;JTAGulator Setup&lt;/h2&gt;
+&lt;p&gt;The JTAGulator connects to your computer using a micro-USB cable that
+shows up as a serial device. In Linux, that device will be something
+like /dev/ttyUSB0. It uses 115.2K baud 8N1. Once connected using
+something like minicom or gtkterm in Linux, you'll see a prompt of
+available options. You can now start JTAGulating.&lt;/p&gt;
+&lt;p&gt;To connect the JTAGulator to a device, the board is designed to use the
+cables from a standard Bus Pirate board. You can either do that, or just
+use some aligator clips to connect to the pins. Either way, the board
+you're working on is going to need to be have the JTAG leads broken out
+so you can connect something to them. In my little Asus router that I
+found, these pins are pretty easy to access. I just soldered some cables
+on to them, and added a bit of glue to make sure they kept. :)&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_1527&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;225&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2013/10/IMG_20131015_1929571.jpg"&gt;&lt;img alt="Asus Router with wires near JTAG leads" class="size-medium wp-image-1527" src="/wp-uploads/2013/10/IMG_20131015_1929571-225x300.jpg" style="width: 225px; height: 300px;" /&gt;&lt;/a&gt; Asus Router with wires near JTAG
+leads[/caption]&lt;/p&gt;
+&lt;p&gt;From this point, your router should be connected to the JTAGulator, your
+JTAGulator connected to your computer, and you should have a console
+interface waiting for directions.&lt;/p&gt;
+&lt;p&gt;The first step is to set the voltage. It has a range of 1.2 to 3.3V and
+this is going to be important for you to figure out before hand. (If you
+don't know how to figure out the voltage on your board, you can probably
+ask someone at Interlock to show you using a multimeter.) Then you can
+choose how you'd like to scan for JTAG. There are two options, one is
+more thorough and time consuming but I don't have enough data to tell
+you which is better for which situation (feel free to chime in if you
+know). Either one will prompt you for which pins you'd like to test
+with, which should correspond to the pins you've connected on your
+JTAGulator. When you run it, it will attempt every possible combination
+of pins until it thinks it has found the right one. It also has a UART
+discovery mode.&lt;/p&gt;
+&lt;p&gt;This is not the first JTAG discovery product out there but it's the
+first I've used. I mentioned that the project is open source so here is
+a link to Joe's site to help you build your own board if you want, or if
+you're like me, you can buy them from a company like
+&lt;a class="reference external" href="http://www.adafruit.com/blog/2013/10/04/new-product-grand-ideas-studio-jtagulator/"&gt;Adafruit&lt;/a&gt;,
+too.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.grandideastudio.com/portfolio/jtagulator/"&gt;http://www.grandideastudio.com/portfolio/jtagulator/&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>I now pronounce you hacker and wife</title><link href="/i-now-pronounce-you-hacker-and-wife.html" rel="alternate"></link><published>2012-12-17T08:23:00+00:00</published><updated>2012-12-17T08:23:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-12-17:/i-now-pronounce-you-hacker-and-wife.html</id><summary type="html">&lt;p&gt;This weekend, Interlock&amp;nbsp;participated&amp;nbsp;in two milestone events: Our third
+annual meeting, which we'll talk about in another post, and one of our
+members getting married. Walter (N2VBP) and Cheryl have finally tied the
+knot to &amp;nbsp;make it official.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="/wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Attendees were friends and family of the couple including Walter 's …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This weekend, Interlock&amp;nbsp;participated&amp;nbsp;in two milestone events: Our third
+annual meeting, which we'll talk about in another post, and one of our
+members getting married. Walter (N2VBP) and Cheryl have finally tied the
+knot to &amp;nbsp;make it official.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg"&gt;&lt;img alt="image1" class="aligncenter" src="/wp-uploads/2012/12/wpid-IMG_20121215_143018.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Attendees were friends and family of the couple including Walter 's
+daughters who he setup on Skype to stream the wedding live. Our resident
+video podcaster Radical Geek recorded the&amp;nbsp;ceremony&amp;nbsp;and I, with my newly
+acquired&amp;nbsp;credentials from the Universal Life Church&amp;nbsp;Monastery&amp;nbsp;that I
+signed up for on the Internet,&amp;nbsp;solemnized the wedding.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/12/wpid-IMG_4713.jpg"&gt;&lt;img alt="image2" class="aligncenter" src="/wp-uploads/2012/12/wpid-IMG_4713.jpg" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="/wp-uploads/2012/12/wpid-IMG_4738.jpg"&gt;&lt;img alt="image3" class="aligncenter" src="/wp-uploads/2012/12/wpid-IMG_4738.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="/wp-uploads/2012/12/wpid-IMG_20121215_152207.jpg"&gt;&lt;img alt="image4" class="aligncenter" src="/wp-uploads/2012/12/wpid-IMG_20121215_152207.jpg" /&gt;&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Brian, also decided to do a 3D sculpture of the Walter and Cheryl so he
+took a bunch of pictures as they held hands. With the help of some
+software, he'll be able to turn them into a 3D model and hopefully print
+them out so they look like cake toppers. Congratulations guys!&lt;/p&gt;
+</content></entry><entry><title>Raspberry Pi Workshop With Rob Bishop</title><link href="/raspberry-pi-workshop-with-rob-bishop.html" rel="alternate"></link><published>2012-11-26T06:00:00+00:00</published><updated>2012-11-26T06:00:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-11-26:/raspberry-pi-workshop-with-rob-bishop.html</id><summary type="html">&lt;p&gt;This Tuesday at 7pm, we'll be welcoming Rob Bishop of the Raspberry Pi
+Foundation to do a workshop. He'll be bringing in a bunch of Raspberry
+Pi's to play with and hack on during the event. The workshop is, as
+always, open to the public so we welcome anyone that's …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This Tuesday at 7pm, we'll be welcoming Rob Bishop of the Raspberry Pi
+Foundation to do a workshop. He'll be bringing in a bunch of Raspberry
+Pi's to play with and hack on during the event. The workshop is, as
+always, open to the public so we welcome anyone that's interested in
+attending. This would be a good time to either start learning about
+Raspberry Pi's or take your project to the next level.&lt;/p&gt;
+&lt;p&gt;Please sign up for your free ticket
+here:&amp;nbsp;&lt;a class="reference external" href="http://interlockraspberrypi.eventbrite.com/"&gt;http://interlockraspberrypi.eventbrite.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here are some links to get you started if you've never heard of the
+project:&lt;/p&gt;
+&lt;p&gt;Officially Raspberry Pi Website:&amp;nbsp;&lt;a class="reference external" href="http://www.raspberrypi.org/"&gt;http://www.raspberrypi.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RBP Quickstart Guide:&amp;nbsp;&lt;a class="reference external" href="http://www.raspberrypi.org/quick-start-guide"&gt;http://www.raspberrypi.org/quick-start-guide&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RIT's ARM Developer Day:&amp;nbsp;&lt;a class="reference external" href="http://www.rit.edu/news/story.php?id=49538"&gt;http://www.rit.edu/news/story.php?id=49538&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;UPDATE 11/29/2012: Check out a few pictures from the event:
+&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8226474573/in/pool-interlock_roc"&gt;1&lt;/a&gt;
+&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8226489211/in/pool-1242396&amp;#64;N25/"&gt;2&lt;/a&gt;
+&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8226503539/in/pool-1242396&amp;#64;N25/"&gt;3&lt;/a&gt;
+&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8226537557/in/pool-1242396&amp;#64;N25/"&gt;4&lt;/a&gt;
+&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/8226578565/in/pool-1242396&amp;#64;N25/"&gt;5&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Remote Control Hacking</title><link href="/remote-control-hacking.html" rel="alternate"></link><published>2012-07-20T07:00:00+00:00</published><updated>2012-07-20T07:00:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-07-20:/remote-control-hacking.html</id><summary type="html">&lt;p&gt;A project that I've been spending a lot of time on, is learning about
+how this silly little RF remote communicates to its home base. The
+remote controls a music playing device and since it's RF, the project
+required me to learn about radio frequencies and some hardware hacking.
+I've …&lt;/p&gt;</summary><content type="html">&lt;p&gt;A project that I've been spending a lot of time on, is learning about
+how this silly little RF remote communicates to its home base. The
+remote controls a music playing device and since it's RF, the project
+required me to learn about radio frequencies and some hardware hacking.
+I've been asking Interlock members for help and they've given me ideas
+along the way. JustBill, one of our radio hackers, has jumped on the
+project and started analyzing the remote from the RF perspective.
+Berticus and Robo Alex have also donated their brains for the hardware
+hacking portion. Our goal was to learn how the remote works so that we
+can make our own remote.&lt;/p&gt;
+&lt;div class="section" id="rf-rc"&gt;
+&lt;h2&gt;RF RC&lt;/h2&gt;
+&lt;p&gt;This radio frequency remote control (RF RC)&amp;nbsp;controls &amp;nbsp;a device that
+plays music. For the purpose of this post, that's all we need to care
+about it. Our first step was to do recon on the hardware so we
+researched the &lt;a class="reference external" href="http://transition.fcc.gov/oet/ea/fccid/"&gt;FCC
+documents&lt;/a&gt;. Taking it apart
+we learn that there are two boards we want to worry about. The remote
+board that has an integrated circuit (IC) to handle button presses, and
+a radio daughter board that takes input and converts it to a a radio
+signal.&lt;/p&gt;
+&lt;div align="center"&gt;&lt;dl class="docutils"&gt;
+&lt;dt&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/DSC_8657.jpg"&gt;&lt;img alt="image0" class="size-medium wp-image-969 alignnone" src="/wp-uploads/2012/07/DSC_8657-300x198.jpg" style="width: 300px; height: 198px;" /&gt;&lt;/a&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/DSC_8664.jpg"&gt;&lt;img alt="image1" class="alignnone" src="/wp-uploads/2012/07/DSC_8664-198x300.jpg" style="width: 198px; height: 300px;" /&gt;&lt;/a&gt;`&lt;/dt&gt;
+&lt;dd&gt;&amp;lt;/wp-uploads/2012/07/DSC_8664.jpg&amp;gt;`__&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="ir-ic"&gt;
+&lt;h2&gt;IR IC&lt;/h2&gt;
+&lt;p&gt;After taking apart the remote, we look at the lower portion to find an
+IC made by Hynix. Thankfully,
+&lt;a class="reference external" href="http://www.skhynix.com/en/index.jsp"&gt;Hynix&lt;/a&gt; still sells a similar
+chip that's designed for infra-red (IR) and was nice enough to give the
+pin outs in the data sheet that looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/hynix_circuit.png"&gt;&lt;img alt="image2" class="aligncenter size-medium wp-image-973" src="/wp-uploads/2012/07/hynix_circuit-300x192.png" style="width: 300px; height: 192px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This tells us most of what we want to know to see what happens during a
+button press. We verify this with a &lt;a class="reference external" href="http://www.saleae.com/logic/"&gt;Salae Logic
+Analyzer&lt;/a&gt; that I love a lot, and we can
+make this block diagram.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/HYNIX_chiplayout.png"&gt;&lt;img alt="image3" class="aligncenter size-medium wp-image-964" src="/wp-uploads/2012/07/HYNIX_chiplayout-246x300.png" style="width: 246px; height: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The logic analyzer also gave us a good quality sample of what the signal
+looks like before it is sent to the RF daughter board. In the diagram
+above, if you look at the thicker line, this represents the
+communication going from the Hynix chip, to the RF daughter board. And
+that signal looks like this:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/logic_comparison_IR_DECODE-e1342714104358.png"&gt;&lt;img alt="image4" class="aligncenter size-medium wp-image-975" src="/wp-uploads/2012/07/logic_comparison_IR_DECODE-e1342714104358-300x40.png" style="width: 300px; height: 40px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;What's interesting about this is if you look at it closely, it's has 32
+transitions from digital HIGH to digital LOW during a single
+transmission. If you split them up into bytes, we now see 4 groups of
+data being transmitted. The first group is the sync to tell the device
+to listen and is always &amp;quot;0 1011101.&amp;quot; The second is a PIN that can be set
+to make sure the remote only talks to this device and not other ones.
+Basically, this is a passcode that can be anywhere from 000 to 255. The
+third group is the button ID. This tells which button is being pressed.
+The last group is a verification of the button ID which is done by doing
+a bit flip of the previous binary. &amp;quot;00000001&amp;quot; turns into &amp;quot;11111110.&amp;quot; So
+I created a map of the useful button IDs for later: Power is decimal 30,
+volume up is 79, pause is 76, and mysterious &amp;quot;P1&amp;quot; is 14. So if we wanted
+to transmit a power button with a pin code of &amp;quot;000&amp;quot; it would look like
+this:&lt;/p&gt;
+&lt;p&gt;01011101 00000000 01111000 10000111&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="rf-rf"&gt;
+&lt;h2&gt;RF RF&lt;/h2&gt;
+&lt;p&gt;One of the reasons this project became fun was because the radio doesn't
+transmit on IR. It's RF only. This means that all the amateur radio
+operators at Interlock could come to my rescue and explain what was
+going on. First we needed to find out what carrier frequency it used. It
+turns out that we didn't have to look to far because both the carrier
+frequency and the modulation type were in the remote's owners manual!&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/CF_manual.png"&gt;&lt;img alt="image5" class="aligncenter size-full wp-image-984" src="/wp-uploads/2012/07/CF_manual.png" style="width: 334px; height: 49px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this case 433.92MHz FSK are for new versions of this device and
+27.145MHz are for older.&amp;nbsp;433.92MHz is in the&lt;a class="reference external" href="http://en.wikipedia.org/wiki/ISM_band"&gt;ISM
+band&lt;/a&gt; and used by a lot of
+small electronics like a garage door opener. Our first goal was to
+capture a sample of the RF so that we could analyze the data in some
+kind of &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Fast_Fourier_transform"&gt;FFT&lt;/a&gt;.
+This would tell us the data inside of the transmission as well as
+confirm which type of encoding it was using.
+(&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Frequency-shift_keying"&gt;FSK&lt;/a&gt;,
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Amplitude-shift_keying"&gt;ASK&lt;/a&gt;,
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Phase-shift_keying"&gt;PSK&lt;/a&gt;, etc)&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/DSC_8664.jpg"&gt;&lt;img alt="image6" class="aligncenter size-medium wp-image-972" src="/wp-uploads/2012/07/DSC_8664-198x300.jpg" style="width: 198px; height: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The first attempts to use ham radio equipment were a failure. We later
+found out that the equipment could listen on 433.92MHz, but the ham
+equipment was listening on too narrow of a bandwidth to correctly
+capture the entire signal. The company I work for was happy to lend me
+their USRP. Yay!&lt;/p&gt;
+&lt;p&gt;If you've never heard of a
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Universal_Software_Radio_Peripheral"&gt;USRP&lt;/a&gt;,
+this is what ham guys normally call a software defined radio, or a radio
+that can be a range of frequencies depending on what you program it to
+be. You can control things like bandwidth and frequency by sending it a
+simple command. The USRP was designed by Ettus Labs and sold to National
+Instruments and has become a defacto part of the RF hackers' toolkit.&lt;/p&gt;
+&lt;p&gt;With this, we were able to get a good sampling of the transmission from
+the remote that looked like this:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/omfg_iv_had_this_the_whole_time-e1342715544473.png"&gt;&lt;img alt="image7" class="aligncenter size-medium wp-image-963" src="/wp-uploads/2012/07/omfg_iv_had_this_the_whole_time-e1342715544473-300x56.png" style="width: 300px; height: 56px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="signal-processing"&gt;
+&lt;h2&gt;Signal Processing&lt;/h2&gt;
+&lt;p&gt;Putting the RF signal and the data collected from the logic analyzer, we
+can now make some conclusions. Namely, that this is an extremely simple
+circuit that isn't doing much encoding or modulation when its being
+converted to RF. Basically the RF signal that you see above, is the
+exact same as the data being sent by the Hynix chip. This will be
+important later.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="results"&gt;
+&lt;h2&gt;Results&lt;/h2&gt;
+&lt;p&gt;To review we have:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;reversed the hardware that handles pressing the button&lt;/li&gt;
+&lt;li&gt;captured a sample of the RF signal&lt;/li&gt;
+&lt;li&gt;discovered what data is being transmitted and how&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;p&gt;The next step was to create my own remote from scratch. I did this using
+an Arduino and an RF chip designed to transmit on 433.92MHz. Thanks to
+Robo Alex for setting this thing up for me. It turns out I don't need
+the ground plane which is that giant piece of copper in the picture, but
+it doesn't hurt.&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/IMG_20120707_150902-e1342717151722.jpg"&gt;&lt;img alt="image8" class="aligncenter size-medium wp-image-978" src="/wp-uploads/2012/07/IMG_20120707_150902-e1342717151722-300x152.jpg" style="width: 300px; height: 152px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;What this does right now, is transmit on 433.92MHz, whatever button that
+I'd like, supplying whatever PIN code that I'd like. When I capture the
+data using the USRP, I find that my Arduino kit transmits perfectly at
+433.92MHz while the remote has an offset of about 60 hertz so that it
+transmits at 433.98Mhz. That's kind of a deal breaker for me right now
+and I'm looking for a replacement IC or something else so that I can
+transmit on the correct carrier freq. Until then, enjoy this random
+data.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/07/usrp.jpg"&gt;&lt;img alt="image9" class="aligncenter" src="/wp-uploads/2012/07/usrp-1024x678.jpg" style="width: 614px; height: 407px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="defcon"&gt;
+&lt;h2&gt;Defcon&lt;/h2&gt;
+&lt;p&gt;If you want to hear more about this (I don't know why you would),
+JustBill and I will be presenting this information (and some other
+things) at &lt;a class="reference external" href="http://www.defcon.org"&gt;Defcon&lt;/a&gt;'s
+&lt;a class="reference external" href="https://skytalks.info/"&gt;Skytalks&lt;/a&gt; next week. If you're going to be
+in Vegas for Defcon/Blackhat, look me up. :) For more information,
+follow me on &lt;a class="reference external" href="http://twitter.com/antitree/"&gt;twitter&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Intro To 3D Printing</title><link href="/intro-to-3d-printing.html" rel="alternate"></link><published>2012-07-03T20:55:00+00:00</published><updated>2012-07-03T20:55:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-07-03:/intro-to-3d-printing.html</id><summary type="html">&lt;p&gt;The two Bills, JustBill and DollarBill, teamed up to give an intro to 3D
+printing with a demo at the space. Thanks guys!&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;The two Bills, JustBill and DollarBill, teamed up to give an intro to 3D
+printing with a demo at the space. Thanks guys!&lt;/p&gt;
+</content></entry><entry><title>BSidesROC: Free Hacker Con For Security Nerds</title><link href="/bsidesroc-free-hacker-con-for-security-nerds.html" rel="alternate"></link><published>2012-05-07T07:00:00+00:00</published><updated>2012-05-07T07:00:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-05-07:/bsidesroc-free-hacker-con-for-security-nerds.html</id><summary type="html">&lt;p&gt;Saturday May 12th is the second annual BSidesROC hacker con. It's
+Rochester's only &amp;quot;Hacker con&amp;quot; and Interlock will be there running a
+booth and showing support. Come visit our table.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/BSides_Roc_web_2.png"&gt;&lt;img alt="image0" class="aligncenter size-medium wp-image-873" src="/wp-uploads/2012/05/BSides_Roc_web_2-243x300.png" style="width: 243px; height: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="what-to-expect"&gt;
+&lt;h2&gt;What to expect&lt;/h2&gt;
+&lt;p&gt;If you've never been to a hacker con, it's a bit different than your
+standard conference. Don't …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Saturday May 12th is the second annual BSidesROC hacker con. It's
+Rochester's only &amp;quot;Hacker con&amp;quot; and Interlock will be there running a
+booth and showing support. Come visit our table.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/BSides_Roc_web_2.png"&gt;&lt;img alt="image0" class="aligncenter size-medium wp-image-873" src="/wp-uploads/2012/05/BSides_Roc_web_2-243x300.png" style="width: 243px; height: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="what-to-expect"&gt;
+&lt;h2&gt;What to expect&lt;/h2&gt;
+&lt;p&gt;If you've never been to a hacker con, it's a bit different than your
+standard conference. Don't expect the venue to be a hotel. In fact,
+it'll be at an old Masonic Temple inside the Auditorium Center.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/masonic_temple_bsidesroc.jpg"&gt;&lt;img alt="image1" class="aligncenter wp-image-874" src="/wp-uploads/2012/05/masonic_temple_bsidesroc-1024x337.jpg" style="width: 717px; height: 236px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There will be a lock picking village where the local &lt;a class="reference external" href="{filename}/new-lockpicking-club-rochester-toool.rst"&gt;Rochester TOOOL
+chapter&lt;/a&gt;
+will be around to teach people how to pick locks and the issues involved
+with physical security. They'll also be selling lock picks to attendees.&lt;/p&gt;
+&lt;p&gt;Other stuff for those interested:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;a dozen or so presentations about information security by industry
+professionals&lt;/li&gt;
+&lt;li&gt;a capture the flag hacker games competition&lt;/li&gt;
+&lt;li&gt;a hacker puzzle to figure out during the con&lt;/li&gt;
+&lt;li&gt;free breakfast and lunch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;&lt;p&gt;If you're interested in more specifics check out these other blog posts:
+&lt;a class="reference external" href="http://www.antitree.com/bsidesroc-part-i-define-hackercon/"&gt;BSidesROC Part I: Define
+hackercon&lt;/a&gt;&amp;nbsp;&lt;a class="reference external" href="http://www.antitree.com/bsidesroc-part-ii-things-were-doing/"&gt;BSidesROC
+Part II: Hack All The
+Things&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="how-to-attend"&gt;
+&lt;h2&gt;How To Attend&lt;/h2&gt;
+&lt;p&gt;Attendance is free but requires that you sign up before hand. Go
+&lt;a class="reference external" href="http://www.bsidesroc.com"&gt;HERE&lt;/a&gt;to sign up. The conference starts
+at 8am so be there early to get the breakfast.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>New Lockpicking Club: Rochester TOOOL</title><link href="/new-lockpicking-club-rochester-toool.html" rel="alternate"></link><published>2012-04-19T14:48:00+00:00</published><updated>2012-04-19T14:48:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-04-19:/new-lockpicking-club-rochester-toool.html</id><summary type="html">&lt;p&gt;Tonight (Thursday) a new club will be using the Rochester hackerspace as
+a meeting ground for its first event. The Rochester TOOOL (yes three
+O's) chapter is starting up organized by Jason Ross. What's a Jason Ross
+and what's a TOOOL right? Jason is the newest Interlock member and comes …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tonight (Thursday) a new club will be using the Rochester hackerspace as
+a meeting ground for its first event. The Rochester TOOOL (yes three
+O's) chapter is starting up organized by Jason Ross. What's a Jason Ross
+and what's a TOOOL right? Jason is the newest Interlock member and comes
+from a background in security - computer security, network security,
+physical security.. &lt;a class="reference external" href="http://i.qkme.me/7dck.jpg"&gt;secure all the
+things!&lt;/a&gt;&lt;/p&gt;
+&lt;div class="section" id="why-lock-picking"&gt;
+&lt;h2&gt;Why Lock Picking?&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/04/a_misery1990.jpg"&gt;&lt;img alt="image0" class="size-full wp-image-861 aligncenter" src="/wp-uploads/2012/04/a_misery1990.jpg" style="width: 590px; height: 403px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It's happened to the best of us, your bloodshot eyes open to find that
+you've been strapped to a bed with handcuffs again. What do you do to
+get out? Call for help? Wait until the lady comes back to break your
+legs like in Misery? No, you know how the locking mechanism works on a
+pair of handcuffs and you shim your way out and escape through the
+window to freedom.&lt;/p&gt;
+&lt;p&gt;Lock picking is learning about how locks work which turns them into a
+puzzle. The number of pins in a tumbler tells you how difficult the lock
+is. What does it mean when a pair of handcuffs are double locked? What
+are security pins? What's the difference between a wafer lock and a pin
+tumbler? If you have these questions, TOOOL is the group to talk with to
+have them answered.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="toool"&gt;
+&lt;h2&gt;TOOOL&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.toool.us"&gt;&lt;img alt="image1" class="aligncenter" src="http://toool.us/images/toool_logo_lg.gif" style="width: 485px; height: 176px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.toool.us"&gt;TOOOL&lt;/a&gt;is The Open Organization Of
+Lockpickers. These guys love to learn and teach about locks, lock
+picking, and physical security. The difference between TOOOL and a
+normal locksmith, is first they don't do it for money, second, they
+exchange information about locks and lock picking openly, and third,
+they have more of a sense of humor than your standard locksmith. To
+become a locksmith, normally you'd have to learn through an
+apprenticeship. TOOOL on the other hand will be giving presentations to
+the community, teaching people how to pick locks, and helping spread the
+knowledge about lock picking openly to the community.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="legality"&gt;
+&lt;h2&gt;Legality&lt;/h2&gt;
+&lt;p&gt;Is having a pair of lock picks legal? Is it against the law to know how
+to lock pick? What if TSA finds a set of lock picks in your bag?? These
+are all boring, but serious questions that TOOOL will answer. Here's a
+hint, do you think Interlock would promote illegal activity on their
+blog?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-to-expect-at-the-meeting"&gt;
+&lt;h2&gt;What to expect at the meeting:&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/04/2011-05-07_16-57-041.jpg"&gt;&lt;img alt="image2" class="alignright size-full wp-image-868" src="/wp-uploads/2012/04/2011-05-07_16-57-041.jpg" style="width: 292px; height: 478px;" /&gt;&lt;/a&gt;The meeting is open to the public and is meant to be the first
+of future meetings. There will be a presentation of some kind related to
+lock picking and a lot of discussion about how future meetings will
+happen. The organization requires that you become a member in order to
+keep up to date on the groups activities but there will also be public
+non-member, public meetings in the future. If you can't come to
+tonight's meeting but you're interested in learning about how the group
+works, you can email &lt;a class="reference external" href="mailto:algorythm%20at%20the%20gmails%20dot%20come"&gt;Jason
+Ross&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Rochester TOOOL Chapter meeting starts at 7pm on 4/19 at Interlock.&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>YNN, meet Interlock.</title><link href="/ynn-meet-interlock.html" rel="alternate"></link><published>2012-03-28T14:30:00+00:00</published><updated>2012-03-28T14:30:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-03-28:/ynn-meet-interlock.html</id><summary type="html">&lt;p&gt;This morning a few members stopped by to meet reporters from
+&lt;a class="reference external" href="http://rochester.ynn.com/"&gt;YNN&lt;/a&gt;. Seth Voorhees and Veronica Chiesi
+were given the nickle tour, and then chatted with Bill, Von, Brian and
+myself. Thankfully they weren't scared away by the level of geek in the
+room.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/DSC_8773.jpg"&gt;&lt;img alt="image0" class="size-medium wp-image-846 aligncenter" src="/wp-uploads/2012/03/DSC_8773-300x221.jpg" style="width: 300px; height: 221px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Brian wowed them with his always …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This morning a few members stopped by to meet reporters from
+&lt;a class="reference external" href="http://rochester.ynn.com/"&gt;YNN&lt;/a&gt;. Seth Voorhees and Veronica Chiesi
+were given the nickle tour, and then chatted with Bill, Von, Brian and
+myself. Thankfully they weren't scared away by the level of geek in the
+room.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/DSC_8773.jpg"&gt;&lt;img alt="image0" class="size-medium wp-image-846 aligncenter" src="/wp-uploads/2012/03/DSC_8773-300x221.jpg" style="width: 300px; height: 221px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Brian wowed them with his always crowd pleasing custom pen &lt;a class="reference external" href="{filename}/barcamp-rochester.rst"&gt;plot-matrix
+printer he's famous
+for&lt;/a&gt;. The
+picture above is the pre-printed artist's rendition of Seth holding his
+mic.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/DSC_8777.jpg"&gt;&lt;img alt="image1" class="alignright size-medium wp-image-844" src="/wp-uploads/2012/03/DSC_8777-199x300.jpg" style="width: 199px; height: 300px;" /&gt;&lt;/a&gt;Von, Brian, and Bill put on their smart hats and answered
+questions about Interlock. Von, showed off the ham radio room and his
+skills for speaking with human beings. Bill spoke about his background,
+why he has been involved with Interlock, and included some razzle dazzle
+by printing on the 3D printer.&lt;/p&gt;
+&lt;p&gt;Brian, with his boyish good looks, sparkled on camera while showing off
+his knowledge of all things blinky. I have to admit that while it's nice
+to have Interlock get some PR, my first goal in setting up the interview
+was to get Brian's face on TV. If you've met Brian, you'll know that
+he's a very intelligent, multi-faceted, multi-facial-haired, reluctant
+leader. I think that he is a very good representation of what the modern
+hacker/maker looks and acts like. But, he's also not the normal talking
+head you would see on TV which is why I want to get him out there even
+more. I'm giggling right now thinking about seeing him on YNN now.&lt;/p&gt;
+&lt;p&gt;Feeling bad for the quiet bear-hat wearing man on the couch, YNN even
+included me in a quick interview. I worked with Bill and Von on a lock
+picking demo that I hope makes to air. Veronica even challenged me to a
+lock picking contest where I had to go from nothing in my hands, pick up
+the tools, and pick the lock. I surprisingly aced it picking a 4 pin
+lock. (Thanks &lt;a class="reference external" href="http://www.toool.us"&gt;TOOOL&lt;/a&gt;) This will never be on the
+air of course.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE: Check out the `story
+here: &amp;lt;http://rochester.ynn.com/content/578776/welcome-to--hackerspace-/&amp;gt;`__&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://rochester.ynn.com/content/578776/welcome-to--hackerspace-/"&gt;&lt;img alt="image2" class="aligncenter" src="http://images.rnews.com/media/2012/3/29/images/hs55345178-aebf-4c75-aa41-050578c4786a.jpg" style="width: 431px; height: 238px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks to Von Brian and Bill for taking the time to come out and
+intelligently represent the group. We don't know when/if the story will
+air. Surprisingly, some people have more important things to hear about
+than local hackerspaces but we'll let you know when.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/DSC_8812.jpg"&gt;&lt;img alt="image3" class="aligncenter wp-image-845" src="/wp-uploads/2012/03/DSC_8812.jpg" style="width: 584px; height: 300px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Open House: New Space</title><link href="/open-house-new-space.html" rel="alternate"></link><published>2012-03-15T10:25:00+00:00</published><updated>2012-03-15T10:25:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2012-03-15:/open-house-new-space.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/interlock_oldspice-e1331824667576.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-834" src="/wp-uploads/2012/03/interlock_oldspice-e1331824667576.png" style="width: 341px; height: 280px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hello hackers. Look at your office. Now look at the hackerspace. Now
+back at your office. Now back to the space. Sadly, your office doesn't
+look like the hacker space. Do you know what the new hackerspace looks
+like? No? Well now's your opportunity. I'm on a horse.&lt;/p&gt;
+&lt;p&gt;Tomorrow, Friday …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/interlock_oldspice-e1331824667576.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-834" src="/wp-uploads/2012/03/interlock_oldspice-e1331824667576.png" style="width: 341px; height: 280px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Hello hackers. Look at your office. Now look at the hackerspace. Now
+back at your office. Now back to the space. Sadly, your office doesn't
+look like the hacker space. Do you know what the new hackerspace looks
+like? No? Well now's your opportunity. I'm on a horse.&lt;/p&gt;
+&lt;p&gt;Tomorrow, Friday 3/16, at 7pm we are throwing an open house at the
+space. Of course it's free, we just want to show off our new digs. It's
+probably a perfect time for you to visit if you've never been. Or if
+you've only seen the old tiny space, see what we have to offer now.&lt;/p&gt;
+&lt;p&gt;Just so we can figure out how many people are coming, click on this link
+to get a ticket:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;http://interlockopenhouse.eventbrite.com/&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here's what to expect:&lt;/p&gt;
+&lt;div class="section" id="food"&gt;
+&lt;h2&gt;Food!&lt;/h2&gt;
+&lt;p&gt;Hacking makes you hungry. As a reward for stopping by on a Friday night,
+we'll be feeding you. Members are bringing in food in a pot-luck style.
+Mostly things to nibble at so bring an appetite. Eating and hacking;
+does it get better? Well... yeah but it's still pretty cool right?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mini-presentations"&gt;
+&lt;h2&gt;Mini-Presentations&lt;/h2&gt;
+&lt;p&gt;The most common question that we get. &amp;quot;What are you working on?&amp;quot; To try
+and answer that, we've created mini presentations about what people do
+at the space. Here's what we have so far:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Amateur radio workshop run by JustBill and Walter&lt;/li&gt;
+&lt;li&gt;Introduction to lockpicking run by Antitree&lt;/li&gt;
+&lt;li&gt;3D printer presentation and possible demo by Berticus&lt;/li&gt;
+&lt;li&gt;Basics of electronics run by RoboAlex&lt;/li&gt;
+&lt;li&gt;Bicycle repair run by BinaryMan&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hackerspace-tour"&gt;
+&lt;h2&gt;Hackerspace Tour&lt;/h2&gt;
+&lt;div&gt;&lt;p&gt;&amp;nbsp;Here are some things to check out while you're at the space:&lt;/p&gt;
+&lt;/div&gt;&lt;div&gt;&lt;ul class="simple"&gt;
+&lt;li&gt;Rooms: Meeting room, hang out room, table hackers room, workshop
+area, Ham shack&lt;/li&gt;
+&lt;li&gt;Network infrastructure&lt;/li&gt;
+&lt;li&gt;Pen plotters&lt;/li&gt;
+&lt;li&gt;3D printers&lt;/li&gt;
+&lt;li&gt;Metal lathe and wood working tools&lt;/li&gt;
+&lt;li&gt;Ham radio shack&lt;/li&gt;
+&lt;li&gt;Electronics workbench&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;&lt;/div&gt;
+&lt;div class="section" id="see-you-there"&gt;
+&lt;h2&gt;&lt;a class="reference external" href="/pages/contact.html"&gt;See you there&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Near Field Communication Primer</title><link href="/near-field-communication-primer.html" rel="alternate"></link><published>2011-12-21T12:00:00+00:00</published><updated>2011-12-21T12:00:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2011-12-21:/near-field-communication-primer.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/NFC-logo.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-429" src="/wp-uploads/2011/08/NFC-logo.png" style="width: 284px; height: 237px;" /&gt;&lt;/a&gt;I thought I'd do a primer about NFC since Samsung's Galaxy
+Nexus is getting a lot of press about it. You may have heard of Google
+Wallet or how NFC is going to be built into smart phones in the future.
+Maybe you haven't thought about how it works or …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/08/NFC-logo.png"&gt;&lt;img alt="image0" class="alignright size-full wp-image-429" src="/wp-uploads/2011/08/NFC-logo.png" style="width: 284px; height: 237px;" /&gt;&lt;/a&gt;I thought I'd do a primer about NFC since Samsung's Galaxy
+Nexus is getting a lot of press about it. You may have heard of Google
+Wallet or how NFC is going to be built into smart phones in the future.
+Maybe you haven't thought about how it works or how to hack it.&amp;nbsp;As a
+side[side(side)] project I've been working on NFC research with (as
+always for me) a specific focus on the security perspectives. This is an
+overview of NFC to maybe peak your interest.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Define:NFC&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Near Field Communication is a way to transmit information between
+intelligent devices. I know you're already thinking Bluetooth but wait.
+NFC has a limitation that says in its spec that it can't be more than
+.2m away from its partner during communication. It may be a bit more
+depending on the implementation but the thing to remember here is that
+the protocol itself is what limits the distance, not just the hardware.
+(Quit pointing that gigantic antenna at my pocket right now!) It
+transmits on the HF band 13.56MHz, a frequency already used by some RFID
+chips and fun devices like the Proxmark 3.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Here's what's different about NFC: There are three different modes.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Reader/Writer: Commonly used in smart posters or smart stickers.
+Think QR code but subtle.&lt;/li&gt;
+&lt;li&gt;Peer to Peer: Data is exchanged back and forth between devices;
+securely exchange credit cards, give your friend your home WIFI
+settings, or exchange business cards.&lt;/li&gt;
+&lt;li&gt;Card Emulation: A device acts like a contactless smart card. What if
+you could use your phone as a bus pass instead of keeping that flimsy
+magstripe pass in your pocket?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;NFC != RFID&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Lets take care of that up front. NFC sounds a lot like RFID (they share
+the whole RF thing) and it seems to get stored in people's heads that
+way because NFC has the card emulation mode where it emulates at &amp;quot;tag&amp;quot;
+or an RFID chip. &amp;nbsp;RFID isn't usually much more than a tag blindly
+broadcasting data hoping a receiver picks it up. Passive tags (or little
+antennas without a power source) sit and wait for an RFID reader to come
+by to energize them. They get all excited and tell the reader everything
+they know. Imagine a dog just waiting at the door for it's owner to come
+home. The active RFID tags have a battery in them that constantly
+broadcasts itself to anyone that will listen. Kind of like that annoying
+friend you have that tells you everything about their life even though
+you never asked. NFC on the other hand is like an intelligent college
+student. She can have an intimate conversation with you, she can make a
+presentation in front of a class, but she can still get drunk and act
+stupid if that's what everyone else is doing at the party.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NFC is not a new technology&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We've seen them in European phones since 2003 or 4 and they've been
+hacked on for just as long. The folks at the &lt;a class="reference external" href="http://www.ccc.de/en/"&gt;Chaos Computer
+Club&lt;/a&gt; have been hacking on NFC since it's
+original inception; when manufacturers like Nokia started installing it
+into their feature phones, AKA dumb phones. It never made it across the
+water - some may say due to some FCC regulations on the 13.56 frequency
+but I'll leave that topic to the Ham guys.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Security|image1|&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you haven't already, you should put on your tin foil hat now. &lt;strong&gt;NFC
+is a way for corporations to take over our bodies, man!&lt;/strong&gt; Well...most
+likely not. But you're already thinking about the security problems as
+soon as I wrote &amp;quot;credit card.&amp;quot; I'm going to save this whole discussion
+for another day but the tl;dr version is that NFC has been designed with
+security in mind but a lot is left up to the developer to implement
+securely. We all know how well that works especially for mobile app
+developers so I'm sure everything is going to be fine, right? Maybe next
+time I'll tell you about the butt sniffing attack. No seriously.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Android and The Galaxy Nexus&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;How is Android implementing NFC in the Galaxy Nexus? Here's an example
+of a peer to peer mode connection: When you put a Galaxy Nexus next to
+another Galaxy Nexus, the phone will make an NFC connection as long as
+both phones are unlocked. If the app that you &amp;nbsp;have open supports NFC
+(i.e. Google Maps) it will allow you to communicate data from your app
+to the other device. Some examples of this are sharing contact
+information, location data, websites, etc but apparently it's going to
+be used for games or whatever developers can think of.&lt;/p&gt;
+&lt;p&gt;The Reader/Writer mode will allow you to take an NFC tag and shove it
+next to the phone. Depending on the data stored on the card, it will
+open an appropriate app to view the content. In the case of an NFC tag
+that is contains a URL, it will automatically go to that page. Ask me
+about some of the NFC tags I've made at a 2600 meeting sometime. :)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More info:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If you want to see a much better post that's chock full of info check
+this
+out:&amp;nbsp;&lt;a class="reference external" href="http://www.engadget.com/2011/06/10/engadget-primed-what-is-nfc-and-why-do-we-care/"&gt;http://www.engadget.com/2011/06/10/engadget-primed-what-is-nfc-and-why-do-we-care/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here' s a random YouTube video of two guys with Galaxy Nexuses so I
+don't have to make one:&amp;nbsp;&lt;a class="reference external" href="http://www.youtube.com/watch?v=ZQSc4uiakv4"&gt;http://www.youtube.com/watch?v=ZQSc4uiakv4&lt;/a&gt;&lt;/p&gt;
+</content><category term="hacking"></category><category term="infosec"></category><category term="near field communication"></category><category term="NFC"></category><category term="security"></category></entry><entry><title>Chatting With Spain</title><link href="/chatting-with-spain.html" rel="alternate"></link><published>2011-12-13T03:29:00+00:00</published><updated>2011-12-13T03:29:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2011-12-13:/chatting-with-spain.html</id><summary type="html">&lt;p&gt;Last Thursday’s Do night, JustBill brought in his HF rig to try out on
+our club antennas.&amp;nbsp; Bill is an expert user on several digital
+communications modes including PSK31.&amp;nbsp; PSK31 or &amp;quot;Phase Shift Keying, 31
+Baud&amp;quot; is a digital radio modulation mode, used primarily in the amateur
+radio field …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last Thursday’s Do night, JustBill brought in his HF rig to try out on
+our club antennas.&amp;nbsp; Bill is an expert user on several digital
+communications modes including PSK31.&amp;nbsp; PSK31 or &amp;quot;Phase Shift Keying, 31
+Baud&amp;quot; is a digital radio modulation mode, used primarily in the amateur
+radio field to conduct real-time keyboard-to-keyboard informal text chat
+between amateur radio operators.&amp;nbsp; After we got his rig set up and
+interfaced to Ham Radio Deluxe running on the club computer, we started
+a session on 40 meters and keyboard chatted with a guy in Spain.&amp;nbsp; We
+also chatted with a Ham in Wisconsin and another in Alabama.&amp;nbsp; We heard a
+Russian station but not quite enough signal to get to him with 50
+watts.&amp;nbsp; Here’s a link to a wiki
+on&lt;a class="reference external" href="http://en.wikipedia.org/wiki/PSK31"&gt;PSK31:&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_753&amp;quot; align=&amp;quot;aligncenter&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;JustBill at the controls….with aliens
+supervising&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2011/12/chattingwithspain.jpg"&gt;&lt;img alt="image0" class="size-medium wp-image-753" src="/wp-uploads/2011/12/chattingwithspain-300x225.jpg" style="width: 300px; height: 225px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;We also got an old Radio Shack HTX-202 operating APRS (&lt;a class="reference external" href="http://www.aprs.org/"&gt;Automatic Packet
+Reporting System&lt;/a&gt;) with
+&lt;a class="reference external" href="http://www.ui-view.org/"&gt;UI-View32&lt;/a&gt; (an ancient client software for
+radio packet hosting) and the ProComm TNC to communicate to the radio.
+K2HAX is on the map!&amp;nbsp; APRS is an important tool for position reporting,
+remote telemetry, text messaging anyone anyplace, and local coordination
+of emergency training events. For a cool view of current APRS activity
+around K2HAX, go &lt;a class="reference external" href="http://aprs.fi/?call=K2HAX&amp;amp;others=1"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;’73 – N2ZVP - rochbert&lt;/p&gt;
+</content></entry><entry><title>K2HAX Is On The Air</title><link href="/k2hax-is-on-the-air.html" rel="alternate"></link><published>2011-11-27T11:42:00+00:00</published><updated>2011-11-27T11:42:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2011-11-27:/k2hax-is-on-the-air.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/11/ham_temp-e1322411639629.jpg"&gt;&lt;img alt="image0" class="alignright size-full wp-image-707" src="/wp-uploads/2011/11/ham_temp-e1322411759170.jpg" style="width: 256px; height: 569px;" /&gt;&lt;/a&gt;K2HAX is on the air!&amp;nbsp; With our move to the new space, we have
+access to the roof.&amp;nbsp; On a beautiful fall day, Chris Olin and I put up a
+30’ fiberglass mast on a tripod base (not attached to the roof).&amp;nbsp; Then
+we hoisted up a trapped dipole for …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/11/ham_temp-e1322411639629.jpg"&gt;&lt;img alt="image0" class="alignright size-full wp-image-707" src="/wp-uploads/2011/11/ham_temp-e1322411759170.jpg" style="width: 256px; height: 569px;" /&gt;&lt;/a&gt;K2HAX is on the air!&amp;nbsp; With our move to the new space, we have
+access to the roof.&amp;nbsp; On a beautiful fall day, Chris Olin and I put up a
+30’ fiberglass mast on a tripod base (not attached to the roof).&amp;nbsp; Then
+we hoisted up a trapped dipole for 10-80 meters and a G5RV.&amp;nbsp; The dipole
+is oriented SW-NE, the G5RV is SE-NW.&amp;nbsp; We also put up a 2m/70 cm J-Pole
+for VHF/UHF.&amp;nbsp; All the feedlines were run with previously used 8/U down
+to our space (about 150’) and into the Ham Shack.&lt;/p&gt;
+&lt;p&gt;We initially had a Kenwood TS-530s transceiver and roller tuner setup
+for HF and we made a few contacts.&amp;nbsp; We wanted to get the Yaesu FT-857GX
+out of the storage container and try it out.&amp;nbsp; That is setup now along
+with an automatic tuner.&amp;nbsp; Reception seems decent.&amp;nbsp; We are waiting on an
+operable microphone to get back on the air.&amp;nbsp; Bill, Von, Rowan, and Steve
+are working on that.&amp;nbsp; We will be working on CAT control and a hook-up
+for using SDR like functionality with Ham Radio Deluxe, allowing us to
+get into the digital communication modes.&lt;/p&gt;
+&lt;p&gt;The Yaesu FT-8800 VHF/UHF rig is working well, K2HAX normally monitors
+146.61 (N2MPE local ARES/RACES repeater) while someone is in the shack.
+We have cables for programming this rig on order and also have a cable
+for use with the PacComm TNC for packet, etc.&lt;/p&gt;
+&lt;p&gt;We also have a desktop PC with a nice monitor setup for use with the
+transceivers.&amp;nbsp; We are waiting on a 2 port serial card to communicate
+with the radios.&amp;nbsp; The remote programming of the radios and the option
+for digital mode communications (PSK, Packet, etc) opens up with the PC.&lt;/p&gt;
+&lt;p&gt;Our bench includes power supplies, frequency counters, various
+multi-meters and hand tools.&amp;nbsp; We have a great selection of soldering
+tools for discrete and SMT component work.&amp;nbsp; We have a variable
+temperature iron and a variable speed and temperature blower for
+re-work.&amp;nbsp; On order is a Hakko 808 de-soldering tool.&amp;nbsp; We have 2 antenna
+analyzers, a new Comet and an older MFJ.&amp;nbsp; Several bench projects are
+already underway including Jamie’s whispering clocks, many cable hacks
+for the radios, and Walter’s attempts to repair blown audio equipment.&lt;/p&gt;
+&lt;p&gt;Ham radio is witnessing a rebirth in popularity.&amp;nbsp; Emergency preparedness
+at the county/state/and national level has recognized the value of Ham
+radio as the most dependable means for communication during an
+emergency.&amp;nbsp; Interlock members have participated in local POD drills,
+Ginna nuclear event practice response teams and are regular attendees at
+the local ARES/RACES meetings.&amp;nbsp; Ham Radio can provide texting, TV and
+many other familiar forms of communication without any annoying
+infrastructure.&amp;nbsp; We can DX with Ham operators around the world, by voice
+and many new and old digital modes.&amp;nbsp; SDR is an emerging technology
+applied to Ham radio; opening up some fantastic possibilities for low
+power operation, contesting, and pulling weak signals out of the noise.&lt;/p&gt;
+&lt;p&gt;Ham radio is growing in popularity.&amp;nbsp; Interlock Hams would love to
+introduce anyone interested to the hobby and answer any questions you
+may have.&lt;/p&gt;
+&lt;p&gt;’73 Walter&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/6359831907/"&gt;&lt;img alt="Hammy Shack" class="alignnone" src="http://farm7.staticflickr.com/6113/6359831907_fc4ced2e17_z.jpg" style="width: 252px; height: 168px;" /&gt;&lt;/a&gt;&lt;a class="reference external" href="http://www.flickr.com/photos/bert_m_b/6356820667/"&gt;&lt;img alt="The Ham Shack" class="alignnone" src="http://farm7.staticflickr.com/6218/6356820667_69192ab54b_z.jpg" style="width: 252px; height: 168px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+</content><category term="amateur radio"></category><category term="HAM"></category></entry><entry><title>Android Hacking</title><link href="/android-hacking.html" rel="alternate"></link><published>2011-09-07T09:43:00+00:00</published><updated>2011-09-07T09:43:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2011-09-07:/android-hacking.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/09/android_hack_logo.jpg"&gt;&lt;img alt="image0" class="alignright size-thumbnail wp-image-520" src="/wp-uploads/2011/09/android_hack_logo-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;Android right now makes up 52% of the smartphone market share
+and a third of the tablets. I've been focused on Android lately and
+wanted to do an&amp;nbsp;introduction&amp;nbsp;to the hackability of these devices.&amp;nbsp;From a
+security perspective, Android offers some interesting opportunities:
+rooting your phone, hacking an app …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2011/09/android_hack_logo.jpg"&gt;&lt;img alt="image0" class="alignright size-thumbnail wp-image-520" src="/wp-uploads/2011/09/android_hack_logo-150x150.jpg" style="width: 150px; height: 150px;" /&gt;&lt;/a&gt;Android right now makes up 52% of the smartphone market share
+and a third of the tablets. I've been focused on Android lately and
+wanted to do an&amp;nbsp;introduction&amp;nbsp;to the hackability of these devices.&amp;nbsp;From a
+security perspective, Android offers some interesting opportunities:
+rooting your phone, hacking an app, or malware analysis. For the
+hardware hackers, Google and others are offering hardware tools that can
+plug into your Android device to enable use them for your hardware
+projects. If you're interested in the creative path, it's really easy to
+get started doing app development.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rooting:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Rooting your device offers the user full control of the device to allow
+to change the version of the operating system, install or uninstall any
+apps you'd like, and in some cases gain access to features that would
+otherwise be locked out by the carrier. If none of those interest you,
+the geek cred alone may be good enough.&lt;/p&gt;
+&lt;p&gt;Rooting is nothing more than a&amp;nbsp;privilege&amp;nbsp;escalation attack. You are
+granted standard user access to your phone but you'd like to escalate to
+root level&amp;nbsp;privileges. Android, being built on top of Linux follows the
+common practice of granting root only when necessary to your device's
+operations. There are a bunch of attack vectors like exploiting a
+service running as root, exploiting a file that has root access,&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;App Hacking:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;There's a lot of fun stuff you can do to hack an Android app. It's
+originally coded in Java and although Android runs it's own Java
+environment called Dalvik VM, an app can be decompiled from it's byte
+code to Java class files. From there you can do some reverse engineering
+to take a look at how the app operates. With a little luck and skill,
+you can recompile a modified version of the app. I'm not going to go too
+deep into this idea but if you're interested, I'll be doing a
+presentation at this years &lt;a class="reference external" href="http://www.rochestersecurity.org"&gt;Rochester Security
+Summit&lt;/a&gt; that will give you the
+tools to do this analysis yourself.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Malware:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;For the security guys now, malware analysis is a fun way to get a peek
+into how the bad guys work. Android is in a battle with malware usually
+available in alternative markets. Nasty apps like &amp;quot;Nickispy&amp;quot; will steal
+your personal information and even record your calls to upload them back
+to a server. Some will root your device and install a backdoor like the
+latest variant of DroidKungFu. With some tools and some different
+analysis techniques, you can perform the analysis yourself. Jason Ross
+will also be presenting this year at RSS on this topic if you're
+interested.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hardware Hacking:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;At this years Google IO, they announced the release of the &lt;a class="reference external" href="http://www.google.com/events/io/2011/sessions/android-open-accessory-api-and-development-kit-adk.html"&gt;Android
+Development
+Kit&lt;/a&gt;&amp;nbsp;which
+is a bridge between your Android device and your hardware projects.
+Imagine controlling an Arduino with a touch screen interface or using
+the sensors from your phone to control a robot. As a cheap alternative
+to the $300+ kit, Sparkfun has created the &lt;a class="reference external" href="http://www.sparkfun.com/products/10748"&gt;Android
+IOIO&lt;/a&gt;, pronounced yoyo. This
+is what my next project will include with a little help from the robot
+crew at Interlock.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;App Development:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If programming or art is your thing, or you want to make your next
+million dollars on an Angry Birds killer, you can get started developing
+apps on the &lt;a class="reference external" href="http://market.android.com/publish"&gt;Android Marketplace&lt;/a&gt;
+for $25. This gets you an account to upload your app to the public
+directory and it will show up on thousands of people's phones. The
+Android SDK along with the Eclipse plugins make it pretty easy to
+develop without too much programming knowledge.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Android At Interlock:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;In the coming months, along with all the other changes, we're planning
+on doing an Android workshop at the space. Depending on the interest it
+may be related to rooting or application development.&lt;/p&gt;
+</content></entry><entry><title>Regional Computer Recycling Recovery Tour</title><link href="/regional-computer-recycling-recovery-tour.html" rel="alternate"></link><published>2010-12-28T06:46:00+00:00</published><updated>2010-12-28T06:46:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-12-28:/regional-computer-recycling-recovery-tour.html</id><summary type="html">&lt;p&gt;&lt;img alt="Regional Computer Recycling &amp;amp; Recovery" class="right" src="{filename}wp-uploads/2010/12/rcrr.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Have you ever wanted to watch a hard drive get shredded in seconds, see
+a box of RAM that was 800 pounds, or wander through a 100,000 square
+foot grave yard of electronics? So did we, and our tour of Regional
+Computer Recycling and Recovery was just that. RCR …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Regional Computer Recycling &amp;amp; Recovery" class="right" src="{filename}wp-uploads/2010/12/rcrr.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Have you ever wanted to watch a hard drive get shredded in seconds, see
+a box of RAM that was 800 pounds, or wander through a 100,000 square
+foot grave yard of electronics? So did we, and our tour of Regional
+Computer Recycling and Recovery was just that. RCR&amp;amp;R is one of the major
+electronics recyclers in the Rochester area, and we were lucky enough to
+get a tour of their facilities.&amp;nbsp;They outlined the process from beginning
+to end of how a computer is received, processed, parted out, and
+eventually recycled.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="rotating knives sign" class="photo left" src="{filename}wp-uploads/2010/12/rotatingknivessm-297x300.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;A group of us were guided around the RCR&amp;amp;R facility after learning about
+the organization. Vice president Charlie McKernen teamed up with client
+service representative Tom Smith to show us the&amp;nbsp;facility, answer our
+questions, and keep us on track when our attention strayed to the many
+items sitting on the giant shelves.&amp;nbsp;One of the first stops was a hard
+drive shredder which chopped through the devices like butter, leaving
+just a pile of scraps after a few sparks. We walked by workers parting
+out the computers, placing each into a corresponding box that would
+eventually be shipped out for recycling by a facility specifically
+designed to process that part. Charlie was able to&amp;nbsp;easily&amp;nbsp;answer our
+questions on&amp;nbsp;degaussing&amp;nbsp;and secure hard drive&amp;nbsp;wiping&amp;nbsp;methods, and they
+all seemed to be up to speed on the latest compliance requirements and
+best practices when it came to security.&lt;/p&gt;
+&lt;p&gt;The tour&amp;nbsp;happened&amp;nbsp;on the same day that the Democrat and Chronicle
+published &lt;a class="reference external" href="http://www.democratandchronicle.com/article/20101227/NEWS01/12270323/1002/NEWS/Effort-aims-to-cut-waste-electronics"&gt;an
+article&lt;/a&gt;
+discussing a New York State law touting a state wide, free e-waste
+recycling program. Passed in May, the law will make electronics
+manufacturers responsible for the waste generated when a computer is
+recycled. Current NYS law allows computers to be thrown out as part of
+your regular trash, leaking contaminants into the ground.
+Hazardous&amp;nbsp;metals like lead and mercury, and the chemicals that make
+plastics flame retardant can cause damage to the environment. The new
+law aims to get consumers recycling their old electronics by offsetting
+the cost back to the manufacturers.&lt;/p&gt;
+&lt;p&gt;You can visit the RCR&amp;amp;R &lt;a class="reference external" href="http://www.ewaste.com"&gt;website&lt;/a&gt; for more
+information about their facility and services, and be sure to check out
+their &lt;a class="reference external" href="http://stores.ebay.com/Electronics-Cafe"&gt;Electronics Cafe&lt;/a&gt;
+eBay store if you're interested in seeing all of the fun stuff they have
+for sale.&lt;/p&gt;
+&lt;p&gt;EDIT: Their facility is 100,000 sqft in Victor and their Central Ave.
+location is 20,000 sqft.&lt;/p&gt;
+</content></entry><entry><title>Anniversary Achievement Unlocked</title><link href="/anniversary-achievement-unlocked.html" rel="alternate"></link><published>2010-12-16T20:20:00+00:00</published><updated>2010-12-16T20:20:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-12-16:/anniversary-achievement-unlocked.html</id><summary type="html">&lt;p&gt;Last Saturday, Interlock celebrated its one year anniversary. &amp;nbsp;Although
+this wasn't the original date of our inception, it was the agreed upon
+time to meet, discuss what we did the year before, announce plans for
+the year after, decide upon the budget, and share ideas that could help
+improve Interlock …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last Saturday, Interlock celebrated its one year anniversary. &amp;nbsp;Although
+this wasn't the original date of our inception, it was the agreed upon
+time to meet, discuss what we did the year before, announce plans for
+the year after, decide upon the budget, and share ideas that could help
+improve Interlock as a whole.&lt;/p&gt;
+&lt;p&gt;Our first year was packed with tasks necessary for putting together a
+hackerspace from the ground up. &amp;nbsp;Starting out, we were a group of people
+meeting in a coffee shop with an idea and we quickly transitioned into
+getting a space to call home, incorporating the organization and
+designing the bylaws for the group. &amp;nbsp;We worked with community leaders to
+attend events like Barcamp Rochester and partnered up with our friends
+at CoWorking Rochester for lightning talks. And in between all of that,
+we tried to make time for our personal projects.&lt;/p&gt;
+&lt;p&gt;It was fun to hear what members had been working on in the space this
+year. Arduinos, Apple 2c+ hacking, knitting, networking, photography,
+infosec, robotics, ham radio, makerbot plans, virtualization, lock
+picking, phone systems, classes,&amp;nbsp;aerial&amp;nbsp;photography, are just a few of
+the projects we worked on.&lt;/p&gt;
+&lt;p&gt;This coming year, we have some exciting new ideas for everyone &amp;nbsp;and the
+members have even more ideas for their own projects. &amp;nbsp;Some of those
+ideas are about improving Interlock for the public and our community
+like offering different membership options. &amp;nbsp;We're also working on ideas
+for a project we can work on as a group.&lt;/p&gt;
+&lt;p&gt;Finally as part of our business planning, we reviewed our financial
+situation and approved a budget. &amp;nbsp;You can take a look at our costs and
+where the money goes from 2010 below.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2010/12/2010_expenses.png"&gt;&lt;img alt="Financial numbers for 2010" class="aligncenter size-medium wp-image-306" src="{filename}wp-uploads/2010/12/2010_expenses-300x124.png" style="width: 300px; height: 124px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A thanks goes out to all of our members and friends who donate their
+time, money, and ideas to our cause. &amp;nbsp;We seriously couldn't have done it
+without you.&lt;/p&gt;
+</content></entry><entry><title>Arduino Class</title><link href="/arduino-class.html" rel="alternate"></link><published>2010-08-13T10:36:00+00:00</published><updated>2010-08-13T10:36:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-08-13:/arduino-class.html</id><summary type="html">&lt;p&gt;Join us on August 24th for a 6 week class as we join O'Reilly's training
+class.&lt;a class="reference external" href="http://training.oreilly.com/arduino/"&gt;http://training.oreilly.com/arduino/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For those of you that are new to Arduinos:&lt;/p&gt;
+&lt;blockquote&gt;
+Arduino is an open-source electronics prototyping platform based on
+flexible, easy-to-use hardware and software. It's intended for
+artists, designers, hobbyists …&lt;/blockquote&gt;</summary><content type="html">&lt;p&gt;Join us on August 24th for a 6 week class as we join O'Reilly's training
+class.&lt;a class="reference external" href="http://training.oreilly.com/arduino/"&gt;http://training.oreilly.com/arduino/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;For those of you that are new to Arduinos:&lt;/p&gt;
+&lt;blockquote&gt;
+Arduino is an open-source electronics prototyping platform based on
+flexible, easy-to-use hardware and software. It's intended for
+artists, designers, hobbyists, and anyone interested in creating
+interactive objects or environments.
+&lt;a class="reference external" href="http://www.arduino.cc/"&gt;link&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;What you'll learn:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Use Processing to create basic software applications&lt;/li&gt;
+&lt;li&gt;Make your own drawing and animation tools&lt;/li&gt;
+&lt;li&gt;Create a GUI (Graphical User Interface) to control your software&lt;/li&gt;
+&lt;li&gt;Use an Arduino to provide physical controls for your drawing and
+animation tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We'd like to find out how many people are coming so if you're
+interested, please sign up on our Meetup.com page:
+&lt;a class="reference external" href="http://meetup.com/u/jvS"&gt;http://meetup.com/u/jvS&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Interlock Story From Ithaca College</title><link href="/interlock-story-from-ithaca-college.html" rel="alternate"></link><published>2010-05-10T20:30:00+00:00</published><updated>2010-05-10T20:30:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-05-10:/interlock-story-from-ithaca-college.html</id><summary type="html">&lt;p&gt;Bryant K from Ithaca College came up to visit and interview some of the
+members about hacking, Interlock, and the scene.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Bryant K from Ithaca College came up to visit and interview some of the
+members about hacking, Interlock, and the scene.&lt;/p&gt;
+</content></entry><entry><title>First Friday / Barcamp This Weekend</title><link href="/first-friday-barcamp-this-weekend.html" rel="alternate"></link><published>2010-04-01T15:34:00+00:00</published><updated>2010-04-01T15:34:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-04-01:/first-friday-barcamp-this-weekend.html</id><summary type="html">&lt;p&gt;This Friday, Interlock and the rest of the
+&lt;a class="reference external" href="http://rocwiki.org/Hungerford_Building"&gt;Hungerford&lt;/a&gt; building will
+open as part of the &lt;a class="reference external" href="http://www.firstfridayrochester.org/"&gt;First
+Friday&lt;/a&gt; art exhibit. If you
+haven't visited during a First Friday you can expect a good time to meet
+other members of Interlock and explore the building looking for some
+interesting art and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This Friday, Interlock and the rest of the
+&lt;a class="reference external" href="http://rocwiki.org/Hungerford_Building"&gt;Hungerford&lt;/a&gt; building will
+open as part of the &lt;a class="reference external" href="http://www.firstfridayrochester.org/"&gt;First
+Friday&lt;/a&gt; art exhibit. If you
+haven't visited during a First Friday you can expect a good time to meet
+other members of Interlock and explore the building looking for some
+interesting art and people.&lt;/p&gt;
+&lt;p&gt;Also this Friday, Interlock will be hosting the &lt;a class="reference external" href="http://www.rochester2600.com"&gt;Rochester
+2600&lt;/a&gt; meetings. An info sec interest
+group.&lt;/p&gt;
+&lt;p&gt;This Saturday we'll be attending &lt;a class="reference external" href="http://barcamprochester.org/"&gt;Barcamp
+Rochester&lt;/a&gt;. This is an event at RIT
+that a lot of people will be attending. The idea is anyone can attend
+but you must participate by doing a talk.&lt;/p&gt;
+&lt;p&gt;Check out our &lt;a class="reference external" href="/pages/calendar.html"&gt;calendar&lt;/a&gt; for times and other events going
+on.&lt;/p&gt;
+</content></entry><entry><title>Linux Workshop This Weekend</title><link href="/linux-workshop-this-weekend.html" rel="alternate"></link><published>2010-03-18T12:27:00+00:00</published><updated>2010-03-18T12:27:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-03-18:/linux-workshop-this-weekend.html</id><summary type="html">&lt;p&gt;We are holding a Linux Workshop this Saturday, March 20 from noon to
+4PM.&lt;/p&gt;
+&lt;p&gt;If you've never been to the Linux Workshops in the past they're a lot of
+fun and a great way to learn something new!&amp;nbsp; Everyone is welcome!&lt;/p&gt;
+&lt;p&gt;Experts will be on hand to help with any …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are holding a Linux Workshop this Saturday, March 20 from noon to
+4PM.&lt;/p&gt;
+&lt;p&gt;If you've never been to the Linux Workshops in the past they're a lot of
+fun and a great way to learn something new!&amp;nbsp; Everyone is welcome!&lt;/p&gt;
+&lt;p&gt;Experts will be on hand to help with any Linux questions or problems you
+might have. So bring in your computer and let us help you get the most
+out of it. Or come and answer questions for others.&lt;/p&gt;
+</content></entry><entry><title>Lightning Smarts</title><link href="/lightning-and-smarts.html" rel="alternate"></link><published>2010-03-10T10:59:00+00:00</published><updated>2010-03-10T10:59:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-03-10:/lightning-and-smarts.html</id><summary type="html">&lt;p&gt;Last night more than two dozen people joined us for our second edition
+of Lightning Talks. A time for people to share their interests or a
+random subject they've just learned. The talks showed the range of
+knowledge of Interlock from artificial intellegence, soldering, art
+history, orienteering, making booklets, cross …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last night more than two dozen people joined us for our second edition
+of Lightning Talks. A time for people to share their interests or a
+random subject they've just learned. The talks showed the range of
+knowledge of Interlock from artificial intellegence, soldering, art
+history, orienteering, making booklets, cross site scripting attacks,
+the board game go, IRSSI, cat5 cables, learning how to program, things
+going on at RIT, guest wireless access points, offsite backup solutions,
+and 3D molecule rendering.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/bert_m_b/4422595768[/flickr]&lt;/div&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/bert_m_b/4421833521[/flickr]&lt;/div&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/bert_m_b/4422592150[/flickr]&lt;/div&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Lightning Talks this week!</title><link href="/lightning-talks-this-week.html" rel="alternate"></link><published>2010-03-08T09:20:00+00:00</published><updated>2010-03-08T09:20:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-03-08:/lightning-talks-this-week.html</id><summary type="html">&lt;p&gt;This Tuesday at 7pm will be our second Interlock Lightning talks. If you
+didn't hear about our last one, it was a ton of fun and a lot of people
+came out.&lt;/p&gt;
+&lt;p&gt;Here's more info on what a Lightning Talk is:
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Lightning_Talk"&gt;http://en.wikipedia.org/wiki/Lightning_Talk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you've never …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This Tuesday at 7pm will be our second Interlock Lightning talks. If you
+didn't hear about our last one, it was a ton of fun and a lot of people
+came out.&lt;/p&gt;
+&lt;p&gt;Here's more info on what a Lightning Talk is:
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Lightning_Talk"&gt;http://en.wikipedia.org/wiki/Lightning_Talk&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you've never heard of the idea, it's easy. You make a presentation
+but it's only 5 minutes long. We'd like to have everyone involved. The
+more presentations we have the better. The only rules is, you have 5
+minutes and you will be timed!&lt;/p&gt;
+&lt;p&gt;If you're not a member, we want you to come and you can even do a talk
+or just sit back and be entertained.&amp;nbsp; Anyone that would like to be added
+to the list can email antitree at interlock roc dot org.&lt;/p&gt;
+</content></entry><entry><title>Lightning Talks at Rochester Hackerspace</title><link href="/lightning-talks-at-rochester-hackerspace.html" rel="alternate"></link><published>2010-01-13T12:06:00+00:00</published><updated>2010-01-13T12:06:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2010-01-13:/lightning-talks-at-rochester-hackerspace.html</id><summary type="html">&lt;p&gt;Last night marked the Rochester Hackerspace's first &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Lightning_Talk"&gt;lightning
+talk&lt;/a&gt; event where we
+invited members and friends to come and present on a subject of their
+choosing that is less than 5 minutes long. &amp;nbsp;The subjects reflected the
+diverse backgrounds of its members; making pcb boards, bump keys, book
+binding, boxes …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Last night marked the Rochester Hackerspace's first &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Lightning_Talk"&gt;lightning
+talk&lt;/a&gt; event where we
+invited members and friends to come and present on a subject of their
+choosing that is less than 5 minutes long. &amp;nbsp;The subjects reflected the
+diverse backgrounds of its members; making pcb boards, bump keys, book
+binding, boxes, wii bluetooth, and machine guns! We had almost 30 people
+crammed into our temporary hackerspace sitting on anything we could
+find. &amp;nbsp;Thanks to everyone that made it out and especially those that
+took the time to put a talk together.&lt;/p&gt;
+&lt;p&gt;[flickr]http://www.flickr.com/photos/bert_m_b/4271284795/[/flickr]&lt;/p&gt;
+&lt;p&gt;UPDATE: &lt;a class="reference external" href="http://decausemaker.org/"&gt;RemyD&lt;/a&gt; was cool enough to offer
+his point of view on a first experience visit to Rochester's Hackerspace
+and interview a few of us to help spread the word.&amp;nbsp; Check out &lt;a class="reference external" href="http://www.rit.edu/academicaffairs/centerforstudentinnovation/?p=942"&gt;RIT's
+Innovation Center
+website&lt;/a&gt;
+for the article.&lt;/p&gt;
+</content></entry><entry><title>New Years at Interlock</title><link href="/new-years-at-interlock.html" rel="alternate"></link><published>2009-12-27T18:40:00+00:00</published><updated>2009-12-27T18:40:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2009-12-27:/new-years-at-interlock.html</id><summary type="html">&lt;p&gt;Ring in the new year at Rochester's hackerspace! A bunch of us will be
+there partying, playing &amp;quot;catch phrase,&amp;quot; and building robots. Feel free
+to bring drinks and snacks.&amp;nbsp; This informal party starts at 7pm and open
+to anyone that's interested.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;Ring in the new year at Rochester's hackerspace! A bunch of us will be
+there partying, playing &amp;quot;catch phrase,&amp;quot; and building robots. Feel free
+to bring drinks and snacks.&amp;nbsp; This informal party starts at 7pm and open
+to anyone that's interested.&lt;/p&gt;
+</content></entry><entry><title>Interlock Visits Familab</title><link href="/interlock-visits-familab.html" rel="alternate"></link><published>2009-12-16T02:04:00+00:00</published><updated>2009-12-16T02:04:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2009-12-16:/interlock-visits-familab.html</id><summary type="html">&lt;p&gt;Tonight, I was able to meetup with some of the members of Familab at
+their new hackerspace in Orlando, Florida. They've started the same time
+as Interlock and have been working hard to startup a cool community of
+hackers. The space is filleed with fun toys including a server room …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tonight, I was able to meetup with some of the members of Familab at
+their new hackerspace in Orlando, Florida. They've started the same time
+as Interlock and have been working hard to startup a cool community of
+hackers. The space is filleed with fun toys including a server room,
+maker bot, media room, and drum machine.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/markmmanning/4189004591[/flickr]&lt;/div&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/markmmanning/4189752736[/flickr]&lt;/div&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/markmmanning/4189760512[/flickr]&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Thanks to everyone that showed me around. We left them with a gift of
+a hand made custom first edition Interlock Rochester Rubik's Cube.&lt;/div&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/markmmanning/4188986935[/flickr]&lt;/div&gt;
+&lt;div class="line"&gt;[flickr]http://www.flickr.com/photos/markmmanning/4189747802[/flickr]&lt;/div&gt;
+&lt;/div&gt;
+</content></entry><entry><title>First Meeting With A Home</title><link href="/first-meeting-with-a-home.html" rel="alternate"></link><published>2009-12-10T09:07:00+00:00</published><updated>2009-12-10T09:07:00+00:00</updated><author><name>antitree</name></author><id>tag:None,2009-12-10:/first-meeting-with-a-home.html</id><summary type="html">&lt;p&gt;This week was the first time we were able to visit the new home of
+Interlock at 1115 E. Main St, Rochester.&amp;nbsp; This is a temporary setup
+until the final space across the hall is finished in February but it's
+still home.&lt;/p&gt;
+&lt;p&gt;[flickr]http://www.flickr.com/photos/bert_m_b/4171929450 …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This week was the first time we were able to visit the new home of
+Interlock at 1115 E. Main St, Rochester.&amp;nbsp; This is a temporary setup
+until the final space across the hall is finished in February but it's
+still home.&lt;/p&gt;
+&lt;p&gt;[flickr]http://www.flickr.com/photos/bert_m_b/4171929450/[/flickr]&lt;/p&gt;
+&lt;p&gt;Thanks to everyone that was able to come and those of us that were able
+to bring stuff to make it less empty.&lt;/p&gt;
+</content></entry></feed>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A Pelican Blog</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Full Atom Feed" />
+        <link href="/feeds/hardware.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Categories Atom Feed" />
+
+
+    <meta name="tags" content="amiga" />
+    <meta name="tags" content="repair" />
+    <meta name="tags" content="retro computing" />
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/amiga-1000-repair-2.html" rel="bookmark"
+         title="Permalink to Amiga 1000 Repair">Amiga 1000 Repair</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2012-10-17T10:23:00+00:00">
+      Wed 17 October 2012
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/bleullama.html">BleuLlama</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><a class="reference external" href="http://4.bp.blogspot.com/-_QFAx9A8wgI/UH7Dhk3QsGI/AAAAAAAABsU/S9Sr8gFkLq4/s1600/IMG_0544.JPG"><img alt="image0" src="http://4.bp.blogspot.com/-_QFAx9A8wgI/UH7Dhk3QsGI/AAAAAAAABsU/S9Sr8gFkLq4/s640/IMG_0544.JPG" style="width: 640px; height: 476px;" /></a></td>
+</tr>
+<tr><td>Amiga 1000 computer (1985) with an Amiga 3000 &quot;pregnant&quot; mouse.</td>
+</tr>
+</tbody>
+</table>
+<p>One of the fun things about owning retro computers is that you get to
+repair them yourself. (Perhaps this isn't a fun thing for some of you,
+but I really enjoy it.)</p>
+<p>About 6 years ago, my Amiga 1000 started showing some strange behaviors
+but only in the green levels of the video. &nbsp;If you dragged the green
+slider, instead of it stepping up gradually from dark to bright, it
+would get brighter, darker, brighter, darker, much brighter, a little
+darker than that, and so on.</p>
+<p>About 5 years ago, I had opened it up and replaced two '244 latches in
+the video output section. &nbsp;I kinda did this blindly by looking at the
+schematic...</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><a class="reference external" href="http://4.bp.blogspot.com/-8rNHmjvwHLo/UH7HWb-166I/AAAAAAAABtY/AIYo8RwFBsM/s1600/Denise-out.gif"><img alt="image1" src="http://4.bp.blogspot.com/-8rNHmjvwHLo/UH7HWb-166I/AAAAAAAABtY/AIYo8RwFBsM/s640/Denise-out.gif" style="width: 537px; height: 640px;" /></a></td>
+</tr>
+<tr><td><p class="first">Video output circuit on the A1000 --&nbsp;Left to right:</p>
+<p class="last">Denise coprocessor,&nbsp;'244 latches, resistor ladders, and output
+transistors.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>...and replacing the two latches, assuming that one of them had gone
+bad. &nbsp;After doing the repair, the problem persisted and I just gave up
+on it for a while.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><a class="reference external" href="http://3.bp.blogspot.com/-0xu4SI6DgCw/UH7DiVA7OzI/AAAAAAAABsc/Dqd9vDBDA2E/s1600/IMG_0546.JPG"><img alt="image2" src="http://3.bp.blogspot.com/-0xu4SI6DgCw/UH7DiVA7OzI/AAAAAAAABsc/Dqd9vDBDA2E/s400/IMG_0546.JPG" style="width: 400px; height: 298px;" /></a></td>
+</tr>
+<tr><td><p class="first">Green section is at the top.</p>
+<p class="last">The two '244 latches are now socketed and replaced.</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>A few days ago, a comment on the above video re-sparked interest in this
+project and I decided to bring the Amiga over
+to&nbsp;<a class="reference external" href="/">Interlock</a>&nbsp;and really get to the
+bottom of the problem. I hooked it up to a scope and followed the paths
+according to the schematics.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><a class="reference external" href="http://3.bp.blogspot.com/-BGRmTKCir9A/UH7Dk_Ln6tI/AAAAAAAABs0/CZfwXU_-m0E/s1600/IMG_0549.JPG"><img alt="image3" src="http://3.bp.blogspot.com/-BGRmTKCir9A/UH7Dk_Ln6tI/AAAAAAAABs0/CZfwXU_-m0E/s640/IMG_0549.JPG" style="width: 640px; height: 476px;" /></a></td>
+</tr>
+<tr><td>Amiga 1000 apart, hooked up to a scope and a LCD monitor.</td>
+</tr>
+</tbody>
+</table>
+<p>The video circuit is on the left edge of the board, just under the power
+cable.</p>
+<p>I traced the lines from input on Q2 (where all of the four resistors in
+the D-to-A resistor ladder are joined, and back through to the latch,
+and then continuing back to the Denise video generation coprocessor.</p>
+<p><a class="reference external" href="http://4.bp.blogspot.com/-Z9jwp8H9SmI/UH7Dj99trmI/AAAAAAAABss/JmJd8sqc1C0/s1600/IMG_0548.JPG"><img alt="image4" class="aligncenter" src="http://4.bp.blogspot.com/-Z9jwp8H9SmI/UH7Dj99trmI/AAAAAAAABss/JmJd8sqc1C0/s400/IMG_0548.JPG" style="width: 400px; height: 298px;" /></a></p>
+<div><p>I tried jumpering across various portions of the resistor ladder to try
+to track down exactly where the issue was. &nbsp;It gave some pretty
+interesting results, but really only helped me track down where the
+issue is.&nbsp;&nbsp;I eventually came to the realization that something on the
+R55 data path was drawing it down to ground, or at least close to
+ground. (Where the left alligator clip is attached in the above
+picture.)</p>
+</div><table border="1" class="docutils">
+<colgroup>
+<col width="100%" />
+</colgroup>
+<tbody valign="top">
+<tr><td><a class="reference external" href="http://1.bp.blogspot.com/-mcGHDzgkU68/UH7DjXgwZYI/AAAAAAAABsk/aphCXSC7ANY/s1600/IMG_0547.JPG"><img alt="image5" src="http://1.bp.blogspot.com/-mcGHDzgkU68/UH7DjXgwZYI/AAAAAAAABsk/aphCXSC7ANY/s400/IMG_0547.JPG" style="width: 400px; height: 298px;" /></a></td>
+</tr>
+<tr><td><p class="first">The &quot;Green&quot; section of the video generation circuit in</p>
+<p class="last">the Amiga 1000 with notes</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div><p>I tried pulling out the pins on the Denise's G1 output (pin 29) and
+soldering it directly to pin 15 of U6A, and it didn't change anything.
+&nbsp;I then pretty much realized that the issue was on the other side of U6A
+-- the connection between pin 5 of U6A and the left side of R55 (4k
+resistor). &nbsp;I decided to leave the above wire &quot;flying&quot; and pulled the
+resistor leg, soldering it directly to pin 5 of U6A.</p>
+</div><p><a class="reference external" href="http://2.bp.blogspot.com/-a3ejuzXFvlE/UH7Dm8-OTcI/AAAAAAAABtE/vTafHBGflXY/s1600/IMG_0565.PNG"><img alt="image6" class="aligncenter" src="http://2.bp.blogspot.com/-a3ejuzXFvlE/UH7Dm8-OTcI/AAAAAAAABtE/vTafHBGflXY/s640/IMG_0565.PNG" style="width: 640px; height: 426px;" /></a></p>
+<div><p>This did the trick! &nbsp;It worked. &nbsp;I probably could have restored the
+flying wire back to the original traces on the board, desoldering the
+wire, re-seating the chips, but I had flexed those pins in and out a
+lot, and decided to not stress out the pins anymore, and just leave it.
+&nbsp;-- &quot;It works... don't touch it!&quot;</p>
+<p>After 5 years of it sitting on a shelf, my trusty 'ol Amiga, my favorite
+computer, is finally is working again!</p>
+<p>(This post has been cross posted from my personal blog here:<a class="reference external" href="http://geodesicsphere.blogspot.com/2012/10/amiga-1000-repaired.html">Scott's
+Project Blog: Amiga
+Repaired!</a>)</p>
+</div>
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

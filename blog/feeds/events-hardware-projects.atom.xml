@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Events, Hardware, Projects</title><link href="/" rel="alternate"></link><link href="/feeds/events-hardware-projects.atom.xml" rel="self"></link><id>/</id><updated>2013-07-23T14:23:00+00:00</updated><entry><title>Family Friday at RMSC</title><link href="/family-friday-at-rmsc.html" rel="alternate"></link><published>2013-07-23T14:23:00+00:00</published><updated>2013-07-23T14:23:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2013-07-23:/family-friday-at-rmsc.html</id><summary type="html">&lt;p&gt;Interlock brought five demonstrations to our table at the &lt;a class="reference external" href="http://www.rmsc.org/"&gt;Rochester
+Museum &amp;amp; Science Center&lt;/a&gt; Friday, July 19, 2013.&lt;/p&gt;
+&lt;p&gt;This was noon to 4 for the &lt;em&gt;Make It!&lt;/em&gt; installment of their summer
+&lt;a class="reference external" href="http://www.rmsc.org/Experiences/FamilyPrograms/FamilyFridays/"&gt;Family
+Fridays&lt;/a&gt;
+series.&lt;/p&gt;
+&lt;p&gt;From left to right, we see the
+&lt;a class="reference external" href="/author/macgyvrbot.html"&gt;MacGyverbot&lt;/a&gt; Printrbot
+LC generously lent for this demonstration but often …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Interlock brought five demonstrations to our table at the &lt;a class="reference external" href="http://www.rmsc.org/"&gt;Rochester
+Museum &amp;amp; Science Center&lt;/a&gt; Friday, July 19, 2013.&lt;/p&gt;
+&lt;p&gt;This was noon to 4 for the &lt;em&gt;Make It!&lt;/em&gt; installment of their summer
+&lt;a class="reference external" href="http://www.rmsc.org/Experiences/FamilyPrograms/FamilyFridays/"&gt;Family
+Fridays&lt;/a&gt;
+series.&lt;/p&gt;
+&lt;p&gt;From left to right, we see the
+&lt;a class="reference external" href="/author/macgyvrbot.html"&gt;MacGyverbot&lt;/a&gt; Printrbot
+LC generously lent for this demonstration but often seen in operation at
+Interlock, the &lt;a class="reference external" href="{filename}/interlock-reprapchester.rst"&gt;Interlock
+Huxley&lt;/a&gt;
+&lt;a class="reference external" href="http://reprappro.com/products/huxley/"&gt;RepRapPro&lt;/a&gt; 3D printer, a blue
+and white lunch-sized slow cooker keeping some &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Polycaprolactone"&gt;Polycaprolactone (PCL)
+hand-moldable&lt;/a&gt; and
+&lt;a class="reference external" href="http://reprap.org/wiki/Polycaprolactone"&gt;3D-printable thermoplastic&lt;/a&gt;
+(&lt;a class="reference external" href="{filename}/dashing-through-the-thermoplastic-2.rst"&gt;previously&lt;/a&gt;)
+warm and ready to try for free-form molding, the &lt;a class="reference external" href="http://www.thingiverse.com/thing:116005"&gt;shoebox
+regatta&lt;/a&gt; demonstration (with
+special guest &lt;a class="reference external" href="http://www.thingiverse.com/thing:14702"&gt;Mr. Jaws!&lt;/a&gt;),
+and at the far edge, a solderless breadboard with a temperature
+comparator demonstration featuring two &lt;a class="reference external" href="http://www.ti.com/lit/ds/symlink/lm35.pdf"&gt;LM35 temperature
+sensors&lt;/a&gt; picked up
+recently from &lt;a class="reference external" href="http://www.homehardware.ca/en/dealer-microsites/1381-7/contact-information.htm#"&gt;College Home
+Hardware&lt;/a&gt;
+in &lt;a class="reference external" href="http://goo.gl/maps/7Cga8"&gt;Toronto&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_1480&amp;quot; align=&amp;quot;alignnone&amp;quot;
+width=&amp;quot;512&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2013/07/rmsc-anon-512.jpg"&gt;&lt;img alt="Interlock's table at RMSC" class="size-full wp-image-1480" src="/wp-uploads/2013/07/rmsc-anon-512.jpg" style="width: 512px; height: 384px;" /&gt;&lt;/a&gt; Interlock table at RMSC Family
+Friday[/caption]&lt;/p&gt;
+&lt;p&gt;We shared that portion of the first floor with some folks from &lt;a class="reference external" href="http://www.team340.org/"&gt;Greater
+Rochester Robotics&lt;/a&gt;, who brought the robot
+from their most recent FIRST Robotics Competition season, &lt;a class="reference external" href="http://www.usfirst.org/roboticsprograms/frc/2013-game"&gt;Ultimate
+Ascent.&lt;/a&gt; They
+were letting visitors move the robot around the floor and occasionally
+launch a plastic flying disk or two.&lt;/p&gt;
+&lt;p&gt;It wasn't quite the battle of the bots, but a couple of times the 'bot
+got up a good head start and whacked into the front of our table,
+sloshing around the water in the PCL crock and the regatta box. Midway
+through, such a collision &lt;em&gt;might&lt;/em&gt; have had a role to play in loosening
+up the Huxley's X-axis drive gear (now since fixed), at which point we
+switched from printing in silver-gray PLA (polylactic acid) on the
+Huxley to printing in fluorescent yellow ABS
+(acrylonitrile/butadiene/styrene) on the MacGyverbot. This led us to
+discover that kids love them some bright plastic sharks.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_1481&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;512&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2013/07/nemesis-pixelize-5121.jpg"&gt;&lt;img alt="GRR robot at RMSC" class="size-full wp-image-1481" src="/wp-uploads/2013/07/nemesis-pixelize-5121.jpg" style="width: 512px; height: 384px;" /&gt;&lt;/a&gt; Greater Rochester Robotic's 2013 FIRST robot wheels
+around the first floor of the Rochester Museum &amp;amp; Science
+Center.[/caption]&lt;/p&gt;
+</content><category term="3d printer"></category><category term="3D Printing"></category><category term="demo"></category><category term="electronics"></category><category term="makerspace"></category><category term="plastic"></category></entry></feed>

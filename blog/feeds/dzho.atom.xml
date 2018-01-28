@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - dzho</title><link href="/" rel="alternate"></link><link href="/feeds/dzho.atom.xml" rel="self"></link><id>/</id><updated>2014-06-24T22:07:00+00:00</updated><entry><title>Raspberry Pi IP audio announcement: ippivox</title><link href="/raspberry-pi-ip-audio-announcement-ippivox.html" rel="alternate"></link><published>2014-06-24T22:07:00+00:00</published><updated>2014-06-24T22:07:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2014-06-24:/raspberry-pi-ip-audio-announcement-ippivox.html</id><summary type="html">&lt;p&gt;So, you can ssh into your Raspberry Pi, even if you don't have any
+HDMI-capable display equipment at hand.&amp;nbsp; The trick, though, is knowing
+what IP address gets assigned to the Pi so that you know what to feed
+into your ssh client.&lt;/p&gt;
+&lt;p&gt;Earlier, these pages addressed this problem &lt;a class="reference external" href="{filename}/raspberry-pi-macgyver.rst"&gt;using …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;So, you can ssh into your Raspberry Pi, even if you don't have any
+HDMI-capable display equipment at hand.&amp;nbsp; The trick, though, is knowing
+what IP address gets assigned to the Pi so that you know what to feed
+into your ssh client.&lt;/p&gt;
+&lt;p&gt;Earlier, these pages addressed this problem &lt;a class="reference external" href="{filename}/raspberry-pi-macgyver.rst"&gt;using VNC to provide a
+remote Raspberry Pi
+display&lt;/a&gt;
+(eg, from your laptop).&amp;nbsp; It's a good approach, well documented.&lt;/p&gt;
+&lt;p&gt;Alternately, with a little bit of prep work, perhaps using the above
+technique to get everything set up to start, you can program your Pi to
+announce its IP address via audio using text-to-speech.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_1665&amp;quot; align=&amp;quot;aligncenter&amp;quot;
+width=&amp;quot;300&amp;quot;]&lt;img alt="earbuds" class="wp-image-1665 size-medium" src="{filename}wp-uploads/2014/06/earbuds-300x225.jpg" style="width: 300px; height: 225px;" /&gt; Much cheaper output than a HDMI-capable
+monitor[/caption]&lt;/p&gt;
+&lt;p&gt;The essence of this trick is to install a text-to-speech program, create
+a small script to extract the IP address, to pass that address to the
+text-to-speech program, and then finally to configure the initialization
+scripts to run the readout script shortly after booting.&lt;/p&gt;
+&lt;p&gt;I'm working with a rev B Raspberry Pi running Raspbian, but the approach
+should be generalizable to any distro for which a TTS package is
+available.&lt;/p&gt;
+&lt;p&gt;First, set up the Raspberry Pi with keyboard, mouse, wired networking,
+and video, either HDMI or analog.&amp;nbsp; If you use analog, you may need to
+increase the font size considerably even to be able to read the screen.
+Open a terminal and install festival:&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;sudo &lt;span class="pre"&gt;apt-get&lt;/span&gt; install festival&lt;/tt&gt;&lt;/p&gt;
+&lt;p&gt;Next, if you haven't already done so, create a &lt;strong&gt;bin&lt;/strong&gt; directory in your
+home directory to hold this and other small local scripts and programs:&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;mkdir ~/bin&lt;/tt&gt;&lt;/p&gt;
+&lt;p&gt;Then, open your favorite editor to create a small script file containing
+the following:&lt;/p&gt;
+&lt;p&gt;`` #!/usr/bin/bash /usr/bin/amixer cset numid=3 1 /sbin/ifconfig | /bin/grep -A3 eth0 | /bin/grep inet | /usr/bin/tr ':' ' ' | /usr/bin/cut -d-f 13 | /usr/bin/festival --tts``&lt;/p&gt;
+&lt;p&gt;Be careful if you try to copy-and-paste that that a) you get the
+single-quotes carried over into the right place and b) that you don't
+have any space or tab or other otherwise hard-to-see non-newline
+whitespace characters at the end of the lines with backslashes. If
+either error crops up, edit to fix.&lt;/p&gt;
+&lt;p&gt;(NB: ifconfig is a bit old school. Interlock HAM and rally enthusiast
+HoopyCat points out that to be fully kids-these-days compliant, one
+should use the &lt;tt class="docutils literal"&gt;ip&lt;/tt&gt; command.)*&lt;/p&gt;
+&lt;p&gt;Save the file as &lt;strong&gt;/home/pi/bin/ippixvox.sh&lt;/strong&gt; and give it execute
+permissions with &lt;tt class="docutils literal"&gt;chmod a+x /home/pi/bin/ippixvox.sh&lt;/tt&gt;&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;You can now test it by typing&lt;/div&gt;
+&lt;div class="line"&gt;`` ~/bin/ippivox.sh``&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;into your terminal with a speaker or earphones plugged in. If you are
+connected to a network (and if not, how did you get festival
+downloaded?) you should hear the IPv4 address read off. If not, run
+ifconfig to check to make sure you do have IPv4 address (&amp;quot;inet&amp;quot;)
+assigned, and that it is assigned to eth0. If it's assigned to something
+other than eth0, modify the script above to suit.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Finally, to make this work at boot time, open the file&lt;/div&gt;
+&lt;div class="line"&gt;**
+/etc/init.d/rc.local**&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;in an editor and add at the very bottom this one line&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;/home/pi/bin/ippivox.sh&lt;/tt&gt;&lt;/p&gt;
+&lt;p&gt;Save, reboot, and listen for the IP address to be read to you.&lt;/p&gt;
+&lt;p&gt;If it works, then you can dispense with attaching a video output device
+when it comes time to hack on the Pi in favor of just logging in from a
+machine elsewhere on the same network using ssh.&lt;/p&gt;
+&lt;p&gt;I find it useful to play a short alert announcement before the IP
+address is read. I also use a second TTS program, flite, both to give me
+a second shot at hearing the IP and also in hopes that I'll be better
+able to understand at least one of them.&lt;/p&gt;
+&lt;p&gt;My more lengthy approach to this is documented in the following github
+gist:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://gist.github.com/deejoe/ce7984f94b91bdb6b48e"&gt;https://gist.github.com/deejoe/ce7984f94b91bdb6b48e&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Thanks go Matt via the Raspberry Pi blog for this &lt;a class="reference external" href="http://www.raspberrypi-spy.co.uk/2013/06/raspberry-pi-command-line-audio/"&gt;tip on configuring
+the
+audio.&lt;/a&gt;&lt;/p&gt;
+</content></entry><entry><title>Unexpected googling win</title><link href="/unexpected-googling-win.html" rel="alternate"></link><published>2014-01-12T13:15:00+00:00</published><updated>2014-01-12T13:15:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2014-01-12:/unexpected-googling-win.html</id><summary type="html">&lt;p&gt;So, pursuing goals too convoluted to explain well on a lazy Sunday, I
+went to see what I could find about a certain type of data structure
+(trees) in a certain &lt;a class="reference external" href="http://www.pigdog.org/auto/electro_diddle/link/915.html"&gt;awesome but increasingly
+obscure&lt;/a&gt;
+language called &lt;a class="reference external" href="http://www.forth.org/"&gt;Forth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds.png"&gt;&lt;img alt="trees-in-forth-screenie-2-3rds" class="alignnone size-medium wp-image-1622" src="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds-300x220.png" style="width: 300px; height: 220px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm not exactly sure why I find this hilarious, but I do …&lt;/p&gt;</summary><content type="html">&lt;p&gt;So, pursuing goals too convoluted to explain well on a lazy Sunday, I
+went to see what I could find about a certain type of data structure
+(trees) in a certain &lt;a class="reference external" href="http://www.pigdog.org/auto/electro_diddle/link/915.html"&gt;awesome but increasingly
+obscure&lt;/a&gt;
+language called &lt;a class="reference external" href="http://www.forth.org/"&gt;Forth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds.png"&gt;&lt;img alt="trees-in-forth-screenie-2-3rds" class="alignnone size-medium wp-image-1622" src="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds-300x220.png" style="width: 300px; height: 220px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm not exactly sure why I find this hilarious, but I do.&lt;/p&gt;
+</content><category term="forth"></category><category term="hacking"></category><category term="programming"></category></entry><entry><title>Rochester Academy of Science: 40th Annual Fall Scientific Paper Session</title><link href="/1569.html" rel="alternate"></link><published>2013-11-09T10:52:00+00:00</published><updated>2013-11-09T10:52:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2013-11-09:/1569.html</id><summary type="html">&lt;p&gt;The &lt;a class="reference external" href="http://www.rasny.org/"&gt;Rochester Academy of Science&lt;/a&gt; holds its
+&lt;a class="reference external" href="http://www.rasny.org/FallPaper/FallPaper.htm"&gt;40th Annual Fall Scientific Paper
+Session&lt;/a&gt;, consisting of
+short talks, posters, and a keynote talk, all today at Nazareth College.&lt;/p&gt;
+&lt;div dir="ltr" data-font-name="Times New Roman"
+data-canvas-width="168.57344502387997"&gt;&lt;p&gt;Subjects include chemistry and biochemistry, cell biology, physics,
+zoology, evolution and paleontology, astronomy, archaeology, education,
+pedagogy, ecology, with Roger Easton of RIT presenting …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="http://www.rasny.org/"&gt;Rochester Academy of Science&lt;/a&gt; holds its
+&lt;a class="reference external" href="http://www.rasny.org/FallPaper/FallPaper.htm"&gt;40th Annual Fall Scientific Paper
+Session&lt;/a&gt;, consisting of
+short talks, posters, and a keynote talk, all today at Nazareth College.&lt;/p&gt;
+&lt;div dir="ltr" data-font-name="Times New Roman"
+data-canvas-width="168.57344502387997"&gt;&lt;p&gt;Subjects include chemistry and biochemistry, cell biology, physics,
+zoology, evolution and paleontology, astronomy, archaeology, education,
+pedagogy, ecology, with Roger Easton of RIT presenting the keynote,
+&lt;strong&gt;Imaging technologies and the Impending New Golden&lt;/strong&gt; &lt;strong&gt;Age in
+Manuscript Studies,&lt;/strong&gt; all detailed in &lt;a class="reference external" href="http://www.rasny.org/FallPaper/RAS%202013%20Program-4e.pdf"&gt;the full
+program.&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;p&gt;Registration for lunch closed November 4, but the the sessions are open
+to the public and there's still time to catch some of the posters and
+the keynote.&lt;/p&gt;
+</content><category term="science"></category></entry><entry><title>Family Friday at RMSC</title><link href="/family-friday-at-rmsc.html" rel="alternate"></link><published>2013-07-23T14:23:00+00:00</published><updated>2013-07-23T14:23:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2013-07-23:/family-friday-at-rmsc.html</id><summary type="html">&lt;p&gt;Interlock brought five demonstrations to our table at the &lt;a class="reference external" href="http://www.rmsc.org/"&gt;Rochester
+Museum &amp;amp; Science Center&lt;/a&gt; Friday, July 19, 2013.&lt;/p&gt;
+&lt;p&gt;This was noon to 4 for the &lt;em&gt;Make It!&lt;/em&gt; installment of their summer
+&lt;a class="reference external" href="http://www.rmsc.org/Experiences/FamilyPrograms/FamilyFridays/"&gt;Family
+Fridays&lt;/a&gt;
+series.&lt;/p&gt;
+&lt;p&gt;From left to right, we see the
+&lt;a class="reference external" href="/author/macgyvrbot.html"&gt;MacGyverbot&lt;/a&gt; Printrbot
+LC generously lent for this demonstration but often …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Interlock brought five demonstrations to our table at the &lt;a class="reference external" href="http://www.rmsc.org/"&gt;Rochester
+Museum &amp;amp; Science Center&lt;/a&gt; Friday, July 19, 2013.&lt;/p&gt;
+&lt;p&gt;This was noon to 4 for the &lt;em&gt;Make It!&lt;/em&gt; installment of their summer
+&lt;a class="reference external" href="http://www.rmsc.org/Experiences/FamilyPrograms/FamilyFridays/"&gt;Family
+Fridays&lt;/a&gt;
+series.&lt;/p&gt;
+&lt;p&gt;From left to right, we see the
+&lt;a class="reference external" href="/author/macgyvrbot.html"&gt;MacGyverbot&lt;/a&gt; Printrbot
+LC generously lent for this demonstration but often seen in operation at
+Interlock, the &lt;a class="reference external" href="{filename}/interlock-reprapchester.rst"&gt;Interlock
+Huxley&lt;/a&gt;
+&lt;a class="reference external" href="http://reprappro.com/products/huxley/"&gt;RepRapPro&lt;/a&gt; 3D printer, a blue
+and white lunch-sized slow cooker keeping some &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Polycaprolactone"&gt;Polycaprolactone (PCL)
+hand-moldable&lt;/a&gt; and
+&lt;a class="reference external" href="http://reprap.org/wiki/Polycaprolactone"&gt;3D-printable thermoplastic&lt;/a&gt;
+(&lt;a class="reference external" href="{filename}/dashing-through-the-thermoplastic-2.rst"&gt;previously&lt;/a&gt;)
+warm and ready to try for free-form molding, the &lt;a class="reference external" href="http://www.thingiverse.com/thing:116005"&gt;shoebox
+regatta&lt;/a&gt; demonstration (with
+special guest &lt;a class="reference external" href="http://www.thingiverse.com/thing:14702"&gt;Mr. Jaws!&lt;/a&gt;),
+and at the far edge, a solderless breadboard with a temperature
+comparator demonstration featuring two &lt;a class="reference external" href="http://www.ti.com/lit/ds/symlink/lm35.pdf"&gt;LM35 temperature
+sensors&lt;/a&gt; picked up
+recently from &lt;a class="reference external" href="http://www.homehardware.ca/en/dealer-microsites/1381-7/contact-information.htm#"&gt;College Home
+Hardware&lt;/a&gt;
+in &lt;a class="reference external" href="http://goo.gl/maps/7Cga8"&gt;Toronto&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_1480&amp;quot; align=&amp;quot;alignnone&amp;quot;
+width=&amp;quot;512&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2013/07/rmsc-anon-512.jpg"&gt;&lt;img alt="Interlock's table at RMSC" class="size-full wp-image-1480" src="/wp-uploads/2013/07/rmsc-anon-512.jpg" style="width: 512px; height: 384px;" /&gt;&lt;/a&gt; Interlock table at RMSC Family
+Friday[/caption]&lt;/p&gt;
+&lt;p&gt;We shared that portion of the first floor with some folks from &lt;a class="reference external" href="http://www.team340.org/"&gt;Greater
+Rochester Robotics&lt;/a&gt;, who brought the robot
+from their most recent FIRST Robotics Competition season, &lt;a class="reference external" href="http://www.usfirst.org/roboticsprograms/frc/2013-game"&gt;Ultimate
+Ascent.&lt;/a&gt; They
+were letting visitors move the robot around the floor and occasionally
+launch a plastic flying disk or two.&lt;/p&gt;
+&lt;p&gt;It wasn't quite the battle of the bots, but a couple of times the 'bot
+got up a good head start and whacked into the front of our table,
+sloshing around the water in the PCL crock and the regatta box. Midway
+through, such a collision &lt;em&gt;might&lt;/em&gt; have had a role to play in loosening
+up the Huxley's X-axis drive gear (now since fixed), at which point we
+switched from printing in silver-gray PLA (polylactic acid) on the
+Huxley to printing in fluorescent yellow ABS
+(acrylonitrile/butadiene/styrene) on the MacGyverbot. This led us to
+discover that kids love them some bright plastic sharks.&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_1481&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;512&amp;quot;]&lt;a class="reference external" href="/wp-uploads/2013/07/nemesis-pixelize-5121.jpg"&gt;&lt;img alt="GRR robot at RMSC" class="size-full wp-image-1481" src="/wp-uploads/2013/07/nemesis-pixelize-5121.jpg" style="width: 512px; height: 384px;" /&gt;&lt;/a&gt; Greater Rochester Robotic's 2013 FIRST robot wheels
+around the first floor of the Rochester Museum &amp;amp; Science
+Center.[/caption]&lt;/p&gt;
+</content><category term="3d printer"></category><category term="3D Printing"></category><category term="demo"></category><category term="electronics"></category><category term="makerspace"></category><category term="plastic"></category></entry><entry><title>new spaces galore</title><link href="/new-spaces-galore.html" rel="alternate"></link><published>2013-02-09T10:58:00+00:00</published><updated>2013-02-09T10:58:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2013-02-09:/new-spaces-galore.html</id><summary type="html">&lt;p&gt;Just thought I'd take some time to catch us all up on several recent
+developments beyond Interlock, but somewhat local, that are relevant to
+our interests.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Rochester Brainery logo" src="/wp-uploads/2013/02/brainery-third.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Last month, I read in the &lt;a class="reference external" href="http://www.democratandchronicle.com/article/20130109/HER_GETTING_AHEAD/301090001/Rochester-Brainery"&gt;local
+paper&lt;/a&gt;
+of the formation of &lt;a class="reference external" href="http://rochesterbrainery.com/"&gt;the Rochester
+Brainery&lt;/a&gt;, opening early next month in
+the Village Gate, across …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Just thought I'd take some time to catch us all up on several recent
+developments beyond Interlock, but somewhat local, that are relevant to
+our interests.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Rochester Brainery logo" src="/wp-uploads/2013/02/brainery-third.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Last month, I read in the &lt;a class="reference external" href="http://www.democratandchronicle.com/article/20130109/HER_GETTING_AHEAD/301090001/Rochester-Brainery"&gt;local
+paper&lt;/a&gt;
+of the formation of &lt;a class="reference external" href="http://rochesterbrainery.com/"&gt;the Rochester
+Brainery&lt;/a&gt;, opening early next month in
+the Village Gate, across the Goodman Street railyard from us here at
+Interlock and our neighbors at &lt;a class="reference external" href="http://thehungerford.com/"&gt;the
+Hungerford&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Smokestack Coworking logo" src="/wp-uploads/2013/02/smokestackcowork.png" /&gt;&lt;/p&gt;
+&lt;p&gt;We'll always owe a debt to Dave at &lt;a class="reference external" href="http://www.coworkingrochester.com/"&gt;Coworking
+Rochester&lt;/a&gt; for helping us get
+started by offering space and moral support during some of our bigger
+early organizational meetings, before we settled on a space of our own
+to rent. Still, it's interesting to see people coming together in
+another coworking space in town, &lt;a class="reference external" href="http://smokestackcowork.com/"&gt;Smokestack
+Coworking&lt;/a&gt;, &lt;a class="reference external" href="http://rocwiki.org/High_Falls"&gt;High
+Falls&lt;/a&gt; area.&lt;/p&gt;
+&lt;p&gt;Here's hoping they both thrive and complement each other.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Ithaca Generator logo" src="/wp-uploads/2013/02/robotic-logo-like2.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Last month we received a visitor from Ithaca, José, who traveled up with
+a couple of friends maybe to join what he thought at the time was the
+closest hackerspace to him. I had a great time talking with him, so it
+was a little bittersweet to tell him &lt;a class="reference external" href="http://ithacagenerator.org/"&gt;Ithaca
+Generator&lt;/a&gt; has recently gotten off to
+what looks like a good start and might just meet his needs without the
+long drive.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;I wasn't able to make it to their &lt;a class="reference external" href="http://ithacagenerator.org/events/open-house/"&gt;open
+house&lt;/a&gt; back in
+December. But, I&lt;/div&gt;
+&lt;div class="line"&gt;did visit with some family over the holidays who were able to go and
+got to see the &lt;a class="reference external" href="http://www.evilmadscientist.com/2008/edge-lit-holiday-cards/"&gt;party
+favors&lt;/a&gt;
+they made at the open house. Fun. Look like good things are in store
+for the hands-on, DIY hacker and maker community in Ithaca.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img alt="Buffalo Labs logo" src="/wp-uploads/2013/02/buffalo-lab.png" /&gt;&lt;/p&gt;
+&lt;p&gt;We've also been having a friend, Joe, make the trip from Niagara Falls
+every so often to visit, which has had us asking how things are going at
+&lt;a class="reference external" href="http://www.buffalolab.org/blog/"&gt;Buffalo Lab&lt;/a&gt;. Figured we've give
+them a shout out while we're at it.&lt;/p&gt;
+&lt;p&gt;[placehold for eventual &lt;strong&gt;Rochester Makerspace&lt;/strong&gt; logo]&lt;/p&gt;
+&lt;p&gt;Last, but hopefully not least, the most recent big news is a
+much-anticipated step for the
+&lt;a class="reference external" href="http://www.rochestermakerspace.org/"&gt;group&lt;/a&gt; calling themselves
+Rochester Makerspace. They've rented a space a little north of downtown,
+on St. Paul Street. Just Tuesday they had &lt;a class="reference external" href="http://www.rochestermakerspace.org/tuesday-meeting-reminder-pizza-0205/"&gt;a get-together with
+pizza&lt;/a&gt;
+at the new location.&lt;/p&gt;
+&lt;p&gt;Though the planning for this new space has been careful and deliberate,
+ongoing since at least this last summer, they now are moving towards
+ambitious goals to grow fast. I continue eagerly to await the opening of
+another maker-friendly space in Rochester, expected some time in March.&lt;/p&gt;
+</content><category term="makerspace"></category><category term="visitor"></category></entry><entry><title>Printing a 3D Insulin Model</title><link href="/3d-insulin-model-printing.html" rel="alternate"></link><published>2012-06-05T08:10:00+00:00</published><updated>2012-06-05T08:10:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2012-06-05:/3d-insulin-model-printing.html</id><summary type="html">&lt;p&gt;We've held the second of &lt;a class="reference external" href="http://twitter.com/#!/interlockroc/statuses/200546366982848512"&gt;our monthly 3D printing
+meetings&lt;/a&gt;
+recently, with a fifth person getting trained up on how to use our
+current printer, and are on the cusp of another advancement in our
+&lt;a class="reference external" href="{filename}/quick-open-house-recap.rst"&gt;previously-mentioned 3D printing
+capabilities&lt;/a&gt;,
+now that 3 people have decided which printer design they're going …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We've held the second of &lt;a class="reference external" href="http://twitter.com/#!/interlockroc/statuses/200546366982848512"&gt;our monthly 3D printing
+meetings&lt;/a&gt;
+recently, with a fifth person getting trained up on how to use our
+current printer, and are on the cusp of another advancement in our
+&lt;a class="reference external" href="{filename}/quick-open-house-recap.rst"&gt;previously-mentioned 3D printing
+capabilities&lt;/a&gt;,
+now that 3 people have decided which printer design they're going to
+build next.&lt;/p&gt;
+&lt;p&gt;In the meantime, we continue to torture Beardicus's poor little &lt;a class="reference external" href="http://reprappro.com/Huxley"&gt;Huxley
+RepRapPro&lt;/a&gt; making other little
+tschotskes that speak to our interests. This doesn't get us closer to
+the glorious future of 3D printers for everyone, but I like to think of
+it as our answer to Wall Street's &amp;quot;profit taking&amp;quot;: Every once in a while
+it's nice to just cash out a little bit and enjoy what you've already
+got.&lt;/p&gt;
+&lt;p&gt;My turn at that most recently was this little model of monomeric
+insulin, based on the crystal structure reported by &lt;a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/1504238"&gt;Gursky et.
+al.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The trick is how to take a computer model of something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="9ins solvent-accessible surface Z rotation" src="http://deejoe.etrumeus.com/interlock/9ins/9ins.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;and print it on the 3D printer so that it goes from being an
+on-the-screen abstraction to something you can hold.&lt;/p&gt;
+&lt;p&gt;Consider that there are many different ways to render these things on a
+screen:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/montage2.png"&gt;&lt;img alt="image1" class="alignnone size-full wp-image-928" src="/wp-uploads/2012/05/montage2.png" style="width: 576px; height: 567px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Each has its uses. But learning how to manipulate an on-screen rendering
+can be a fraught experience. How much better, then, to have the option
+of turning the model over directly, with your own hands?&lt;/p&gt;
+&lt;p&gt;With fused deposition printing, the problem is that the irregular
+surface doesn't really present a good way of getting the nascent object
+to stick to the print bed.&lt;/p&gt;
+&lt;p&gt;To start, I trolled through the &lt;a class="reference external" href="http://www.rcsb.org"&gt;RCSB&lt;/a&gt; web site
+for a suitable small globular protein that had a bit of name
+recognition. I picked
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Insulin"&gt;insulin&lt;/a&gt;, and from among the
+various insulin entries, picked
+&lt;a class="reference external" href="http://www.rcsb.org/pdb/explore/explore.do?structureId=9ins"&gt;9INS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I brought that file up in &lt;a class="reference external" href="http://pymol.org"&gt;PyMOL&lt;/a&gt;, issued &amp;quot;hide
+everything&amp;quot; and then &amp;quot;show surface&amp;quot; (or their GUI equivalents) and, with
+a few other visual tweaks, like setting the color, exported a VRML 2
+(.wrl) file. I played around with that in meshlab a bit, exporting it
+then as an .stl file.&lt;/p&gt;
+&lt;p&gt;I finally sorted out that what I really needed to do was bring it into
+&lt;a class="reference external" href="http://www.blender.org"&gt;Blender&lt;/a&gt; and subtract a cube-shaped (well,
+any volume with a flat face would probably do) volume from the molecule
+to give a partial rendering of the model with a flat surface. Doing that
+twice, to generate each &amp;quot;half&amp;quot; of the molecule, leaves me with two .stl
+files that can be printed flat side down. In some cases, I've brought
+the file into &lt;a class="reference external" href="http://cloud.netfabb.com"&gt;netfabb's online service&lt;/a&gt;
+for cleanup of manifold errors. Then, I bring each file into
+&lt;a class="reference external" href="http://replicat.org"&gt;ReplicatorG&lt;/a&gt; to more easily scale and orient
+the model. Finally, I bring the .stl files into
+&lt;a class="reference external" href="http://slic3r.org"&gt;Slic3r&lt;/a&gt; to generate the .g file for taking over
+to the printer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/IMG_4786.jpg"&gt;&lt;img alt="image2" class="alignnone size-medium wp-image-889" src="/wp-uploads/2012/05/IMG_4786-300x225.jpg" style="width: 300px; height: 225px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This result is a fairly small protein and a fairly small model that was
+fast to design and print as a proof of concept. Future challenges will
+be to find ways of dividing up larger models and of larger molecules or
+multi-molecule assemblies so they can be printed, perhaps printing
+different chains in different colors, preserving relative scaling
+between different components and the like.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.thingiverse.com/thing:12283"&gt;There&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:18928"&gt;are&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:3511"&gt;several&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:21577"&gt;examples&lt;/a&gt; of this sort of
+thing &lt;a class="reference external" href="http://www.thingiverse.com/thing:21527"&gt;over&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:19989"&gt;at&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/"&gt;Thingiverse,&lt;/a&gt;but I first got the idea
+from
+&lt;a class="reference external" href="http://www.mail-archive.com/pymol-users&amp;#64;lists.sourceforge.net/msg01394.html"&gt;Chris&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/wgallin-pymol.jpg"&gt;Want&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/wgallin-3d-printed.jpg"&gt;at&lt;/a&gt;
+&lt;a class="reference external" href="http://www.mail-archive.com/pymol-users&amp;#64;lists.sourceforge.net/msg04210.html"&gt;University&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/pymol_wrl/pymol_1tii.jpg"&gt;of&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/pymol_wrl/pymol_1tii_print.jpg"&gt;Alberta&lt;/a&gt;
+via the &lt;a class="reference external" href="http://www.pymol.org"&gt;PyMOL&lt;/a&gt; mailing list several years ago.&lt;/p&gt;
+</content></entry><entry><title>Quick open house recap</title><link href="/quick-open-house-recap.html" rel="alternate"></link><published>2012-03-21T18:56:00+00:00</published><updated>2012-03-21T18:56:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2012-03-21:/quick-open-house-recap.html</id><summary type="html">&lt;p&gt;I&amp;nbsp; don't have tons of statistics or great pictures or anything--I
+suppose those that have them might post them later--but in the meantime
+I figured I'd give a quick recap of my experience at our open house
+Friday, before it fades too much further from active memory into the
+realm …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I&amp;nbsp; don't have tons of statistics or great pictures or anything--I
+suppose those that have them might post them later--but in the meantime
+I figured I'd give a quick recap of my experience at our open house
+Friday, before it fades too much further from active memory into the
+realm of myth and legend.&lt;/p&gt;
+&lt;p&gt;It was, in short, a great time.&amp;nbsp; We had a fairly good variety of folks
+wander through, from pre-teens on up.&amp;nbsp; I spent a while fishing out from
+a small water-filled [STRIKEOUT:crockpot] slow cooker &lt;a class="reference external" href="{filename}/dashing-through-the-thermoplastic-2.rst"&gt;fun little blobs
+of warm
+polycaprolactone&lt;/a&gt;
+These I then shoved into the hands of anyone who would take them as they
+wandered through our conference/presentation/meeting room. It was great
+seeing folks' reaction to its warm, pliable nature and to listen to them
+comment about how tough and rigid it is once cooled.&amp;nbsp; It's a very
+minimalistic but (at least I'd like to think) very representative
+demonstration of the interactive, collaborative, exploratory,&amp;nbsp; hand's-on
+environment we try to provide at Interlock to members and guests alike.&lt;/p&gt;
+&lt;p&gt;I took a bit of a break from running my mouth and from noodling around
+in the hot water and gooey PCL&amp;nbsp; to watch&amp;nbsp; a short but sweet
+&lt;a class="reference external" href="http://toool.us/"&gt;TOOOL&lt;/a&gt;-designed lockpicking slideshow, followed by
+a lockpicking workshop.
+&lt;a class="reference external" href="/author/antitree.html"&gt;Antitree&lt;/a&gt; had done the
+pied-piper trick, drawing a bunch of kids-in-fact and kids-at-heart into
+the conference room for a short statement of the lock picking rules, a
+little bit of lock construction and mechanism theory and picking
+how-to.&amp;nbsp; Then everyone took turns with the several sets of lock picking
+tools and real locksets for some hand's-on experience.&amp;nbsp; Folks really
+seemed to have a good time with trying it out.&lt;/p&gt;
+&lt;p&gt;Elsewhere in the space, all the folks &lt;a class="reference external" href="{filename}/open-house-new-space.rst"&gt;originally promised to
+appear&lt;/a&gt; were
+around.&amp;nbsp; I can only guess at how awesome their presentations were, but
+there seemed to be people everywhere.&amp;nbsp; Early on, I was worried no one
+would make it into the not-a-kitchen for snacks, but that turned out to
+be not-a-problem.&lt;/p&gt;
+&lt;p&gt;Not sure how much of the traffic was driven by word-of-mouth versus
+posted fliers, but I know at least some folks had seen our &lt;a class="reference external" href="http://www.rochestercitynewspaper.com/entertainment/pop-culture/2012/03/The-gee+k-guide-to-Rochester/"&gt;lead-off
+part in a feature in the independent weekly tabloid Rochester City
+Newspaper&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The lead-up to the open house rekindled a fire under some of our 3D
+printing aspirations.&amp;nbsp; I don't want to give too much away there, but
+that's been bubbling along these last few weeks.&amp;nbsp; And, in addition to
+folks who made it on Friday, we've also been having new folks continue
+to come in for our weekly Open Night.&amp;nbsp; This week, we met John, who
+brought us some fun new-to-us toys (again, perhaps more on that later,
+but in the meantime, thanks, John!).&amp;nbsp; Also, we got to meet and talk to
+(a different, distinct) Joe and Andrew.&amp;nbsp; And so it goes.&lt;/p&gt;
+&lt;p&gt;If you came to visit us Friday, we hope you liked what you saw and will
+come back.&amp;nbsp; If you missed it, not to worry:&amp;nbsp; Please keep an eye on our
+calendar for other events (at least two every week).&amp;nbsp; Or, if you can't
+make it then, drop us a line and maybe we can work out an appointment
+for some other time.&lt;/p&gt;
+</content><category term="open night"></category><category term="plastic"></category><category term="visitor"></category></entry><entry><title>familab visit</title><link href="/familab-visit.html" rel="alternate"></link><published>2012-03-08T20:40:00+00:00</published><updated>2012-03-08T20:40:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2012-03-08:/familab-visit.html</id><summary type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/familab-xray-john-640x480.jpg"&gt;&lt;img alt="image0" class="alignnone size-medium wp-image-827" src="/wp-uploads/2012/03/familab-xray-john-640x480-300x168.jpg" style="width: 300px; height: 168px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We were delighted to receive embassy from
+&lt;a class="reference external" href="http://familab.org"&gt;FamiLAB&lt;/a&gt; during our weekly Open Night on Tuesday
+in the person of John S, who stopped by on his way through town. We had
+a great time talking about his awesome business making good use of high
+voltages, and about all the cool …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/familab-xray-john-640x480.jpg"&gt;&lt;img alt="image0" class="alignnone size-medium wp-image-827" src="/wp-uploads/2012/03/familab-xray-john-640x480-300x168.jpg" style="width: 300px; height: 168px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We were delighted to receive embassy from
+&lt;a class="reference external" href="http://familab.org"&gt;FamiLAB&lt;/a&gt; during our weekly Open Night on Tuesday
+in the person of John S, who stopped by on his way through town. We had
+a great time talking about his awesome business making good use of high
+voltages, and about all the cool things Familab does, and showing him
+around Interlock's new location.&lt;/p&gt;
+&lt;p&gt;Roboalex is all fired up to lead us into doing soldering classes with
+the &lt;a class="reference external" href="http://www.ladyada.net/make/mintyboost/"&gt;MintyBoost&lt;/a&gt; kits,
+following FamiLAB's example. We'll see how that goes. In the meantime,
+it's great to learn that FamiLAB has recently expanded and seems to be
+going from strength to strength, including their plans to host the
+&lt;a class="reference external" href="http://www.orlandominimakerfaire.com/"&gt;Orlando Mini Maker Faire&lt;/a&gt;
+coming up May 26.&lt;/p&gt;
+</content><category term="open night"></category><category term="visitor"></category></entry><entry><title>recycled paper origami</title><link href="/recycled-paper-origami.html" rel="alternate"></link><published>2012-01-22T13:50:00+00:00</published><updated>2012-01-22T13:50:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2012-01-22:/recycled-paper-origami.html</id><summary type="html">&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;640&amp;quot; caption=&amp;quot;Giftmas origami
+balloons made out of wrapping paper.&amp;quot;]&lt;img alt="image0" src="http://getfile9.posterous.com/getfile/files.posterous.com/deejoe/J52wvDSTq7S7jshVl7HWumHETwq5Q135hryL0cT0UDbDCBr5HKZmjaylhNZA/131-giftmas.jpg" style="width: 640px; height: 480px;" /&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;One way I kept on an even keel during the recent holiday season was by
+taking every opportunity I could to practice making these &lt;a class="reference external" href="http://www.en.origami-club.com/fun/balloon/ballon/index.html"&gt;origami
+cubical
+&amp;quot;balloons&amp;quot;&lt;/a&gt;
+using scraps of wrapping paper. I made …&lt;/p&gt;</summary><content type="html">&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;640&amp;quot; caption=&amp;quot;Giftmas origami
+balloons made out of wrapping paper.&amp;quot;]&lt;img alt="image0" src="http://getfile9.posterous.com/getfile/files.posterous.com/deejoe/J52wvDSTq7S7jshVl7HWumHETwq5Q135hryL0cT0UDbDCBr5HKZmjaylhNZA/131-giftmas.jpg" style="width: 640px; height: 480px;" /&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;One way I kept on an even keel during the recent holiday season was by
+taking every opportunity I could to practice making these &lt;a class="reference external" href="http://www.en.origami-club.com/fun/balloon/ballon/index.html"&gt;origami
+cubical
+&amp;quot;balloons&amp;quot;&lt;/a&gt;
+using scraps of wrapping paper. I made in excess of a dozen, and that
+was the high point of my recent kick to practice enough to be able to do
+this pattern from memory.&lt;/p&gt;
+&lt;p&gt;From a maker-theory perspective, even with the digital revolution and
+the move to e-texts to replace things, like books, that have
+traditionally used paper, paper as a material is still ubiquitous and
+cheap. Its ready availability means that one can cultivate the maker
+state of mind just about any where--I started out on this recent origami
+journey after lunch one day a couple of months ago, using the
+coated-paper basket liner at a burrito place.&lt;/p&gt;
+&lt;p&gt;Paper fast-food tray liners and place mats do pretty well in a pinch,
+and making something then and there is a great way to entertain a
+youngster or to open a discussion with an indulgent friend, co-worker,
+or even a stranger, about the fun to be had as a hacker and maker.&lt;/p&gt;
+&lt;p&gt;Amongst different types of paper, paper sold as &amp;quot;origami paper&amp;quot; can be a
+little more hard to find and more expensive. I also try to resist that
+tendency projects have to lead off with &amp;quot;first, go out and buy
+something&amp;quot;. So I set out to figure out &lt;a class="reference external" href="http://deejoe.posterous.com/recycled-paper-origami"&gt;a way consistently to convert
+randomly-shaped scraps of
+paper&lt;/a&gt; into
+squares suitable for use with traditional origami patterns.&lt;/p&gt;
+&lt;p&gt;More recently, at my last turn on door duty for Interlock's &amp;quot;Do Night&amp;quot; I
+worked on expanding my repertoire a little bit, learning how to make
+these
+&lt;a class="reference external" href="http://www.en.origami-club.com/traditional/box2/box2/index.html"&gt;open-topped&lt;/a&gt;
+&lt;a class="reference external" href="http://www.en.origami-club.com/traditional/candybox/candybox/index.html"&gt;boxes.&lt;/a&gt;
+Also, Reggie was a pretty ggod sport about taking some instruction from
+me about how to fold up his own balloon made from wrapping paper I
+pushed on him.&lt;/p&gt;
+&lt;p&gt;So far, I'm not that enthused about making little animals. Also, I had
+my paper airplane phase as a kid, so that doesn't hold a lot of appeal
+for me at the moment. Mostly, pure geometry, as in the balloon-cubes,
+and potentially useful knick-knacks, like the candy box, are what I've
+been after. With the holidays gone, my interest may fade for a bit.
+We'll see.&lt;/p&gt;
+</content></entry><entry><title>Dashing through the thermoplastic</title><link href="/dashing-through-the-thermoplastic-2.html" rel="alternate"></link><published>2011-12-01T00:09:00+00:00</published><updated>2011-12-01T00:09:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2011-12-01:/dashing-through-the-thermoplastic-2.html</id><summary type="html">&lt;p&gt;It's that time of the year, again, when families across the country are
+messing with long strings of electrical wire, crazy light bulbs, and
+LEDs plus all sorts of weird objects made of ceramic, glass, metal or
+plastic. I was inspired to offset some of my Grinchiness by using our …&lt;/p&gt;</summary><content type="html">&lt;p&gt;It's that time of the year, again, when families across the country are
+messing with long strings of electrical wire, crazy light bulbs, and
+LEDs plus all sorts of weird objects made of ceramic, glass, metal or
+plastic. I was inspired to offset some of my Grinchiness by using our
+put-up-the-decorations day as another opportunity to use one of my new
+favorite materials.&lt;/p&gt;
+&lt;p&gt;Our Christmas tree stand has this nifty tiered collection of what are,
+essentially, big set screws, designed to hold the trunk of the tree
+upright in the center of the tree stand. Problem is, over time we've
+lost the little plastic caps from the trunk end of several of the set
+screws. This means the set screws tear up the bark of the tree trunk
+more quickly, and dig more easily into the trunk of the tree.&lt;/p&gt;
+&lt;p&gt;That can't be good.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image0" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/10-PCL-tree-stand-missing-caps-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Also, another of our tree stands, smaller, with only one tier of set
+screws, has a nice little conical stand-off built into the bottom of the
+stand, to help keep the bottom of the tree off the bottom of the stand.
+That way water can get into the bottom and up through the tree. The
+larger stand that we like to use, with two tiers of set screws, has no
+such stand-off.&lt;/p&gt;
+&lt;p&gt;So, I made little caps out of
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Polycaprolactone"&gt;PCL&lt;/a&gt;
+(&lt;a class="reference external" href="http://reprap.org/wiki/Polycaprolactone"&gt;polycaprolactone&lt;/a&gt;, aka
+&lt;a class="reference external" href="http://www.makershed.com/product_p/mkshl1.htm"&gt;Shapelock&lt;/a&gt; aka
+&lt;a class="reference external" href="http://www.amaco.com/shop/category-85-friendly-plastic-modeling-material.html"&gt;Friendly
+Plastic&lt;/a&gt;,
+about which perhaps more some other time) to replace the missing ones.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image1" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/25-PCL-tree-stand-old-and-new-caps-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;I made a mold out of some &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Polymer_clay"&gt;polymer
+clay&lt;/a&gt; using the OEM green
+cap and made one PCL cap with the mold. Using polymer clay this way is
+something I've been meaning to try. Sad to say, that approach still
+needs a little work--I had a lot of trouble with the PCL locking into
+small imperfections in the mold. The rest of the replacement caps I made
+by just pressing warm PCL around the ends of the set screws, free form,
+and then letting them cool and harden in place.&lt;/p&gt;
+&lt;p&gt;I also made a little PCL stand-off to put in the bottom of the tree,
+with a little &amp;quot;spider&amp;quot; consisting of two crossed PCL rods to help keep
+it near the center of the bottom of the well of the stand.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image2" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/30-PCL-tree-stand-standoff-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Here they are, all together:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="image3" src="http://deejoe.etrumeus.com/interlock/PCL-tree-stand/40-PCL-tree-stand-with-new-parts-sxga.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;The caps seem to have worked pretty well. The spider kept slipping out
+of place as I was trying to get the stand fit onto the tree. Next year
+maybe I'll try putting something soft and sticky on the ends to help
+with more of a press-fit, either some sort of generic silicone caulk or
+some &lt;a class="reference external" href="http://sugru.com/"&gt;Sugru&lt;/a&gt; or something.&lt;/p&gt;
+</content><category term="holiday"></category><category term="material"></category><category term="plastic"></category><category term="repair"></category></entry></feed>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A Pelican Blog</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Full Atom Feed" />
+        <link href="/feeds/hardware-projects-security.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Categories Atom Feed" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/beaglebone-black-pmic-for-battery-backup.html" rel="bookmark"
+         title="Permalink to Beaglebone Black PMIC for battery backup">Beaglebone Black PMIC for battery backup</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2015-03-02T16:03:00+00:00">
+      Mon 02 March 2015
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/antitree.html">antitree</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>One of my <a class="reference external" href="https://trello.com/c/Hlx0umUw/12-tactical-beaglebone">Interlock
+projects</a> has
+been to explore the capabilities of the Beaglebone Black's built-in
+Power Management Integrated Circuit
+(<a class="reference external" href="http://en.wikipedia.org/wiki/Power_management_integrated_circuit">PMIC</a>)
+that gives the BBB a pretty&nbsp;useful feature; charging and operating off
+of li-po batteries.&nbsp;If you look at the BBB board, you will see 4
+through-holes behind the 5v plug. These are break outs for the PMIC and
+can be used to&nbsp;hook up to a battery.</p>
+<p><a class="reference external" href="{filename}wp-uploads/2015/03/IMAG0734.jpg.jpeg"><img alt="beaglebone with sparkfun battery" class="aligncenter size-medium wp-image-1906" src="{filename}wp-uploads/2015/03/IMAG0734.jpg-300x170.jpeg" style="width: 300px; height: 170px;" /></a></p>
+<p>Having a battery connected to your board gives you the ability to do
+things like making a UPS for you beaglebone so in the case of a power
+loss, it can politely shut-down, run a custom command, or just continue
+running for as long as the battery can charge it.<img alt="bbb_pinouts" class="aligncenter size-medium wp-image-1907" src="{filename}wp-uploads/2015/03/bbb_pinouts-e1425329803523-267x300.jpg" style="width: 267px; height: 300px;" /></p>
+<div class="section" id="power">
+<h2><strong>Power</strong></h2>
+<p>In most of the use cases, you're going to find a lithium&nbsp;polymer that
+can produce around 3.7V which is under the BBB's 5v requirement. 3.7V
+will work fine to power the board but of course your 5V USB port will
+not work while on the
+battery.&nbsp;<a class="reference external" href="https://www.sparkfun.com/products/8483">Sparkfun</a>has a
+few nice ones that have the voltage protection circuits built in&nbsp;to help
+limit the risk you brick your li-po.</p>
+</div>
+<div class="section" id="configuration">
+<h2><strong>Configuration</strong></h2>
+<p>There are 4 pins we're talking about:<strong>|bbb-batt-srm|</strong></p>
+<ul class="simple">
+<li>TP5</li>
+<li>TP6</li>
+<li>TP7</li>
+<li>TP8</li>
+</ul>
+<p>You can see in the diagram what each pin-out is. Li-po's are riskier
+than some batteries because they're&nbsp;known to explode&nbsp;in some cases of
+over powering. A temperature sensor that is designed to check how hot
+the battery is getting and decide how to handle it, is built into the
+PMIC in case your battery doesn't have this capability already(many do).
+The directions below are going to show you how to jump this temperatur
+check with a 10k resistor, which is not recommended if you value your
+home or hackerspace. If you don't trust the battery you're charging, I'd
+suggest looking into accurately reading the temperature from your
+battery. My Sparkfun batteries do no break out the temperature sensor so
+this wasn't plausible.</p>
+</div>
+<div class="section" id="directions">
+<h2><strong>Directions</strong>:</h2>
+<ul class="simple">
+<li>jumper pins TP5 to TP6 (or use an SMT zero ohm resistor)</li>
+<li>connect a 10K resistor between TP7 and TP8</li>
+<li>Install a JST connector on TP6 and TP8</li>
+<li>Connect your battery into the JST connector</li>
+</ul>
+<p>With a little luck and the correct battery, you should be in business.
+You'll need to let your battery charge before you try and yank the power
+cable from it. In the mean time, you can query the status of the battery
+via the i2cget command built into the OS.</p>
+</div>
+<div class="section" id="testing">
+<h2><strong>Testing</strong></h2>
+<p>The PMIC is accessible using I2C and the builti-n OS for BBB has a
+simple command line interface to query its state. The following command
+will tell you whether or not battery is plugged in:</p>
+<p>`` i2cget -y -f 0 0x24 0xA``</p>
+<p>This will return information that contains this:</p>
+<pre class="literal-block">
+0 device 0x24
+On battery power only? 0
+STATUS: r[0xa]=0x88
+Push Button = 0
+USB Power = 0
+AC Power = 1
+CHARGER: r[0x3]=0x1
+Active (charging) = 1
+</pre>
+<p>&quot;Active&quot; refers to whether it can recognize the battery you have plugged
+in. &nbsp;You can also read this state to detect a power failure and
+automatically failover. If you're using the default OS for the
+Beaglebone Black (the one that comes pre-installed), the OS will
+automatically shut itself down in the case of a power loss. You'll want
+to either install another OS, or disable that service if you'd like to
+change how long the battery should stay online.</p>
+</div>
+<div class="section" id="more-info">
+<h2>More info</h2>
+<p>A decent amount of research went into this simple project. There are a
+ton of warnings and caveats that I'm not going to cram into this blog
+post (i2c address is read only, pin-outs are not a standard size, beware
+of jumping the resistor next to the pins). You can find out more
+information here:</p>
+<ul class="simple">
+<li>Detailed information on how to interface the PMIC with a 3 pin
+li-po&nbsp;<a class="reference external" href="http://www.beaglebone-asterisk.org/uninterruptible-power-supply-ups-for-beaglebone-black-a-diy-project/">http://www.beaglebone-asterisk.org/uninterruptible-power-supply-ups-for-beaglebone-black-a-diy-project/</a></li>
+<li>Python wrapper to query the PMIC via
+I2C&nbsp;<a class="reference external" href="https://github.com/pehrtree/beaglebone_snippets/tree/master/power">https://github.com/pehrtree/beaglebone_snippets/tree/master/power</a></li>
+<li>Discussion of powering the BBB with
+3.7V&nbsp;<a class="reference external" href="https://groups.google.com/forum/#!topic/beagleboard/Ahzk6Ut7xYE">https://groups.google.com/forum/#!topic/beagleboard/Ahzk6Ut7xYE</a></li>
+</ul>
+<p>Thanks to Alex for finding a fatal flaw in the 10k resistor I was using.</p>
+</div>
+
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

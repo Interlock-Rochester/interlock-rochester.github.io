@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - Events, News, Projects</title><link href="/" rel="alternate"></link><link href="/feeds/events-news-projects.atom.xml" rel="self"></link><id>/</id><updated>2012-06-05T08:10:00+00:00</updated><entry><title>Printing a 3D Insulin Model</title><link href="/3d-insulin-model-printing.html" rel="alternate"></link><published>2012-06-05T08:10:00+00:00</published><updated>2012-06-05T08:10:00+00:00</updated><author><name>dzho</name></author><id>tag:None,2012-06-05:/3d-insulin-model-printing.html</id><summary type="html">&lt;p&gt;We've held the second of &lt;a class="reference external" href="http://twitter.com/#!/interlockroc/statuses/200546366982848512"&gt;our monthly 3D printing
+meetings&lt;/a&gt;
+recently, with a fifth person getting trained up on how to use our
+current printer, and are on the cusp of another advancement in our
+&lt;a class="reference external" href="{filename}/quick-open-house-recap.rst"&gt;previously-mentioned 3D printing
+capabilities&lt;/a&gt;,
+now that 3 people have decided which printer design they're going …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We've held the second of &lt;a class="reference external" href="http://twitter.com/#!/interlockroc/statuses/200546366982848512"&gt;our monthly 3D printing
+meetings&lt;/a&gt;
+recently, with a fifth person getting trained up on how to use our
+current printer, and are on the cusp of another advancement in our
+&lt;a class="reference external" href="{filename}/quick-open-house-recap.rst"&gt;previously-mentioned 3D printing
+capabilities&lt;/a&gt;,
+now that 3 people have decided which printer design they're going to
+build next.&lt;/p&gt;
+&lt;p&gt;In the meantime, we continue to torture Beardicus's poor little &lt;a class="reference external" href="http://reprappro.com/Huxley"&gt;Huxley
+RepRapPro&lt;/a&gt; making other little
+tschotskes that speak to our interests. This doesn't get us closer to
+the glorious future of 3D printers for everyone, but I like to think of
+it as our answer to Wall Street's &amp;quot;profit taking&amp;quot;: Every once in a while
+it's nice to just cash out a little bit and enjoy what you've already
+got.&lt;/p&gt;
+&lt;p&gt;My turn at that most recently was this little model of monomeric
+insulin, based on the crystal structure reported by &lt;a class="reference external" href="http://www.ncbi.nlm.nih.gov/pubmed/1504238"&gt;Gursky et.
+al.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The trick is how to take a computer model of something like this:&lt;/p&gt;
+&lt;p&gt;&lt;img alt="9ins solvent-accessible surface Z rotation" src="http://deejoe.etrumeus.com/interlock/9ins/9ins.gif" /&gt;&lt;/p&gt;
+&lt;p&gt;and print it on the 3D printer so that it goes from being an
+on-the-screen abstraction to something you can hold.&lt;/p&gt;
+&lt;p&gt;Consider that there are many different ways to render these things on a
+screen:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/montage2.png"&gt;&lt;img alt="image1" class="alignnone size-full wp-image-928" src="/wp-uploads/2012/05/montage2.png" style="width: 576px; height: 567px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Each has its uses. But learning how to manipulate an on-screen rendering
+can be a fraught experience. How much better, then, to have the option
+of turning the model over directly, with your own hands?&lt;/p&gt;
+&lt;p&gt;With fused deposition printing, the problem is that the irregular
+surface doesn't really present a good way of getting the nascent object
+to stick to the print bed.&lt;/p&gt;
+&lt;p&gt;To start, I trolled through the &lt;a class="reference external" href="http://www.rcsb.org"&gt;RCSB&lt;/a&gt; web site
+for a suitable small globular protein that had a bit of name
+recognition. I picked
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Insulin"&gt;insulin&lt;/a&gt;, and from among the
+various insulin entries, picked
+&lt;a class="reference external" href="http://www.rcsb.org/pdb/explore/explore.do?structureId=9ins"&gt;9INS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I brought that file up in &lt;a class="reference external" href="http://pymol.org"&gt;PyMOL&lt;/a&gt;, issued &amp;quot;hide
+everything&amp;quot; and then &amp;quot;show surface&amp;quot; (or their GUI equivalents) and, with
+a few other visual tweaks, like setting the color, exported a VRML 2
+(.wrl) file. I played around with that in meshlab a bit, exporting it
+then as an .stl file.&lt;/p&gt;
+&lt;p&gt;I finally sorted out that what I really needed to do was bring it into
+&lt;a class="reference external" href="http://www.blender.org"&gt;Blender&lt;/a&gt; and subtract a cube-shaped (well,
+any volume with a flat face would probably do) volume from the molecule
+to give a partial rendering of the model with a flat surface. Doing that
+twice, to generate each &amp;quot;half&amp;quot; of the molecule, leaves me with two .stl
+files that can be printed flat side down. In some cases, I've brought
+the file into &lt;a class="reference external" href="http://cloud.netfabb.com"&gt;netfabb's online service&lt;/a&gt;
+for cleanup of manifold errors. Then, I bring each file into
+&lt;a class="reference external" href="http://replicat.org"&gt;ReplicatorG&lt;/a&gt; to more easily scale and orient
+the model. Finally, I bring the .stl files into
+&lt;a class="reference external" href="http://slic3r.org"&gt;Slic3r&lt;/a&gt; to generate the .g file for taking over
+to the printer.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/05/IMG_4786.jpg"&gt;&lt;img alt="image2" class="alignnone size-medium wp-image-889" src="/wp-uploads/2012/05/IMG_4786-300x225.jpg" style="width: 300px; height: 225px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This result is a fairly small protein and a fairly small model that was
+fast to design and print as a proof of concept. Future challenges will
+be to find ways of dividing up larger models and of larger molecules or
+multi-molecule assemblies so they can be printed, perhaps printing
+different chains in different colors, preserving relative scaling
+between different components and the like.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.thingiverse.com/thing:12283"&gt;There&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:18928"&gt;are&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:3511"&gt;several&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:21577"&gt;examples&lt;/a&gt; of this sort of
+thing &lt;a class="reference external" href="http://www.thingiverse.com/thing:21527"&gt;over&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/thing:19989"&gt;at&lt;/a&gt;
+&lt;a class="reference external" href="http://www.thingiverse.com/"&gt;Thingiverse,&lt;/a&gt;but I first got the idea
+from
+&lt;a class="reference external" href="http://www.mail-archive.com/pymol-users&amp;#64;lists.sourceforge.net/msg01394.html"&gt;Chris&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/wgallin-pymol.jpg"&gt;Want&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/wgallin-3d-printed.jpg"&gt;at&lt;/a&gt;
+&lt;a class="reference external" href="http://www.mail-archive.com/pymol-users&amp;#64;lists.sourceforge.net/msg04210.html"&gt;University&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/pymol_wrl/pymol_1tii.jpg"&gt;of&lt;/a&gt;
+&lt;a class="reference external" href="http://bebop.cns.ualberta.ca/~cwant/pymol_wrl/pymol_1tii_print.jpg"&gt;Alberta&lt;/a&gt;
+via the &lt;a class="reference external" href="http://www.pymol.org"&gt;PyMOL&lt;/a&gt; mailing list several years ago.&lt;/p&gt;
+</content></entry></feed>

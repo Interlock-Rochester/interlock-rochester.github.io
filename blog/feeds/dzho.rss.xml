@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>A Pelican Blog - dzho</title><link>/</link><description></description><lastBuildDate>Tue, 24 Jun 2014 22:07:00 +0000</lastBuildDate><item><title>Raspberry Pi IP audio announcement: ippivox</title><link>/raspberry-pi-ip-audio-announcement-ippivox.html</link><description>&lt;p&gt;So, you can ssh into your Raspberry Pi, even if you don't have any
+HDMI-capable display equipment at hand.&amp;nbsp; The trick, though, is knowing
+what IP address gets assigned to the Pi so that you know what to feed
+into your ssh client.&lt;/p&gt;
+&lt;p&gt;Earlier, these pages addressed this problem &lt;a class="reference external" href="{filename}/raspberry-pi-macgyver.rst"&gt;using …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Tue, 24 Jun 2014 22:07:00 +0000</pubDate><guid isPermaLink="false">tag:None,2014-06-24:/raspberry-pi-ip-audio-announcement-ippivox.html</guid></item><item><title>Unexpected googling win</title><link>/unexpected-googling-win.html</link><description>&lt;p&gt;So, pursuing goals too convoluted to explain well on a lazy Sunday, I
+went to see what I could find about a certain type of data structure
+(trees) in a certain &lt;a class="reference external" href="http://www.pigdog.org/auto/electro_diddle/link/915.html"&gt;awesome but increasingly
+obscure&lt;/a&gt;
+language called &lt;a class="reference external" href="http://www.forth.org/"&gt;Forth&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds.png"&gt;&lt;img alt="trees-in-forth-screenie-2-3rds" class="alignnone size-medium wp-image-1622" src="{filename}wp-uploads/2014/01/trees-in-forth-screenie-2-3rds-300x220.png" style="width: 300px; height: 220px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm not exactly sure why I find this hilarious, but I do …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Sun, 12 Jan 2014 13:15:00 +0000</pubDate><guid isPermaLink="false">tag:None,2014-01-12:/unexpected-googling-win.html</guid><category>forth</category><category>hacking</category><category>programming</category></item><item><title>Rochester Academy of Science: 40th Annual Fall Scientific Paper Session</title><link>/1569.html</link><description>&lt;p&gt;The &lt;a class="reference external" href="http://www.rasny.org/"&gt;Rochester Academy of Science&lt;/a&gt; holds its
+&lt;a class="reference external" href="http://www.rasny.org/FallPaper/FallPaper.htm"&gt;40th Annual Fall Scientific Paper
+Session&lt;/a&gt;, consisting of
+short talks, posters, and a keynote talk, all today at Nazareth College.&lt;/p&gt;
+&lt;div dir="ltr" data-font-name="Times New Roman"
+data-canvas-width="168.57344502387997"&gt;&lt;p&gt;Subjects include chemistry and biochemistry, cell biology, physics,
+zoology, evolution and paleontology, astronomy, archaeology, education,
+pedagogy, ecology, with Roger Easton of RIT presenting …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Sat, 09 Nov 2013 10:52:00 +0000</pubDate><guid isPermaLink="false">tag:None,2013-11-09:/1569.html</guid><category>science</category></item><item><title>Family Friday at RMSC</title><link>/family-friday-at-rmsc.html</link><description>&lt;p&gt;Interlock brought five demonstrations to our table at the &lt;a class="reference external" href="http://www.rmsc.org/"&gt;Rochester
+Museum &amp;amp; Science Center&lt;/a&gt; Friday, July 19, 2013.&lt;/p&gt;
+&lt;p&gt;This was noon to 4 for the &lt;em&gt;Make It!&lt;/em&gt; installment of their summer
+&lt;a class="reference external" href="http://www.rmsc.org/Experiences/FamilyPrograms/FamilyFridays/"&gt;Family
+Fridays&lt;/a&gt;
+series.&lt;/p&gt;
+&lt;p&gt;From left to right, we see the
+&lt;a class="reference external" href="/author/macgyvrbot.html"&gt;MacGyverbot&lt;/a&gt; Printrbot
+LC generously lent for this demonstration but often …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Tue, 23 Jul 2013 14:23:00 +0000</pubDate><guid isPermaLink="false">tag:None,2013-07-23:/family-friday-at-rmsc.html</guid><category>3d printer</category><category>3D Printing</category><category>demo</category><category>electronics</category><category>makerspace</category><category>plastic</category></item><item><title>new spaces galore</title><link>/new-spaces-galore.html</link><description>&lt;p&gt;Just thought I'd take some time to catch us all up on several recent
+developments beyond Interlock, but somewhat local, that are relevant to
+our interests.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Rochester Brainery logo" src="/wp-uploads/2013/02/brainery-third.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Last month, I read in the &lt;a class="reference external" href="http://www.democratandchronicle.com/article/20130109/HER_GETTING_AHEAD/301090001/Rochester-Brainery"&gt;local
+paper&lt;/a&gt;
+of the formation of &lt;a class="reference external" href="http://rochesterbrainery.com/"&gt;the Rochester
+Brainery&lt;/a&gt;, opening early next month in
+the Village Gate, across …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Sat, 09 Feb 2013 10:58:00 +0000</pubDate><guid isPermaLink="false">tag:None,2013-02-09:/new-spaces-galore.html</guid><category>makerspace</category><category>visitor</category></item><item><title>Printing a 3D Insulin Model</title><link>/3d-insulin-model-printing.html</link><description>&lt;p&gt;We've held the second of &lt;a class="reference external" href="http://twitter.com/#!/interlockroc/statuses/200546366982848512"&gt;our monthly 3D printing
+meetings&lt;/a&gt;
+recently, with a fifth person getting trained up on how to use our
+current printer, and are on the cusp of another advancement in our
+&lt;a class="reference external" href="{filename}/quick-open-house-recap.rst"&gt;previously-mentioned 3D printing
+capabilities&lt;/a&gt;,
+now that 3 people have decided which printer design they're going …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Tue, 05 Jun 2012 08:10:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-06-05:/3d-insulin-model-printing.html</guid></item><item><title>Quick open house recap</title><link>/quick-open-house-recap.html</link><description>&lt;p&gt;I&amp;nbsp; don't have tons of statistics or great pictures or anything--I
+suppose those that have them might post them later--but in the meantime
+I figured I'd give a quick recap of my experience at our open house
+Friday, before it fades too much further from active memory into the
+realm …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Wed, 21 Mar 2012 18:56:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-03-21:/quick-open-house-recap.html</guid><category>open night</category><category>plastic</category><category>visitor</category></item><item><title>familab visit</title><link>/familab-visit.html</link><description>&lt;p&gt;&lt;a class="reference external" href="/wp-uploads/2012/03/familab-xray-john-640x480.jpg"&gt;&lt;img alt="image0" class="alignnone size-medium wp-image-827" src="/wp-uploads/2012/03/familab-xray-john-640x480-300x168.jpg" style="width: 300px; height: 168px;" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We were delighted to receive embassy from
+&lt;a class="reference external" href="http://familab.org"&gt;FamiLAB&lt;/a&gt; during our weekly Open Night on Tuesday
+in the person of John S, who stopped by on his way through town. We had
+a great time talking about his awesome business making good use of high
+voltages, and about all the cool …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Thu, 08 Mar 2012 20:40:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-03-08:/familab-visit.html</guid><category>open night</category><category>visitor</category></item><item><title>recycled paper origami</title><link>/recycled-paper-origami.html</link><description>&lt;p&gt;[caption id=&amp;quot;&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;640&amp;quot; caption=&amp;quot;Giftmas origami
+balloons made out of wrapping paper.&amp;quot;]&lt;img alt="image0" src="http://getfile9.posterous.com/getfile/files.posterous.com/deejoe/J52wvDSTq7S7jshVl7HWumHETwq5Q135hryL0cT0UDbDCBr5HKZmjaylhNZA/131-giftmas.jpg" style="width: 640px; height: 480px;" /&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;One way I kept on an even keel during the recent holiday season was by
+taking every opportunity I could to practice making these &lt;a class="reference external" href="http://www.en.origami-club.com/fun/balloon/ballon/index.html"&gt;origami
+cubical
+&amp;quot;balloons&amp;quot;&lt;/a&gt;
+using scraps of wrapping paper. I made …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Sun, 22 Jan 2012 13:50:00 +0000</pubDate><guid isPermaLink="false">tag:None,2012-01-22:/recycled-paper-origami.html</guid></item><item><title>Dashing through the thermoplastic</title><link>/dashing-through-the-thermoplastic-2.html</link><description>&lt;p&gt;It's that time of the year, again, when families across the country are
+messing with long strings of electrical wire, crazy light bulbs, and
+LEDs plus all sorts of weird objects made of ceramic, glass, metal or
+plastic. I was inspired to offset some of my Grinchiness by using our …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">dzho</dc:creator><pubDate>Thu, 01 Dec 2011 00:09:00 +0000</pubDate><guid isPermaLink="false">tag:None,2011-12-01:/dashing-through-the-thermoplastic-2.html</guid><category>holiday</category><category>material</category><category>plastic</category><category>repair</category></item></channel></rss>
