@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A Pelican Blog</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Full Atom Feed" />
+        <link href="/feeds/uncategorized.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Categories Atom Feed" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/plottopotamus-2.html" rel="bookmark"
+         title="Permalink to Plottopotamus">Plottopotamus</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2011-09-13T22:20:00+00:00">
+      Tue 13 September 2011
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/interlockroc.html">interlockroc</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>I've been taking up quite a bit of space at Interlock lately with my new
+toy, a Roland DPX-3300 pen plotter... delivered via ebay from the
+magical futurepast of the early nineties. For those that are out of the
+loop with the past century, pen plotters are two axis robo-thingamajigs
+that basically pick up pens and draw on paper with them. They've been
+replaced by wide-format inkjet printers, but they used to be quite
+popular with anybody who wanted to plot out maps, blueprints, and other
+large diagrams.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/5937490274/"><img alt="Interlock Plotty Pictures 1" src="http://farm7.static.flickr.com/6125/5937490274_0b95dfca21.jpg" style="width: 500px; height: 333px;" /></a></p>
+<p>Anyways, somehow I caught the plotter bug, even going so far as to learn
+a bit of python after finding this neat library called
+<a class="reference external" href="http://music.columbia.edu/cmc/chiplotle/">Chiplotle</a> that handles
+the basics of creating and streaming artwork to plotters using their
+native language of HPGL. They have a mailing list where they often point
+out good plotter deals on ebay, and I foolishly/accidentally purchased
+perhaps the biggest flatbed plotter out there. 3x2 feet of plotting
+goodness, 100 pounds of steel and stepper motors delivered to my door by
+a grumpy UPS driver.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/5936937271/"><img alt="Interlock Plotty Pictures 2" src="http://farm7.static.flickr.com/6009/5936937271_0e87fb9250.jpg" style="width: 500px; height: 333px;" /></a></p>
+<p>After realizing it doesn't fit anywhere in my house, I brought it to
+Interlock and have been tinkering with it since. The first step was to
+convert old dried out plotter pens into pen holders that would allow me
+to use Sharpies or other art pens with the device. That involved a quick
+trip to the lathe, which I hope to document more fully in the future.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/5936918129/"><img alt="Interlock Plotty Pictures 3" src="http://farm7.static.flickr.com/6006/5936918129_7d4e1d4a2e.jpg" style="width: 500px; height: 333px;" /></a></p>
+<p>Having figured out an inexpensive pen solution, I really wanted to make
+drawings based on webcam input... so I trawled around the internet and
+mailing lists until I could piece together a passable solution using
+OpenCV's python bindings, and a series of nerdy unixy commands (convert,
+autotrace, and pstoedit) to trace, mush, and output the data. You can
+find the relevant code up on my <a class="reference external" href="https://github.com/beardicus/ronald_toys%20">Ronald
+Toys</a> Github repository.</p>
+<p><a class="reference external" href="http://www.flickr.com/photos/bert_m_b/5937423454/"><img alt="RoboPortraits" src="http://farm7.static.flickr.com/6125/5937423454_df75c66a42.jpg" style="width: 500px; height: 333px;" /></a></p>
+<p>Having conquered such menial tasks, I decided that the default route the
+plotter was taking was quite inefficient, with lots of time spent
+seeking back and forth between lines. My precious robot was spending
+half its time flailing due to a poorly composed hpgl file. Surely there
+was a better way.</p>
+<p><a class="reference external" href="https://github.com/beardicus/ronald_tools%20">Tada!</a> I wrote a
+really dumb sort routine that attempts to minimize seeking between
+lines, instead of blindly accepting the order that autotrace wrote them
+in. You can see the difference in the following two time-lapse videos.
+The first shows the default route that autotrace produces, and the
+second is my optimized version.</p>
+<p>Next step for this project: some more sophisticated drawing routines,
+including some cross-hatched shading, color, and maybe even some 3D
+input from a Kinect. Stop in for a Tuesday Open Night and maybe you can
+be a robo-portrait guinea pig!</p>
+
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

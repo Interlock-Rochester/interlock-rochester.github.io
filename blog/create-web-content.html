@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A Pelican Blog</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Full Atom Feed" />
+        <link href="/feeds/content.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Categories Atom Feed" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/create-web-content.html" rel="bookmark"
+         title="Permalink to Create Web Content">Create Web Content</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2017-06-13T20:15:00+00:00">
+      Tue 13 June 2017
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/carl.html">Carl</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p>This is the HDI class for June. We will figure out how to make 
+a posting to the Interlock Website. So following Joe's instructions
+posted to IRC today we are going to do this.</p>
+<p>First I cloned the website git repository.</p>
+<div class="highlight"><pre><span></span>git clone https://github.com/Interlock-Rochester/interlock-rochester.github.io.src
+</pre></div>
+
+
+<p>Then I started editing this file in the <s>markdown/</s> <code>content/</code> directory. The file
+is called <code>HDI-make-web-content.md</code></p>
+<p>We follow the format of an existing <code>.md</code> file to get all the content
+headers (metadata) correct. Now I am filling in the rest of the page.</p>
+<p><a href="{filename}wp-uploads/2013/12/100_2677.jpg"><img alt="blank canvas" src="{filename}wp-uploads/2013/12/100_2677-300x225.jpg"></a></p>
+<p>Here are some of Joe's instructions:</p>
+<div class="highlight"><pre><span></span>   <span class="nt">12</span><span class="p">:</span><span class="nd">35</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">lemme</span> <span class="nt">see</span> <span class="nt">if</span> <span class="nt">I</span> <span class="nt">can</span> <span class="nt">run</span> <span class="nt">through</span> <span class="nt">a</span> <span class="nt">short</span> <span class="nt">version</span> <span class="nt">here</span> <span class="nt">just</span> <span class="nt">to</span> 
+                 <span class="nt">limber</span> <span class="nt">up</span><span class="o">:</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">36</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">git</span> <span class="nt">clone</span> 
+   <span class="nt">https</span><span class="o">://</span><span class="nt">github</span><span class="p">.</span><span class="nc">com</span><span class="o">/</span><span class="nt">Interlock-Rochester</span><span class="o">/</span><span class="nt">interlock-rochester</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="p">.</span><span class="nc">src</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">36</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">cd</span> <span class="nt">interlock-rochester</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="p">.</span><span class="nc">src</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">36</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">vi</span> <span class="nt">content</span><span class="o">/</span><span class="nt">my-new-post</span><span class="p">.</span><span class="nc">md</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">36</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="o">(</span><span class="nt">write</span> <span class="nt">your</span> <span class="nt">post</span> <span class="nt">in</span> <span class="nt">markdown</span><span class="o">,</span> <span class="nt">make</span> <span class="nt">sure</span> <span class="nt">to</span> <span class="nt">have</span> <span class="nt">a</span> <span class="nt">Title</span><span class="o">:</span> <span class="nt">and</span> <span class="nt">a</span> 
+                 <span class="nt">Date</span><span class="o">:</span> <span class="nt">line</span> <span class="nt">at</span> <span class="nt">the</span> <span class="nt">top</span><span class="o">)</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">37</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">git</span> <span class="nt">add</span> <span class="nt">content</span><span class="o">/</span><span class="nt">my-new-post</span><span class="p">.</span><span class="nc">md</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">37</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">git</span> <span class="nt">commit</span> <span class="nt">-m</span> <span class="s2">&quot;my new post, y&#39;all&quot;</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">37</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">hmm</span><span class="o">,</span> <span class="nt">I</span> <span class="nt">skipped</span> <span class="nt">a</span> <span class="nt">step</span> <span class="nt">there</span> <span class="nt">if</span> <span class="nt">we</span> <span class="nt">want</span> <span class="nt">to</span> <span class="nt">use</span> <span class="nt">the</span> <span class="nt">github</span> <span class="nt">pull</span> 
+                 <span class="nt">request</span> <span class="nt">model</span><span class="o">.</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">37</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">fork</span> 
+   <span class="nt">https</span><span class="o">://</span><span class="nt">github</span><span class="p">.</span><span class="nc">com</span><span class="o">/</span><span class="nt">Interlock-Rochester</span><span class="o">/</span><span class="nt">interlock-rochester</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="p">.</span><span class="nc">src</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">38</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">git</span> <span class="nt">clone</span> 
+                 <span class="nt">https</span><span class="o">://</span><span class="nt">github</span><span class="p">.</span><span class="nc">com</span><span class="o">/$</span><span class="nt">YOURGITHUBID</span><span class="o">/</span><span class="nt">interlock-rochester</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="p">.</span><span class="nc">src</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">38</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">proceed</span> <span class="nt">as</span> <span class="nt">above</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">38</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">git</span> <span class="nt">push</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">38</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">then</span> <span class="nt">generate</span> <span class="nt">a</span> <span class="nt">pull</span> <span class="nt">request</span> <span class="nt">against</span> <span class="nt">the</span> <span class="nt">repo</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">38</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">then</span> <span class="nt">magic</span> <span class="nt">happens</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">39</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="o">(</span><span class="nt">eg</span><span class="o">,</span> <span class="nt">manual</span> <span class="nt">intervention</span> <span class="nt">on</span> <span class="nt">my</span> <span class="nt">part</span> <span class="nt">to</span> <span class="nt">build</span> <span class="nt">the</span> <span class="nt">thing</span> <span class="nt">with</span> 
+                 <span class="nt">pelican</span> <span class="nt">and</span> <span class="nt">copy</span> <span class="nt">it</span> <span class="nt">to</span> <span class="nt">the</span> <span class="nt">linode</span><span class="o">)</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">40</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="o">(</span><span class="nt">to</span> <span class="nt">set</span> <span class="nt">up</span> <span class="nt">that</span> <span class="nt">part</span><span class="o">,</span> <span class="nt">virtualenv</span> <span class="o">~/</span><span class="nt">pelican-venv</span><span class="o">;</span> <span class="o">.</span> 
+                 <span class="o">~/</span><span class="nt">pelican-venv</span><span class="o">/</span><span class="nt">bin</span><span class="o">/</span><span class="nt">activate</span> <span class="o">;</span> <span class="nt">pip</span> <span class="nt">install</span> <span class="nt">pelican</span> <span class="o">;</span> <span class="o">)</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">42</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">then</span><span class="o">,</span> <span class="nt">within</span> <span class="nt">interlock-rochester</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="p">.</span><span class="nc">src</span><span class="o">:</span> <span class="nt">pelican</span> <span class="nt">content</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">43</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">that</span> <span class="nt">will</span> <span class="nt">build</span> <span class="nt">the</span> <span class="nt">site</span> <span class="nt">and</span> <span class="nt">put</span> <span class="nt">the</span> <span class="nt">results</span> <span class="nt">in</span> <span class="nt">the</span> <span class="nt">output</span> <span class="nt">dir</span><span class="o">,</span> 
+                 <span class="nt">which</span> <span class="nt">is</span> <span class="nt">parallel</span> <span class="nt">to</span> <span class="nt">the</span> <span class="nt">content</span> <span class="nt">dir</span><span class="o">,</span> <span class="nt">underneath</span> <span class="nt">the</span> 
+                 <span class="nt">interlock-rochester</span><span class="p">.</span><span class="nc">github</span><span class="p">.</span><span class="nc">io</span><span class="p">.</span><span class="nc">src</span> <span class="nt">dir</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">43</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">I</span><span class="s1">&#39;ve been rsync&#39;</span><span class="nt">ing</span> <span class="nt">output</span> <span class="nt">up</span> <span class="nt">to</span> <span class="o">~</span><span class="nt">djoe</span> <span class="nt">on</span> <span class="nt">the</span> <span class="nt">vm</span><span class="o">,</span> <span class="nt">and</span> <span class="nt">then</span> <span class="nt">from</span> 
+                 <span class="nt">there</span> <span class="nt">into</span> <span class="nt">the</span> <span class="nt">web</span> <span class="nt">server</span> <span class="nt">directory</span><span class="o">.</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">44</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="o">(</span><span class="nt">the</span> <span class="nt">first</span> <span class="nt">step</span><span class="o">,</span> <span class="nt">from</span> <span class="nt">the</span> <span class="nt">outside</span><span class="o">,</span> <span class="nt">requires</span> <span class="nt">only</span> <span class="nt">sending</span> <span class="nt">files</span> 
+                 <span class="nt">into</span> <span class="nt">the</span> <span class="nt">VM</span> <span class="nt">from</span> <span class="nt">an</span> <span class="nt">unprivileged</span> <span class="nt">account</span><span class="o">,</span> <span class="nt">the</span> <span class="nt">second</span> <span class="nt">requires</span> 
+                 <span class="nt">privileges</span> <span class="nt">sufficient</span> <span class="nt">to</span> <span class="nt">write</span> <span class="nt">to</span> <span class="nt">the</span> <span class="nt">web</span> <span class="nt">directory</span><span class="o">.</span> <span class="nt">I</span> <span class="nt">keep</span> <span class="nt">them</span> 
+                 <span class="nt">separate</span> <span class="nt">as</span> <span class="nt">a</span> <span class="nt">precaution</span><span class="o">.)</span>
+   <span class="nt">12</span><span class="p">:</span><span class="nd">44</span> <span class="o">&lt;+</span><span class="nt">dzho</span><span class="o">&gt;</span> <span class="nt">I</span> <span class="nt">think</span> <span class="nt">that</span> <span class="nt">captures</span> <span class="nt">the</span> <span class="nt">general</span> <span class="nt">flow</span> <span class="nt">of</span> <span class="nt">things</span><span class="o">,</span> <span class="nt">off</span> <span class="nt">the</span> <span class="nt">top</span> <span class="nt">of</span> 
+                 <span class="nt">my</span> <span class="nt">head</span> <span class="nt">with</span> <span class="nt">only</span> <span class="nt">a</span> <span class="nt">little</span> <span class="nt">reference</span> <span class="nt">to</span> <span class="nt">various</span> <span class="nt">of</span> <span class="nt">the</span> <span class="nt">stuff</span> 
+                 <span class="nt">involved</span><span class="o">.)</span>
+</pre></div>
+
+
+<p>Now I am going to try putting this into the git repo. Then if successfull
+I will then attempt to make updates to the front page so you can find this.</p>
+<p><strong><em>[ When pandoc is run, it automatically updates <code>index.html</code> to include new content. --dzho ]</em></strong></p>
+<p><strong><em>[ I also gave a very terse step-by-step for using Pelican in <a href="https://github.com/Interlock-Rochester/interlock-rochester.github.io.src/issues/3#issue-213828111">this post from issue #3</a> --dzho ]</em></strong></p>
+<p><strong><em>[ The documentation on <a href="http://docs.getpelican.com/en/3.6.3/content.html">writing content for Pelican</a> can also be useful here --dzho]</em></strong></p>
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

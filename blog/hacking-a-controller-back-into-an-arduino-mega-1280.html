@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>A Pelican Blog</title>
+        <meta charset="utf-8" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Full Atom Feed" />
+        <link href="/feeds/hardware-projects.atom.xml" type="application/atom+xml" rel="alternate" title="A Pelican Blog Categories Atom Feed" />
+
+
+
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <h1><a href="/">A Pelican Blog <strong></strong></a></h1>
+        </header><!-- /#banner -->
+        <nav id="menu"><ul>
+        </ul></nav><!-- /#menu -->
+<section id="content" class="body">
+  <header>
+    <h2 class="entry-title">
+      <a href="/hacking-a-controller-back-into-an-arduino-mega-1280.html" rel="bookmark"
+         title="Permalink to Hacking a controller back into an Arduino Mega 1280">Hacking a controller back into an Arduino Mega 1280</a></h2>
+ 
+  </header>
+  <footer class="post-info">
+    <time class="published" datetime="2016-02-22T14:55:00+00:00">
+      Mon 22 February 2016
+    </time>
+    <address class="vcard author">
+      By           <a class="url fn" href="/author/bleullama.html">BleuLlama</a>
+    </address>
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    <p><a class="reference external" href="https://1.bp.blogspot.com/-edLQSlCXI9w/VslDiFt8WPI/AAAAAAAADdU/AfRVH7ND3Fo/s1600/FullSizeRender_1.jpg"><img alt="image0" class="aligncenter" src="https://1.bp.blogspot.com/-edLQSlCXI9w/VslDiFt8WPI/AAAAAAAADdU/AfRVH7ND3Fo/s640/FullSizeRender_1.jpg" style="width: 640px; height: 480px;" /></a></p>
+<p>At <a class="reference external" href="/">Interlock</a>, JustBill handed me the old
+controller board for a gutted 3D printer that he was rebuilding. &quot;Do
+whatever you want with this.&quot; A close inspection of the board showed
+that it had a main microcontroller of the ATmega 1280, which is the chip
+used in older Arduino Megas. &nbsp;The interface to USB however was an ATmega
+8u2, which is the chip used in newer Arduino Megas, and you may also
+know it from older Arduino Unos... modern Uno R3s use a 32u4.</p>
+<p>This board had custom firmware on it so that it didn't look like an
+Arduino, or any sort of serial connection to the host computer it's
+plugged into... so as-is, it was useless for general use as an Arduino;
+taking advantage of the GUI and clicky-clicky programmer interface.</p>
+<p>So my thought was, it might be nice to have my own 'Mega for testing and
+such. &nbsp;Could this board be set up in a way that might make this process
+and outcome easy? &nbsp;Turns out it mostly was.</p>
+<p>The original board got its power from a power terminls on the board,
+24V. &nbsp;It needed to power the stepper motors, and such so it needed to be
+beefy. &nbsp;This was dropped down to 5 and 3.3 on the board itself.</p>
+<p>There is a USB B jack for connecting this to a host computer, which did
+not have its 5V connected, so my thought was, what if i hooked up this
+5V to the USB jack. &nbsp;would that be enough to power the chips?</p>
+<p><a class="reference external" href="https://3.bp.blogspot.com/-PBreWXxPx_U/VslDf1YJClI/AAAAAAAADdM/_a0TAusuQvk/s1600/FullSizeRender.jpg"><img alt="image1" class="aligncenter" src="https://3.bp.blogspot.com/-PBreWXxPx_U/VslDf1YJClI/AAAAAAAADdM/_a0TAusuQvk/s640/FullSizeRender.jpg" style="width: 640px; height: 480px;" /></a></p>
+<p>I added this jumper, which connects the +5 on the USB jack to the 5v bus
+on the board, and plugged it in, and sure enough, it beeped and came to
+life without its host power supply.</p>
+<p>Next up would be reprogramming the micros to have the arduino bootloader
+and code on them.</p>
+<p><a class="reference external" href="https://2.bp.blogspot.com/-gPvnDEyf8aY/VslDp2zR3mI/AAAAAAAADdY/H0kpGhzhA98/s1600/IMG_0702.JPG"><img alt="image2" class="aligncenter" src="https://2.bp.blogspot.com/-gPvnDEyf8aY/VslDp2zR3mI/AAAAAAAADdY/H0kpGhzhA98/s640/IMG_0702.JPG" style="width: 640px; height: 480px;" /></a></p>
+<p>I hooked up my fairly cheesy Arduino D-15 (hacked stepper motor
+controller) ISP to the 6 pin header, which thankfully was already
+populated and labelled on the board! &nbsp;I plugged it into the port
+labelled &quot;1280 ISP&quot;, selected the Arduino Mega, with 1280 micro from the
+Arduino 1.6.6 menus, selected Arduino ISP for the programmer, then
+selected &quot;load bootlader&quot;. &nbsp;In about a minute, it seemed to have
+completed successfully.... if something didn't jive, it would have
+spewed out sync or device errors to the screen... &nbsp;Seemed good so far!</p>
+<p>Next, was hooking it up to the jack labelled 8u2 ISP. &nbsp;This was a little
+trickier because I wasn't installing the bootloader (which the Arduino
+IDE makes REALLY easy to do), but rather the secondary micro's firmware,
+which basically was just a USB-Serial interface driver.</p>
+<p>Long story short, I grabbed the <a class="reference external" href="https://github.com/arduino/Arduino/tree/master/hardware/arduino/avr/firmwares/atmegaxxu2">8u2 code from github,
+&quot;MEGA-dfu_and_usbserial_combined.hex&quot;</a>,
+and used the following command line (using a mixture of the code on that
+page, with the parameters that my system used via the arduino IDE on my
+Mac:</p>
+<p>&nbsp; ./avrdude -p at90usb82 -F -cstk500v1 -P/dev/cu.usbserial-A800czia
+-b19200 -U flash:w:8u2.hex&nbsp; -U lfuse:w:0xFF:m -U hfuse:w:0xD9:m -U
+efuse:w:0xF4:m -U lock:w:0x0F:m
+-C/Users/me/Library/Arduino15/packages/arduino/tools/avrdude/6.0.1-arduino5/etc/avrdude.conf</p>
+<p>In short, it sets the CPU to at90usb82, uses the stk500v1 communications
+protocol over the /dev/cu.usbserial driver, at 19200 baud.... it
+programs the file 8u2.hex, sets fuses and sets other avrdude
+configuration stuff.</p>
+<p>After lots of text scrolling by from running that, I was able to drop a
+program I was working on, onto it via the Arduino IDE directly, without
+any problems at all! I set the port to the serial Mega, set the board to
+&quot;Arduino Mega&quot;, cpu set at &quot;Mega 1280&quot;, clicked 'upload' and bam, fully
+functional serial communications from the serial montior down through to
+the '1280 on the board.</p>
+<p><a class="reference external" href="https://4.bp.blogspot.com/-qazqVuRpJJo/VslDhbqR7WI/AAAAAAAADdc/_wIVTC-xUHA/s1600/IMG_0700.JPG"><img alt="image3" class="aligncenter" src="https://4.bp.blogspot.com/-qazqVuRpJJo/VslDhbqR7WI/AAAAAAAADdc/_wIVTC-xUHA/s640/IMG_0700.JPG" style="width: 640px; height: 480px;" /></a></p>
+<p>Whoo! Free Arduino Mega for me!</p>
+<p>Edit: Here's the pinouts of stuff I beeped out. The number is the
+digital (or Analog where applicable) pin on an Arduino Mega board. &nbsp;So
+digital 24 from Arduino corrolates to the &quot;A Dir&quot; pad on the board.</p>
+<ul class="simple">
+<li>&nbsp;* 4 - Piezo +</li>
+<li>&nbsp;* 6 - heat</li>
+<li>&nbsp;* 7 - fan</li>
+<li>&nbsp;* 24 - A Dir</li>
+<li>&nbsp;* 25 - A Step</li>
+<li>&nbsp;* 26 - A Enable</li>
+<li>&nbsp;* 27 - A Pot</li>
+<li>&nbsp;* 28 - B Dir</li>
+<li>&nbsp;* 29 - B Step</li>
+<li>&nbsp;* 36 - debug 2</li>
+<li>&nbsp;* 37 - debug 3</li>
+<li>&nbsp;* 38 - (nc)</li>
+<li>&nbsp;* 39 - B Enable</li>
+<li>&nbsp;* 40 - debug 4</li>
+<li>&nbsp;* 41 - PG0</li>
+<li>&nbsp;* 42 - TP33 / Z-MAX</li>
+<li>&nbsp;* 43 - TP32 / Z-MIN</li>
+<li>&nbsp;* 44 - Extra +/R85</li>
+<li>&nbsp;* 45 - bp heat</li>
+<li>&nbsp;* 46 - TP31 / Y-MAX</li>
+<li>&nbsp;* 47 - TP30 / Y-MIN</li>
+<li>&nbsp;* 48 - TP29 / X-MAX</li>
+<li>&nbsp;* 49 - TP28 / X-Min</li>
+<li>&nbsp;* A0 - X Dir</li>
+<li>&nbsp;* A1 - X Step</li>
+<li>&nbsp;* A2 - X Enable</li>
+<li>&nbsp;* A3 - X Pot</li>
+<li>&nbsp;* A4 - Y Dir</li>
+<li>&nbsp;* A5 - Y Step</li>
+<li>&nbsp;* A6 - Y Enable</li>
+<li>&nbsp;* A7 - Y Pot</li>
+<li>&nbsp;* A8 &nbsp;- Z Dir</li>
+<li>&nbsp;* A9 &nbsp;- Z Step</li>
+<li>&nbsp;* A10 - Z Enable</li>
+<li>&nbsp;* A11 - Z Pot</li>
+<li>&nbsp;* A12 - PK4 / JP7</li>
+<li>&nbsp;* A13 - PK5 / JP7</li>
+<li>&nbsp;* A14 - PK6 / JP6</li>
+<li>&nbsp;* A15 - TP27 / HBP Therm</li>
+</ul>
+<p>The molex switch connectors seem to have the pinout: (signal) (ground)
+(ground) (+5v)</p>
+
+  </div><!-- /.entry-content -->
+</section>
+        <footer id="contentinfo" class="body">
+                <address id="about" class="vcard body">
+                Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                which takes great advantage of <a href="http://python.org">Python</a>.
+                </address><!-- /#about -->
+        </footer><!-- /#contentinfo -->
+</body>
+</html>

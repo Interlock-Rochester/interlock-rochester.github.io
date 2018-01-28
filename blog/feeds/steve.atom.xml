@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>A Pelican Blog - steve</title><link href="/" rel="alternate"></link><link href="/feeds/steve.atom.xml" rel="self"></link><id>/</id><updated>2011-03-18T10:23:00+00:00</updated><entry><title>Donations to Japan Needed</title><link href="/donations-to-japan-needed.html" rel="alternate"></link><published>2011-03-18T10:23:00+00:00</published><updated>2011-03-18T10:23:00+00:00</updated><author><name>steve</name></author><id>tag:None,2011-03-18:/donations-to-japan-needed.html</id><summary type="html">&lt;p&gt;The &lt;a class="reference external" href="http://www.tokyohackerspace.org"&gt;Tokyo Hackerspace&lt;/a&gt; is working
+with various communities and agencies in Japan to provide relief
+supplies following the earthquake, tsunami, and nuclear plant issues.&lt;/p&gt;
+&lt;p&gt;They are asking the global community to send specific items, which will
+then be boxed up into care packages. Runners will then distribute them
+to the …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The &lt;a class="reference external" href="http://www.tokyohackerspace.org"&gt;Tokyo Hackerspace&lt;/a&gt; is working
+with various communities and agencies in Japan to provide relief
+supplies following the earthquake, tsunami, and nuclear plant issues.&lt;/p&gt;
+&lt;p&gt;They are asking the global community to send specific items, which will
+then be boxed up into care packages. Runners will then distribute them
+to the local drop points for relief efforts. Additionally, they will be
+making solar-powered LED lanterns to distribute until the power gets
+turned back on throughout Japan.&lt;/p&gt;
+&lt;p&gt;If you have any of these items, please send them along to the Tokyo
+Hackerspace. They are requesting that people &lt;strong&gt;not&lt;/strong&gt; send other items
+without clearing it through them first; this list was compiled by
+talking to several local agencies who communicated their needs.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ear plugs&lt;/li&gt;
+&lt;li&gt;earphones&lt;/li&gt;
+&lt;li&gt;eye masks&lt;/li&gt;
+&lt;li&gt;baby bottles&lt;/li&gt;
+&lt;li&gt;powdered baby formula&lt;/li&gt;
+&lt;li&gt;energy bars&lt;/li&gt;
+&lt;li&gt;portable water tanks (collapsible)&lt;/li&gt;
+&lt;li&gt;portable water filters&lt;/li&gt;
+&lt;li&gt;paper cups&lt;/li&gt;
+&lt;li&gt;lanterns&lt;/li&gt;
+&lt;li&gt;first aid kit&lt;/li&gt;
+&lt;li&gt;dust masks&lt;/li&gt;
+&lt;li&gt;soaps&lt;/li&gt;
+&lt;li&gt;towels&lt;/li&gt;
+&lt;li&gt;blankets&lt;/li&gt;
+&lt;li&gt;gloves&lt;/li&gt;
+&lt;li&gt;flash lights&lt;/li&gt;
+&lt;li&gt;slippers&lt;/li&gt;
+&lt;li&gt;candles&lt;/li&gt;
+&lt;li&gt;lighters&lt;/li&gt;
+&lt;li&gt;pocket knives&lt;/li&gt;
+&lt;li&gt;trash bags&lt;/li&gt;
+&lt;li&gt;aspirin/ibuprofen&lt;/li&gt;
+&lt;li&gt;pain killers&lt;/li&gt;
+&lt;li&gt;sanitizing gel&lt;/li&gt;
+&lt;li&gt;paper plates/cups/spoons/forks/chopsticks&lt;/li&gt;
+&lt;li&gt;Nappies&lt;/li&gt;
+&lt;li&gt;Moist wipes&lt;/li&gt;
+&lt;li&gt;Warm Jackets - Baby/kids/adult&lt;/li&gt;
+&lt;li&gt;Toys&lt;/li&gt;
+&lt;li&gt;Dry goods&lt;/li&gt;
+&lt;li&gt;Kids activity books&lt;/li&gt;
+&lt;li&gt;Kids coloring books&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ship Items to:&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;Tokyo Hackerspace&lt;/div&gt;
+&lt;div class="line"&gt;Tokyo-to Minato-ku&lt;/div&gt;
+&lt;div class="line"&gt;Shirokanedai 5-11-11&lt;/div&gt;
+&lt;div class="line"&gt;108-0071&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;If you wish to donate money, you may donate to the &lt;a class="reference external" href="https://american.redcross.org/site/Donation2?5052.donation=form1&amp;amp;df_id=5052&amp;amp;idb=0"&gt;American Red
+Cross&lt;/a&gt;,
+who will forward funds, or directly to the &lt;a class="reference external" href="http://www.jrc.or.jp/english/relief/l4/Vcms4_00002070.html"&gt;Japanese Red
+Cross&lt;/a&gt;.&lt;/p&gt;
+</content></entry><entry><title>It's time for hacking, part I</title><link href="/its-time-for-hacking-part-i.html" rel="alternate"></link><published>2011-03-05T21:22:00+00:00</published><updated>2011-03-05T21:22:00+00:00</updated><author><name>steve</name></author><id>tag:None,2011-03-05:/its-time-for-hacking-part-i.html</id><summary type="html">&lt;p&gt;&lt;em&gt;One of our members, `Steven L Smith &amp;lt;http://stevenlsmith.com/&amp;gt;`__, has
+recently been bitten by the clock bug. This post is part I of a
+multi-part series on some of his builds.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;|image0|&lt;/em&gt;I’ve been interested in building kits for some time now,
+having previously built the
+&lt;a class="reference external" href="http://www.paia.com/theremax.asp"&gt;Theremax …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;em&gt;One of our members, `Steven L Smith &amp;lt;http://stevenlsmith.com/&amp;gt;`__, has
+recently been bitten by the clock bug. This post is part I of a
+multi-part series on some of his builds.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;|image0|&lt;/em&gt;I’ve been interested in building kits for some time now,
+having previously built the
+&lt;a class="reference external" href="http://www.paia.com/theremax.asp"&gt;Theremax&lt;/a&gt;, various small things
+from
+&lt;a class="reference external" href="http://www.vellemanusa.com/us/enu/product/list/?id=523008"&gt;Velleman&lt;/a&gt;,
+and, most recently, a &lt;a class="reference external" href="http://www.morsex.com/ameco/oscs.htm"&gt;morse code practice
+oscillator&lt;/a&gt;. And, I remember a
+place near the central Rochester, NY post office called “&lt;a class="reference external" href="https://rocwiki.org/Rogers_Pianos_and_Clocks"&gt;Rogers
+Pianos and Clocks&lt;/a&gt;”
+that I have fond memories of visiting and gawking at cool looking
+timepieces. So, when I saw the “&lt;a class="reference external" href="http://www.ladyada.net/make/icetube/index.html"&gt;Ice
+Tube&lt;/a&gt;” clock kit
+from &lt;a class="reference external" href="http://www.adafruit.com/"&gt;Adafruit&lt;/a&gt;, I knew it would be a great
+next project. This ATmega-powered clock features a Russian-made IV-18
+&lt;a class="reference external" href="http://en.wikipedia.org/wiki/Vacuum_fluorescent_display"&gt;vacuum fluorescent
+display&lt;/a&gt;
+(VFD) tube, which, despite being blue, like modern, &lt;a class="reference external" href="http://www.codinghorror.com/blog/2005/07/blue-led-backlash.html"&gt;annoying
+LEDs&lt;/a&gt;,
+is actually really really cool.&lt;/p&gt;
+&lt;div class="line-block"&gt;
+&lt;div class="line"&gt;&lt;br /&gt;&lt;/div&gt;
+&lt;div class="line"&gt;&lt;a class="reference external" href="{filename}wp-uploads/2011/03/2011-03-05_16-55-00_706.jpg"&gt;&lt;img alt="image1" class="size-medium wp-image-378 alignright" src="{filename}wp-uploads/2011/03/2011-03-05_16-55-00_706-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;After checking to make sure I had all of the components, I
+began the assembly. The first part of the build should be fairly
+standard for anyone who has some electronics experience. All you have
+to do is assemble a simple regulated 5v power supply. Using the
+provided regulator IC, and capacitors to smooth everything out, my 5v
+power supply clocked in at 4.99 volts. Not too shabby.&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;I continued assembly by adding a single resistor, the piezo speaker, and
+finally the ATmega itself (thankfully, Adafruit provided a socket for
+all of the ICs, which made the soldering process a lot less stressful!).
+At this point, plugging in the power supply resulted in a beep. All is
+well.&lt;/p&gt;
+&lt;p&gt;The kit, in addition to the ATmega, is driven by a 32.768 khz crystal.
+The crystal really does the bulk of the timekeeping by generating a
+steady reference frequency for the “ticks”. It was good to see Adafruit
+use a crystal for this clock; I think it’s going to stay accurate for a
+long time as a result.&lt;/p&gt;
+&lt;p&gt;Now it’s time for the fun stuff. Unlike, say, an LCD screen, or some
+LEDs, this clock needs around 60 volts to run its vacuum tube properly.
+But we’ve only got 5. So, we build a boost converter. After assembly, I
+used the multimeter to measure 55.7 vdc across the zener diode. The
+kit’s instructions say that anywhere from 40 - 70 is okay, with 60 being
+optimal. I’m not thrilled with that number, but it seems like it’s close
+enough. We’re working with high voltages here. Since I don’t feel like
+taking advantage of Interlock’s insurance policy, I give the capacitors
+time to drain, and, as the instructions suggest, do not work on the
+circuit until we’re below 15 volts.&lt;/p&gt;
+&lt;p&gt;Th&lt;a class="reference external" href="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474.jpg"&gt;&lt;img alt="image2" class="alignleft size-medium wp-image-379" src="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;e VFD goes on a smaller PCB, and coaxing it down into
+place was a frustrating experience, not unlike wiring an 8P8C ethernet
+cable, except bigger, and with a lot more leads. After about 20 minutes
+of carefully walking the leads through the holes, I was able to get the
+tube in place. I soldered it in, plugged in the other microcontroller
+(MAX6921) which actually drives the VFD segments. And... it passed the
+smoke test.&lt;/p&gt;
+&lt;p&gt;The remainder of the build consisted of putting in a battery backup (in
+case mains power is lost), adding a few control switches, and building a
+simple, clear case. All in all, it was a fun build, and I feel like my
+patience was rewarded.&lt;/p&gt;
+&lt;p&gt;In the coming weeks, I plan on building two more clocks of various
+types. Check back here for updates!&lt;/p&gt;
+&lt;div class="section" id="additional-pictures-of-the-build"&gt;
+&lt;h2&gt;Additional pictures of the build:&lt;/h2&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_382&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot; caption=&amp;quot;All
+components, before starting assembly. Note that the blackened spot on
+the tube is normal.&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/components.jpg"&gt;&lt;img alt="image3" class="size-medium wp-image-382" src="{filename}wp-uploads/2011/03/components-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_386&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot; caption=&amp;quot;VFD
+Tube, as shipped.&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/bare_tube.jpg"&gt;&lt;img alt="image4" class="size-medium wp-image-386" src="{filename}wp-uploads/2011/03/bare_tube-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_379&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Vacuum Tube fed through PCB&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474.jpg"&gt;&lt;img alt="image5" class="size-medium wp-image-379" src="{filename}wp-uploads/2011/03/2011-03-05_19-20-52_474-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_387&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Timing circuitry, including the ATmega and
+crystal&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/timing.jpg"&gt;&lt;img alt="image6" class="size-medium wp-image-387" src="{filename}wp-uploads/2011/03/timing-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_381&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot;
+caption=&amp;quot;Bare Clock, without Case&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/bare_clock.jpg"&gt;&lt;img alt="image7" class="size-medium wp-image-381" src="{filename}wp-uploads/2011/03/bare_clock-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;p&gt;[caption id=&amp;quot;attachment_383&amp;quot; align=&amp;quot;alignnone&amp;quot; width=&amp;quot;300&amp;quot; caption=&amp;quot;The
+assembled clock. Yay!&amp;quot;]&lt;a class="reference external" href="{filename}wp-uploads/2011/03/assembled.jpg"&gt;&lt;img alt="image8" class="size-medium wp-image-383" src="{filename}wp-uploads/2011/03/assembled-300x224.jpg" style="width: 300px; height: 224px;" /&gt;&lt;/a&gt;[/caption]&lt;/p&gt;
+&lt;/div&gt;
+</content></entry></feed>
