@@ -4,13 +4,13 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Interlock Member'
 SITENAME = u'Interlock Rochester - Rochester\'s Hackerspace'
-SITEURL = 'https://interlockroc.org'
+SITEURL = 'https://www.interlockroc.org/blog'
 
 #FRONT_PIC_BACKGROUND = 'cut_wood_crop.jpg'
 #FRONT_PIC_BACKGROUND = 'gear_on_table.jpg'
-FRONT_PIC_BACKGROUND = 'invader_print_crop.jpg'
+#FRONT_PIC_BACKGROUND = 'invader_print_crop.jpg'
 #FRONT_PIC_BACKGROUND = 'invader_w_blur_crop.jpg'
-#FRONT_PIC_BACKGROUND = 'gear_on_wall.jpg'
+FRONT_PIC_BACKGROUND = 'gear_on_wall.jpg'
 #FRONT_PIC_BACKGROUND = 'plot_shape.jpg'
 #FRONT_PIC_BACKGROUND = 'plot_words.jpg'
 #FRONT_PIC_BACKGROUND = 'on_air.jpg'
@@ -35,14 +35,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Wiki', 'http://wiki.interlockroc.org'),)
 
 GITHUB_URL = 'https://github.com/Interlock-Rochester'
 TWITTER_URL = 'https://twitter.com/interlockroc'
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
